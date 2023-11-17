@@ -22,7 +22,7 @@ const Product1 = ({
   return (
     <div className={`container ${classes.Product1Main}`}>
       <div className={classes.Product1Parent}>
-        <h6 style={color}>{header} </h6>
+        <h6>{header} </h6>
         <h2>{subheader}</h2>
         <p>{paragraph}</p>
 
