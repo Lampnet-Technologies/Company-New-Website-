@@ -44,7 +44,7 @@ const About7 = () => {
             <h6>Continuously Improve</h6>
             <p>
               We are committed to continuous improvement to ensure that we
-              provide cutting-edge solutions that exceed our clients'
+              provide cutting-edge solutions that exceed our clients
               expectations.
             </p>
           </div>
@@ -53,9 +53,8 @@ const About7 = () => {
         <div className={classes.About6Bro}>
           <Image src={Approach6} alt="" quality={100} />
         </div>
-  
+
         <div className={classes.About6SubChild}>
-         
           <div className={classes.About7Sis1}>
             <Image src={Approach4} alt="" quality={100} width={30} />
             <h6>Ensure Quality</h6>
@@ -69,7 +68,7 @@ const About7 = () => {
             <h6>Continuously Improve</h6>
             <p>
               We are committed to continuous improvement to ensure that we
-              provide cutting-edge solutions that exceed our clients'
+              provide cutting-edge solutions that exceed our clients
               expectations.
             </p>
           </div>
