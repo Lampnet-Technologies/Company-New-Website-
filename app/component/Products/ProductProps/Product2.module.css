@@ -1,0 +1,62 @@
+.Product2Main {
+  width: 50%;
+  margin-top: 5rem;
+}
+.Product2Main h6 {
+  color: var(--Primary-color, #54bd95);
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+}
+.Product2Main h2 {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+}
+.Product2Main p {
+  color: var(--Ash, #7d7c7c);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}
+
+.Product2 {
+  margin-top: 3rem;
+}
+
+.Product2Child {
+  width: 98%;
+  border-radius: 8px;
+  padding: 2rem;
+  border-radius: 8px;
+  background: var(--Black, #222);
+  box-shadow: 2px 2px 8px 0px rgba(7, 21, 41, 0.05);
+  text-align: center;
+}
+.Product2Child h6 {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+}
+.Product2Child p {
+  color: var(--Ash, #7d7c7c);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}

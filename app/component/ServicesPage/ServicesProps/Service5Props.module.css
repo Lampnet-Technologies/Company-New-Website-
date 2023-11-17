@@ -1,0 +1,40 @@
+.Service5Main {
+    background: var(--Blue, #09244b);
+    padding: 3rem 0;
+    margin-top: 5rem;
+  }
+  
+  .Service5Parent {
+      display: flex !important;
+      justify-content: space-between;
+  }
+  
+  
+  .Service5Child {
+      width: 40%;
+  }
+  .Service5Child h6 {
+    color: var(--Color-of-text-on-blue, #fff9f9);
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.2px; /* 120% */
+  }
+  .Service5Child h2 {
+    color: var(--Color-of-text-on-blue, #fff9f9);
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38.4px; /* 120% */
+  }
+  .Service5Child p {
+    color: var(--Color-of-text-on-blue, #fff9f9);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 160% */
+  }
+  

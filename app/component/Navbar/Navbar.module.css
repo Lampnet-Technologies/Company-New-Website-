@@ -1,0 +1,53 @@
+.NavGrandMain {
+  background: linear-gradient(
+    97deg,
+    rgba(2, 14, 23, 0.81) 45%,
+    rgba(11, 37, 57, 0.09) 92.83%
+  );
+}
+
+.NavbarMain {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.Parent {
+  /* margin-left: 10rem; */
+}
+
+.NavItem {
+  margin-left: 1.5rem;
+}
+.NavItem a {
+  color: var(--white, #fff);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.6px; /* 160% */
+}
+.NavItem a:hover {
+  color: var(--white, #fff);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.6px; /* 160% */
+}
+.NavItem a:focus {
+  color: var(--white, #fff);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.6px; /* 160% */
+}
+.NavItem ul li a {
+  color: var(--white, #000);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.6px; /* 160% */
+}

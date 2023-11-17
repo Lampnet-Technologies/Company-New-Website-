@@ -1,0 +1,42 @@
+.Homepage1Main {
+  background-image: url(../../../public/images/HeroHomePage.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover !important;
+  height: 100vh !important;
+  position: relative;
+}
+
+.Homepage1Main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(97deg, rgba(2, 14, 23, 0), rgba(11, 37, 57, 0.4));
+  z-index: 0;
+}
+
+.Homepage1Parent {
+  padding-top: 8rem;
+}
+
+.Homepage1Parent h1 {
+  width: 40%;
+  color: var(--white, #fff);
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 65px;
+}
+.Homepage1Parent p {
+  width: 40%;
+  color: var(--white, #fff);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+}

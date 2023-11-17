@@ -1,0 +1,44 @@
+.Product11Main {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+.Product11Parent {
+  width: 40%;
+}
+
+.Product11Parent h6 {
+  color: #222;
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+}
+.Product11Parent h2 {
+  color: #54bd95;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 150% */
+}
+.Product11Parent p {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+  padding-top: 1rem;
+}
+
+.Product11Button {
+  margin-top: 2rem !important;
+}
+
+.Product11Button button {
+  /* border: 1px solid #FFF; */
+  background: #54bd95 !important;
+}

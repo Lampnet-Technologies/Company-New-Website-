@@ -1,0 +1,51 @@
+.HomePage6Main {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.HomePage6Parent {
+}
+
+.HomePage6Parent h6 {
+  color: var(--Primary-color, #ab0e12);
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+}
+.HomePage6Parent h2 {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+  width: 70%;
+}
+
+.HomePage6Child {
+  width: 50%;
+}
+.HomePage6SubChild {
+  display: flex;
+  gap:15px;
+}
+
+.HomePage6Sister h6 {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+}
+.HomePage6Sister p {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}

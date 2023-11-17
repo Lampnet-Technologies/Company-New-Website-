@@ -1,0 +1,51 @@
+.Service7Main {
+    margin-top: 5rem;
+  }
+  
+  .Service7Parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Service7Child {
+    width: 50%;
+  }
+  .Service7Child h6 {
+    color: var(--Primary-color, #ab0e12);
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57.6px; /* 120% */
+  }
+  .Service7Child h2 {
+    color: var(--Black, #222);
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38.4px; /* 120% */
+  }
+  .Service7Child p {
+    color: var(--Black, #222);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  
+  }
+  .Service7Child h3 {
+    color: var(--Black, #222);
+    font-family: "Montserrat";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.2px; /* 120% */
+  }
+  
+  .Service7Bro {
+    /* width: 40%; */
+
+  }
+  

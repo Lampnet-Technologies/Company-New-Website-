@@ -1,0 +1,85 @@
+.About9Main {
+  background: var(--Ash-background, #fbfbfb);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.About9Parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.About9Child {
+  width: 40%;
+}
+.About9Child h6 {
+  color: var(--Primary-color, #ab0e12);
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 57.6px; /* 120% */
+}
+.About9Child h2 {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+}
+.About9Child p {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+.About9Child h3 {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+}
+
+.About9Bro {
+  width: 40%;
+  border-radius: 4px;
+  background: var(--white, #fff);
+  box-shadow: 5px 4px 24px 0px rgba(7, 21, 41, 0.1);
+  padding: 1rem 1.5rem;
+}
+
+.About9Bro form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.About9Bro form input {
+  margin-top: 1.5rem;
+  color: #bbb;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 200% */
+}
+.About9Bro form textarea {
+  margin-top: 1.5rem;
+  height: 20vh;
+  /* padding: 5rem 0; */
+  color: #bbb;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 200% */
+}
+.About9Bro form button {
+  margin-top: 1.5rem;
+}

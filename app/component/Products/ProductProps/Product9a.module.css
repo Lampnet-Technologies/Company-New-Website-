@@ -1,0 +1,46 @@
+.Product9aScrollContainer {
+  background: #222;
+}
+
+.Product9aMain {
+  margin-top: 3rem;
+}
+
+.Product9aChild {
+  width: 100%;
+  border-radius: 4px;
+  padding: 1rem 10rem 0rem 1rem;
+  margin-top: 2rem;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: -6px 4px 4px 0px rgba(0, 0, 0, 0.01);
+  backdrop-filter: blur(21.5px);
+}
+
+.Product9aSister {
+  display: flex;
+  gap: 10px;
+}
+
+.Product9aSister p {
+  color: var(--Color-of-text-on-blue, #fff9f9);
+  /* text-align: center; */
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.SelectedProduct9aCousin {
+  border-radius: 4px;
+  border: 1px solid #54bd95;
+  background: rgba(84, 189, 149, 0.2);
+  box-shadow: -6px 4px 4px 0px rgba(0, 0, 0, 0.01);
+  backdrop-filter: blur(21.5px);
+  color: #54bd95 !important;
+}
+.SelectedProduct9aCousin .Product9aSister p {
+  color: #54bd95 !important;
+}
+.SelectedProduct9aCousin .Product9aSister img {
+  color: #54bd95 !important;
+}

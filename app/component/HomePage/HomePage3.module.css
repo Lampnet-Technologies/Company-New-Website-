@@ -1,0 +1,37 @@
+.HomePage3Main {
+  margin-top: 5rem;
+}
+
+.HomePage3Parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.HomePage3Child {
+  width: 50%;
+}
+.HomePage3Child h6 {
+  color: var(--Primary-color, #ab0e12);
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; 
+}
+.HomePage3Child h2{
+    color: var(--Black, #222);
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38.4px;
+}
+.HomePage3Child p{
+    color: #222;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+}

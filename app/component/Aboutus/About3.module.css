@@ -1,0 +1,36 @@
+.About3Main {
+  background: #09244b;
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
+
+.About3Parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.About3Child {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 5px 4px 24px 0px rgba(7, 21, 41, 0.1);
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.About3Child h2 {
+  color: var(--white, #fff);
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px;
+}
+.About3Child p {
+  color: var(--white, #fff);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}

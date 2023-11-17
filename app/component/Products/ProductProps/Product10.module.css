@@ -1,0 +1,30 @@
+.Product9Main {
+  text-align: center;
+  width: 50%;
+  padding: 5rem 0;
+}
+.Product9Main h6 {
+  color: #54bd95;
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+}
+.Product9Main h2 {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+}
+.Product9Main p {
+  color: var(--Black, #222);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}

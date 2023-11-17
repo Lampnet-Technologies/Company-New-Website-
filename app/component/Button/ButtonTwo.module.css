@@ -1,0 +1,19 @@
+.ButtonTwoMain {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+}
+
+.ButtonTwoMain button {
+  background: #fff;
+  border: 0px #fff;
+  color: var(--Primary-color, #ab0e12);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  margin: 0;
+  padding: 0; 
+}

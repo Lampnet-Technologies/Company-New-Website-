@@ -1,0 +1,54 @@
+.Ui7Main {
+  margin-top: 5rem;
+}
+
+.Ui7Parent {
+  width: 50%;
+}
+.Ui7Parent h6 {
+  color: var(--Primary-color, #ab0e12);
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+}
+.Ui7Parent h2 {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+}
+.Ui7Parent p {
+  color: var(--Ash, #7d7c7c);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}
+
+.Ui7Child {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.Ui7SubChild {
+  border-radius: 8px;
+  background: var(--Ash-background, #fbfbfb);
+  padding: 1rem 2rem;
+
+}
+.Ui7SubChild h6 {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+  padding-top: 1rem;
+}

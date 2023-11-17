@@ -1,0 +1,30 @@
+.Product9bsidebar {
+  width: 60%;
+  margin-top: 4rem;
+  border-radius: 4px;
+  padding: 0rem 1rem;
+  height: 60vh;
+}
+.Product9bsidebar h2 {
+  color: var(--white, #fff);
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+  padding-top: 0.5rem;
+}
+.Product9bsidebar p {
+  color: var(--white, #fff);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+.Product9bButton {
+  margin-top: 1.5rem !important;
+}
+.Product9bButton button {
+  background: #54bd95;
+}

@@ -1,0 +1,37 @@
+.Product5Main {
+    margin-top: 5rem;
+    padding: 3rem 0;
+    background: var(--Ash-background, #FBFBFB);
+}
+
+.Product5Pareent {
+    text-align: center;
+  
+}
+.Product5Pareent h6{
+    color: #54BD95;
+    font-family: "Montserrat";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.2px; /* 120% */
+}
+.Product5Pareent h2{
+    color: var(--Black, #222);
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38.4px; /* 120% */
+}
+.Product5Pareent p{
+    color: var(--Black, #222);
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 160% */
+    width: 40%;
+    margin-left: 30%;
+}

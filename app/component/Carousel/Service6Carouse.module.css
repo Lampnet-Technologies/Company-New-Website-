@@ -1,0 +1,37 @@
+.Service6Carousel {
+  margin-top: 3rem;
+}
+
+.Service6CarouselChild {
+  width: 90%;
+  border-radius: 8px;
+  padding: 2rem;
+  border-radius: 8px;
+  background: var(--Ash-background, #fbfbfb);
+  box-shadow: 2px 2px 8px 0px rgba(7, 21, 41, 0.05);
+  text-align: center;
+}
+.Service6CarouselChild h6 {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+}
+.Service6CarouselChild p {
+  color: var(--Ash, #7d7c7c);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}
+
+
+
+  

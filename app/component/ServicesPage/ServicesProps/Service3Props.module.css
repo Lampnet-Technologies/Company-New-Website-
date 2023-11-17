@@ -1,0 +1,82 @@
+.Service3Main {
+  /* margin-top: 5rem; */
+  background: var(--Ash-background, #fbfbfb);
+  padding: 3rem 0;
+}
+.Service3Parent {
+  text-align: center;
+  margin-left: 25%;
+  width: 50%;
+}
+
+.Service3Parent h2 {
+  color: var(--Black, #222);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+}
+.Service3Parent h6 {
+  color: #54bd95;
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+}
+.Service3Parent p {
+  color: var(--Black, #222);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}
+
+.Service3Child {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+  gap: 20px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.Service3Bro {
+  width: 100%;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 2px 2px 8px 0px rgba(7, 21, 41, 0.05);
+  padding: 1rem;
+}
+.Service3Bro h6 {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+  padding-top: 1rem;
+}
+.Service3Bro p {
+  color: var(--Ash, #7d7c7c);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.Service3Bro button {
+  border-radius: 4px;
+  background: var(--Primary-color, #ab0e12);
+  border: 0px;
+  color: var(--white, #fff);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  line-height: 24px; /* 150% */
+}

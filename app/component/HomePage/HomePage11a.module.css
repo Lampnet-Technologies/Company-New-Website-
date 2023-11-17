@@ -1,0 +1,49 @@
+.sidebar {
+  width: 60%;
+  margin-top: 5rem;
+  border-radius: 4px;
+  background: var(--white, #fff);
+  padding: 1rem 1rem;
+  height: 60vh;
+}
+.sidebar h2 {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 150% */
+}
+.sidebar p {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}
+
+.sidebarChild {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.sidebarBro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sidebarBro p {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.6px; /* 160% */
+  width: 80%;
+}
+
+.sideBarButton {
+  margin-top: 3rem;
+}

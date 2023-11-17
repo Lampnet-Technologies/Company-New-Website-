@@ -1,0 +1,18 @@
+.About1Main {
+    background: var(--Ash-background, #FBFBFB);
+}
+
+.About1Parent {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.About1Child h1{
+    color: #222;
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57.6px; /* 120% */
+}

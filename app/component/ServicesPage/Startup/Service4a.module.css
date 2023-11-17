@@ -1,0 +1,51 @@
+.Service4aMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+
+.Service4aChild {
+  width: 100%;
+  border-radius: 4px;
+  background: var(--Blue, #09244b);
+  box-shadow: -1px 0px 5px 0px rgba(7, 21, 41, 0.1);
+  /* height: 15vh; */
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.05);
+  /* Glass */
+  box-shadow: -6px 4px 4px 0px rgba(0, 0, 0, 0.01);
+  backdrop-filter: blur(21.5px);
+}
+
+.Service4aSister {
+  display: flex;
+  gap: 10px;
+}
+
+.Service4aSister p {
+  color: var(--Color-of-text-on-blue, #fff9f9);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.6px; /* 160% */
+
+}
+.SelectedFour {
+  background: #ab0e12;
+}
+
+
+
+/* .Service4aScrollContainer {
+  height: 300px; 
+  overflow: auto;
+} */

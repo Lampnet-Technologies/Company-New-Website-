@@ -1,0 +1,92 @@
+.MarouselMain {
+  background: var(--Black, #222);
+  padding: 5rem 0;
+}
+
+.MarouselParent {
+  text-align: center;
+  width: 50%;
+}
+
+.MarouselParent h6 {
+  color: var(--Primary-color, #ab0e12);
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 150% */
+}
+
+.MarouselParent h2 {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+}
+
+.MarouselParent p {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}
+
+.myCustomCarousel {
+    margin-top: 3rem;
+}
+
+.MarouselChild {
+  width: 40%;
+  border-radius: 8px;
+  background: #fff;
+  padding: 2rem;
+}
+.MarouselChild p {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+
+.MarouselBro {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}
+.MarouselBro h6 {
+  color: var(--Black, #222);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+ 
+}
+.MarouselBro span {
+  color: var(--Primary-color, #ab0e12);
+  font-family: "Montserrat";
+  font-size: 14.024px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+/* .myCustomCarousel .react-multi-carousel-dot button {
+    background: red !important;
+    background-color: red !important;
+  }
+
+.myCustomCarousel .react-multi-carousel-dot--active button {
+    background: red !important; 
+    background-color: red !important;
+  } */

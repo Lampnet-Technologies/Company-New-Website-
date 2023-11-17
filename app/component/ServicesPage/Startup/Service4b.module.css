@@ -1,0 +1,23 @@
+.Service4bsidebar {
+  width: 60%;
+  margin-top: 5rem;
+  border-radius: 4px;
+  padding: 1rem 1rem;
+  height: 60vh;
+}
+.Service4bsidebar h2 {
+  color: var(--white, #fff);
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+}
+.Service4bsidebar p {
+  color: var(--white, #fff);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
