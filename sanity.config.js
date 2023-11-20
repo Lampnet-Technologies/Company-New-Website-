@@ -1,13 +1,18 @@
 import { defineConfig } from "sanity";
 import { deskTool } from "sanity/desk";
+import { schemaTypes } from "./schemas";
 
-const config = defineConfig({
-  projectId: "4uhy6hio",
+export default defineConfig({
+  name: "default",
+  title: "lampnet-blog",
+
+  projectId: "9lurceqg",
   dataset: "production",
-  title: "lampnetblog",
-  apiVersion: "2023-17-11",
-  basePath: "/admin",
-  plugins: [deskTool()],
-});
 
-export default config;
+  basePath: "/studio",
+  plugins: [deskTool()],
+
+  schema: {
+    types: schemaTypes,
+  },
+});

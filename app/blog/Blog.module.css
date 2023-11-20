@@ -1,0 +1,38 @@
+.BlogParent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.BlogParent a {
+  text-decoration: none;
+  border-radius: 8px;
+  background: var(--White, #fff);
+  box-shadow: 2px 2px 8px 0px rgba(7, 21, 41, 0.05);
+  margin-top: 1rem !important;
+  padding: 0.5rem;
+}
+
+.BlogChild {
+  width: 23%;
+}
+.BlogImage {
+  text-align: center !important;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.BlogChild h2 {
+  color: var(--Black, #222);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+}
+.BlogChild p {
+  color: var(--Ash, #7d7c7c);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 200% */
+}
