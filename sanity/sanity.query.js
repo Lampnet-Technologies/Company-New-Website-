@@ -6,7 +6,7 @@ export async function getBlog() {
     groq`*[_type == "post"]{
           _id,
           title,
-          "slug": slug.current,
+          "slug": slug.current, 
           description,
           publishedAt,
           mainImage{ 
@@ -15,7 +15,7 @@ export async function getBlog() {
               _id
             }
           },  
-          category,
+          categories,
           body,
           'name':author->name,
           'authorImage':author->image

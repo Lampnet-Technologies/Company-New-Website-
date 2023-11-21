@@ -1,8 +1,26 @@
-.BlogParent {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.BlogGrand {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center;
 }
+
+.BlogGrand .BlogGrandChild h6 {
+  margin: 0;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-size: 8px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.6px; /* 160% */
+  color: red !important;
+}
+
+.BlogParent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
 .BlogParent a {
   text-decoration: none;
   border-radius: 8px;
@@ -13,26 +31,55 @@
 }
 
 .BlogChild {
-  width: 23%;
+  width: 100%;
+  padding: 0;
 }
 .BlogImage {
   text-align: center !important;
   align-items: center;
   border-radius: 8px;
+  width: 100% !important;
+  object-fit: cover !important;
 }
 
-.BlogChild h2 {
+.BlogBrother {
+  margin-top: 1rem;
+}
+
+.BlogBrother h6 {
+  color: var(--Primary-color, #ab0e12);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}
+.BlogBrother h2 {
   color: var(--Black, #222);
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 32px; /* 133.333% */
 }
-.BlogChild p {
+.BlogBrother p {
   color: var(--Ash, #7d7c7c);
   font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px; /* 200% */
+}
+
+.BlogSister {
+  gap: 10px;
+  display: flex;
+  /* align-items: center; */
+}
+.BlogSister p {
+  color: var(--Primary-color, #ab0e12);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
 }
