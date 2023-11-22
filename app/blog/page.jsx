@@ -12,65 +12,80 @@ import { useState } from "react";
 const urlFor = (source) => urlBuilder(client).image(source);
 
 export default function Blog() {
-  const { data, isLoading, isError } = useQuery({
+  const { data, isPending, isError, error } = useQuery({
     queryKey: ["blogs"],
     queryFn: getBlog,
   });
-  // console.log(query);
 
   const [filteredData, setFilteredData] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 8;
 
   const filterByCategory = (category) => {
     const results = data
       ? data.filter((record) => record.categories === category)
       : [];
     setFilteredData(results);
+    setCurrentPage(1); // Reset to the first page when applying filters
   };
 
   const resetFilters = () => {
     setFilteredData([]);
+    setCurrentPage(1);
   };
 
-  if (isLoading) {
-    return <div>Page Loading</div>; // You can customize the loading indicator
+  if (isPending) {
+    return <div>Page Loading</div>; // You can customize the loading indicato
   }
 
   if (isError) {
-    return <div>Error loading data</div>; // You can customize the error message
+    content = (
+      <Error
+        title="An error occured while fetching data"
+        message="Failed to fetch data"
+      />
+    );
   }
+
+  const allData = filteredData.length > 0 ? filteredData : data || [];
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = allData.slice(indexOfFirstItem, indexOfLastItem);
+
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
     <div className={`container`}>
-      <div>
+      <div className={classes.BlogResources}>
         <h2>Resources and Insights</h2>
       </div>
 
-      <div className="BlogGrand">
-        <div className="BlogGrandChild">
+      <div className={classes.BlogGrand}>
+        <div className={classes.BlogGrandChild}>
           <h6 onClick={resetFilters}>All topics</h6>
         </div>
-        <div className="BlogGrandChild">
+        <div className={classes.BlogGrandChild}>
           <h6 onClick={() => filterByCategory("Product")}>Product</h6>
         </div>
-        <div className="BlogGrandChild">
+        <div className={classes.BlogGrandChild}>
           <h6 onClick={() => filterByCategory("Software Engineering")}>
             Software Engineering
           </h6>
         </div>
-        <div className="BlogGrandChild">
+        <div className={classes.BlogGrandChild}>
           <h6 onClick={() => filterByCategory("UI/UX Design")}>UI/UX Design</h6>
         </div>
-        <div className="BlogGrandChild">
+        <div className={classes.BlogGrandChild}>
           <h6 onClick={() => filterByCategory("Data Management")}>
             Data Management
           </h6>
         </div>
-        <div className="BlogGrandChild">
+        <div className={classes.BlogGrandChild}>
           <h6 onClick={() => filterByCategory("Information Security")}>
             Information Security
           </h6>
         </div>
-        <div className="BlogGrandChild">
+        <div className={classes.BlogGrandChild}>
           <h6 onClick={() => filterByCategory("Business Intelligence")}>
             Business Intelligence
           </h6>
@@ -78,8 +93,8 @@ export default function Blog() {
       </div>
 
       <div className={classes.BlogParent}>
-        {filteredData.length > 0
-          ? filteredData.map((blog, index) => (
+        {currentItems.length > 0
+          ? currentItems.map((blog, index) => (
               <Link
                 href={`/posts/${blog.slug}`}
                 key={index}
@@ -145,9 +160,33 @@ export default function Blog() {
               </Link>
             ))}
       </div>
+      <div className={classes.Pagination}>
+        {allData.length > itemsPerPage && (
+          <div className={classes.PaginationMain}>
+            <button
+              onClick={() => paginate(currentPage - 1)}
+              disabled={currentPage === 1}
+            >
+              Back
+            </button>
+            {Array.from({
+              length: Math.ceil(allData.length / itemsPerPage),
+            }).map((page, index) => (
+              <button key={index} onClick={() => paginate(index + 1)}>
+                {index + 1}
+              </button>
+            ))}
+            <button
+              onClick={() => paginate(currentPage + 1)}
+              disabled={
+                currentPage === Math.ceil(allData.length / itemsPerPage)
+              }
+            >
+              Next
+            </button>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
-
-// export default async function Blog() {
-// const blogs = await getBlog();
