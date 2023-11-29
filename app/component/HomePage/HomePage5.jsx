@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import classes from "./HomePage5.module.css";
 import Industry1 from "../../../public/images/Industry1.svg";
 import Industry2 from "../../../public/images/Industry2.svg";
@@ -17,7 +17,7 @@ import ButtonThree from "../Button/ButtonThree";
 const HomePage5 = () => {
   const [selectedCategory, setSelectedCategory] = useState(1);
 
-  const [seeAll, setSeeAll] = useState("See all solutions")
+  const [seeAll, setSeeAll] = useState("See all solutions");
 
   const filteredProducts =
     selectedCategory === 1
@@ -32,6 +32,36 @@ const HomePage5 = () => {
   const handleCardClick = (cardId) => {
     setSelectedCard(cardId);
   };
+
+  const [displayedItems, setDisplayedItems] = useState(4);
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+  const itemsPerPage = 4;
+
+  const handleShowMoreClick = () => {
+    setDisplayedItems(displayedItems + itemsPerPage);
+  };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 576);
+      if (window.innerWidth <= 576) {
+        setDisplayedItems(4);
+      } else {
+        setDisplayedItems(filteredProducts.length);
+      }
+    };
+
+    // Initial check on mount
+    handleResize();
+
+    // Event listener for window resize
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [filteredProducts.length]);
 
   return (
     <div className="container">
@@ -48,13 +78,13 @@ const HomePage5 = () => {
             <p className={selectedCategory === c.id ? classes.Selected : ""}>
               {" "}
               {c.text}{" "}
-            </p> 
+            </p>
           </div>
         ))}
       </div>
 
       <div className={classes.ProductList}>
-        {filteredProducts.map((product) => (
+        {filteredProducts.slice(0, displayedItems).map((product) => (
           <div
             key={product.id}
             className={`${classes.ProductListChild} ${
@@ -81,13 +111,19 @@ const HomePage5 = () => {
                 />
               )}
             </div>
-
           </div>
         ))}
       </div>
+      {isSmallScreen && (
+        <div className={classes.HomePage5Button}>
+          {displayedItems < filteredProducts.length && (
+            <button onClick={handleShowMoreClick}> see all </button>
+          )}
+        </div>
+      )}
 
-      <div className= {classes.HomePage5Button}>
-        <ButtonThree text={seeAll}/>
+      <div className={classes.HomePage5Button}>
+        <ButtonThree text={seeAll} />
       </div>
     </div>
   );

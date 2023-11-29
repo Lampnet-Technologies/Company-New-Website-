@@ -6,92 +6,374 @@
   text-align: center;
   width: 50%;
 }
+
+@media screen and (max-width: 576px) {
+  .About7Parent {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About7Parent {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About7Parent {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About7Parent {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
 .About7Parent h6 {
   color: var(--Primary-color, #ab0e12);
-  font-family: "Montserrat";
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 36px; /* 150% */
 }
+@media screen and (max-width: 576px) {
+  .About7Parent h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About7Parent h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About7Parent h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About7Parent h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
 .About7Parent h2 {
   color: var(--Black, #222);
-  font-family: "Montserrat";
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 38.4px; /* 120% */
   text-align: center;
 }
+@media screen and (max-width: 576px) {
+  .About7Parent h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About7Parent h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About7Parent h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About7Parent h2 {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About7Parent h2 {
+    font-size: 28px;
+  }
+}
 .About7Parent p {
   color: var(--Ash, #7d7c7c);
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 25.6px; /* 160% */
   text-align: center;
 }
-
+@media screen and (max-width: 576px) {
+  .About7Parent p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About7Parent p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About7Parent p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About7Parent p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About7Parent p {
+    font-size: 15px;
+  }
+}
 .About7Child {
   display: flex !important;
   justify-content: space-between !important;
   margin-top: 3rem;
 }
+
+@media screen and (max-width: 576px) {
+  .About7Child {
+    flex-direction: column !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About7Child {
+    flex-direction: column !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
 .About7Sis {
   width: 30%;
   text-align: center;
 }
+@media screen and (max-width: 576px) {
+  .About7Sis {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About7Sis {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
 .About7Sis h6 {
   padding-top: 1rem;
   color: var(--Black, #222);
-  font-family: "Montserrat";
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
   line-height: 25.2px; /* 120% */
 }
-.About7Sis p {
-    color: var(--Ash, #7D7C7C);
-    text-align: center;
-    font-family: "Montserrat";
+@media screen and (max-width: 576px) {
+  .About7Sis h6 {
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px; 
+  }
 }
-
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About7Sis h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About7Sis h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About7Sis h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About7Sis h6 {
+    font-size: 20px;
+  }
+}
+.About7Sis p {
+  color: var(--Ash, #7d7c7c);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+@media screen and (max-width: 576px) {
+  .About7Sis p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About7Sis p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About7Sis p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About7Sis p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About7Sis p {
+    font-size: 15px;
+  }
+}
 .About6Bro {
-   text-align: center;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .About6Bro {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About6Bro {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About6Bro img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About6Bro img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About6Bro img {
+    width: 100%;
+  }
 }
 
 .About6SubChild {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 1rem;
-    justify-content: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  justify-content: center;
+}
+@media screen and (max-width: 576px) {
+  .About6SubChild {
+    flex-direction: column !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About6SubChild {
+    flex-direction: column !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 .About7Sis1 {
-    width: 32%;
-    text-align: center;
+  width: 32%;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .About7Sis1 {
+    width: 100%;
   }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About7Sis1 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+.About7Sis1 h6 {
+  padding-top: 1rem;
+  color: var(--Black, #222);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+}
+
+@media screen and (max-width: 576px) {
   .About7Sis1 h6 {
-    padding-top: 1rem;
-    color: var(--Black, #222);
-    font-family: "Montserrat";
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 25.2px; /* 120% */
+    font-size: 16px;
   }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About7Sis1 h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About7Sis1 h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About7Sis1 h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About7Sis1 h6 {
+    font-size: 20px;
+  }
+}
+
+.About7Sis1 p {
+  color: var(--Ash, #7d7c7c);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  width: 80%;
+  margin-left: 10%;
+}
+@media screen and (max-width: 576px) {
   .About7Sis1 p {
-      color: var(--Ash, #7D7C7C);
-      text-align: center;
-      font-family: "Montserrat";
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 22px; 
-      width: 80%;
-      margin-left: 10%;
+    font-size: 13px;
   }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About7Sis1 p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About7Sis1 p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About7Sis1 p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About7Sis1 p {
+    font-size: 15px;
+  }
+}

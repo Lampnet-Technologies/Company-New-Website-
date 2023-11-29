@@ -1,38 +1,192 @@
 .About8Main {
-    margin-top: 5rem;
-  }
-  
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.About8Parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
   .About8Parent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
+    flex-direction: column !important;
+    justify-content: center !important;
+    text-align: center !important;
   }
-  
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About8Parent {
+    flex-direction: column !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+@media screen and (max-width: 576px) {
+  .About8Image img {
+    height: 40vh !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About8Image img {
+    height: 40vh !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About8Image img {
+    height: 40vh !important;
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About8Image img {
+    height: 50vh !important;
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About8Image img {
+    height: 60vh !important;
+    width: 100% !important;
+  }
+}
+
+.About8Child {
+  width: 50%;
+}
+
+@media screen and (max-width: 576px) {
   .About8Child {
-    width: 50%;
+    width: 100%;
   }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About8Child {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About8Child {
+    /* width: 100%; */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.About8Child h6 {
+  color: var(--Primary-color, #ab0e12);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px;
+}
+
+@media screen and (max-width: 576px) {
   .About8Child h6 {
-    color: var(--Primary-color, #ab0e12);
-    font-family: "Montserrat";
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 25.2px; 
+    font-size: 16px;
   }
-  .About8Child h2{
-      color: var(--Black, #222);
-      font-family: "Montserrat";
-      font-size: 32px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 38.4px;
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About8Child h6 {
+    font-size: 16px;
   }
-  .About8Child p{
-      color: #222;
-      font-family: "Montserrat";
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 25.6px;
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About8Child h6 {
+    font-size: 18px;
   }
-  
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About8Child h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About8Child h6 {
+    font-size: 20px;
+  }
+}
+
+.About8Child h2 {
+  color: var(--Black, #222);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px;
+}
+
+@media screen and (max-width: 576px) {
+  .About8Child h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About8Child h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About8Child h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About8Child h2 {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About8Child h2 {
+    font-size: 28px;
+  }
+}
+
+.About8Child p {
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+@media screen and (max-width: 576px) {
+  .About8Child p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About8Child p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About8Child p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About8Child p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About8Child p {
+    font-size: 15px;
+  }
+}

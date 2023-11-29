@@ -2,77 +2,330 @@
   margin-top: 2rem;
   padding: 3rem 0;
 }
+@media screen and (max-width: 576px) {
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
 
 .Product4Child {
   text-align: center;
 }
 .Product4Child h6 {
   color: #54bd95;
-  font-family: "Montserrat";
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
   line-height: 25.2px; /* 120% */
 }
+@media screen and (max-width: 576px) {
+  .Product4Child h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product4Child h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product4Child h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product4Child h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product4Child h6 {
+    font-size: 20px;
+  }
+}
+
 .Product4Child h2 {
   color: var(--Black, #222);
-  font-family: "Montserrat";
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 38.4px; /* 120% */
 }
+@media screen and (max-width: 576px) {
+  .Product4Child h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product4Child h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product4Child h2 {
+    font-size: 24px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product4Child h2 {
+    font-size: 26px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product4Child h2 {
+    font-size: 28px;
+    line-height: 30px; /* 120% */
+  }
+}
+
 .Product4Child p {
   color: var(--Black, #222);
   text-align: center;
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 25.6px; /* 160% */
 }
-
+@media screen and (max-width: 576px) {
+  .Product4Child p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product4Child p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product4Child p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product4Child p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product4Child p {
+    font-size: 15px;
+  }
+}
 
 .Product4Sister {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 3rem;
-    align-items:center ;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .Product4Sister {
+    flex-direction: column !important;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product4Sister {
+    flex-direction: column !important;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
 .Product4SubSis {
-    width: 40%;
+  width: 40%;
 }
-.Product4SubSis h2{
-    color: #191A15;
-    font-family: "Montserrat";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 38.4px; /* 120% */
+@media screen and (max-width: 576px) {
+  .Product4SubSis {
+    width: 100%;
+    margin-top: 1rem;
+  }
 }
-.Product4SubBro {
-    margin-top: 2rem;
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product4SubSis {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
-.Product4SubBro h6{
-    color: var(--Black, #222);
-    font-family: "Montserrat";
+.Product4SubSis h2 {
+  color: #191a15;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+}
+@media screen and (max-width: 576px) {
+  .Product4SubSis h2 {
     font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 25.2px; /* 120% */
+    line-height: 30px; /* 120% */
+  }
 }
-.Product4SubBro p{
-    color: var(--Inactive-text, #BBB);
-    font-family: "Montserrat";
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product4SubSis h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product4SubSis h2 {
+    font-size: 24px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product4SubSis h2 {
+    font-size: 26px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product4SubSis h2 {
+    font-size: 28px;
+    line-height: 30px; /* 120% */
+  }
+}
+
+.Product4SubBro {
+  margin-top: 2rem;
+}
+@media screen and (max-width: 576px) {
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.Product4SubBro h6 {
+  color: var(--Black, #222);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+}
+@media screen and (max-width: 576px) {
+  .Product4SubBro h6 {
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product4SubBro h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product4SubBro h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product4SubBro h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product4SubBro h6 {
+    font-size: 18px;
+  }
 }
 
-.Product4ButtonMain button{
-    background: #54bd95 !important;
+.Product4SubBro p {
+  color: var(--Inactive-text, #bbb);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}
+@media screen and (max-width: 576px) {
+  .Product4SubBro p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product4SubBro p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product4SubBro p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product4SubBro p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product4SubBro p {
+    font-size: 15px;
+  }
+}
 
-} 
+.Product4ButtonMain button {
+  background: #54bd95 !important;
+}
+@media screen and (max-width: 576px) {
+  .Product4Bro {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product4Bro {
+    display: none !important;
+  }
+}
+
+.Product4BroMobile {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .Product4BroMobile {
+    display: unset;
+  }
+}
+@media screen and (max-width: 576px) {
+  .Product4BroMobile img {
+    height: 40vh;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product4BroMobile {
+    display: unset;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product4BroMobile img {
+    height: 40vh;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}

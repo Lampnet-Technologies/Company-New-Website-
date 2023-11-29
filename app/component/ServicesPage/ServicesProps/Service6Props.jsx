@@ -10,7 +10,7 @@ const Service6Props = (props) => {
         <h6>{props.header} </h6>
         <h2>{props.subHeader}</h2>
         <p>{props.paragraph}</p>
-      </div>  
+      </div>
 
       <div>
         <Service6Carouse data={props.data} />

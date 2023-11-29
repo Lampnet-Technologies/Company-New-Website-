@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Product9a from "../ProductProps/Product9a";
 import Product9b from "../ProductProps/Product9b";
 import Product9Wrapper from "../ProductProps/Product9Wrapper";
@@ -15,6 +15,12 @@ const CourieXWrapper = () => {
 
   const wrapperBackgroundColor = "#222";
 
+  // useEffect to simulate a component did mount and set initial selectedCardData
+  useEffect(() => {
+    const initialData = data.find((d) => d.id === 1);
+    handleCardClick(initialData);
+  }, []);
+  
   return (
     <Product9Wrapper backgroundColor={wrapperBackgroundColor}>
       <Product9a onCardClick={handleCardClick} data={data} />

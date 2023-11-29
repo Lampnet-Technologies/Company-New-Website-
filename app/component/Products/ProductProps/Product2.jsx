@@ -17,15 +17,15 @@ const Product2 = ({ data, header, subHeader, paragraph, color }) => {
     },
     desktop: {
       breakpoint: { max: 1200, min: 922 },
-      items: 3,
+      items: 2,
     },
     tablet: {
       breakpoint: { max: 922, min: 576 },
-      items: 2,
+      items: 1,
     },
     mobile: {
       breakpoint: { max: 576, min: 0 },
-      items: 2,
+      items: 1,
     },
   };
 

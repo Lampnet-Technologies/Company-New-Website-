@@ -4,17 +4,62 @@
 }
 
 .HomePage9parent {
-    text-align: center;
-    width: 50%;
+  text-align: center;
+  width: 50%;
 }
-
+@media screen and (max-width: 576px) {
+  .HomePage9parent {
+    text-align: center;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage9parent {
+    text-align: center;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage9parent {
+    text-align: center;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
 .HomePage9parent h6 {
   color: var(--Primary-color, #ab0e12);
-  font-family: "Montserrat";
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 36px; /* 150% */
+}
+@media screen and (max-width: 576px) {
+  .HomePage9parent h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage9parent h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage9parent h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomePage9parent h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .HomePage9parent h6 {
+    font-size: 18px;
+  }
 }
 
 .HomePage9parent h2 {
@@ -26,6 +71,31 @@
   font-weight: 600;
   line-height: 38.4px; /* 120% */
 }
+@media screen and (max-width: 576px) {
+  .HomePage9parent h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage9parent h2 {
+    font-size: 20px;
+  }  
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage9parent h2 {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomePage9parent h2 {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .HomePage9parent h2 {
+    font-size: 22px;
+  }
+}
 
 .HomePage9parent p {
   color: var(--Black, #222);
@@ -35,5 +105,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: 25.6px; /* 160% */
-
 }

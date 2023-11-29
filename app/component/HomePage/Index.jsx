@@ -11,7 +11,8 @@ import HomePage10 from "./HomePage10";
 import HomePage11 from "./HomePage11";
 import HomeWrapper from "./HomeWrapper";
 import Marousel from "../Carousel/Marousel";
-
+import Accordionpage from "../Accordion/page";
+import HomeBlog from "./HomeBlog/page";
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
       <HomePage10 />
       {/* <HomePage11 /> */}
       <HomeWrapper />
+      <Accordionpage />
       <HomePage3 />
       <HomePage4 />
       <HomePage5 />
@@ -28,6 +30,7 @@ const Index = () => {
       <HomePage7 />
       <Marousel />
       <HomePage9 />
+      <HomeBlog />
     </div>
   );
 };

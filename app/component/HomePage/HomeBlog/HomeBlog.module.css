@@ -1,0 +1,261 @@
+.HomeBlogmain {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.HomeBlogHeader {
+  text-align: center;
+}
+.HomeBlogHeader h6 {
+  color: var(--Primary-color, #ab0e12);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 150% */
+}
+@media screen and (max-width: 576px) {
+  .HomeBlogHeader h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomeBlogHeader h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomeBlogHeader h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomeBlogHeader h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .HomeBlogHeader h6 {
+    font-size: 20px;
+  }
+}
+
+.HomeBlogHeader h2 {
+  color: var(--Black, #222);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+}
+@media screen and (max-width: 576px) {
+  .HomeBlogHeader h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomeBlogHeader h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomeBlogHeader h2 {
+    font-size: 24px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomeBlogHeader h2 {
+    font-size: 26px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .HomeBlogHeader h2 {
+    font-size: 28px;
+    line-height: 30px; /* 120% */
+  }
+}
+
+.HomeBlogHeader p {
+  color: var(--Ash, #7d7c7c);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+  width: 60%;
+  margin-left: 20% !important;
+}
+@media screen and (max-width: 576px) {
+  .HomeBlogHeader p {
+    font-size: 13px;
+    width: 100%;
+    margin-left: 0% !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomeBlogHeader p {
+    font-size: 13px;
+    width: 100%;
+    margin-left: 0% !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomeBlogHeader p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomeBlogHeader p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .HomeBlogHeader p {
+    font-size: 15px;
+  }
+}
+
+.HomeBlogGrandParent {
+  gap: 20px !important;
+  text-decoration: none;
+  border-radius: 8px;
+  background: var(--White, #fff);
+  box-shadow: 2px 2px 8px 0px rgba(7, 21, 41, 0.05);
+  margin-top: 3rem !important;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  min-height: 60dvh;
+}
+.HomeBlogImg {
+  text-align: center !important;
+  align-items: center;
+  border-radius: 8px;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+@media screen and (max-width: 576px) {
+  .HomeBlogImg {
+    height: 30vh;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomeBlogImg {
+    height: 30vh;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.BlogBrother {
+  margin-top: 1rem;
+}
+
+.HomeBlogParent {
+  margin-top: 0.5rem;
+}
+
+.HomeBlogParent h6 {
+  color: var(--Primary-color, #ab0e12);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}
+@media screen and (max-width: 576px) {
+  .HomeBlogParent h6 {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomeBlogParent h6 {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.HomeBlogParent h2 {
+  color: var(--Black, #222);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 133.333% */
+}
+@media screen and (max-width: 576px) {
+  .HomeBlogParent h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomeBlogParent h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomeBlogParent h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomeBlogParent h2 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .HomeBlogParent h2 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+.HomeBlogParent p {
+  color: var(--Ash, #7d7c7c);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 200% */
+}
+@media screen and (max-width: 576px) {
+  .HomeBlogParent p {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomeBlogParent p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomeBlogParent p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomeBlogParent p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .HomeBlogParent p {
+    font-size: 14px;
+  }
+}
+
+.HomeBlogChild a {
+  text-decoration: none !important;
+}

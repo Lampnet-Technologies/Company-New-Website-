@@ -1,40 +1,177 @@
 .Service5Main {
-    background: var(--Blue, #09244b);
-    padding: 3rem 0;
-    margin-top: 5rem;
-  }
-  
+  background: var(--Blue, #09244b);
+  padding: 3rem 0;
+  margin-top: 5rem;
+}
+
+.Service5Parent {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+@media screen and (max-width: 576px) {
   .Service5Parent {
-      display: flex !important;
-      justify-content: space-between;
+    flex-direction: column !important;
   }
-  
-  
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service5Parent {
+    flex-direction: column !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.Service5Child {
+  width: 40%;
+}
+@media screen and (max-width: 576px) {
   .Service5Child {
-      width: 40%;
+    width: 100%;
   }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service5Child {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service5Child {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service5Child {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+.Service5Child h6 {
+  color: var(--Color-of-text-on-blue, #fff9f9);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+}
+@media screen and (max-width: 576px) {
   .Service5Child h6 {
-    color: var(--Color-of-text-on-blue, #fff9f9);
-    font-family: "Montserrat";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
+    font-size: 16px;
     line-height: 25.2px; /* 120% */
   }
-  .Service5Child h2 {
-    color: var(--Color-of-text-on-blue, #fff9f9);
-    font-family: "Montserrat";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 38.4px; /* 120% */
-  }
-  .Service5Child p {
-    color: var(--Color-of-text-on-blue, #fff9f9);
-    font-family: "Montserrat";
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service5Child h6 {
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25.6px; /* 160% */
+    line-height: 25.2px; /* 120% */
   }
-  
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service5Child h6 {
+    font-size: 16px;
+    line-height: 25.2px; /* 120% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.Service5Child h2 {
+  color: var(--Color-of-text-on-blue, #fff9f9);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+}
+@media screen and (max-width: 576px) {
+  .Service5Child h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service5Child h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service5Child h2 {
+    font-size: 24px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service5Child h2 {
+    font-size: 26px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Service5Child h2 {
+    font-size: 28px;
+    line-height: 30px; /* 120% */
+  }
+}
+
+.Service5Child p {
+  color: var(--Color-of-text-on-blue, #fff9f9);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}
+@media screen and (max-width: 576px) {
+  .Service5Child p {
+    font-size: 13px;
+    line-height: 20.6px; /* 160% */
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service5Child p {
+    font-size: 14px;
+    line-height: 20.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service5Child p {
+    font-size: 15px;
+    line-height: 20.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service5Child p {
+    font-size: 15px;
+    line-height: 20.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 576px) {
+  .Service5Image img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service5Image img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service5Image img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service5Image img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}

@@ -3,24 +3,101 @@
   padding: 3rem 0;
 }
 
-
 .Service4Parent {
-    width: 35%;
+  width: 35%;
+}
+
+@media screen and (max-width: 576px) {
+  .Service4Parent {
+    width: 100%;
+    text-align: center !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service4Parent {
+    width: 100%;
+    text-align: center !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service4Parent {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service4Parent {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
 .Service4Parent h6 {
   color: var(--white, #fff);
-  font-family: "Montserrat";
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
   line-height: 25.2px; /* 120% */
 }
+@media screen and (max-width: 576px) {
+  .Service4Parent h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service4Parent h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service4Parent h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service4Parent h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Service4Parent h6 {
+    font-size: 20px;
+  }
+}
 .Service4Parent h2 {
   color: var(--white, #fff);
-  font-family: "Montserrat";
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 38.4px; /* 120% */
+}
+@media screen and (max-width: 576px) {
+  .Service4Parent h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service4Parent h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service4Parent h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service4Parent h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Service4Parent h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
 }

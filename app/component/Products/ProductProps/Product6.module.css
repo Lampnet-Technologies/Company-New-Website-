@@ -3,7 +3,32 @@
   justify-content: space-between;
   background: var(--Ash-background, #fbfbfb);
   padding: 2rem 0;
- }
+}
+@media screen and (max-width: 576px) {
+  .Product6Main {
+    flex-wrap: wrap !important;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product6Main {
+    flex-wrap: wrap !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product6Main {
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product6Main {
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
 
 .Product6Parent {
   border-radius: 8px;
@@ -14,11 +39,66 @@
   width: 19%;
   justify-content: center;
 }
+@media screen and (max-width: 576px) {
+  .Product6Parent {
+    width: 100%;
+    margin-top: 1rem !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product6Parent {
+    width: 48%;
+    margin-top: 1rem !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product6Parent {
+    width: 30%;
+    margin-top: 1rem !important;
+    gap: 10px !important;
+    margin-right: 1rem;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product6Parent {
+    width: 30%;
+    margin-top: 1rem !important;
+    gap: 10px !important;
+    margin-right: 1rem;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
 .Product6Parent h6 {
   color: #191a15;
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 25.6px; /* 160% */
+}
+@media screen and (max-width: 576px) {
+  .Product6Parent h6 {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product6Parent h6 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product6Parent h6 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product6Parent h6 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product6Parent h6 {
+    font-size: 15px;
+  }
 }

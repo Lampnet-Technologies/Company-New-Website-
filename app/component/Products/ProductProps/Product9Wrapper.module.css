@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px) {
+  .Product9WrapperMain {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product9WrapperMain {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product9WrapperMain {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}

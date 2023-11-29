@@ -6,6 +6,9 @@ import classes from "./Product11.module.css";
 const Product11 = (props) => {
   return (
     <div className={`container ${classes.Product11Main}`}>
+      <div className={` ${classes.Product11ChildMobile}`}>
+        <Image src={props.image} alt="" quality={100} />
+      </div>
       <div className={` ${classes.Product11Parent}`}>
         <h2> {props.subheader} </h2>
         <h6>{props.header} </h6>

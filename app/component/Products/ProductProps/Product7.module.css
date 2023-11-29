@@ -3,27 +3,112 @@
   background: #54bd95;
   padding: 3rem 0;
 }
- 
+
 .Product7Parent {
   text-align: center;
   width: 50%;
 }
+
+@media screen and (max-width: 576px) {
+  .Product7Parent {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product7Parent {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product7Parent {
+    text-align: center;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
 .Product7Parent h6 {
   color: var(--white, #fff);
-  font-family: "Montserrat";
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 36px; /* 150% */
 }
+
+@media screen and (max-width: 576px) {
+  .Product7Parent h6 {
+    font-size: 16px;
+    line-height: 36px; /* 150% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product7Parent h6 {
+    font-size: 16px;
+    line-height: 36px; /* 150% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product7Parent h6 {
+    font-size: 18px;
+    line-height: 36px; /* 150% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product7Parent h6 {
+    font-size: 18px;
+    line-height: 36px; /* 150% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product7Parent h6 {
+    font-size: 20px;
+    line-height: 36px; /* 150% */
+  }
+}
+
 .Product7Parent h2 {
   color: var(--Ash-background, #fbfbfb);
   text-align: center;
-  font-family: "Montserrat";
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 38.4px; /* 120% */
+}
+
+@media screen and (max-width: 576px) {
+  .Product7Parent h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product7Parent h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product7Parent h2 {
+    font-size: 24px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product7Parent h2 {
+    font-size: 26px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product7Parent h2 {
+    font-size: 28px;
+    line-height: 30px; /* 120% */
+  }
 }
 
 .Product7Child {
@@ -31,6 +116,17 @@
   justify-content: center;
   gap: 10px;
   margin-top: 3rem;
+}
+
+@media screen and (max-width: 576px) {
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
 .Product7Bro button {

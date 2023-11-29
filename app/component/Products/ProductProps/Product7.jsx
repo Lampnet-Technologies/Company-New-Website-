@@ -22,5 +22,5 @@ const Product7 = (props) => {
     </div>
   );
 };
-
+  
 export default Product7;

@@ -1,22 +1,21 @@
-"use client"
-import React, {useState} from "react";
+"use client";
+import React, { useState } from "react";
 import classes from "./HomePage3.module.css";
 import Homepage3image from "../../../public/images/Homepage3.svg";
 import Image from "next/image";
 import ButtonTwo from "../Button/ButtonTwo";
 
 const HomePage3 = () => {
-
-const [learn, setLearn] = useState("Learn More")
+  const [learn, setLearn] = useState("Learn More");
 
   return (
-    <div className= {`container ${classes.HomePage3Main}`}>
-      <div className= {classes.HomePage3Parent}>
-        <div>
+    <div className={`container ${classes.HomePage3Main}`}>
+      <div className={classes.HomePage3Parent}>
+        <div className={classes.HomePage3ImageParent}>
           <Image src={Homepage3image} alt="" quality={100} width={500} />
         </div>
 
-        <div className= {classes.HomePage3Child}>
+        <div className={classes.HomePage3Child}>
           <h6>About us</h6>
           <h2>
             We are a one-stop technology solution provider for startups and
@@ -31,7 +30,7 @@ const [learn, setLearn] = useState("Learn More")
             based technologies.{" "}
           </p>
 
-          <ButtonTwo text={learn}/>
+          <ButtonTwo text={learn} />
         </div>
       </div>
     </div>

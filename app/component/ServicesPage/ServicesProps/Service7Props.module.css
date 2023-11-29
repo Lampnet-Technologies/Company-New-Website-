@@ -1,51 +1,222 @@
 .Service7Main {
-    margin-top: 5rem;
-  }
-  
-  .Service7Parent {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .Service7Child {
-    width: 50%;
-  }
-  .Service7Child h6 {
-    color: var(--Primary-color, #ab0e12);
-    font-family: "Montserrat";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 57.6px; /* 120% */
-  }
-  .Service7Child h2 {
-    color: var(--Black, #222);
-    font-family: "Montserrat";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 38.4px; /* 120% */
-  }
-  .Service7Child p {
-    color: var(--Black, #222);
-    font-family: "Montserrat";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-  
-  }
-  .Service7Child h3 {
-    color: var(--Black, #222);
-    font-family: "Montserrat";
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 25.2px; /* 120% */
-  }
-  
-  .Service7Bro {
-    /* width: 40%; */
+  margin-top: 5rem;
+}
 
+.Service7Parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .Service7Parent {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
-  
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service7Parent {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.Service7Child {
+  width: 50%;
+}
+@media screen and (max-width: 576px) {
+  .Service7Child {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service7Child {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.Service7Child h6 {
+  color: var(--Primary-color, #ab0e12);
+
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 57.6px; /* 120% */
+}
+@media screen and (max-width: 576px) {
+  .Service7Child h6 {
+    font-size: 16px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service7Child h6 {
+    font-size: 16px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service7Child h6 {
+    font-size: 18px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service7Child h6 {
+    font-size: 18px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Service7Child h6 {
+    font-size: 24px;
+    line-height: 30px; /* 120% */
+  }
+}
+
+.Service7Child h2 {
+  color: var(--Black, #222);
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+}
+@media screen and (max-width: 576px) {
+  .Service7Child h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service7Child h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service7Child h2 {
+    font-size: 24px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+.Service7Child h2 {
+  font-size: 26px;
+  line-height: 30px; /* 120% */
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Service7Child h2 {
+    font-size: 28px;
+    line-height: 30px; /* 120% */
+  }
+}
+
+.Service7Child p {
+  color: var(--Black, #222);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+@media screen and (max-width: 576px) {
+  .Service7Child p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service7Child p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service7Child p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service7Child p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.Service7Child h3 {
+  color: var(--Black, #222);
+
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+}
+@media screen and (max-width: 576px) {
+  .Service7Child h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service7Child h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service7Child h3 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service7Child h3 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Service7Child h3 {
+    font-size: 20px;
+  }
+}
+
+.Service7Bro {
+  /* width: 40%; */
+}
+
+@media screen and (max-width: 576px) {
+  .Service7Bro img {
+    height: 40vh;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service7Bro img {
+    height: 50vh;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service7Bro img {
+    height: 50vh;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service7Bro img {
+    height: 50vh;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Service7Bro img {
+    height: 60vh;
+  }
+}

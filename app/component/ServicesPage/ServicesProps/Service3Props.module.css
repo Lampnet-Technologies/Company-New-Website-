@@ -8,32 +8,123 @@
   margin-left: 25%;
   width: 50%;
 }
+@media screen and (max-width: 576px) {
+  .Service3Parent {
+    width: 100% !important;
+    margin-left: 0% !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service3Parent {
+    width: 100% !important;
+    margin-left: 0% !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
 
 .Service3Parent h2 {
   color: var(--Black, #222);
   text-align: center;
-  font-family: "Montserrat";
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 38.4px; /* 120% */
 }
+@media screen and (max-width: 576px) {
+  .Service3Parent h2 {
+    font-size: 20px;
+    line-height: 30.4px; /* 120% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service3Parent h2 {
+    font-size: 20px;
+    line-height: 30.4px; /* 120% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service3Parent h2 {
+    font-size: 24px;
+    line-height: 30.4px; /* 120% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service3Parent h2 {
+    font-size: 26px;
+    line-height: 30.4px; /* 120% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Service3Parent h2 {
+    font-size: 28px;
+    line-height: 30.4px; /* 120% */
+  }
+}
+
 .Service3Parent h6 {
   color: #54bd95;
-  font-family: "Montserrat";
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
   line-height: 25.2px; /* 120% */
 }
+@media screen and (max-width: 576px) {
+  .Service3Parent h6 {
+    font-size: 16px;
+    line-height: 38.4px; /* 120% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
 .Service3Parent p {
   color: var(--Black, #222);
   text-align: center;
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 25.6px; /* 160% */
+}
+@media screen and (max-width: 576px) {
+  .Service3Parent p {
+    font-size: 13px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service3Parent p {
+    font-size: 13px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service3Parent p {
+    font-size: 14px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service3Parent p {
+    font-size: 15px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Service3Parent p {
+    font-size: 15px;
+    line-height: 30px; /* 120% */
+  }
 }
 
 .Service3Child {
@@ -42,6 +133,22 @@
   gap: 20px;
   text-align: center;
   margin-top: 3rem;
+}
+@media screen and (max-width: 576px) {
+  .Service3Child {
+    grid-template-columns: repeat(1, 1fr); /* 3 items per row */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service3Child {
+    grid-template-columns: repeat(2, 1fr); /* 3 items per row */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
 .Service3Bro {
@@ -53,27 +160,58 @@
 }
 .Service3Bro h6 {
   color: var(--Black, #222);
-  font-family: "Montserrat";
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 25.2px; /* 120% */
   padding-top: 1rem;
 }
+@media screen and (max-width: 576px) {
+  .Service3Bro h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service3Bro h6 {
+    font-size: 16px;
+  }
+}
+
 .Service3Bro p {
   color: var(--Ash, #7d7c7c);
   text-align: center;
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
 }
+@media screen and (max-width: 576px) {
+  .Service3Bro p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Service3Bro p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Service3Bro p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Service3Bro p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
 .Service3Bro button {
   border-radius: 4px;
   background: var(--Primary-color, #ab0e12);
   border: 0px;
   color: var(--white, #fff);
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 600;

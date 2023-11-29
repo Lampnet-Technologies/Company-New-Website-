@@ -1,41 +1,150 @@
 .HomePage10main {
-    background: var(--Ash-background, #fbfbfb);
-    padding: 3rem 0;
-    margin-top: 5rem;
-  }
-  
+  background: var(--Ash-background, #fbfbfb);
+  padding: 3rem 0;
+  margin-top: 5rem;
+}
+
+.HomePage10parent {
+  text-align: center;
+  width: 50%;
+}
+@media screen and (max-width: 576px) {
   .HomePage10parent {
-      text-align: center;
-      width: 50%;
+    text-align: center;
+    width: 100%;
   }
-  
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage10parent {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage10parent {
+    text-align: center;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+.HomePage10parent h6 {
+  color: var(--Primary-color, #ab0e12);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 150% */
+}
+
+@media screen and (max-width: 576px) {
   .HomePage10parent h6 {
-    color: var(--Primary-color, #ab0e12);
-    font-family: "Montserrat";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 36px; /* 150% */
-  }
-  
-  .HomePage10parent h2 {
-    color: var(--Black, #222);
-    text-align: center;
-    font-family: "Montserrat";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 38.4px; /* 120% */
-  }
-  
-  .HomePage10parent p {
-    color: var(--Black, #222);
-    text-align: center;
-    font-family: "Montserrat";
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25.6px; /* 160% */
-  
+    line-height: 20px; /* 150% */
   }
-  
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage10parent h6 {
+    font-size: 16px;
+    line-height: 20px; /* 150% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage10parent h6 {
+    font-size: 18px;
+    line-height: 20px; /* 150% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomePage10parent h6 {
+    font-size: 18px;
+    line-height: 20px; /* 150% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .HomePage10parent h6 {
+    font-size: 20px;
+    line-height: 20px; /* 150% */
+  }
+}
+
+.HomePage10parent h2 {
+  color: var(--Black, #222);
+  text-align: center;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px; /* 120% */
+}
+
+@media screen and (max-width: 576px) {
+  .HomePage10parent h2 {
+    font-size: 16px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage10parent h2 {
+    font-size: 16px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage10parent h2 {
+    font-size: 18px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomePage10parent h2 {
+    font-size: 18px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .HomePage10parent h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+
+.HomePage10parent p {
+  color: var(--Black, #222);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}
+
+@media screen and (max-width: 576px) {
+  .HomePage10parent p {
+    font-size: 13px;
+    line-height: 25.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage10parent p {
+    font-size: 13px;
+    line-height: 25.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage10parent p {
+    font-size: 14px;
+    line-height: 25.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomePage10parent p {
+    font-size: 14px;
+    line-height: 25.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .HomePage10parent p {
+    font-size: 15px;
+    line-height: 25.6px; /* 160% */
+  }
+}

@@ -1,3 +1,24 @@
 .HomePageWrapperMain {
-    background: #FBFBFB;
+  background: #fbfbfb;
+  padding-bottom: 5rem !important;
+}
+
+@media screen and (max-width: 576px) {
+  .HomePageWrapperMain {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePageWrapperMain {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePageWrapperMain {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }

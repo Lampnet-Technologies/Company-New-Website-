@@ -32,6 +32,9 @@ const Product4 = (props) => {
         </div>
 
         <div className={`${classes.Product4Sister}`}>
+          <div className={`${classes.Product4BroMobile}`}>
+            <Image src={img} alt="" quality={100} width={350} height={400} />
+          </div>
           <div className={classes.Product4SubSis}>
             <h2> {title} </h2>
             <div className={classes.Product4SubBro}>
@@ -49,16 +52,14 @@ const Product4 = (props) => {
               <p> {tagc} </p>
             </div>
 
-            <div className= {classes.Product4ButtonMain}>
-          <MyButton text={initial} />
-        </div> 
+            <div className={classes.Product4ButtonMain}>
+              <MyButton text={initial} />
+            </div>
           </div>
           <div className={`${classes.Product4Bro}`}>
             <Image src={img} alt="" quality={100} width={350} height={400} />
           </div>
         </div>
-
-        
       </div>
     </div>
   );

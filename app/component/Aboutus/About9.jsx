@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import classes from "./About9.module.css";
 import Button from "../Button/Button";
+import ModalPage from "../Modal/page";
 
 const About9 = () => {
   const [name, setName] = useState("");
@@ -58,7 +59,7 @@ const About9 = () => {
   };
 
   return (
-    <div className= {classes.About9Main}>
+    <div className={classes.About9Main}>
       <div className={`container ${classes.About9Parent}`}>
         <div className={classes.About9Child}>
           <h6>Get In Touch With Our Experts</h6>
@@ -76,7 +77,7 @@ const About9 = () => {
         </div>
 
         <div className={classes.About9Bro}>
-          <form  onSubmit={(e) => sendMail(e)}>
+          <form onSubmit={(e) => sendMail(e)}>
             <input
               placeholder="Your full name*"
               type="text"
@@ -86,7 +87,7 @@ const About9 = () => {
             ></input>
             <input
               placeholder="Your email address*"
-              type="email" 
+              type="email"
               pattern="^[A-Z0-9+_.-]+@[A-Z0-9.-]+$"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -103,7 +104,7 @@ const About9 = () => {
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
             {/* <button type="submit">Book an appointment</button> */}
-            <Button text={learn} type="submit"/>
+            <Button text={learn} type="submit" />
           </form>
         </div>
       </div>

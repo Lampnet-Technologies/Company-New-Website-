@@ -1,38 +1,216 @@
 .HomePage7Main {
-    margin-top: 5rem;
-  }
-  
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.HomePage7Parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
   .HomePage7Parent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
+    flex-direction: column;
+    text-align: center;
   }
-  
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage7Parent {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage7Parent {
+    align-items: center;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.HomePage7ImageA {
+  display: none !important;
+}
+@media screen and (max-width: 576px) {
+  .HomePage7ImageA {
+    display: unset !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage7ImageA {
+    display: unset !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .HomePage7ImageA img {
+    height: 40vh !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage7ImageA img {
+    height: 40vh !important;
+  }
+}
+.HomePage7Child {
+  width: 40%;
+}
+@media screen and (max-width: 576px) {
   .HomePage7Child {
-    width: 40%;
+    width: 100%;
+    margin-top: 3rem;
   }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage7Child {
+    width: 100%;
+    margin-top: 3rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage7Child {
+    width: 60% !important;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomePage7Child {
+    width: 60% !important;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.HomePage7Child h6 {
+  color: var(--Primary-color, #ab0e12);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px;
+}
+@media screen and (max-width: 576px) {
   .HomePage7Child h6 {
-    color: var(--Primary-color, #ab0e12);
-    font-family: "Montserrat";
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 25.2px; 
+    font-size: 16px;
+    line-height: 25.2px;
   }
-  .HomePage7Child h2{
-      color: var(--Black, #222);
-      font-family: "Montserrat";
-      font-size: 32px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 38.4px;
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage7Child h6 {
+    font-size: 16px;
+    line-height: 25.2px;
   }
-  .HomePage7Child p{
-      color: #222;
-      font-family: "Montserrat";
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 25.6px;
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage7Child h6 {
+    font-size: 16px;
+    line-height: 25.2px;
   }
-  
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.HomePage7Child h2 {
+  color: var(--Black, #222);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px;
+}
+@media screen and (max-width: 576px) {
+  .HomePage7Child h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage7Child h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage7Child h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomePage7Child h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .HomePage7Child h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+.HomePage7Child p {
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+@media screen and (max-width: 576px) {
+  .HomePage7Child p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage7Child p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage7Child p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomePage7Child p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 576px) {
+  .HomePage7ImageB {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage7ImageB {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage7ImageB {
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomePage7ImageB {
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage7ImageB img {
+    height: 40vh;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomePage7ImageB img {
+    height: 50vh;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .HomePage7ImageB img {
+    height: 60vh;
+  }
+}

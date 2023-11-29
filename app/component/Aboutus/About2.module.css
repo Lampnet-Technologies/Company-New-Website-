@@ -1,38 +1,165 @@
 .About2Main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+@media screen and (max-width: 576px) {
+  .About2Main {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About2Main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
 .About2Parent {
-    width: 35%;
+  width: 35%;
 }
-.About2Parent h6{
-    color: var(--Primary-color, #AB0E12);
-    font-family: "Montserrat";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 36px;
+@media screen and (max-width: 576px) {
+  .About2Parent {
+    width: 100%;
+  }
 }
-.About2Parent h2{
-    color: #222;
-    font-family: "Montserrat";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 38.4px; 
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About2Parent {
+    width: 100%;
+  }
 }
-.About2Child  {
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About2Parent {
     width: 40%;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About2Parent {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+.About2Parent h6 {
+  color: var(--Primary-color, #ab0e12);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+@media screen and (max-width: 576px) {
+  .About2Parent h6 {
+    font-size: 16px !important;
+    line-height: 30px !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About2Parent h6 {
+    font-size: 16px !important;
+    line-height: 30px !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About2Parent h6 {
+    font-size: 16px !important;
+    line-height: 30px !important;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About2Parent h6 {
+    font-size: 18px !important;
+    line-height: 30px !important;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+.About2Parent h2 {
+  color: #222;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px;
+}
+@media screen and (max-width: 576px) {
+  .About2Parent h2 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About2Parent h2 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About2Parent h2 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About2Parent h2 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About2Parent h2 {
+    font-size: 28px !important;
+    line-height: 30px !important;
+  }
+}
+.About2Child {
+  width: 40%;
+}
+@media screen and (max-width: 576px) {
+  .About2Child {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About2Child {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
-.About2Child p{
-    color: var(--Ash, #7D7C7C);
-    font-family: "Montserrat";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25.6px; 
+.About2Child p {
+  color: var(--Ash, #7d7c7c);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+@media screen and (max-width: 576px) {
+  .About2Child p {
+    font-size: 13px !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About2Child p {
+    font-size: 14px !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }

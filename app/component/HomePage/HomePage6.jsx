@@ -13,13 +13,20 @@ const HomePage6 = () => {
       <div className={classes.HomePage6Parent}>
         <h6>Why Choose Us</h6>
         <h2>We Have The Best Team of Development Experts</h2>
-        <Image src={Choose} alt="" quality={100} width={250} className="mt-5" height={250}/>
+        <Image
+          src={Choose}
+          alt=""
+          quality={100}
+          width={250}
+          className="mt-5"
+          height={250}
+        />
       </div>
 
       <div className={classes.HomePage6Child}>
         {data.map((d) => (
-          <div key={d.id} className= {classes.HomePage6SubChild}>
-            <div>
+          <div key={d.id} className={classes.HomePage6SubChild}>
+            <div className={classes.HomePage6Image}>
               <Image src={d.image} alt={d.head} quality={100} width={50} />
             </div>
             <div className={classes.HomePage6Sister}>

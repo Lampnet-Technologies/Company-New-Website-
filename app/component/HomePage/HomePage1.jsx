@@ -8,9 +8,8 @@ const HomePage1 = () => {
   const [learn, setlearn] = useState("Learn More");
 
   return (
-   
     <div className={`${classes.Homepage1Main} `}>
-      <div className= {`container ${classes.Homepage1Parent} `}>
+      <div className={`container ${classes.Homepage1Parent} `}>
         <h1>No. 1 Pre-built Solution Development Company In West Africa</h1>
 
         <p>
@@ -18,10 +17,11 @@ const HomePage1 = () => {
           services like SAAS, PAAS, IAAS services for all African businesses in
           West Africa.
         </p>
-
-        <MyButton text={learn} />
+        <div className={classes.HomePage1Bt}>
+          <MyButton text={learn} />
+        </div>
       </div>
-    </div>  
+    </div>
   );
 };
 

@@ -19,11 +19,11 @@ const Marousel = () => {
     },
     tablet: {
       breakpoint: { max: 922, min: 576 },
-      items: 2,
+      items: 1,
     },
     mobile: {
       breakpoint: { max: 576, min: 0 },
-      items: 2,
+      items: 1,
     },
   };
 
@@ -40,7 +40,7 @@ const Marousel = () => {
       </div>
 
       <Carousel
-      className= {classes.myCustomCarousel}
+        className={classes.myCustomCarousel}
         swipeable={true}
         draggable={false}
         showDots={true}

@@ -6,7 +6,7 @@ import MyButton from "../Button/Button";
 const About6 = () => {
   const [initial, setInitial] = useState("Check Out Our Solutions");
   return (
-    <div className= {classes.About6main}>
+    <div className={classes.About6main}>
       <div className={`container ${classes.About6parent}`}>
         <h6>Let’s Collaborate</h6>
         <h2>Do You Have a Project Idea in Mind?</h2>
@@ -18,7 +18,7 @@ const About6 = () => {
         </p>
 
         <MyButton text={initial} />
-      </div> 
+      </div>
     </div>
   );
 };

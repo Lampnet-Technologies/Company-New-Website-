@@ -1,38 +1,212 @@
 .About5Main {
-    margin-top: 5rem;
-  }
-  
+  margin-top: 5rem;
+}
+
+.About5Parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
   .About5Parent {
     display: flex;
-    justify-content: space-between;
-    align-items: center; 
+    flex-direction: column !important;
   }
-  
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About5Parent {
+    display: flex;
+    flex-direction: column !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.About5Child {
+  width: 50%;
+}
+@media screen and (max-width: 576px) {
+  .About5Child {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About5Child {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
   .About5Child {
     width: 50%;
   }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About5Child {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+.About5Child h6 {
+  color: var(--Primary-color, #ab0e12);
+
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px;
+}
+@media screen and (max-width: 576px) {
   .About5Child h6 {
-    color: var(--Primary-color, #ab0e12);
-    font-family: "Montserrat";
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 25.2px; 
+    font-size: 16px;
   }
-  .About5Child h2{
-      color: var(--Black, #222);
-      font-family: "Montserrat";
-      font-size: 32px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 38.4px;
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About5Child h6 {
+    font-size: 16px;
   }
-  .About5Child p{
-      color: #222;
-      font-family: "Montserrat";
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 25.6px;
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About5Child h6 {
+    font-size: 16px;
   }
-  
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About5Child h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About5Child h6 {
+    font-size: 18px;
+  }
+}
+
+.About5Child h2 {
+  color: var(--Black, #222);
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38.4px;
+}
+@media screen and (max-width: 576px) {
+  .About5Child h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About5Child h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About5Child h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About5Child h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About5Child h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+.About5Child p {
+  color: #222;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+@media screen and (max-width: 576px) {
+  .About5Child p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About5Child p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About5Child p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About5Child p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+@media screen and (max-width: 576px) {
+  .About5ImageA {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About5ImageA {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .About5ImageA img {
+    height: 40vh !important;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .About5ImageA img {
+    height: 50vh !important;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .About5ImageA img {
+    height: 60vh !important;
+    width: 100%;
+  }
+}
+
+.About5ImageB {
+  display: none !important;
+}
+@media screen and (max-width: 576px) {
+  .About5ImageB {
+    display: unset !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .About5ImageB img {
+    height: 40vh !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About5ImageB {
+    display: unset !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .About5ImageB img {
+    height: 40vh;
+  }
+}

@@ -50,7 +50,7 @@ const About7 = () => {
           </div>
         </div>
 
-        <div className={classes.About6Bro}>
+        <div className={classes.About6Bro}> 
           <Image src={Approach6} alt="" quality={100} />
         </div>
 

@@ -3,8 +3,21 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover !important;
-  height: 100vh !important;
+  height: 100dvh !important;
   position: relative;
+}
+@media screen and (max-width: 576px) {
+  .Homepage1Main {
+    height: 100dvh !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
 .Homepage1Main::before {
@@ -17,26 +30,131 @@
   background: linear-gradient(97deg, rgba(2, 14, 23, 0), rgba(11, 37, 57, 0.4));
   z-index: 0;
 }
+@media screen and (max-width: 576px) {
+  .Homepage1Main::before {
+    background: linear-gradient(
+      97deg,
+      rgba(2, 14, 23, 0),
+      rgba(11, 37, 57, 0.4)
+    );
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Homepage1Main::before {
+    background: linear-gradient(
+      97deg,
+      rgba(2, 14, 23, 0),
+      rgba(11, 37, 57, 0.2)
+    );
+    z-index: 0;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
 
 .Homepage1Parent {
   padding-top: 8rem;
 }
+@media screen and (max-width: 576px) {
+  .Homepage1Parent {
+    padding-top: 7rem;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
 
 .Homepage1Parent h1 {
-  width: 40%;
-  color: var(--white, #fff);
-  font-family: "Montserrat";
+  width: 50%;
+  color: #fff !important;
   font-size: 50px;
   font-style: normal;
   font-weight: 800;
   line-height: 65px;
 }
+@media screen and (max-width: 576px) {
+  .Homepage1Parent h1 {
+    width: 100%;
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Homepage1Parent h1 {
+    width: 100%;
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Homepage1Parent h1 {
+    width: 60%;
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Homepage1Parent h1 {
+    width: 60%;
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Homepage1Parent h1 {
+    width: 60%;
+    font-size: 45px;
+  }
+}
+
 .Homepage1Parent p {
   width: 40%;
   color: var(--white, #fff);
-  font-family: "Montserrat";
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 25.6px;
+}
+@media screen and (max-width: 576px) {
+  .Homepage1Parent p {
+    width: 100%;
+    color: var(--white, #fff);
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Homepage1Parent p {
+    width: 100%;
+    color: var(--white, #fff);
+    padding-top: 1rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Homepage1Parent p {
+    width: 60%;
+    color: var(--white, #fff);
+    padding-top: 1rem;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Homepage1Parent p {
+    width: 60%;
+    color: var(--white, #fff);
+    padding-top: 1rem;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.HomePage1Bt {
+  margin-top: 3rem;
 }

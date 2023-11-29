@@ -7,38 +7,124 @@
   text-align: center;
   width: 50%;
 }
+@media screen and (max-width: 576px) {
+  .MarouselParent {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .MarouselParent {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .MarouselParent {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
 
 .MarouselParent h6 {
   color: var(--Primary-color, #ab0e12);
-  font-family: "Montserrat";
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 36px; /* 150% */
 }
+@media screen and (max-width: 576px) {
+  .MarouselParent h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .MarouselParent h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .MarouselParent h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .MarouselParent h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
 
 .MarouselParent h2 {
   color: var(--white, #fff);
   text-align: center;
-  font-family: "Montserrat";
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 38.4px; /* 120% */
 }
+@media screen and (max-width: 576px) {
+  .MarouselParent h2 {
+    font-size: 20px;
+    line-height: 38.4px; /* 120% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .MarouselParent h2 {
+    font-size: 22px;
+    line-height: 38.4px; /* 120% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .MarouselParent h2 {
+    font-size: 22px;
+    line-height: 38.4px; /* 120% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .MarouselParent h2 {
+    font-size: 22px;
+    line-height: 38.4px; /* 120% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .MarouselParent h2 {
+    font-size: 22px;
+    line-height: 38.4px; /* 120% */
+  }
+}
 
 .MarouselParent p {
   color: var(--white, #fff);
   text-align: center;
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 25.6px; /* 160% */
 }
-
+@media screen and (max-width: 576px) {
+  .MarouselParent p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .MarouselParent p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .MarouselParent p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
 .myCustomCarousel {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .MarouselChild {
@@ -47,38 +133,130 @@
   background: #fff;
   padding: 2rem;
 }
+@media screen and (max-width: 576px) {
+  .MarouselChild {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .MarouselChild {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .MarouselChild {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .MarouselChild {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .MarouselChild {
+    width: 60%;
+  }
+}
+
 .MarouselChild p {
   color: var(--Black, #222);
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
   line-height: 32px; /* 200% */
 }
-
+@media screen and (max-width: 576px) {
+  .MarouselChild p {
+    font-size: 13px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .MarouselChild p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .MarouselChild p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .MarouselChild p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .MarouselChild p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
 .MarouselBro {
   display: flex;
-  align-items: center; 
-  gap: 10px; 
+  align-items: center;
+  gap: 10px;
 }
 .MarouselBro h6 {
   color: var(--Black, #222);
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   margin: 0;
   padding: 0;
- 
+}
+@media screen and (max-width: 576px) {
+  .MarouselBro h6 {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .MarouselBro h6 {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .MarouselBro h6 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .MarouselBro h6 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 .MarouselBro span {
   color: var(--Primary-color, #ab0e12);
-  font-family: "Montserrat";
   font-size: 14.024px;
   font-style: normal;
   font-weight: 600;
   margin: 0;
   padding: 0;
+}
+@media screen and (max-width: 576px) {
+  .MarouselBro span {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .MarouselBro span {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .MarouselBro span {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
 /* .myCustomCarousel .react-multi-carousel-dot button {

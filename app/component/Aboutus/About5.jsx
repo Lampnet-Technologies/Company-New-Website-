@@ -1,12 +1,15 @@
 import React from "react";
-import classes from "./About5.module.css"
+import classes from "./About5.module.css";
 import Image from "next/image";
-import About5image from "../../../public/images/About5image.svg"
+import About5image from "../../../public/images/About5image.svg";
 
 const About5 = () => {
   return (
     <div className={`container ${classes.About5Main}`}>
       <div className={classes.About5Parent}>
+        <div className={classes.About5ImageB}>
+          <Image src={About5image} alt="" quality={100} width={500} />
+        </div>
         <div className={classes.About5Child}>
           <h6>About us</h6>
           <h2>
@@ -23,10 +26,16 @@ const About5 = () => {
           </p>
         </div>
 
-        <div>
-          <Image src={About5image} alt="" quality={100} width={500} />
+        <div className={classes.About5ImageA}>
+          <Image
+            src={About5image}
+            alt=""
+            quality={100}
+            width={500}
+            // placeholder="blur"
+            // blurDataURL=""
+          />
         </div>
-
       </div>
     </div>
   );

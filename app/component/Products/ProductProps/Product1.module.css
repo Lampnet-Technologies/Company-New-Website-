@@ -4,44 +4,250 @@
   justify-content: space-between;
   padding: 5rem 0;
 }
+@media screen and (max-width: 576px) {
+  .Product1Main {
+    flex-direction: column !important;
+    text-align: center !important;
+    margin-top: 0rem !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product1Main {
+    flex-direction: column !important;
+    text-align: center !important;
+    margin-top: 0rem !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
 
 .Product1Parent {
   width: 40%;
 }
+@media screen and (max-width: 576px) {
+  .Product1Parent {
+    width: 100% !important;
+    /* margin-left: 10% !important; */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product1Parent {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product1Parent {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product1Parent {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
 .Product1Parent h6 {
   color: #54bd95;
-  font-family: "Montserrat";
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
   line-height: 25.2px;
 }
+@media screen and (max-width: 576px) {
+  .Product1Parent h6 {
+    font-size: 16px;
+    line-height: 25.2px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product1Parent h6 {
+    font-size: 16px;
+    line-height: 25.2px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product1Parent h6 {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product1Parent h6 {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product1Parent h6 {
+    font-size: 20px;
+    line-height: 25.2px;
+  }
+}
+
 .Product1Parent h2 {
   color: var(--Black, #222);
-  font-family: "Montserrat";
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 38.4px; /* 120% */
 }
+@media screen and (max-width: 576px) {
+  .Product1Parent h2 {
+    font-size: 20px;
+    line-height: 25.2px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product1Parent h2 {
+    font-size: 20px;
+    line-height: 25.2px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product1Parent h2 {
+    font-size: 20px;
+    line-height: 25.2px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product1Parent h2 {
+    font-size: 24px;
+    line-height: 25.2px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product1Parent h2 {
+    font-size: 24px;
+    line-height: 25.2px;
+  }
+}
+
 .Product1Parent p {
   color: var(--Black, #222);
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 25.6px; /* 160% */
 }
+@media screen and (max-width: 576px) {
+  .Product1Parent p {
+    font-size: 13px;
+    line-height: 25.2px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product1Parent p {
+    font-size: 13px;
+    line-height: 25.2px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product1Parent p {
+    font-size: 14px;
+    line-height: 25.2px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product1Parent p {
+    font-size: 14px;
+    line-height: 25.2px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product1Parent p {
+    font-size: 15px;
+    line-height: 25.2px;
+  }
+}
+
 .ProductButton {
   display: flex;
   gap: 20px;
   margin-top: 2rem !important;
 }
-
-/* .ProductButton1 button {
-  background: #54bd95 !important;
+@media screen and (max-width: 576px) {
+  .ProductButton {
+    justify-content: center !important;
+  }
 }
-.ProductButton2 button {
-    border: 1px solid #54bd95 !important;
-    color: #54BD95 !important;
-} */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .ProductButton {
+    justify-content: center !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 576px) {
+  .Product1Child {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product1Child {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product1Child {
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product1Child img {
+    height: 40vh !important;
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product1Child img {
+    height: 40vh !important;
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product1Child img {
+    height: 50vh !important;
+    width: 100% !important;
+  }
+}
+
+.Product1ChildMobile {
+  display: none !important;
+}
+@media screen and (max-width: 576px) {
+  .Product1ChildMobile {
+    display: unset !important;
+    text-align: center !important;
+    justify-content: center !important;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product1ChildMobile {
+    display: unset !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .Product1ChildMobile img {
+    height: 40vh !important;
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product1ChildMobile img {
+    height: 40vh !important;
+  }
+}

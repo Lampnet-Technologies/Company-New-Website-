@@ -3,20 +3,93 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 5rem;
+  overflow: hidden;
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .HomePage5Main {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage5Main {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .HomePage5Main {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .HomePage5Main {
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .HomePage5Main {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+  }
 }
 
 .HomePage5Parent {
   display: flex !important;
-  gap: 10px;
+  gap: 20px;
 }
+
+@media screen and (max-width: 576px) {
+  .HomePage5Parent {
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+/* Add more rules for each image as needed */
+
 .HomePage5Parent p {
   color: var(--Ash, #7d7c7c);
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 25.6px; /* 160% */
 }
+
+@media screen and (max-width: 576px) {
+  .HomePage5Parent p {
+    font-size: 13px;
+    line-height: 20.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .HomePage5Parent p {
+    font-size: 14px;
+    line-height: 20.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
 .Selected {
   color: var(--Primary-color, #ab0e12) !important;
 }
@@ -26,6 +99,41 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 3rem;
+}
+
+@media screen and (max-width: 576px) {
+  .ProductList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .ProductList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .ProductList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .ProductList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
 .ProductListChild {
@@ -41,31 +149,75 @@
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (max-width: 576px) {
+  .ProductListChild {
+    width: 90% !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .ProductListChild {
+    width: 95% !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .ProductListChild {
+    width: 95% !important;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .ProductListChild {
+    width: 95% !important;
+    /* height: 25vh; */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
 
 .ProductListChild p {
   color: var(--Color-of-text-on-blue, #fff9f9);
   text-align: center;
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 25.6px; /* 160% */
 }
+@media screen and (max-width: 576px) {
+  .ProductListChild p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .ProductListChild p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .ProductListChild p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .ProductListChild p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
 .SelectedTwo {
   background: #ab0e12;
 }
 
-
-.HomePage5img{
- display: flex;
+.HomePage5img {
+  display: flex;
 }
 
-.HomePage5img{
-    justify-content: right !important;
+.HomePage5img {
+  justify-content: right !important;
 }
 
 .HomePage5Button {
-    margin-top: 3rem;
-    display: flex;
-    justify-content: center;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
 }

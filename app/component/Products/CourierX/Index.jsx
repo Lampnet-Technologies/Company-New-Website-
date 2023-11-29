@@ -31,6 +31,7 @@ const Index = () => {
       <CourieX7 />
       <CourieX8 />
       <CourieX9 />
+      {/* jdj */}
       <CourieX10 />
       <CourieX11 />
       <CourieX12 />

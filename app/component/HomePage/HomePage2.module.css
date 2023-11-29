@@ -1,6 +1,46 @@
 .HomePage2Parent {
-    margin-top: 5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between !important;
+  margin-top: 5rem;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between !important;
+}
+.HomePage2Image {
+  margin-right: 20px;
+  animation: scroll 15s linear infinite;
+}
+
+/* @keyframes scroll {
+  0% {
+    transform: translateX(100);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  14.2857% {
+    transform: translateX(-100%);
+  }
+  28.5714% {
+    transform: translateX(-200%);
+  }
+  42.8571% {
+    transform: translateX(-300%);
+  }
+  57.1428% {
+    transform: translateX(-400%);
+  }
+  71.4285% {
+    transform: translateX(-500%);
+  }
+  85.7142% {
+    transform: translateX(-600%);
+  }
+  100% {
+    transform: translateX(-700%); /* Adjust based on the number of images */
+  }
 }

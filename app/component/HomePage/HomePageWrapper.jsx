@@ -14,4 +14,3 @@ const HomePageWrapper = ({ children }) => {
 };
 
 export default HomePageWrapper;
-  

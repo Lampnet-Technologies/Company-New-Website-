@@ -21,6 +21,9 @@ const Product1 = ({
 }) => {
   return (
     <div className={`container ${classes.Product1Main}`}>
+      <div className={classes.Product1ChildMobile}>
+        <Image src={image} alt="" quality={100} width={500} />
+      </div>
       <div className={classes.Product1Parent}>
         <h6>{header} </h6>
         <h2>{subheader}</h2>

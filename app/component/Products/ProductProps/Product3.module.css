@@ -1,7 +1,21 @@
 .Product3GrandMain {
-    background: var(--Ash-background, #FBFBFB);
-    padding: 5rem;
+  background: var(--Ash-background, #fbfbfb);
+  padding: 5rem;
+  margin-top: 5rem;
+}
+@media screen and (max-width: 576px) {
+  .Product3GrandMain {
+    padding: 2rem;
     margin-top: 5rem;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
 .Product3Parent {
@@ -9,61 +23,230 @@
 }
 .Product3Parent h6 {
   color: #54bd95;
-  font-family: "Montserrat";
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
   line-height: 25.2px; /* 120% */
 }
+@media screen and (max-width: 576px) {
+  .Product3Parent h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product3Parent h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product3Parent h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product3Parent h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product3Parent h6 {
+    font-size: 20px;
+  }
+}
+
 .Product3Parent h2 {
   color: var(--Black, #222);
-  font-family: "Montserrat";
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 38.4px; /* 120% */
 }
+@media screen and (max-width: 576px) {
+  .Product3Parent h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product3Parent h2 {
+    font-size: 20px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product3Parent h2 {
+    font-size: 24px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product3Parent h2 {
+    font-size: 26px;
+    line-height: 30px; /* 120% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product3Parent h2 {
+    font-size: 28px;
+    line-height: 30px; /* 120% */
+  }
+}
+
 .Product3Parent p {
   color: var(--Black, #222);
   text-align: center;
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 25.6px; /* 160% */
 }
-
+@media screen and (max-width: 576px) {
+  .Product3Parent p {
+    font-size: 13px;
+    line-height: 25.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product3Parent p {
+    font-size: 13px;
+    line-height: 25.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product3Parent p {
+    font-size: 14px;
+    line-height: 25.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product3Parent p {
+    font-size: 14px;
+    line-height: 25.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product3Parent p {
+    font-size: 15px;
+    line-height: 25.6px; /* 160% */
+  }
+}
 
 .Product3MainChild {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 3rem;
-
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+@media screen and (max-width: 576px) {
+  .Product3MainChild {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product3MainChild {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product3MainChild {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
 .Product3Child {
-    border-radius: 8px;
-    background: #FFF;
-    box-shadow: 2px 2px 8px 0px rgba(7, 21, 41, 0.05);
-    width: 30%;
-    padding: 2rem 1rem;
-    text-align: center;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 2px 2px 8px 0px rgba(7, 21, 41, 0.05);
+  width: 30%;
+  padding: 2rem 1rem;
+  text-align: center;
 }
-.Product3Child h6{
-    color: var(--Black, #222);
-    font-family: "Montserrat";
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 25.2px; /* 120% */
-    padding-top: 1.5rem;
+@media screen and (max-width: 576px) {
+  .Product3Child {
+    width: 100%;
+    margin-top: 1rem;
+  }
 }
-.Product3Child p{
-    color: var(--Ash, #7D7C7C);
-    text-align: center;
-    font-family: "Montserrat";
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product3Child {
+    width: 48%;
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.Product3Child h6 {
+  color: var(--Black, #222);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.2px; /* 120% */
+  padding-top: 1.5rem;
+}
+@media screen and (max-width: 576px) {
+  .Product3Child h6 {
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product3Child h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product3Child h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product3Child h6 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product3Child h6 {
+    font-size: 20px;
+  }
+}
+
+.Product3Child p {
+  color: var(--Ash, #7d7c7c);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}
+@media screen and (max-width: 576px) {
+  .Product3Child p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Product3Child p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .Product3Child p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+  .Product3Child p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .Product3Child p {
+    font-size: 15px;
+  }
 }

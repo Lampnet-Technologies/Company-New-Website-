@@ -8,6 +8,8 @@ import classes from "./Blog.module.css";
 import ArrowRight from "../../public/images/arrow-right.svg";
 import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
+import Error from "../error/page";
+import Loading from "../component/Loading/page";
 
 const urlFor = (source) => urlBuilder(client).image(source);
 
@@ -35,17 +37,12 @@ export default function Blog() {
   };
 
   if (isPending) {
-    return <div>Page Loading</div>; // You can customize the loading indicato
+    return <Loading />; // You can customize the loading indicato
   }
 
-  if (isError) {
-    content = (
-      <Error
-        title="An error occured while fetching data"
-        message="Failed to fetch data"
-      />
-    );
-  }
+  // if (isError) {
+  //   return
+  // }
 
   const allData = filteredData.length > 0 ? filteredData : data || [];
   const indexOfLastItem = currentPage * itemsPerPage;
@@ -55,7 +52,7 @@ export default function Blog() {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
-    <div className={`container`}>
+    <div className={`container  ${classes.BlogTheMain} `}>
       <div className={classes.BlogResources}>
         <h2>Resources and Insights</h2>
       </div>
@@ -166,6 +163,7 @@ export default function Blog() {
             <button
               onClick={() => paginate(currentPage - 1)}
               disabled={currentPage === 1}
+              // className={classes.PaginationButtonA}
             >
               Back
             </button>
@@ -181,12 +179,20 @@ export default function Blog() {
               disabled={
                 currentPage === Math.ceil(allData.length / itemsPerPage)
               }
+              // className={classes.PaginationButtonA}
             >
               Next
             </button>
           </div>
         )}
       </div>
+
+      {isError && (
+        <Error
+          title="An error occured while fetching data"
+          message={error.message || "Failed to fetch data"}
+        />
+      )}
     </div>
   );
 }

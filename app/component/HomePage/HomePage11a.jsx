@@ -7,14 +7,14 @@ import ButtonTwo from "../Button/ButtonTwo";
 const HomePage11a = ({ selectedCardData }) => {
   const [initial, setInitial] = useState("Learn more");
   return (
-    <div className={`${classes.sidebar}`}> 
-      {selectedCardData ? (
+    <div className={`${classes.sidebar}`}>
+      {selectedCardData && (
         <>
           <h2>{selectedCardData.text}</h2>
           <p> {selectedCardData.body} </p>
- 
+
           <div className={classes.sidebarChild}>
-            <div className={classes.sidebarBro}>  
+            <div className={classes.sidebarBro}>
               <Image
                 src={selectedCardData.imagea}
                 alt={selectedCardData.texta}
@@ -27,7 +27,7 @@ const HomePage11a = ({ selectedCardData }) => {
               <Image
                 src={selectedCardData.imageb}
                 alt={selectedCardData.textb}
-                quality={100} 
+                quality={100}
                 width={30}
               />
               <p> {selectedCardData.textb} </p>
@@ -52,11 +52,8 @@ const HomePage11a = ({ selectedCardData }) => {
             </div>
           </div>
         </>
-      ) : (
-        <p>Please select a card to display data</p>
-        
       )}
-      <div className= {classes.sideBarButton}>
+      <div className={classes.sideBarButton}>
         <ButtonTwo text={initial} />
       </div>
     </div>

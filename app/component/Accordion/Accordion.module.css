@@ -1,0 +1,173 @@
+.OurStoryChild {
+  display: none !important ;
+}
+
+@media screen and (max-width: 576px) {
+  .OurStoryChild {
+    display: unset !important ;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .OurStoryChild {
+    display: unset !important ;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .OurStoryChild {
+    display: unset !important ;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .OurStoryHeader button {
+    color: var(--Black, #222);
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .OurStoryHeader button {
+    color: var(--Black, #222);
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .OurStoryHeader button {
+    color: var(--Black, #222);
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .body h6 {
+    color: var(--Black, #222);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px; /* 150% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .body h6 {
+    color: var(--Black, #222);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px; /* 150% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .body h6 {
+    color: var(--Black, #222);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px; /* 150% */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .body p {
+    color: var(--Black, #222);
+    font-size: 13px;
+    line-height: 30px; /* 150% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .body p {
+    color: var(--Black, #222);
+    font-size: 13px;
+    line-height: 30px; /* 150% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .body p {
+    color: var(--Black, #222);
+    font-size: 14px;
+    line-height: 30px; /* 150% */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .AccordionChildMain {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .AccordionChildMain {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .AccordionChildMain {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .AccordionChild p {
+    color: var(--Black, #222);
+    font-size: 13px;
+    line-height: 25.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .AccordionChild p {
+    color: var(--Black, #222);
+    font-size: 13px;
+    line-height: 25.6px; /* 160% */
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+  .AccordionChild p {
+    color: var(--Black, #222);
+    font-size: 14px;
+    line-height: 25.6px; /* 160% */
+  }
+}
+
+.accord:focus {
+  background-color: #fff !important;
+  background: #fff !important;
+  outline: #fff !important;
+}
+/* .accordion-button:after {
+    background-color: #fff;
+    background: #fff;
+    outline: #fff !important;
+  } */
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: none !important;
+  color: #fff !important;
+}
+
+.accord:not(.collapsed) {
+  background-color: #fff !important;
+  background: #fff !important;
+  box-shadow: none !important;
+  color: #272727 !important;
+}
+
+@media screen and (max-width: 576px) {
+  .OurStoryHeader button .active {
+    background-color: red;
+    background: red !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
