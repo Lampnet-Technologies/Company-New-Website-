@@ -78,8 +78,8 @@ const HomeBlog = () => {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
         >
-          {data.map((d) => (
-            <div className={classes.HomeBlogGrandParent}>
+          {data.map((d, index) => (
+            <div className={classes.HomeBlogGrandParent} key={index}>
               <div className={classes.HomeBlogImage}>
                 {d.mainImage && (
                   <Image
