@@ -8,19 +8,21 @@ import Staffing5 from "./Staffing5";
 import Staffing6 from "./Staffing6";
 import Staffing7 from "./Staffing7";
 import About9 from "../../Aboutus/About9";
+import Service4 from "../Startup/Service4";
 
 const Index = () => {
   return (
     <div>
       <Staffing1 />
-      <Staffing2/>
-      <Staffing3/>
-      <HomePage4/>
-      <HomePage5/>
-      <Staffing5/>
-      <Staffing6/>
-      <Staffing7/>
-      <About9/>
+      <Staffing2 />
+      <Staffing3 />
+      <Service4 />
+      <HomePage4 />
+      <HomePage5 />
+      <Staffing5 />
+      <Staffing6 />
+      <Staffing7 />
+      <About9 />
     </div>
   );
 };

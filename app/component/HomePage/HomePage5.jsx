@@ -13,6 +13,7 @@ import Image from "next/image";
 import arrowOne from "../../../public/images/arrowOne.svg";
 import arrowTwo from "../../../public/images/arrowTwo.svg";
 import ButtonThree from "../Button/ButtonThree";
+import MyButton from "../Button/Button";
 
 const HomePage5 = () => {
   const [selectedCategory, setSelectedCategory] = useState(1);
@@ -117,7 +118,8 @@ const HomePage5 = () => {
       {isSmallScreen && (
         <div className={classes.HomePage5Button}>
           {displayedItems < filteredProducts.length && (
-            <button onClick={handleShowMoreClick}> see all </button>
+            // <button onClick={handleShowMoreClick}> see all </button>
+            <MyButton onClick={handleShowMoreClick} text="See more" />
           )}
         </div>
       )}

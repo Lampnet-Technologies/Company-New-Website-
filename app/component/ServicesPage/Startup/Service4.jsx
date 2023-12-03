@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Service4.module.css";
 import ServiceWrapper from "./ServiceWrapper";
+import AccordionService from "../../AccordionService/page";
 
 const Service4 = () => {
   return (
@@ -15,6 +16,7 @@ const Service4 = () => {
 
         <div>
           <ServiceWrapper />
+          <AccordionService />
         </div>
       </div>
     </div>

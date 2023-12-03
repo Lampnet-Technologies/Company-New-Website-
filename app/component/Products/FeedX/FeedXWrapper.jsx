@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import StartupScroll from "../../../../public/images/StartupScroll.svg";
 import Scroll from "../../../../public/images/Scroll.svg";
 import Product9Wrapper from "../ProductProps/Product9Wrapper";
@@ -13,6 +13,11 @@ const FeedXWrapper = () => {
     setSelectedCardData(data);
   };
 
+  // useEffect to simulate a component did mount and set initial selectedCardData
+  useEffect(() => {
+    const initialData = data.find((d) => d.id === 1);
+    handleCardClick(initialData);
+  }, []);
   const wrapperBackgroundColor = "#222";
   return (
     <Product9Wrapper backgroundColor={wrapperBackgroundColor}>

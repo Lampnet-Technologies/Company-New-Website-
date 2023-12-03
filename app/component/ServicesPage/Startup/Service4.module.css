@@ -11,17 +11,20 @@
   .Service4Parent {
     width: 100%;
     text-align: center !important;
+    margin-bottom: 2rem !important;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .Service4Parent {
     width: 100%;
     text-align: center !important;
+    margin-bottom: 2rem !important;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 922px) {
   .Service4Parent {
     width: 60%;
+    margin-bottom: 2rem !important;
   }
 }
 @media screen and (min-width: 923px) and (max-width: 1200px) {

@@ -6,7 +6,6 @@ const ButtonThree = (props) => {
     borderRadius: "4px",
     border: props.border || "1px solid var(--Primary-color, #ab0e12)",
     color: props.color || "var(--Primary-color, #ab0e12)",
-    fontFamily: "Montserrat",
     fontSize: "16px",
     fontStyle: "normal",
     fontWeight: "600",

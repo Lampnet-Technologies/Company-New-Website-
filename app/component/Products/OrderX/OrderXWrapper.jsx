@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Product9a from "../ProductProps/Product9a";
 import Product9b from "../ProductProps/Product9b";
 import Product9Wrapper from "../ProductProps/Product9Wrapper";
@@ -12,6 +12,12 @@ const OrderXWrapper = () => {
   const handleCardClick = (data) => {
     setSelectedCardData(data);
   };
+
+  // useEffect to simulate a component did mount and set initial selectedCardData
+  useEffect(() => {
+    const initialData = data.find((d) => d.id === 1);
+    handleCardClick(initialData);
+  }, []);
 
   const wrapperBackgroundColor = "#222";
   return (

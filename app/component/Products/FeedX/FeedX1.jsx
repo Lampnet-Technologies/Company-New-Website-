@@ -11,17 +11,14 @@ const FeedX1 = () => {
   const paragraph =
     "FoodX is a market-ready online food delivery app solution to launch your online food delivery business without any hassle.";
 
-  const wrapperTextColor = "#F6613F";
-  const buttonBackgroundColor = "#F6613F";
-  const customBorder = "1px solid #F6613F";
+  const backgroundColor = "#F6613F";
+  const colorbutton = "#F6613F";
+  const border = "1px solid #F6613F";
   const color = "#F6613F";
 
   return (
     <div>
       <Product1
-        textColor={wrapperTextColor}
-        buttonBackgroundColor={buttonBackgroundColor}
-        customBorder={customBorder}
         color={color}
         header={header}
         subheader={subheader}
@@ -29,6 +26,10 @@ const FeedX1 = () => {
         image={Producthero}
         initial={initial}
         initial2={initial2}
+        backgroundColor={backgroundColor}
+        colorbutton={colorbutton}
+        border={border}
+        textColor={color}
       />
     </div>
   );

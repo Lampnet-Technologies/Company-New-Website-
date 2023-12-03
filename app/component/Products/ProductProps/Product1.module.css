@@ -31,6 +31,7 @@
 @media screen and (max-width: 576px) {
   .Product1Parent {
     width: 100% !important;
+    margin-top: 3rem;
     /* margin-left: 10% !important; */
   }
 }
@@ -38,6 +39,7 @@
   .Product1Parent {
     width: 80% !important;
     margin-left: 10% !important;
+    margin-top: 3rem;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 922px) {
@@ -53,13 +55,13 @@
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
-.Product1Parent h6 {
+/* .Product1Parent h6 {
   color: #54bd95;
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
   line-height: 25.2px;
-}
+} */
 @media screen and (max-width: 576px) {
   .Product1Parent h6 {
     font-size: 16px;

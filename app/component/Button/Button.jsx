@@ -20,7 +20,9 @@ function MyButton(props) {
   // };
   return (
     // <div className={classes.ButtonMain}>
-    <button style={buttonStyle}>{props.text}</button>
+    <button style={buttonStyle} onClick={props.onClick}>
+      {props.text}
+    </button>
     // </div>
   );
 }

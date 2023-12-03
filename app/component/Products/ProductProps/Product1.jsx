@@ -8,7 +8,7 @@ import ButtonTwo from "../../Button/ButtonTwo";
 const Product1 = ({
   backgroundColor,
   textColor,
-  colorBorder,
+  border,
   customBorder,
   color,
   colorbutton,
@@ -19,13 +19,20 @@ const Product1 = ({
   initial2,
   image,
 }) => {
+  const h6Style = {
+    color: textColor, // Set the color dynamically based on the prop
+    fontSize: "21px",
+    fontStyle: "normal",
+    fontWeight: 600,
+    lineHeight: "25.2px",
+  };
   return (
     <div className={`container ${classes.Product1Main}`}>
       <div className={classes.Product1ChildMobile}>
         <Image src={image} alt="" quality={100} width={500} />
       </div>
       <div className={classes.Product1Parent}>
-        <h6>{header} </h6>
+        <h6 style={h6Style}>{header} </h6>
         <h2>{subheader}</h2>
         <p>{paragraph}</p>
 
@@ -34,11 +41,7 @@ const Product1 = ({
             <MyButton text={initial} backgroundColor={backgroundColor} />
           </div>
           <div className={classes.ProductButton2}>
-            <ButtonThree
-              text={initial2}
-              color={colorbutton}
-              border={colorBorder}
-            />
+            <ButtonThree text={initial2} color={colorbutton} border={border} />
           </div>
         </div>
       </div>

@@ -26,6 +26,7 @@ const Navbar = () => {
             placeholder="blur"
             quality={100}
             width={100}
+            onClick={pushToQuote}
           />
         </a>
 
@@ -74,7 +75,7 @@ const Navbar = () => {
               </ul>
             </li>
 
-            <li class={`nav-item dropdown ${classes.NavItem}`}>
+            <li class={`nav-item dropdown ${classes.dropdown}`}>
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -85,71 +86,148 @@ const Navbar = () => {
               >
                 Products
               </a>
-              <ul
-                class="dropdown-menu"
+              <div
+                class={`dropdown-menu ${classes.dropdownmenu} `}
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <li href="/courier-x">
-                  <Link class="dropdown-item" href="/courier-x">
-                    Courier-X
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" href="/fleed-x">
-                    Food-X
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" href="/med-x">
-                    Mex-X
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" href="/estate-x">
-                    Estate-X
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" href="/school-x">
-                    School360-x
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" href="/fintech-x">
-                    Fintech360-x
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" href="/thrift-x">
-                    Thrift-X
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" href="/co-workspace-x">
-                    Co-Workspace-X
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" href="/order-x">
-                    Order-X
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" href="/uber-x">
-                    Uber-X
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" href="/restaurant360-x">
-                    Restaurant 360
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" href="/hotel-x">
-                    Hotel-X
-                  </Link>
-                </li>
-              </ul>
+                <div>
+                  <ul>
+                    <li href="/courier-x">
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/courier-x"
+                      >
+                        Courier-X
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/fleed-x"
+                      >
+                        Food-X
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/med-x"
+                      >
+                        Mex-X
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/co-workspace-x"
+                      >
+                        Workspace-X
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/restaurant360-x"
+                      >
+                        Restaurant
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/hotel-x"
+                      >
+                        Hotel-X
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/estate-x"
+                      >
+                        Estate-X
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/school-x"
+                      >
+                        School360-x
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/fintech-x"
+                      >
+                        Fintech360-x
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/thrift-x"
+                      >
+                        Thrift-X
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/order-x"
+                      >
+                        Order-X
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/uber-x"
+                      >
+                        Uber-X
+                      </Link>
+                    </li>
+                  </ul>
+                  {/* <ul>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/order-x"
+                      >
+                        Order-X
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/uber-x"
+                      >
+                        Uber-X
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/restaurant360-x"
+                      >
+                        Restaurant
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/hotel-x"
+                      >
+                        Hotel-X
+                      </Link>
+                    </li>
+                  </ul> */}
+                </div>
+              </div>
             </li>
 
             <li class={`nav-item dropdown ${classes.NavItem}`}>
@@ -234,7 +312,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <div onClick={pushToQuote} className="ml-auto">
+          <div className="ml-auto">
             <MyButton text={buttonText} />
           </div>
         </div>

@@ -10,6 +10,9 @@ const CourieX1 = () => {
     "A Courier Delivery App For Last Mile Delivery Management & Logistics";
   const paragraph =
     "CourierX is an all-in-one customizable delivery management software to keep track of delivery operations, for all types of businesses";
+  const backgroundColor = "#54BD95";
+  const colorbutton = "#54BD95";
+  const border = "1px solid #54BD95";
   return (
     <div>
       <Product1
@@ -19,6 +22,9 @@ const CourieX1 = () => {
         image={Producthero}
         initial={initial}
         initial2={initial2}
+        backgroundColor={backgroundColor}
+        colorbutton={colorbutton}
+        border={border}
       />
     </div>
   );

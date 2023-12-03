@@ -21,7 +21,7 @@ const Product9a = ({ onCardClick, data }) => {
               selectedCard === d.id ? classes.SelectedProduct9aCousin : ""
             }`}
             onClick={() => handleCardClick(d.id)}
-          >
+          >  
             <div className={classes.Product9aSister}>
               <Image src={d.imagea} alt={d.text} quality={100} />
               <p> {d.text} </p>
