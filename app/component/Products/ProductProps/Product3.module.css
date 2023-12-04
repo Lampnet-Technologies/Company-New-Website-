@@ -21,13 +21,13 @@
 .Product3Parent {
   text-align: center;
 }
-.Product3Parent h6 {
+/* .Product3Parent h6 {
   color: #54bd95;
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
-  line-height: 25.2px; /* 120% */
-}
+  line-height: 25.2px; 
+} */
 @media screen and (max-width: 576px) {
   .Product3Parent h6 {
     font-size: 16px;

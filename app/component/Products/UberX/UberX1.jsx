@@ -9,6 +9,10 @@ const UberX1 = () => {
   const subheader = "Uber Clone - Best Ride-hailing App Software";
   const paragraph =
     "Power up your transport business with UberX Ride-hailing dispatch software. UberX can help effectively manage your business and makes every operation streamlined.";
+  const backgroundColor = "#0F479C";
+  const border = "1px solid #0F479C";
+  const colorbutton = "#0F479C";
+  const color = "#0F479C";
   return (
     <div>
       {" "}
@@ -19,6 +23,11 @@ const UberX1 = () => {
         image={Producthero}
         initial={initial}
         initial2={initial2}
+        color={color}
+        backgroundColor={backgroundColor}
+        colorbutton={colorbutton}
+        border={border}
+        textColor={color}
       />
     </div>
   );

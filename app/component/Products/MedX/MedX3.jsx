@@ -8,6 +8,8 @@ const MedX3 = () => {
     "Capture untapped opportunities with MedX intuitive features ";
   const paragraph =
     "MedX is a highly customizable online food ordering and delivery system that enables ease of use and seamless management.";
+  const color = "#3E83EA";
+
   return (
     <div>
       <Product3
@@ -15,6 +17,7 @@ const MedX3 = () => {
         header={header}
         subheader={subheader}
         paragraph={paragraph}
+        textColor={color}
       />
     </div>
   );

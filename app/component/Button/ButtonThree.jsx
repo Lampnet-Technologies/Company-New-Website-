@@ -10,7 +10,7 @@ const ButtonThree = (props) => {
     fontStyle: "normal",
     fontWeight: "600",
     lineHeight: "24px",
-    background: "#fff",
+    background: props.background || "#fff",
     padding: "0.5rem 1.5rem",
   };
   return (

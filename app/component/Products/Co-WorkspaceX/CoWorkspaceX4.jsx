@@ -18,6 +18,9 @@ const CoWorkspaceX4 = () => {
   const body =
     "Fintech 360 Banking Software incorporates all banking and payment functions in one single platform.";
   const initial = "Download Now";
+  const color = "#1628F4";
+  const backgroundColor = "#1628F4";
+  const border = "0px solid #1628F4";
   return (
     <div>
       {" "}
@@ -35,6 +38,9 @@ const CoWorkspaceX4 = () => {
         img={Realtime}
         Circle={Circle}
         initial={initial}
+        textColor={color}
+        backgroundColor={backgroundColor}
+        border={border}
       />
     </div>
   );

@@ -8,6 +8,7 @@ const HotelX8 = () => {
   const mail = "Win Against The Competition ";
   const paragraph1 =
     "Restaurant 360 white-label banking software comes as a collection of configurable standalone modules to handle the core functionality for financial services.";
+  const color = "#34A853";
   return (
     <div>
       {" "}
@@ -16,6 +17,7 @@ const HotelX8 = () => {
         props={heading}
         mail={mail}
         paragraph1={paragraph1}
+        textColor={color}
       />{" "}
     </div>
   );

@@ -10,6 +10,10 @@ const EstateX1 = () => {
     "Ready-to-Use Property Listing & Management App Built for You";
   const paragraph =
     "Choose the property management software that powers you to do more than just manage properties.";
+  const backgroundColor = "#222";
+  const border = "1px solid #222";
+  const colorbutton = "#222";
+  const color = "#AB0E12";
   return (
     <div>
       <Product1
@@ -19,6 +23,11 @@ const EstateX1 = () => {
         image={Producthero}
         initial={initial}
         initial2={initial2}
+        color={color}
+        backgroundColor={backgroundColor}
+        colorbutton={colorbutton}
+        border={border}
+        textColor={color}
       />
     </div>
   );

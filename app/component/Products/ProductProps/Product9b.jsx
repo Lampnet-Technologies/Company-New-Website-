@@ -5,7 +5,7 @@ import Image from "next/image";
 import CircleBody from "../../../../public/images/CircleBody.svg";
 import MyButton from "../../Button/Button";
 
-const Product9b = ({ selectedCardData }) => {
+const Product9b = ({ selectedCardData, background2 }) => {
   return (
     <div className={`${classes.Product9bsidebar}`}>
       {selectedCardData ? (
@@ -29,7 +29,7 @@ const Product9b = ({ selectedCardData }) => {
             {selectedCardData.body2}{" "}
           </p>
           <div className={classes.Product9bButton}>
-            <MyButton text="Build with us" />
+            <MyButton text="Build with us" backgroundColor={background2} />
           </div>
         </>
       ) : (

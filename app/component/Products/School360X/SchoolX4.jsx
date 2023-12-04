@@ -18,6 +18,7 @@ const SchoolX4 = () => {
   const body =
     "School 360 helps you efficiently manage all of your processes. Enjoy professional school management for any educational institution, in minutes!";
   const initial = "Download Now";
+  const color = "#AB0E12";
   return (
     <div>
       <Product4
@@ -34,6 +35,7 @@ const SchoolX4 = () => {
         img={Realtime}
         Circle={Circle}
         initial={initial}
+        textColor={color}
       />
     </div>
   );

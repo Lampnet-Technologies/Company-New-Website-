@@ -10,6 +10,10 @@ const SchoolX1 = () => {
     "A Frontier Solution for  Borderless Learning and School Management ";
   const paragraph =
     "Build reputable school brand, raise productivity and manage operations more efficiently with your one-stop school software.";
+  const backgroundColor = "#AB0E12";
+  const border = "1px solid #AB0E12";
+  const colorbutton = "#AB0E12";
+  const color = "#AB0E12";
   return (
     <div>
       <Product1
@@ -19,6 +23,11 @@ const SchoolX1 = () => {
         image={Producthero}
         initial={initial}
         initial2={initial2}
+        color={color}
+        backgroundColor={backgroundColor}
+        colorbutton={colorbutton}
+        border={border}
+        textColor={color}
       />
     </div>
   );

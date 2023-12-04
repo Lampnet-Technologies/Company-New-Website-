@@ -7,6 +7,8 @@ const Restaurant3 = () => {
   const subheader = "Restaurant 360 Software Offers";
   const paragraph =
     "School 360 provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your school organization.";
+  const color = "#AB0E12";
+
   return (
     <div>
       {" "}
@@ -15,6 +17,7 @@ const Restaurant3 = () => {
         header={header}
         subheader={subheader}
         paragraph={paragraph}
+        textColor={color}
       />
     </div>
   );

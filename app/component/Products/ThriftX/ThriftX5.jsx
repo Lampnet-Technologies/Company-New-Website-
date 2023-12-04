@@ -6,10 +6,16 @@ const ThriftX5 = () => {
   const subheader = "A Platform Built to Simplify Complexity";
   const body =
     "Businesses of all sizes and types, from e-commerce platforms to travel and hospitality companies- use Fintech 360 to process online and offline payments quickly and securely.";
+  const color = "#E47E1F";
   return (
     <div>
       {" "}
-      <Product5 header={header} subheader={subheader} body={body} />
+      <Product5
+        header={header}
+        subheader={subheader}
+        body={body}
+        textColor={color}
+      />
     </div>
   );
 };

@@ -9,6 +9,10 @@ const HotelX1 = () => {
   const subheader = "Hospitality & Hotel Management Software";
   const paragraph =
     "Software designed for hospitality and hotel management, to help you manage staff, deliver customer satisfaction, drive revenue and reduce operational costs.";
+  const backgroundColor = "#34A853";
+  const border = "1px solid #34A853";
+  const colorbutton = "#34A853";
+  const color = "#34A853";
   return (
     <div>
       {" "}
@@ -19,6 +23,11 @@ const HotelX1 = () => {
         image={Producthero}
         initial={initial}
         initial2={initial2}
+        color={color}
+        backgroundColor={backgroundColor}
+        colorbutton={colorbutton}
+        border={border}
+        textColor={color}
       />
     </div>
   );

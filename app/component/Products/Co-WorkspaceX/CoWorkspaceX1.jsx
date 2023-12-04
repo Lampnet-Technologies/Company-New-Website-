@@ -9,6 +9,10 @@ const CoWorkspaceX1 = () => {
   const subheader = "The most intuitive coworking management solution";
   const paragraph =
     "Co-workspaceX is reimagining coworking software. Say hello to the all-in-one platform for flex space management.";
+  const backgroundColor = "#1628F4";
+  const border = "1px solid #1628F4";
+  const colorbutton = "#1628F4";
+  const color = "#1628F4";
   return (
     <div>
       <Product1
@@ -18,6 +22,11 @@ const CoWorkspaceX1 = () => {
         image={Producthero}
         initial={initial}
         initial2={initial2}
+        color={color}
+        backgroundColor={backgroundColor}
+        colorbutton={colorbutton}
+        border={border}
+        textColor={color}
       />
     </div>
   );

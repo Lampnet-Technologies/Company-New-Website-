@@ -1,7 +1,7 @@
 import React from "react";
 import Product4 from "../ProductProps/Product4";
 import Realtime from "../../../../public/images/Realtime.svg";
-import Circle from "../../../../public/images/Circle.svg"
+import Circle from "../../../../public/images/Circle.svg";
 
 const CourieX4 = () => {
   const title = "Real-Time Tracking and Local language Integration";
@@ -18,7 +18,10 @@ const CourieX4 = () => {
   const subheader = "Transform The Way You Handle Your Logistics Needs";
   const body =
     "LampNets Solutions strives to provide top-tier IT solutions to businesses of all sizes and locations from industry experts";
-    const initial = "Download Now";
+  const initial = "Download Now";
+  const color = "#54BD95";
+  const backgroundColor = "#54BD95";
+  const border = "0px solid #54BD95";
 
   return (
     <div>
@@ -34,8 +37,11 @@ const CourieX4 = () => {
         tag3={tag3}
         tagc={tagc}
         img={Realtime}
-        Circle= {Circle}
-        initial= {initial}
+        Circle={Circle}
+        initial={initial}
+        textColor={color}
+        backgroundColor={backgroundColor}
+        border={border}
       />
     </div>
   );

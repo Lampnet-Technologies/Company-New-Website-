@@ -6,9 +6,15 @@ const Restaurant5 = () => {
   const subheader = "Own A Multi-Delivery Business With Ease";
   const body =
     "No matter what type of business you run, Restaurant 360 allows you to get your business online in minutes.";
+  const color = "#AB0E12";
   return (
     <div>
-      <Product5 header={header} subheader={subheader} body={body} />
+      <Product5
+        header={header}
+        subheader={subheader}
+        body={body}
+        textColor={color}
+      />
     </div>
   );
 };

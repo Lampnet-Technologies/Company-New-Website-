@@ -4,26 +4,20 @@ import React from "react";
 function MyButton(props) {
   const buttonStyle = {
     backgroundColor: props.backgroundColor || "var(--Primary-color, #ab0e12)",
-    color: "var(--white, #fff)",
+    color: props.color || "var(--white, #fff)",
     borderRadius: "4px",
-    fontFamily: "Montserrat",
     fontSize: "16px",
     fontStyle: "normal",
     fontWeight: "600",
     lineHeight: "24px",
     padding: "0.5rem 1rem",
-    border: "0px solid #ab0e12",
+    border: props.border || "0px solid #ab0e12",
   };
 
-  // const buttonStyle = {
-  //   backgroundColor: props.backgroundColor || "defaultButtonColor",
-  // };
   return (
-    // <div className={classes.ButtonMain}>
     <button style={buttonStyle} onClick={props.onClick}>
       {props.text}
     </button>
-    // </div>
   );
 }
 

@@ -12,17 +12,31 @@ const UberXWrapper = () => {
   const handleCardClick = (data) => {
     setSelectedCardData(data);
   };
-
-  // useEffect to simulate a component did mount and set initial selectedCardData
   useEffect(() => {
     const initialData = data.find((d) => d.id === 1);
     handleCardClick(initialData);
   }, []);
-  const wrapperBackgroundColor = "#222";
+  const wrapperBackgroundColor = "#111827";
+  const border = "1px solid #3E83EA";
+  const background = "rgba(62, 131, 234, 0.2)";
+  const color = "#3E83EA";
+  const color2 = "#fff";
+  const background2 = "#3E83EA";
   return (
     <Product9Wrapper backgroundColor={wrapperBackgroundColor}>
-      <Product9a onCardClick={handleCardClick} data={data} />
-      <Product9b selectedCardData={selectedCardData} />
+      <Product9a
+        onCardClick={handleCardClick}
+        data={data}
+        border={border}
+        background={background}
+        color={color}
+        color2={color2}
+      />
+      <Product9b
+        selectedCardData={selectedCardData}
+        background2={background2}
+        // selectedBackgroundColor={selectedBackgroundColor}
+      />
     </Product9Wrapper>
   );
 };

@@ -8,6 +8,7 @@ const MedX8 = () => {
   const mail = "Win Against The Competition ";
   const paragraph1 =
     "Expand Your On-demand Delivery Business with the Influence of our ready-to-use 100% Customizable Software Solution for profitable results in your Company ";
+  const color = "#3E83EA";
   return (
     <div>
       <Service3Props
@@ -15,6 +16,7 @@ const MedX8 = () => {
         props={heading}
         mail={mail}
         paragraph1={paragraph1}
+        textColor={color}
       />
     </div>
   );

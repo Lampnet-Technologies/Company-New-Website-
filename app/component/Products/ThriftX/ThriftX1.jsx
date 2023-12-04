@@ -10,6 +10,10 @@ const ThriftX1 = () => {
     "Thrift Collection & Investment Management Software for Your Thrift Banking";
   const paragraph =
     "Automate your investment business operations to increase efficiency, gather and analyse important data to source and close more deals online.";
+  const backgroundColor = "#E47E1F";
+  const border = "1px solid #E47E1F";
+  const colorbutton = "#E47E1F";
+  const color = "#E47E1F";
   return (
     <div>
       <Product1
@@ -19,6 +23,11 @@ const ThriftX1 = () => {
         image={Producthero}
         initial={initial}
         initial2={initial2}
+        color={color}
+        backgroundColor={backgroundColor}
+        colorbutton={colorbutton}
+        border={border}
+        textColor={color}
       />
     </div>
   );

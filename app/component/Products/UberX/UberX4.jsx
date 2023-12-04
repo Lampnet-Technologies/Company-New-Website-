@@ -18,6 +18,9 @@ const UberX4 = () => {
   const body =
     "Our on-demand Uber Clone App – For Ride-hailing Offers Unique Features Against Your Competitors";
   const initial = "Download Now";
+  const color = "#0F479C";
+  const backgroundColor = "#0F479C";
+  const border = "0px solid #0F479C";
   return (
     <div>
       {" "}
@@ -35,6 +38,9 @@ const UberX4 = () => {
         img={Realtime}
         Circle={Circle}
         initial={initial}
+        textColor={color}
+        backgroundColor={backgroundColor}
+        border={border}
       />
     </div>
   );

@@ -18,6 +18,7 @@ const Restaurant4 = () => {
   const body =
     "Unleash Your Restaurant's Potential With The Industry’s Only Restaurant Enterprise Management Platform.";
   const initial = "Download Now";
+  const color = "#AB0E12";
   return (
     <div>
       {" "}
@@ -35,6 +36,7 @@ const Restaurant4 = () => {
         img={Realtime}
         Circle={Circle}
         initial={initial}
+        textColor={color}
       />
     </div>
   );

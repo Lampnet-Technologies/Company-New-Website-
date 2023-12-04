@@ -9,13 +9,16 @@ const UberX2 = () => {
   const subHeader = "Core  Functionality –Everything You Need";
   const paragraph =
     "Approved by many regulators, flexible and customizable, API-based, cloud-hosted or on-premise-installed, available in SaaS or perpetual license model, opportunity to purchase source codes.";
-  return (
+  const color = "#0F479C";
+
+  return (  
     <div>
       <Product2
         header={header}
         subHeader={subHeader}
         paragraph={paragraph}
         data={data}
+        textColor={color}
       />
     </div>
   );

@@ -11,11 +11,9 @@ const MedX1 = () => {
   const initial2 = "Become a Reseller";
 
   const backgroundColor = "#3E83EA";
-  const colorBorder = "1px solid #3E83EA";
+  const border = "1px solid #3E83EA";
   const colorbutton = "#3E83EA";
-  const color = {
-    color: "#3E83EA",
-  };
+  const color = "#3E83EA";
 
   return (
     <div>
@@ -28,8 +26,9 @@ const MedX1 = () => {
         initial2={initial2}
         color={color}
         backgroundColor={backgroundColor}
-        colorBorder={colorBorder}
         colorbutton={colorbutton}
+        border={border}
+        textColor={color}
       />
     </div>
   );

@@ -9,6 +9,11 @@ const FIntechX1 = () => {
     "A White-label Mobile Banking App For all type of Fintech Solution ";
   const paragraph =
     "Best White-label digital banking platform branded and customized for your business.";
+  const backgroundColor = "#453787";
+  const border = "1px solid #453787";
+  const colorbutton = "#453787";
+  const color = "#453787";
+
   return (
     <div>
       <Product1
@@ -18,6 +23,11 @@ const FIntechX1 = () => {
         image={Producthero}
         initial={initial}
         initial2={initial2}
+        color={color}
+        backgroundColor={backgroundColor}
+        colorbutton={colorbutton}
+        border={border}
+        textColor={color}
       />
     </div>
   );

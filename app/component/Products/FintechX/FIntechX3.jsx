@@ -7,6 +7,8 @@ const FIntechX3 = () => {
   const subheader = "Financial Institutions Like Yours Enjoy Fintech 360 ";
   const paragraph =
     "LampNets Solutions strives to provide top-tier IT solutions to businesses of all sizes and locations from industry experts";
+  const color = "#453787";
+
   return (
     <div>
       <Product3
@@ -14,6 +16,7 @@ const FIntechX3 = () => {
         header={header}
         subheader={subheader}
         paragraph={paragraph}
+        textColor={color}
       />
     </div>
   );

@@ -15,7 +15,7 @@ const CourieX8 = () => {
         props={heading}
         mail={mail}
         paragraph1={paragraph1}
-      />  
+      />
     </div>
   );
 };

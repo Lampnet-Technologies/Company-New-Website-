@@ -20,6 +20,7 @@ const FeedX2 = () => {
         subHeader={subHeader}
         paragraph={paragraph}
         data={data}
+        textColor={color}
       />
     </div>
   );

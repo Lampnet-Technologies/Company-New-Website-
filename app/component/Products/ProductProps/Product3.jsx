@@ -3,13 +3,21 @@ import Image from "next/image";
 import classes from "./Product3.module.css";
 
 const Product3 = (props) => {
-  const { header, subheader, paragraph, data } = props;
+  const { header, subheader, paragraph, data, textColor } = props;
+
+  const h6Style = {
+    color: textColor,
+    fontSize: "21px",
+    fontStyle: "normal",
+    fontWeight: 600,
+    lineHeight: "25.2px" /* 120% */,
+  };
 
   return (
     <div className={` ${classes.Product3GrandMain}`}>
-      <div className= {`container ${classes.Product3Main} `}>
+      <div className={`container ${classes.Product3Main} `}>
         <div className={classes.Product3Parent}>
-          <h6> {header} </h6>
+          <h6 style={h6Style}> {header} </h6>
           <h2> {subheader} </h2>
           <p> {paragraph} </p>
         </div>

@@ -18,6 +18,9 @@ const ThriftX4 = () => {
   const body =
     "Fintech 360 Banking Software incorporates all banking and payment functions in one single platform.";
   const initial = "Download Now";
+  const color = "#E47E1F";
+  const backgroundColor = "#E47E1F";
+  const border = "0px solid #E47E1F";
   return (
     <div>
       {" "}
@@ -35,6 +38,9 @@ const ThriftX4 = () => {
         img={Realtime}
         Circle={Circle}
         initial={initial}
+        textColor={color}
+        backgroundColor={backgroundColor}
+        border={border}
       />
     </div>
   );

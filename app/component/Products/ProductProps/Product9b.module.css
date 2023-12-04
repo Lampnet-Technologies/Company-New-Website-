@@ -7,7 +7,6 @@
 }
 .Product9bsidebar h2 {
   color: var(--white, #fff);
-  font-family: "Montserrat";
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -16,7 +15,6 @@
 }
 .Product9bsidebar p {
   color: var(--white, #fff);
-  font-family: "Montserrat";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

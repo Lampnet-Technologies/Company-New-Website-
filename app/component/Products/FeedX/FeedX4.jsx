@@ -21,6 +21,12 @@ const FeedX4 = () => {
     "Your customers have convenience to order the same item or multiple with a single tap.";
 
   const initial = "Download Now";
+  const color = "#F6613F";
+  const backgroundColor = "#F6613F";
+  const border = "0px solid #F6613F";
+  const background = "#111827";
+  const h2Color = "#fff";
+  const pColor = "#fff";
   return (
     <div>
       <Product4
@@ -37,6 +43,12 @@ const FeedX4 = () => {
         img={Realtime}
         Circle={Circle}
         initial={initial}
+        textColor={color}
+        backgroundColor={backgroundColor}
+        border={border}
+        background={background}
+        h2Color={h2Color}
+        pColor={pColor}
       />
     </div>
   );

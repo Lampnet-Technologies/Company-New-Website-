@@ -24,13 +24,13 @@
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
-.Product2Main h6 {
+/* .Product2Main h6 {
   color: var(--Primary-color, #54bd95);
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
-  line-height: 25.2px; /* 120% */
-}
+  line-height: 25.2px; 
+} */
 @media screen and (max-width: 576px) {
   .Product2Main h6 {
     font-size: 16px;

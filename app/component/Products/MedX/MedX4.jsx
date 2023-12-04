@@ -18,6 +18,13 @@ const MedX4 = () => {
   const body =
     "LampNets Solutions strives to provide top-tier IT solutions to businesses of all sizes and locations from industry experts";
   const initial = "Download Now";
+  const color = "#3E83EA";
+  const backgroundColor = "#3E83EA";
+  const border = "0px solid #3E83EA";
+  const background = "#111827";
+  const h2Color = "#fff";
+  const pColor = "#fff";
+
   return (
     <div>
       <Product4
@@ -34,6 +41,12 @@ const MedX4 = () => {
         img={Realtime}
         Circle={Circle}
         initial={initial}
+        textColor={color}
+        backgroundColor={backgroundColor}
+        border={border}
+        background={background}
+        h2Color={h2Color}
+        pColor={pColor}
       />
     </div>
   );

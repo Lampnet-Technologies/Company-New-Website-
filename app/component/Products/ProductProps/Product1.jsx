@@ -9,8 +9,6 @@ const Product1 = ({
   backgroundColor,
   textColor,
   border,
-  customBorder,
-  color,
   colorbutton,
   header,
   subheader,

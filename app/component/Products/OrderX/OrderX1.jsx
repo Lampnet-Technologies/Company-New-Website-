@@ -9,6 +9,10 @@ const OrderX1 = () => {
   const subheader = "An online shopping App for your E-commerce";
   const paragraph =
     "Co-workspaceX is reimagining coworking software. Say hello to the all-in-one platform for flex space management.";
+  const backgroundColor = "#F76C6C";
+  const border = "1px solid #F76C6C";
+  const colorbutton = "#F76C6C";
+  const color = "#F76C6C";
   return (
     <div>
       <Product1
@@ -18,6 +22,11 @@ const OrderX1 = () => {
         image={Producthero}
         initial={initial}
         initial2={initial2}
+        color={color}
+        backgroundColor={backgroundColor}
+        colorbutton={colorbutton}
+        border={border}
+        textColor={color}
       />
     </div>
   );

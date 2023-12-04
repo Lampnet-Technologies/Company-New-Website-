@@ -3,12 +3,15 @@ import React from "react";
 import Image from "next/image";
 import classes from "./Service3Props.module.css";
 
-const Service3Props = ({ data, props, mail, paragraph1 }) => {
+const Service3Props = ({ data, props, mail, paragraph1, textColor }) => {
+  const h6Style = {
+    color: textColor,
+  };
   return (
     <div className={`${classes.Service3Main}`}>
       <div className={`container`}>
         <div className={classes.Service3Parent}>
-          <h6> {mail} </h6>
+          <h6 style={h6Style}> {mail} </h6>
           <h2> {props}</h2>
           <p> {paragraph1} </p>
         </div>

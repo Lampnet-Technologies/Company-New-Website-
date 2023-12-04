@@ -8,6 +8,8 @@ const FeedX3 = () => {
   const subheader = "White-Label Software for Your Needs";
   const paragraph =
     "Expand Your On-demand Delivery Business with the Influence of our ready-to-use 100% Customizable Software Solution for profitable results in your Company ";
+  const color = "#F6613F";
+
   return (
     <div>
       <Product3
@@ -15,6 +17,7 @@ const FeedX3 = () => {
         header={header}
         subheader={subheader}
         paragraph={paragraph}
+        textColor={color}
       />
     </div>
   );

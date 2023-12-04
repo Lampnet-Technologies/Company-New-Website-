@@ -8,6 +8,8 @@ const ThriftX2 = () => {
   const subHeader = "Core Banking Functionality –Everything You Need";
   const paragraph =
     "Approved by many regulators, flexible and customizable, API-based, cloud-hosted or on-premise-installed, available in SaaS or perpetual license model, opportunity to purchase source codes.";
+  const color = "#E47E1F";
+
   return (
     <div>
       {" "}
@@ -16,6 +18,7 @@ const ThriftX2 = () => {
         subHeader={subHeader}
         paragraph={paragraph}
         data={data}
+        textColor={color}
       />
     </div>
   );

@@ -9,6 +9,8 @@ const OrderX2 = () => {
   const subHeader = "Core  Functionality –Everything You Need";
   const paragraph =
     "Approved by many regulators, flexible and customizable, API-based, cloud-hosted or on-premise-installed, available in SaaS or perpetual license model, opportunity to purchase source codes.";
+  const color = "#F76C6C";
+
   return (
     <div>
       <Product2
@@ -16,6 +18,7 @@ const OrderX2 = () => {
         subHeader={subHeader}
         paragraph={paragraph}
         data={data}
+        textColor={color}
       />
     </div>
   );

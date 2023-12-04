@@ -10,6 +10,7 @@ const CourieX2 = () => {
     "The Most Versatile Logistics & Delivery Management Platform";
   const paragraph =
     "We understand your idea is unique, and so should be your product, hence we combine our resouces to accelerate the growth of your startup from ideation to execution";
+  const color = "#54BD95";
   return (
     <div>
       <Product2
@@ -17,6 +18,7 @@ const CourieX2 = () => {
         subHeader={subHeader}
         paragraph={paragraph}
         data={data}
+        textColor={color}
       />
     </div>
   );

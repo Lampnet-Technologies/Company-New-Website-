@@ -5,9 +5,13 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
 
-const Product2 = ({ data, header, subHeader, paragraph, color }) => {
-  const headerStyle = {
-    color: color && color.h6 ? color.h6 : "#000",
+const Product2 = ({ data, header, subHeader, paragraph, textColor }) => {
+  const h6Style = {
+    color: textColor,
+    fontSize: "21px",
+    fontStyle: "normal",
+    fontWeight: 600,
+    lineHeight: "25.2px" /* 120% */,
   };
 
   const responsive = {
@@ -32,7 +36,7 @@ const Product2 = ({ data, header, subHeader, paragraph, color }) => {
   return (
     <div className={`container ${classes.Product2GrandMain}`}>
       <div className={classes.Product2Main}>
-        <h6 style={headerStyle}>{header} </h6>
+        <h6 style={h6Style}>{header} </h6>
         <h2>{subHeader}</h2>
         <p>{paragraph}</p>
       </div>

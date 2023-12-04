@@ -9,6 +9,7 @@ const Restaurant2 = () => {
   const subHeader = "Core  Functionality –Everything You Need";
   const paragraph =
     "Approved by Tailored For Success. Most Advanced Features to help you run your restaurant business smoothly and efficiently.";
+  const color = "#AB0E12";
   return (
     <div>
       {" "}
@@ -17,6 +18,7 @@ const Restaurant2 = () => {
         subHeader={subHeader}
         paragraph={paragraph}
         data={data}
+        textColor={color}
       />
     </div>
   );

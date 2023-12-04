@@ -7,6 +7,9 @@ const UberX3 = () => {
   const subheader = "Uberx Ride-Hailing Software Offers";
   const paragraph =
     "School 360 provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your school organization.";
+
+  const color = "#0F479C";
+
   return (
     <div>
       {" "}
@@ -15,6 +18,7 @@ const UberX3 = () => {
         header={header}
         subheader={subheader}
         paragraph={paragraph}
+        textColor={color}
       />
     </div>
   );

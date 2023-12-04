@@ -17,7 +17,6 @@
   text-align: center;
 }
 .Product4Child h6 {
-  color: #54bd95;
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
@@ -287,7 +286,7 @@
 }
 
 .Product4ButtonMain button {
-  background: #54bd95 !important;
+  /* background: #54bd95 !important; */
 }
 @media screen and (max-width: 576px) {
   .Product4Bro {

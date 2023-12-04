@@ -9,6 +9,7 @@ const CoWorkspaceX2 = () => {
   const subHeader = "Core Banking Functionality –Everything You Need";
   const paragraph =
     "Approved by many regulators, flexible and customizable, API-based, cloud-hosted or on-premise-installed, available in SaaS or perpetual license model, opportunity to purchase source codes.";
+  const color = "#1628F4";
   return (
     <div>
       {" "}
@@ -17,6 +18,7 @@ const CoWorkspaceX2 = () => {
         subHeader={subHeader}
         paragraph={paragraph}
         data={data}
+        textColor={color}
       />
     </div>
   );

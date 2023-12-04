@@ -8,6 +8,7 @@ const OrderX8 = () => {
   const mail = "Win Against The Competition ";
   const paragraph1 =
     "Fintech 360 white-label banking software comes as a collection of configurable standalone modules to handle the core functionality for financial services.";
+  const color = "#F76C6C";
   return (
     <div>
       {" "}
@@ -16,6 +17,7 @@ const OrderX8 = () => {
         props={heading}
         mail={mail}
         paragraph1={paragraph1}
+        textColor={color}
       />{" "}
     </div>
   );
@@ -42,4 +44,3 @@ const data = [
     image: Clock,
   },
 ];
- 

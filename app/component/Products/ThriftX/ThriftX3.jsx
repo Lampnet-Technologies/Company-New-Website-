@@ -7,6 +7,8 @@ const ThriftX3 = () => {
   const subheader = "Investment management software for your needs ";
   const paragraph =
     "School 360 provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your school organization.";
+  const color = "#E47E1F";
+
   return (
     <div>
       <Product3
@@ -14,6 +16,7 @@ const ThriftX3 = () => {
         header={header}
         subheader={subheader}
         paragraph={paragraph}
+        textColor={color}
       />
     </div>
   );

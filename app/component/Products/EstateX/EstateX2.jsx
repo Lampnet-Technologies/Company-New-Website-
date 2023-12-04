@@ -9,13 +9,16 @@ const EstateX2 = () => {
   const subHeader = "Put Your Portfolio On Autopilot With Our EstateX";
   const paragraph =
     "MedX is built to handle everything that clinics both large and small need to run smoothly. Forget spreadsheets, integrations, paper notes and scanning - do it all from one easy to use tool.";
+  const color = "#AB0E12";
   return (
     <div>
       <Product2
+        color={color}
         header={header}
         subHeader={subHeader}
         paragraph={paragraph}
         data={data}
+        textColor={color}
       />
     </div>
   );

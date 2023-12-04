@@ -18,6 +18,10 @@ const OrderX4 = () => {
   const body =
     "Fintech 360 Banking Software incorporates all banking and payment functions in one single platform.";
   const initial = "Download Now";
+  const color = "#F76C6C";
+  const backgroundColor = "#F76C6C";
+  const border = "0px solid #F76C6C";
+
   return (
     <div>
       {" "}
@@ -35,6 +39,9 @@ const OrderX4 = () => {
         img={Realtime}
         Circle={Circle}
         initial={initial}
+        textColor={color}
+        backgroundColor={backgroundColor}
+        border={border}
       />
     </div>
   );

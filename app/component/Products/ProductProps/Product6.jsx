@@ -13,7 +13,7 @@ const Product6 = ({data}) => {
       ))}
     </div>
   );
-};
+};     
 
 export default Product6;
 

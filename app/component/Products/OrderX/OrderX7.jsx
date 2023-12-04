@@ -6,6 +6,12 @@ const OrderX7 = () => {
   const initial = "Become a Reseller";
   const header = "Let’s Collaborate";
   const subheader = "Experience The Simplest Inventory Management Software.";
+  const background = "#222";
+  const backgroundColor = "#fff";
+  const color = "#222";
+  const border = " 1px solid #fff";
+  const color2 = "#fff";
+  const background2 = "#222";
   return (
     <div>
       {" "}
@@ -14,6 +20,12 @@ const OrderX7 = () => {
         subheader={subheader}
         initial={initial}
         initial1={initial1}
+        background={background}
+        backgroundColor={backgroundColor}
+        color={color}
+        border={border}
+        color2={color2}
+        background2={background2}
       />
     </div>
   );

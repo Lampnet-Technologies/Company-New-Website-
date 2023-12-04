@@ -1,6 +1,5 @@
 .Product7Main {
-  /* margin-top: 5rem; */
-  background: #54bd95;
+  /* background: #54bd95; */
   padding: 3rem 0;
 }
 
@@ -129,7 +128,7 @@
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
 }
 
-.Product7Bro button {
+/* .Product7Bro button {
   background: var(--white, #fff) !important;
   color: #54bd95 !important;
 }
@@ -137,4 +136,4 @@
   border: 1px solid var(--white, #fff) !important;
   color: #fff !important;
   background: #54bd95 !important;
-}
+} */

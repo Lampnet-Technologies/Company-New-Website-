@@ -18,6 +18,9 @@ const EstateX4 = () => {
   const body =
     "Whether you manage five doors or five thousand, you need a simple, unified platform that powers you to be your best";
   const initial = "Download Now";
+  const color = "#AB0E12";
+  const backgroundColor = "#222";
+  const border = "0px solid #222";
   return (
     <div>
       <Product4
@@ -34,6 +37,9 @@ const EstateX4 = () => {
         img={Realtime}
         Circle={Circle}
         initial={initial}
+        textColor={color}
+        backgroundColor={backgroundColor}
+        border={border}
       />
     </div>
   );

@@ -7,6 +7,8 @@ const SchoolX3 = () => {
   const subheader = "Schools like yours love School 360. It is designed for ";
   const paragraph =
     "School 360 provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your school organization.";
+  const color = "#AB0E12";
+
   return (
     <div>
       <Product3
@@ -14,6 +16,7 @@ const SchoolX3 = () => {
         header={header}
         subheader={subheader}
         paragraph={paragraph}
+        textColor={color}
       />
     </div>
   );

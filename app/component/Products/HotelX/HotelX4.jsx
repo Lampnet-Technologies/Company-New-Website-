@@ -18,6 +18,9 @@ const HotelX4 = () => {
   const body =
     "Improve your hotel and resort guest experience and maximise your profits with a smart cloud-based property management software from any device.";
   const initial = "Download Now";
+  const color = "#34A853";
+  const backgroundColor = "#34A853";
+  const border = "0px solid #34A853";
   return (
     <div>
       <Product4
@@ -34,6 +37,9 @@ const HotelX4 = () => {
         img={Realtime}
         Circle={Circle}
         initial={initial}
+        textColor={color}
+        backgroundColor={backgroundColor}
+        border={border}
       />
     </div>
   );

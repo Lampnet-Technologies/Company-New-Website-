@@ -9,6 +9,8 @@ const HotelX2 = () => {
   const subHeader = "Core Functionality –Everything You Need";
   const paragraph =
     "Approved by Tailored For Success. Most Advanced Features to help you run your restaurant business smoothly and efficiently.";
+  const color = "#34A853";
+
   return (
     <div>
       <Product2
@@ -16,6 +18,7 @@ const HotelX2 = () => {
         subHeader={subHeader}
         paragraph={paragraph}
         data={data}
+        textColor={color}
       />
     </div>
   );

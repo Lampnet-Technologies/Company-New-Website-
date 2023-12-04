@@ -7,6 +7,8 @@ const OrderX3 = () => {
   const subheader = "What you can do with OrderX ";
   const paragraph =
     "School 360 provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your school organization.";
+  const color = "#F76C6C";
+
   return (
     <div>
       <Product3
@@ -14,6 +16,7 @@ const OrderX3 = () => {
         header={header}
         subheader={subheader}
         paragraph={paragraph}
+        textColor={color}
       />
     </div>
   );

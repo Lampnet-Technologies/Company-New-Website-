@@ -11,9 +11,7 @@ const MedX2 = () => {
   const paragraph =
     "MedX is built to handle everything that clinics both large and small need to run smoothly. Forget spreadsheets, integrations, paper notes and scanning - do it all from one easy to use tool.";
 
-  const color = {
-    h6: "#3E83EA",
-  };
+  const color = "#3E83EA";
 
   return (
     <div>
@@ -22,7 +20,7 @@ const MedX2 = () => {
         subHeader={subHeader}
         paragraph={paragraph}
         data={data}
-        color={color}
+        textColor={color}
       />
     </div>
   );

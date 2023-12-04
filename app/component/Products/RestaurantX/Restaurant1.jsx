@@ -9,6 +9,11 @@ const Restaurant1 = () => {
   const subheader = "360 Restaurant Management Solution.";
   const paragraph =
     "Setup your own multi-vendor marketplace to serve your customers with multiple products and services. Get Started with our SaaS-based on-demand multi-delivery solution.";
+  const backgroundColor = "#AB0E12";
+  const border = "1px solid #AB0E12";
+  const colorbutton = "#AB0E12";
+  const color = "#AB0E12";
+
   return (
     <div>
       {" "}
@@ -19,6 +24,11 @@ const Restaurant1 = () => {
         image={Producthero}
         initial={initial}
         initial2={initial2}
+        color={color}
+        backgroundColor={backgroundColor}
+        colorbutton={colorbutton}
+        border={border}
+        textColor={color}
       />
     </div>
   );
