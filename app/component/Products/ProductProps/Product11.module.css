@@ -86,7 +86,7 @@
 }
 
 .Product11Parent h2 {
-  color: #54bd95;
+  color: #222;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -170,7 +170,7 @@
 
 .Product11Button button {
   /* border: 1px solid #FFF; */
-  background: #54bd95 !important;
+  /* background: #54bd95 !important; */
 }
 
 @media screen and (max-width: 576px) {

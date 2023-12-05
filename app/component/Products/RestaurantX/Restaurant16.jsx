@@ -8,6 +8,8 @@ const Restaurant16 = () => {
   const body =
     "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
   const initial = "Become a Partner";
+  const backgroundColor = "#AB0E12";
+  const border = "0px solid #AB0E12";
   return (
     <div>
       <Product11
@@ -16,6 +18,8 @@ const Restaurant16 = () => {
         body={body}
         initial={initial}
         image={Mockup1}
+        backgroundColor={backgroundColor}
+        border={border}
       />
     </div>
   );

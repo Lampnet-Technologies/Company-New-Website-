@@ -5,9 +5,15 @@ const UberX10 = () => {
   const subheader = "Building Your Business Is Our Passion";
   const body =
     "LampNets School 360 Solutions  works for all use cases and strives to provide top-tier IT solutions to businesses of all sizes and locations in the learning industry";
+  const color = "#0F479C";
   return (
     <div>
-      <Product10 header={header} subheader={subheader} body={body} />
+      <Product10
+        header={header}
+        subheader={subheader}
+        body={body}
+        color={color}
+      />
     </div>
   );
 };

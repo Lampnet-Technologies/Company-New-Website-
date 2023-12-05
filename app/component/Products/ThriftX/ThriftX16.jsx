@@ -8,6 +8,8 @@ const ThriftX16 = () => {
   const body =
     "Collaborate with us and Explore our Partnership Program to earn more by selling, customizing or integrating our premium logistic solution";
   const initial = "Become a Partner";
+  const backgroundColor = "#E47E1F";
+  const border = "0px solid #E47E1F";
   return (
     <div>
       {" "}
@@ -17,6 +19,8 @@ const ThriftX16 = () => {
         body={body}
         initial={initial}
         image={Mockup1}
+        backgroundColor={backgroundColor}
+        border={border}
       />
     </div>
   );

@@ -1,6 +1,6 @@
 .Product17Main {
   border-radius: 22px;
-  background: #54bd95;
+  /* background: #54bd95; */
   padding: 2rem 3rem;
   margin-bottom: 5rem;
   margin-top: 5rem;
@@ -8,7 +8,7 @@
 .Product17Main h2 {
   color: var(--Ash-background, #fbfbfb);
   text-align: center;
-  font-family: "Montserrat";
+
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -65,19 +65,19 @@
   margin-top: 3rem;
 }
 .Product17Child button {
-  background: var(--Ash-background, #fbfbfb) !important;
-  color: #54bd95 !important;
-  font-family: "Montserrat";
+  /* background: var(--Ash-background, #fbfbfb) !important;
+  color: #54bd95 !important; */
+
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 24px; /* 150% */
 }
 .Product17Child2 button {
-  border: 1px solid var(--Ash-background, #fbfbfb) !important;
+  /* border: 1px solid var(--Ash-background, #fbfbfb) !important;
   background: #54bd95 !important;
-  color: var(--Ash-background, #fbfbfb) !important;
-  font-family: "Montserrat";
+  color: var(--Ash-background, #fbfbfb) !important; */
+
   font-size: 16px;
   font-style: normal;
   font-weight: 600;

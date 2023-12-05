@@ -8,6 +8,8 @@ const CoWorkspaceX16 = () => {
   const body =
     "Collaborate with us and Explore our Partnership Program to earn more by selling, customizing or integrating our premium logistic solution";
   const initial = "Become a Partner";
+  const backgroundColor = "#1628F4";
+  const border = "0px solid #1628F4";
   return (
     <div>
       <Product11
@@ -16,6 +18,8 @@ const CoWorkspaceX16 = () => {
         body={body}
         initial={initial}
         image={Mockup1}
+        backgroundColor={backgroundColor}
+        border={border}
       />
     </div>
   );
