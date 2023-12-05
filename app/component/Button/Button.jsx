@@ -3,7 +3,7 @@ import React from "react";
 
 function MyButton(props) {
   const buttonStyle = {
-    backgroundColor: props.backgroundColor || "var(--Primary-color, #fff)",
+    backgroundColor: props.backgroundColor || "var(--Primary-color, #ab0e12)",
     color: props.color || "var(--white, #fff)",
     borderRadius: "4px",
     fontSize: "16px",
@@ -11,7 +11,7 @@ function MyButton(props) {
     fontWeight: "600",
     lineHeight: "24px",
     padding: "0.5rem 1rem",
-    border: props.border || "0px solid #fff",
+    border: props.border || "0px solid #ab0e12",
   };
 
   return (
