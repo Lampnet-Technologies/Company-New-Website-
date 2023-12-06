@@ -34,8 +34,8 @@ const Product17 = ({
           <div className={classes.Product17Child2}>
             <MyButton
               text={initial2}
-              border2={border2}
-              backgroundColor2={backgroundColor2}
+              border={border2}
+              backgroundColor={backgroundColor2}
               color={color}
             />
           </div>

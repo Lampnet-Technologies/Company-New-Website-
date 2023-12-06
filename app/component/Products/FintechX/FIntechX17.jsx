@@ -9,6 +9,8 @@ const FIntechX17 = () => {
   const border = "1px solid #fff";
   const background = "#453787";
   const color = "#000";
+  const backgroundColor2 = "#fff";
+  const border2 = "#fff";
   return (
     <div>
       {" "}
@@ -20,6 +22,8 @@ const FIntechX17 = () => {
         border={border}
         background={background}
         color={color}
+        backgroundColor2={backgroundColor2}
+        border2={border2}
       />
     </div>
   );

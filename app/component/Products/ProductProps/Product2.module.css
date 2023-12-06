@@ -140,6 +140,7 @@
   background: var(--Black, #222);
   box-shadow: 2px 2px 8px 0px rgba(7, 21, 41, 0.05);
   text-align: center;
+  min-height: 40vh !important;
 }
 .Product2Child h6 {
   color: #fff;
