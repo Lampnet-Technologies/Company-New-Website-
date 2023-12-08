@@ -14,6 +14,7 @@ import arrowOne from "../../../public/images/arrowOne.svg";
 import arrowTwo from "../../../public/images/arrowTwo.svg";
 import ButtonThree from "../Button/ButtonThree";
 import MyButton from "../Button/Button";
+import Link from "next/link";
 
 const HomePage5 = () => {
   const [selectedCategory, setSelectedCategory] = useState(1);
@@ -93,25 +94,28 @@ const HomePage5 = () => {
             }`}
             onClick={() => handleCardClick(product.id)}
           >
-            <p> {product.name}</p>
+            {" "}
+            <Link href={product.link}>
+              <p> {product.name}</p>
 
-            <div className={classes.HomePage5img}>
-              {selectedCard === product.id ? (
-                <Image
-                  src={arrowOne}
-                  alt="Arrow One"
-                  quality={100}
-                  width={30}
-                />
-              ) : (
-                <Image
-                  src={arrowTwo}
-                  alt="Arrow Two"
-                  quality={100}
-                  width={30}
-                />
-              )}
-            </div>
+              <div className={classes.HomePage5img}>
+                {selectedCard === product.id ? (
+                  <Image
+                    src={arrowOne}
+                    alt="Arrow One"
+                    quality={100}
+                    width={30}
+                  />
+                ) : (
+                  <Image
+                    src={arrowTwo}
+                    alt="Arrow Two"
+                    quality={100}
+                    width={30}
+                  />
+                )}
+              </div>
+            </Link>
           </div>
         ))}
       </div>
@@ -174,68 +178,100 @@ const categories = [
     image: Industry8,
     text: "E-Commerce",
   },
+  // {
+  //   id: 9,
+  //   image: Industry8,
+  //   text: "E-Commerce",
+  // },
+  // {
+  //   id: 10,
+  //   image: Industry8,
+  //   text: "E-Commerce",
+  // },
+  // {
+  //   id: 11,
+  //   image: Industry8,
+  //   text: "E-Commerce",
+  // },
+  // {
+  //   id: 12,
+  //   image: Industry8,
+  //   text: "E-Commerce",
+  // },
 ];
-  
+
 const products = [
   {
     id: 1,
     name: "CourierX Logistics App",
     category: 2, // Belongs to "Food" category
+    link: "/courier-x",
   },
   {
     id: 2,
-    name: "OrderX Food Ordering App",
-    category: 3, // Belongs to "Transportation" category
+    name: " FoodX Ordering App",
+    category: 2, // Belongs to "Transportation" category
+    link: "/fleed-x",
   },
   {
     id: 3,
     name: "UberX Ride Hailing App",
-    category: 2, // Belongs to "Food" category
+    category: 3, // Belongs to "Food" category
+    link: "/uber-x",
   },
   {
     id: 4,
-    name: "OrderX Grocery Delivery App",
+    name: "EstateX App",
     category: 2, // Belongs to "Food" category
+    link: "/estate-x",
   },
   {
     id: 5,
-    name: "OrderX Gas Delivery App",
-    category: 2, // Belongs to "Food" category
+    name: "FintechX App",
+    category: 6, // Belongs to "Food" category
+    link: "/fintech-x",
   },
   {
     id: 6,
-    name: "OrderX Laundry Delivery App",
-    category: 2, // Belongs to "Food" category
+    name: "HotelX App",
+    category: 8, // Belongs to "Food" category
+    link: "/hotel-x",
   },
   {
     id: 7,
-    name: "OrderX Online Store & Delivery App",
-    category: 2, // Belongs to "Food" category
+    name: "MedX App",
+    category: 5, // Belongs to "Food" category
+    link: "/med-x",
   },
   {
     id: 8,
-    name: "OrderX Healthcare & Fitness Consultation App",
-    category: 2, // Belongs to "Food" category
+    name: "School360X App",
+    category: 4, // Belongs to "Food" category
+    link: "/school-x",
   },
   {
     id: 9,
-    name: "HotelX Management & POS Solution App",
-    category: 2, // Belongs to "Food" category
+    name: "ThriftX App",
+    category: 3, // Belongs to "Food" category
+    link: "/thrift-x",
   },
   {
     id: 10,
-    name: "UberX Ride Hailing App",
-    category: 2, // Belongs to "Food" category
+    name: "Co-workspaceX App",
+    category: 7, // Belongs to "Food" category
+    link: "/co-workspace-x",
   },
   {
     id: 11,
-    name: "UberX Taxi Hailing App",
+    name: "RestaurantX App",
     category: 2, // Belongs to "Food" category
+    link: "/uber-x",
   },
   {
     id: 12,
-    name: "HotelX Management & POS Solution App",
-    category: 2, // Belongs to "Food" category
+    name: "OrderX App",
+    category: 3, // Belongs to "Food" category
+    link: "/order-x",
   },
   // ... (other products)
 ];
