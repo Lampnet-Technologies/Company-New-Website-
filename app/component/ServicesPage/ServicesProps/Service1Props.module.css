@@ -26,12 +26,12 @@
 
 .Service1Parent h1 {
   color: var(--Black, #222);
-  font-family: "Montserrat";
+
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 57.6px;
-  width: 45%;
+  width: 50%;
 }
 @media screen and (max-width: 576px) {
   .Service1Parent h1 {

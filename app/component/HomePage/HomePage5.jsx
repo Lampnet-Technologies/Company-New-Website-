@@ -175,7 +175,7 @@ const categories = [
     text: "E-Commerce",
   },
 ];
-
+  
 const products = [
   {
     id: 1,

@@ -173,6 +173,21 @@
   /* background: #54bd95 !important; */
 }
 
+/* .Product11Child {
+  position: relative;
+  overflow: hidden;
+}
+.Product11Child:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  right: 0;
+ 
+} */
+
 @media screen and (max-width: 576px) {
   .Product11Child {
     display: none !important;
