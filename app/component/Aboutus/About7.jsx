@@ -106,7 +106,7 @@ const About7 = () => {
             <h6>Continuously Improve</h6>
             <p>
               We are committed to continuous improvement to ensure that we
-              provide cutting-edge solutions that exceed our clients'
+              provide cutting-edge solutions that exceed our clients
               expectations.
             </p>
           </motion.div>
@@ -142,7 +142,7 @@ const About7 = () => {
             <h6>Continuously Improve</h6>
             <p>
               We are committed to continuous improvement to ensure that we
-              provide cutting-edge solutions that exceed our clients'
+              provide cutting-edge solutions that exceed our clients
               expectations.
             </p>
           </motion.div>
