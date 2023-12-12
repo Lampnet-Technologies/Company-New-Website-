@@ -46,6 +46,7 @@ import Servicesa29 from "../../../public/images/Servicesa29.svg";
 import Servicesa30 from "../../../public/images/Servicesa30.svg";
 import Servicesa31 from "../../../public/images/Servicesa31.svg";
 import Servicesa32 from "../../../public/images/Servicesa32.svg";
+import classes from "./Homewrapper.module.css";
 
 const HomeWrapper = () => {
   const [selectedCardData, setSelectedCardData] = useState(null);
@@ -54,7 +55,6 @@ const HomeWrapper = () => {
     setSelectedCardData(data);
   };
 
-  // useEffect to simulate a component did mount and set initial selectedCardData
   useEffect(() => {
     const initialData = data.find((d) => d.id === 1);
     handleCardClick(initialData);

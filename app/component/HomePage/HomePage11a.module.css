@@ -1,14 +1,30 @@
 .sidebar {
-  width: 60%;
-  margin-top: 5rem;
+  width: 100%;
+  margin-top: 0rem;
   border-radius: 4px;
   background: var(--white, #fff);
   padding: 1rem 1rem;
-  height: 60vh;
+  height: 70vh;
+  margin-left: -5rem;
+
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  z-index: 0;
+}
+
+.NewSideBar {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
 }
 .sidebar h2 {
   color: var(--Black, #222);
-  font-family: "Montserrat";
+
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -16,7 +32,7 @@
 }
 .sidebar p {
   color: var(--Black, #222);
-  font-family: "Montserrat";
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -36,7 +52,7 @@
 }
 .sidebarBro p {
   color: var(--Black, #222);
-  font-family: "Montserrat";
+
   font-size: 16px;
   font-style: normal;
   font-weight: 500;

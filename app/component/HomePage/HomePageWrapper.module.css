@@ -1,6 +1,11 @@
-.HomePageWrapperMain {
+.HomePageWrapperHeader {
   background: #fbfbfb;
+}
+
+.HomePageWrapperMain {
   padding-bottom: 5rem !important;
+  display: flex !important;
+  position: relative;
 }
 
 @media screen and (max-width: 576px) {

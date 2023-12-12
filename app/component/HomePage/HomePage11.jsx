@@ -16,7 +16,7 @@ const HomePage11 = ({ onCardClick, data }) => {
   };
 
   return (
-    <div className={``}>
+    <div className={`${classes.HomePage11}`}>
       <div className={classes.DataList}>
         {data.map((d) => (
           <div

@@ -68,7 +68,8 @@ const Product1 = ({
                 // style={{ display: "inline-block" }}
                 animate={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -20 }}
-                transition={{ delay: index * 0.1 }} // Adjust the delay as needed
+                // transition={{ delay: index * 0.1 }}
+                transition={{ delay: index * 0.2, duration: 0.8 }}
               >
                 {word}{" "}
               </motion.span>
@@ -84,7 +85,8 @@ const Product1 = ({
                 // style={{ display: "inline-block" }}
                 animate={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -20 }}
-                transition={{ delay: index * 0.1 }}
+                // transition={{ delay: index * 0.1 }}
+                transition={{ delay: index * 0.2, duration: 0.8 }}
               >
                 {word}{" "}
               </motion.span>
@@ -100,7 +102,8 @@ const Product1 = ({
                 // style={{ display: "inline-block" }}
                 animate={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -20 }}
-                transition={{ delay: index * 0.1 }}
+                // transition={{ delay: index * 0.1 }}
+                transition={{ delay: index * 0.2, duration: 0.8 }}
               >
                 {word}{" "}
               </motion.span>

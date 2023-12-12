@@ -7,9 +7,9 @@ import ButtonTwo from "../Button/ButtonTwo";
 const HomePage11a = ({ selectedCardData }) => {
   const [initial, setInitial] = useState("Learn more");
   return (
-    <div className={`${classes.sidebar}`}>
+    <div className={` ${classes.sidebar}`}>
       {selectedCardData && (
-        <>
+        <div className={classes.NewSideBar}>
           <h2>{selectedCardData.text}</h2>
           <p> {selectedCardData.body} </p>
 
@@ -51,11 +51,11 @@ const HomePage11a = ({ selectedCardData }) => {
               <p> {selectedCardData.textd} </p>
             </div>
           </div>
-        </>
+          <div className={classes.sideBarButton}>
+            <ButtonTwo text={initial} />
+          </div>
+        </div>
       )}
-      <div className={classes.sideBarButton}>
-        <ButtonTwo text={initial} />
-      </div>
     </div>
   );
 };
