@@ -25,6 +25,7 @@ const HomePage5 = () => {
     selectedCategory === 1
       ? products
       : products.filter((product) => product.category === selectedCategory);
+
   const handleCategoryClick = (categoryId) => {
     setSelectedCategory(categoryId);
   };
