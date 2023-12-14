@@ -1,0 +1,80 @@
+.AboutForm9Main {
+  background: var(--Ash-background, #fbfbfb);
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.AboutForm9Parent {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+@media screen and (max-width: 576px) {
+  .AboutForm9Parent {
+    flex-direction: column !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .AboutForm9Parent {
+    flex-direction: column !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.AboutForm9Bro {
+  width: 100%;
+  border-radius: 4px;
+  background: var(--white, #fff);
+  box-shadow: 5px 4px 24px 0px rgba(7, 21, 41, 0.1);
+  padding: 1rem 1.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .AboutForm9Bro {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .AboutForm9Bro {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 922px) {
+}
+@media screen and (min-width: 923px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+}
+
+.AboutForm9Bro form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.AboutForm9Bro form input {
+  margin-top: 1.5rem;
+  color: #bbb;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 200% */
+}
+.AboutForm9Bro form textarea {
+  margin-top: 1.5rem;
+  height: 20vh;
+  /* padding: 5rem 0; */
+  color: #bbb;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 200% */
+}
+.AboutForm9Bro form button {
+  margin-top: 1.5rem;
+}

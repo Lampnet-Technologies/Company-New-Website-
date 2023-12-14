@@ -7,6 +7,7 @@ import ButtonThree from "../../Button/ButtonThree";
 import ButtonTwo from "../../Button/ButtonTwo";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Form from "../../Form/page";
 
 const Product1 = ({
   backgroundColor,
@@ -113,10 +114,50 @@ const Product1 = ({
 
         <div className={classes.ProductButton}>
           <div className={classes.ProductButton1}>
-            <MyButton text={initial} backgroundColor={backgroundColor} />
+            <MyButton
+              text={initial}
+              backgroundColor={backgroundColor}
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            />
           </div>
           <div className={classes.ProductButton2}>
-            <ButtonThree text={initial2} color={colorbutton} border={border} />
+            <ButtonThree
+              text={initial2}
+              color={colorbutton}
+              border={border}
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            />
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                {/* <h5 class="modal-title">Book An Appointment With Us</h5> */}
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <Form />
+              </div>
+            </div>
           </div>
         </div>
       </div>

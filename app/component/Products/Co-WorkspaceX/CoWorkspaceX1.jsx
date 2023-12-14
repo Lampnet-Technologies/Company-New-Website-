@@ -1,6 +1,7 @@
 import React from "react";
 import Product1 from "../ProductProps/Product1";
 import Producthero from "../../../../public/images/CoWorkSpaceHero.svg";
+import Form from "../../Form/page";
 
 const CoWorkspaceX1 = () => {
   const initial = "Consult Our Expert";

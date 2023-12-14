@@ -29,6 +29,10 @@ const Product17 = ({
               text={initial}
               backgroundColor={backgroundColor}
               border={border}
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
             />
           </div>
           <div className={classes.Product17Child2}>
@@ -37,6 +41,10 @@ const Product17 = ({
               border={border2}
               backgroundColor={backgroundColor2}
               color={color}
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
             />
           </div>
         </div>

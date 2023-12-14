@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import classes from "./HomePage11a.module.css";
 import Image from "next/image";
 import ButtonTwo from "../Button/ButtonTwo";
+import Link from "next/link";
 
 const HomePage11a = ({ selectedCardData }) => {
   const [initial, setInitial] = useState("Learn more");
@@ -52,7 +53,9 @@ const HomePage11a = ({ selectedCardData }) => {
             </div>
           </div>
           <div className={classes.sideBarButton}>
-            <ButtonTwo text={initial} />
+            <Link href="/about">
+              <ButtonTwo text={initial} />
+            </Link>
           </div>
         </div>
       )}

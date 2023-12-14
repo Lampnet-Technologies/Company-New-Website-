@@ -29,7 +29,14 @@ const Product9b = ({ selectedCardData, background2 }) => {
             {selectedCardData.body2}{" "}
           </p>
           <div className={classes.Product9bButton}>
-            <MyButton text="Build with us" backgroundColor={background2} />
+            <MyButton
+              text="Build with us"
+              backgroundColor={background2}
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            />
           </div>
         </>
       ) : (

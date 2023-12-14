@@ -5,6 +5,7 @@ import ButtonThree from "../Button/ButtonThree";
 import Image from "next/image";
 import HomePage7Image from "../../../public/images/HomePage7.svg";
 import Button from "../Button/Button";
+import Form from "../Form/page";
 
 const HomePage7 = () => {
   const [learn, setLearn] = useState("Partner with us");
@@ -27,15 +28,46 @@ const HomePage7 = () => {
             success for our clients.
           </p>
 
-          <Button text={learn} />
+          <Button
+            text={learn}
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          />
         </div>
 
         <div className={classes.HomePage7ImageB}>
           <Image src={HomePage7Image} alt="" quality={100} width={500} />
         </div>
       </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog  modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              {/* <h5 class="modal-title">Book An Appointment With Us</h5> */}
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <Form />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
-};  
+};
 
 export default HomePage7;

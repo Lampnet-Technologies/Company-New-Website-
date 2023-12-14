@@ -12,10 +12,18 @@ function MyButton(props) {
     lineHeight: "24px",
     padding: "0.5rem 1rem",
     border: props.border || "0px solid #ab0e12",
+    cursor: "pointer",
   };
 
   return (
-    <button style={buttonStyle} onClick={props.onClick}>
+    <button
+      style={buttonStyle}
+      onClick={props.onClick}
+      type={props.type}
+      className={props.className} // Add className prop
+      data-bs-toggle={props["data-bs-toggle"]} // Add data-bs-toggle prop
+      data-bs-target={props["data-bs-target"]} // Add data-bs-target prop
+    >
       {props.text}
     </button>
   );

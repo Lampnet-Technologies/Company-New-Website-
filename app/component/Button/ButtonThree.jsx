@@ -15,7 +15,17 @@ const ButtonThree = (props) => {
   };
   return (
     // <div className={classes.ButtonThreeMain}>
-    <button style={buttonStyle}> {props.text} </button>
+    <button
+      style={buttonStyle}
+      onClick={props.onClick}
+      type={props.type}
+      className={props.className} // Add className prop
+      data-bs-toggle={props["data-bs-toggle"]} // Add data-bs-toggle prop
+      data-bs-target={props["data-bs-target"]} // Add data-bs-target prop
+    >
+      {" "}
+      {props.text}{" "}
+    </button>
     // </div>
   );
 };

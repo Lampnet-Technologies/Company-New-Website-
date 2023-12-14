@@ -6,6 +6,7 @@ import Image from "next/image";
 import ButtonTwo from "../Button/ButtonTwo";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Link from "next/link";
 
 const HomePage3 = () => {
   const [learn, setLearn] = useState("Learn More");
@@ -55,8 +56,14 @@ const HomePage3 = () => {
             Application Development, Enterprise solutions, Security and Cloud
             based technologies.
           </motion.p>
-          <motion.div initial={{ opacity: 0, y: -20 }} animate={itemControls}>
-            <ButtonTwo text={learn} />
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={itemControls}
+            className={classes.Home3Link}
+          >
+            <Link href="/about">
+              <ButtonTwo text={learn} />
+            </Link>
           </motion.div>
         </motion.div>
         {/* <div className={classes.HomePage3Child}>

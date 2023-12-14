@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import classes from "./About6.module.css";
 import MyButton from "../Button/Button";
+import Link from "next/link";
 
 const About6 = () => {
   const [initial, setInitial] = useState("Check Out Our Solutions");
@@ -16,8 +17,9 @@ const About6 = () => {
           programs and explore how we can collaborate to achieve growth and
           success for our clients.
         </p>
-
-        <MyButton text={initial} />
+        <Link href="/co-workspace-x">
+          <MyButton text={initial} />
+        </Link>
       </div>
     </div>
   );

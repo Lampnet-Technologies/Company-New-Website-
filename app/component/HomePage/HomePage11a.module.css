@@ -63,3 +63,6 @@
 .sideBarButton {
   margin-top: 3rem;
 }
+.sideBarButton a {
+  text-decoration: none !important;
+}

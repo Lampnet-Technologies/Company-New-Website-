@@ -312,8 +312,14 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <div className="ml-auto">
-            <MyButton text={buttonText} />
+          <div>
+            <MyButton
+              text={buttonText}
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            />
           </div>
         </div>
       </div>

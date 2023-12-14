@@ -1,11 +1,11 @@
 "use client";
-
-import React, { useState } from "react";
+import React from "react";
 import classes from "./HomePage1.module.css";
-import MyButton from "../Button/Button";
+import Button from "../Button/Button";
+import Link from "next/link";
 
 const HomePage1 = () => {
-  const [learn, setlearn] = useState("Learn More");
+  const learn = "Learn More";
 
   return (
     <div className={`${classes.Homepage1Main} `}>
@@ -17,9 +17,15 @@ const HomePage1 = () => {
           services like SAAS, PAAS, IAAS services for all African businesses in
           West Africa.
         </p>
-        <div className={classes.HomePage1Bt}>
-          <MyButton text={learn} />
-        </div>
+        {/* <div className={classes.HomePage1Bt}> */}
+        <Button
+          text={learn}
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        />
+        {/* </div> */}
       </div>
     </div>
   );

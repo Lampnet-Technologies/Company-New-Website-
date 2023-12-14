@@ -49,6 +49,10 @@ const Product11 = ({
             text={initial}
             backgroundColor={backgroundColor}
             border={border}
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
           />
         </div>
       </div>

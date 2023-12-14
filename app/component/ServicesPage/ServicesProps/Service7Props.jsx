@@ -76,7 +76,13 @@ const Service7Props = (props) => {
             </motion.h2>
 
             <p>{props.paragraph}</p>
-            <MyButton text={props.initial} />
+            <MyButton
+              text={props.initial}
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            />
           </div>
         </div>
       </div>
