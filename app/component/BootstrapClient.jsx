@@ -1,13 +1,12 @@
-"use client"
-import { useEffect } from "react"
-
+"use client";
+import { useEffect } from "react";
 
 const BootstrapClient = () => {
-useEffect(()=> {
-    require('bootstrap/dist/js/bootstrap.bundle.min.js')
-}, []);
+  useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
 
-return null;
-}
+  return null;
+};
 
 export default BootstrapClient;
