@@ -13,7 +13,18 @@ const HomePage7 = () => {
     <div className={`container ${classes.HomePage7Main}`}>
       <div className={classes.HomePage7Parent}>
         <div className={classes.HomePage7ImageA}>
-          <Image src={HomePage7Image} alt="" quality={100} width={500} />
+          <Image
+            src={HomePage7Image}
+            alt="Partnership illustration"
+            quality={100}
+            width={500}
+            height={400}
+            priority
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
+          />
         </div>
 
         <div className={classes.HomePage7Child}>

@@ -10,7 +10,9 @@ const HomePage1 = () => {
   return (
     <div className={`${classes.Homepage1Main} `}>
       <div className={`container ${classes.Homepage1Parent} `}>
-        <h1>No. 1 Pre-built Solution Development Company In West Africa</h1>
+        <h1>
+          No. 1 App Development & Cloud-based solution company In West Africa
+        </h1>
 
         <p>
           LampNet Solutions is the leading provider of comprehensive ICT

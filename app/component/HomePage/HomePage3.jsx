@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import classes from "./HomePage3.module.css";
-import Homepage3image from "../../../public/images/Homepage3.svg";
+import Homepage3image from "../../../public/images/NewHomepae3.png";
 import Image from "next/image";
 import ButtonTwo from "../Button/ButtonTwo";
 import { motion, useAnimation } from "framer-motion";

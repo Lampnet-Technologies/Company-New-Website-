@@ -10,6 +10,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
 import Error from "../error/page";
 import Loading from "../component/Loading/page";
+import Form from "../component/Form/page";
 
 const urlFor = (source) => urlBuilder(client).image(source);
 
@@ -52,6 +53,7 @@ export default function Blog() {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
+    <>
     <div className={`container  ${classes.BlogTheMain} `}>
       <div className={classes.BlogResources}>
         <h2>Resources and Insights</h2>
@@ -187,12 +189,38 @@ export default function Blog() {
         )}
       </div>
 
-      {isError && (
-        <Error
-          title="An error occured while fetching data"
-          message={error.message || "Failed to fetch data"}
-        />
-      )}
-    </div>
+        {isError && (
+          <Error
+            title="An error occured while fetching data"
+            message={error.message || "Failed to fetch data"}
+          />
+        )}
+      </div>
+
+      {/* Add this modal markup */}
+      <div
+        className="modal fade"
+        id="exampleModal"
+        tabIndex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content">
+            <div className="modal-header">
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div className="modal-body">
+              <Form />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }

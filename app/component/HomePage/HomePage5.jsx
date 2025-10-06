@@ -72,7 +72,7 @@ const HomePage5 = () => {
         {categories.map((c) => (
           <div
             key={c.id}
-            className={`${classes.HomePage5Parent} 
+            className={`${classes.HomePage5Parent}
           }`}
             onClick={() => handleCategoryClick(c.id)}
           >
@@ -172,7 +172,7 @@ const categories = [
   {
     id: 7,
     image: Industry7,
-    text: "Productivity",
+    text: "Productivity & AI",
   },
   {
     id: 8,
@@ -273,6 +273,12 @@ const products = [
     name: "OrderX App",
     category: 3, // Belongs to "Food" category
     link: "/order-x",
+  },
+  {
+    id: 13,
+    name: "VoiceX App",
+    category: 7, // Belongs to "Productivity & AI" category
+    link: "/voice-x",
   },
   // ... (other products)
 ];
