@@ -9,6 +9,7 @@ import Industry5 from "../../../public/images/Industry5.svg";
 import Industry6 from "../../../public/images/Industry6.svg";
 import Industry7 from "../../../public/images/Industry7.svg";
 import Industry8 from "../../../public/images/Industry8.svg";
+import Industry9 from "../../../public/images/Industry9.svg";
 import Image from "next/image";
 import arrowOne from "../../../public/images/arrowOne.svg";
 import arrowTwo from "../../../public/images/arrowTwo.svg";
@@ -207,26 +208,12 @@ const categories = [
     image: Industry8,
     text: "E-Commerce",
   },
-  // {
-  //   id: 9,
-  //   image: Industry8,
-  //   text: "E-Commerce",
-  // },
-  // {
-  //   id: 10,
-  //   image: Industry8,
-  //   text: "E-Commerce",
-  // },
-  // {
-  //   id: 11,
-  //   image: Industry8,
-  //   text: "E-Commerce",
-  // },
-  // {
-  //   id: 12,
-  //   image: Industry8,
-  //   text: "E-Commerce",
-  // },
+    {
+    id: 9,
+    image: Industry9,
+    text: "CRM/ERP",
+  },
+  // Add more industry filter here later
 ];
 
 const products = [
@@ -307,6 +294,37 @@ const products = [
     name: "VoiceX App",
     category: 7, // Belongs to "Productivity & AI" category
     link: "/voice-x",
+  },
+  // Not proper linked to their pages for now belong to "CRM/ERP" category
+  {
+    id: 14,
+    name: "BitriX App",
+    category: 9, // Belongs to "CRM/ERP" category
+    link: "https://www.bitrix24.com/",
+  },
+  {
+    id: 15,
+    name: "QuickBooksX App",
+    category: 9, // Belongs to "CRM/ERP" category
+    link: "https://quickbooks.intuit.com/accounting/",
+  },
+  {
+    id: 16,
+    name: "OdooX App",
+    category: 9, // Belongs to "CRM/ERP" category
+    link: "https://www.odoo.com/?msockid=2fed25b46e3d6cad2815315c6f1a6d70",
+  },
+  {
+    id: 17,
+    name: "Multi-Branch POS-X App",
+    category: 9, // Belongs to "CRM/ERP" category
+    link: "https://nanzige.com/multi-branch-pos-erp-inventory-stock-saas-business-management-software/",
+  },
+  {
+    id: 18,
+    name: "NCS Billing Book-X App",
+    category: 9, // Belongs to "CRM/ERP" category
+    link: "https://nanzige.com/ncs-billing-book-complete-pos-inventory-management-system/",
   },
   // ... (other products)
 ];

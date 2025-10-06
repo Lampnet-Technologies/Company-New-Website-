@@ -149,6 +149,24 @@ const Navbar = () => {
                         Voice-X
                       </Link>
                     </li>
+                     <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://quickbooks.intuit.com/accounting/"
+                        target="_blank"
+                      >
+                        QuickBooks-X
+                      </Link>
+                    </li>
+                     <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.odoo.com/?msockid=2fed25b46e3d6cad2815315c6f1a6d70"
+                        target="_blank"
+                      >
+                        Odoo-X
+                      </Link>
+                    </li>
                   </ul>
                   <ul>
                     <li>
@@ -197,6 +215,33 @@ const Navbar = () => {
                         href="/uber-x"
                       >
                         Uber-X
+                      </Link>
+                    </li>
+                     <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.bitrix24.com/"
+                        target="_blank"
+                      >
+                        Bitrix-X
+                      </Link>
+                    </li>
+                     <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://nanzige.com/multi-branch-pos-erp-inventory-stock-saas-business-management-software/"
+                        target="_blank"
+                      >
+                        Multi-Branch POS-X
+                      </Link>
+                    </li>
+                     <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://nanzige.com/ncs-billing-book-complete-pos-inventory-management-system/"
+                        target="_blank"
+                      >
+                        NCS Billing Book-X
                       </Link>
                     </li>
                   </ul>
