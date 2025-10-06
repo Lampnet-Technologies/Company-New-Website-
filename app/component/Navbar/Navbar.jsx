@@ -141,6 +141,14 @@ const Navbar = () => {
                         Hotel-X
                       </Link>
                     </li>
+                    <li>
+                      <Link
+                        class={`dropdown-item ${classes.dropdownitem}`}
+                        href="/voice-x"
+                      >
+                        Voice-X
+                      </Link>
+                    </li>
                   </ul>
                   <ul>
                     <li>
@@ -239,7 +247,7 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Blog
+                Insights
               </a>
               <ul
                 class="dropdown-menu"
@@ -270,42 +278,47 @@ const Navbar = () => {
               >
                 <li>
                   <Link class="dropdown-item" href="/services">
-                    Startups
+                    Startups & MVP Development
                   </Link>
                 </li>
                 <li>
                   <Link class="dropdown-item" href="/cloudsolutions">
-                    Cloud Solutions
+                    Cloud Solutions & Management
                   </Link>
                 </li>
                 <li>
                   <Link class="dropdown-item" href="/softwaresolutions">
-                    Software
+                    Software Product Development
                   </Link>
                 </li>
                 <li>
                   <Link class="dropdown-item" href="/api">
-                    Api Development
+                    API Development & Integration
                   </Link>
                 </li>
                 <li>
                   <Link class="dropdown-item" href="/white-label">
-                    White Label
+                    White Label App Customizations
                   </Link>
                 </li>
                 <li>
                   <Link class="dropdown-item" href="/training">
-                    Training
+                    Training & IT Consultation
                   </Link>
                 </li>
                 <li>
                   <Link class="dropdown-item" href="/ui-ux-design">
-                    Ui-Ux-Design
+                    UI/UX Design
                   </Link>
                 </li>
                 <li>
                   <Link class="dropdown-item" href="/staffing-solutions">
-                    Staffing Solution
+                    Outsourcing & Team Augumentation
+                  </Link>
+                </li>
+                <li>
+                  <Link class="dropdown-item" href="/ai">
+                    Artificial Intelligence Development
                   </Link>
                 </li>
               </ul>

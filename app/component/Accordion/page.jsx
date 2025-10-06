@@ -491,6 +491,55 @@ const Accordionpage = () => {
           </div>
         </div>
       </div>
+      <div class="accordion-item">
+        <h2
+          class={`accordion-header ${classes.OurStoryHeader}`}
+          id="flush-headingNine"
+        >
+          <button
+            class={`accordion-button collapsed ${classes.accord}`}
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseNine"
+            aria-expanded="false"
+            aria-controls="flush-collapseNine"
+          >
+            Artificial Intelligence Development
+          </button>
+        </h2>
+        <div
+          id="flush-collapseNine"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingNine"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div className={`accordion-body ${classes.body}`}>
+            <h6> Artificial Intelligence Development</h6>
+            <p>
+              {" "}
+              We automate workflows, build custom AI apps, deploy conversational assistants, and enable AI agents to complete multi‑step tasks. We help organizations automate workflows, deploy conversational assistants, and ship custom AI applications that turn complex multi‑step tasks into measurable outcomes. We focus on measurable business results across industries — accuracy, cycle time, and operational efficiency.
+            </p>
+            <div className={classes.AccordionChildMain}>
+              <div className={classes.AccordionChild}>
+                <Image src={Servicesa18} alt="Alt" quality={100} width={30} />
+                <p> Agentic Task</p>
+              </div>
+              <div className={classes.AccordionChild}>
+                <Image src={Servicesa23} alt="Alt" quality={100} width={30} />
+                <p>Document Intelligence</p>
+              </div>
+              <div className={classes.AccordionChild}>
+                <Image src={Servicesa31} alt="Alt" quality={100} width={30} />
+                <p> Chatbot</p>
+              </div>
+              <div className={classes.AccordionChild}>
+                <Image src={Servicesa13} alt="Alt" quality={100} width={30} />
+                <p> Process Automation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

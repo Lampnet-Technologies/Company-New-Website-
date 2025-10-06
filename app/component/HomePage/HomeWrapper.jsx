@@ -183,4 +183,18 @@ const data = [
     imaged: Servicesa32,
     textd: "Remote Staffing",
   },
+  {
+    id: 9,
+    text: "Artificial Intelligence Development",
+    body: "We automate workflows, build custom AI apps, deploy conversational assistants, and enable AI agents to complete multi‑step tasks. We help organizations automate workflows, deploy conversational assistants, and ship custom AI applications that turn complex multi‑step tasks into measurable outcomes. We focus on measurable business results across industries — accuracy, cycle time, and operational efficiency.",
+    image: Services3,
+    imagea: Servicesa18,
+    texta: "Agentic Task",
+    imageb: Servicesa23,
+    textb: "Document Intelligence",
+    imagec: Servicesa31,
+    textc: "Chatbot",
+    imaged: Servicesa13,
+    textd: "Process Automation",
+  },
 ];

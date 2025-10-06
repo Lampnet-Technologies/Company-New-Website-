@@ -20,6 +20,7 @@ const HomePage5 = () => {
   const [selectedCategory, setSelectedCategory] = useState(1);
 
   const [seeAll, setSeeAll] = useState("See all solutions");
+  const [showAll, setShowAll] = useState(false);
 
   const filteredProducts =
     selectedCategory === 1
@@ -28,6 +29,9 @@ const HomePage5 = () => {
 
   const handleCategoryClick = (categoryId) => {
     setSelectedCategory(categoryId);
+    // reset showAll when switching categories
+    setShowAll(false);
+    setSeeAll("See all solutions");
   };
 
   const [selectedCard, setSelectedCard] = useState(1);
@@ -41,16 +45,24 @@ const HomePage5 = () => {
   const itemsPerPage = 4;
 
   const handleShowMoreClick = () => {
-    setDisplayedItems(displayedItems + itemsPerPage);
+    setDisplayedItems((prev) => prev + itemsPerPage);
   };
 
   useEffect(() => {
     const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 576);
-      if (window.innerWidth <= 576) {
+      const small = window.innerWidth <= 576;
+      setIsSmallScreen(small);
+
+      if (showAll) {
+        setDisplayedItems(filteredProducts.length);
+        return;
+      }
+
+      if (small) {
         setDisplayedItems(4);
       } else {
-        setDisplayedItems(filteredProducts.length);
+        // default preview on larger screens: first 12 (or less if not available)
+        setDisplayedItems(Math.min(12, filteredProducts.length));
       }
     };
 
@@ -64,7 +76,14 @@ const HomePage5 = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [filteredProducts.length]);
+  }, [filteredProducts.length, showAll]);
+
+  // Decide how many items to show:
+  const visibleCount = showAll
+    ? filteredProducts.length
+    : isSmallScreen
+    ? displayedItems
+    : Math.min(12, filteredProducts.length);
 
   return (
     <div className="container">
@@ -87,7 +106,7 @@ const HomePage5 = () => {
       </div>
 
       <div className={classes.ProductList}>
-        {filteredProducts.slice(0, displayedItems).map((product) => (
+        {filteredProducts.slice(0, visibleCount).map((product) => (
           <div
             key={product.id}
             className={`${classes.ProductListChild} ${
@@ -120,17 +139,26 @@ const HomePage5 = () => {
           </div>
         ))}
       </div>
+
       {isSmallScreen && (
         <div className={classes.HomePage5Button}>
-          {displayedItems < filteredProducts.length && (
-            // <button onClick={handleShowMoreClick}> see all </button>
+          {!showAll && displayedItems < filteredProducts.length && (
             <MyButton onClick={handleShowMoreClick} text="See more" />
           )}
         </div>
       )}
 
       <div className={classes.HomePage5Button}>
-        <ButtonThree text={seeAll} />
+        <ButtonThree
+          text={seeAll}
+          onClick={() => {
+            const next = !showAll;
+            setShowAll(next);
+            setSeeAll(next ? "Show less" : "See all solutions");
+            // when showing all, expand displayedItems so mobile See more/hide logic aligns
+            setDisplayedItems(next ? filteredProducts.length : (isSmallScreen ? 4 : Math.min(12, filteredProducts.length)));
+          }}
+        />
       </div>
     </div>
   );
