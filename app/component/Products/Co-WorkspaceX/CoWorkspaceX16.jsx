@@ -1,6 +1,6 @@
 import React from "react";
 import Product11 from "../ProductProps/Product11";
-import Mockup1 from "../../../../public/images/Mockup5.svg";
+import Mockup1 from "../../../../public/images/Mockup5.png";
 
 const CoWorkspaceX16 = () => {
   const header = "Start Innovating Today Experience EstateX for Yourself.";

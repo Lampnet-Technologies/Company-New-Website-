@@ -1,0 +1,43 @@
+.scrollButton {
+  position: fixed;
+  bottom: 1.5rem; /* 24px */
+  right: 1.5rem;  /* 24px */
+  z-index: 1050;
+  background-color: #b20f0f;
+  color: #ffffff;
+  padding: 0.75rem; /* 12px */
+  border-radius: 9999px; /* full round */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  transition: background-color .15s ease, transform .12s ease, box-shadow .12s ease;
+}
+
+.scrollButton:hover {
+  background-color: #b20f0f;
+  transform: translateY(-2px);
+}
+
+.scrollButton:active {
+  transform: translateY(0);
+}
+
+.scrollButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(238, 64, 54, 0.16);
+}
+
+/* small-screen tweak */
+@media (max-width: 480px) {
+  .scrollButton {
+    bottom: 1rem;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+    padding: 0.6rem;
+  }
+}
