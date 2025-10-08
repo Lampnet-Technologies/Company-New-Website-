@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import { Inter } from "next/font/google";
 import BootstrapClient from "./component/BootstrapClient";
-import Navbar from "@/app/component/Navbar/Navbar";
+import Navbar from "./component/Navbar/Navbar";
 import Footer from "./component/Footer/Footer";
 import ReactQueryProvider from "./ReactQueryProvider";
 

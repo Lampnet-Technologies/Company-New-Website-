@@ -2,16 +2,15 @@
 
 import React from "react";
 import { useQuery } from "@tanstack/react-query";
-import { getBlog } from "@/sanity/sanity.query";
+import getBlog from "../../../../sanity/sanity.query";            // queries file
+import client from "../../../../sanity/sanity.client"; // client + image helper
 import Image from "next/image";
-import urlBuilder from "@sanity/image-url";
-import client from "@/sanity/sanity.client";
 import classes from "./HomeBlog.module.css";
 import ArrowRight from "../../../../public/images/arrow-right.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Link from "next/link";
-import Loading from "@/app/loading";
+import Loading from "../../../loading";
 
 const urlFor = (source) => urlBuilder(client).image(source);
 const HomeBlog = () => {

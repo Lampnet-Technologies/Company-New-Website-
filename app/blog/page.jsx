@@ -11,7 +11,6 @@ import { useState } from "react";
 import Error from "../error/page";
 import Loading from "../component/Loading/page";
 import Form from "../component/Form/page";
-import ButtonFour from "../component/Button/ButtonFour";
 
 const urlFor = (source) => urlBuilder(client).image(source);
 
@@ -56,7 +55,6 @@ export default function Blog() {
   return (
     <>
       <div className={`container  ${classes.BlogTheMain} `}>
-        <ButtonFour />
         <div className={classes.BlogResources}>
           <h2>Resources and Insights</h2>
         </div>
