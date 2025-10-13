@@ -17,9 +17,11 @@ const Navbar = () => {
 
   // fixed-top
   return (
-    <nav class={`navbar navbar-expand-lg navbar-light ${classes.NavGrandMain}`}>
-      <div class={`container ${classes.NavbarMain}`}>
-        <a class="navbar-brand" href="#">
+    <nav
+      className={`navbar navbar-expand-lg navbar-light ${classes.NavGrandMain}`}
+    >
+      <div className={`container ${classes.NavbarMain}`}>
+        <a className="navbar-brand" href="#">
           <Image
             src={Logo}
             alt=""
@@ -31,7 +33,7 @@ const Navbar = () => {
         </a>
 
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavDropdown"
@@ -39,17 +41,17 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
         <div
-          class={`collapse navbar-collapse ${classes.Parent}`}
+          className={`collapse navbar-collapse ${classes.Parent}`}
           id="navbarNavDropdown"
         >
           <ul className="navbar-nav mx-auto">
-            <li class={`nav-item dropdown ${classes.NavItem}`}>
+            <li className={`nav-item dropdown ${classes.NavItem}`}>
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -59,25 +61,25 @@ const Navbar = () => {
                 Company
               </a>
               <ul
-                class="dropdown-menu"
+                className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li>
-                  <Link class="dropdown-item" href="/home">
+                  <Link className="dropdown-item" href="/home">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="/about">
+                  <Link className="dropdown-item" href="/about">
                     About us
                   </Link>
                 </li>
               </ul>
             </li>
 
-            <li class={`nav-item dropdown ${classes.dropdown}`}>
+            <li className={`nav-item dropdown ${classes.dropdown}`}>
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -87,14 +89,14 @@ const Navbar = () => {
                 Products
               </a>
               <div
-                class={`dropdown-menu ${classes.dropdownmenu} `}
+                className={`dropdown-menu ${classes.dropdownmenu} `}
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <div>
                   <ul>
                     <li href="/courier-x">
                       <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
+                        className={`dropdown-item ${classes.dropdownitem}`}
                         href="/courier-x"
                       >
                         Courier-X
@@ -102,7 +104,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
+                        className={`dropdown-item ${classes.dropdownitem}`}
                         href="/fleed-x"
                       >
                         Food-X
@@ -110,16 +112,16 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
+                        className={`dropdown-item ${classes.dropdownitem}`}
                         href="/med-x"
                       >
-                        Mex-X
+                        Med-X
                       </Link>
                     </li>
 
                     <li>
                       <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
+                        className={`dropdown-item ${classes.dropdownitem}`}
                         href="/co-workspace-x"
                       >
                         Workspace-X
@@ -127,15 +129,15 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
+                        className={`dropdown-item ${classes.dropdownitem}`}
                         href="/restaurant360-x"
                       >
-                        Restaurant
+                        Restaurant360
                       </Link>
                     </li>
                     <li>
                       <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
+                        className={`dropdown-item ${classes.dropdownitem}`}
                         href="/hotel-x"
                       >
                         Hotel-X
@@ -143,35 +145,17 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
+                        className={`dropdown-item ${classes.dropdownitem}`}
                         href="/voice-x"
                       >
                         Voice-X
-                      </Link>
-                    </li>
-                     <li>
-                      <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
-                        href="https://quickbooks.intuit.com/accounting/"
-                        target="_blank"
-                      >
-                        QuickBooks-X
-                      </Link>
-                    </li>
-                     <li>
-                      <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
-                        href="https://www.odoo.com/?msockid=2fed25b46e3d6cad2815315c6f1a6d70"
-                        target="_blank"
-                      >
-                        Odoo-X
                       </Link>
                     </li>
                   </ul>
                   <ul>
                     <li>
                       <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
+                        className={`dropdown-item ${classes.dropdownitem}`}
                         href="/estate-x"
                       >
                         Estate-X
@@ -179,23 +163,23 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
+                        className={`dropdown-item ${classes.dropdownitem}`}
                         href="/school-x"
                       >
-                        School360-x
+                        School360
                       </Link>
                     </li>
                     <li>
                       <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
+                        className={`dropdown-item ${classes.dropdownitem}`}
                         href="/fintech-x"
                       >
-                        Fintech360-x
+                        Pay-X
                       </Link>
                     </li>
                     <li>
                       <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
+                        className={`dropdown-item ${classes.dropdownitem}`}
                         href="/thrift-x"
                       >
                         Thrift-X
@@ -203,7 +187,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
+                        className={`dropdown-item ${classes.dropdownitem}`}
                         href="/order-x"
                       >
                         Order-X
@@ -211,81 +195,22 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
+                        className={`dropdown-item ${classes.dropdownitem}`}
                         href="/uber-x"
                       >
                         Uber-X
                       </Link>
                     </li>
-                     <li>
-                      <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
-                        href="https://www.bitrix24.com/"
-                        target="_blank"
-                      >
-                        Bitrix-X
-                      </Link>
-                    </li>
-                     <li>
-                      <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
-                        href="https://nanzige.com/multi-branch-pos-erp-inventory-stock-saas-business-management-software/"
-                        target="_blank"
-                      >
-                        Multi-Branch POS-X
-                      </Link>
-                    </li>
-                     <li>
-                      <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
-                        href="https://nanzige.com/ncs-billing-book-complete-pos-inventory-management-system/"
-                        target="_blank"
-                      >
-                        NCS Billing Book-X
-                      </Link>
-                    </li>
+
+                    {/* Add More Products */}
                   </ul>
-                  {/* <ul>
-                    <li>
-                      <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
-                        href="/order-x"
-                      >
-                        Order-X
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
-                        href="/uber-x"
-                      >
-                        Uber-X
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
-                        href="/restaurant360-x"
-                      >
-                        Restaurant
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        class={`dropdown-item ${classes.dropdownitem}`}
-                        href="/hotel-x"
-                      >
-                        Hotel-X
-                      </Link>
-                    </li>
-                  </ul> */}
                 </div>
               </div>
             </li>
 
-            <li class={`nav-item dropdown ${classes.NavItem}`}>
+            <li className={`nav-item dropdown ${classes.NavItem}`}>
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -295,20 +220,240 @@ const Navbar = () => {
                 Insights
               </a>
               <ul
-                class="dropdown-menu"
+                className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li>
-                  <Link class="dropdown-item" href="/blog">
+                  <Link className="dropdown-item" href="/blog">
                     Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" href="/blog">
+                    FAQ
                   </Link>
                 </li>
               </ul>
             </li>
 
-            <li class={`nav-item dropdown ${classes.NavItem}`}>
+            <li className={`nav-item dropdown ${classes.NavItem}`}>
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Solutions
+              </a>
+              <div
+                className={`dropdown-menu ${classes.dropdownmenu2} `}
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <div>
+                  <ul>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.bitrix24.com/"
+                        target="_blank"
+                      >
+                        Bitrix24
+                      </Link>
+                    </li>
+                     <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.bitrix24.com/solutions/tool/crm.php"
+                        target="_blank"
+                      >
+                        Bitrix24 CRM
+                      </Link>
+                    </li>
+                     <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.bitrix24.com/solutions/tool/telephony.php"
+                        target="_blank"
+                      >
+                        Bitrix24 Telephony
+                      </Link>
+                    </li>
+                     <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.bitrix24.com/solutions/tool/contact_center.php"
+                        target="_blank"
+                      >
+                        Bitrix24 Contact Center
+                      </Link>
+                    </li>
+                     <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.bitrix24.com/solutions/tool/tasks_and_projects.php"
+                        target="_blank"
+                      >
+                        Bitrix24 Project Management
+                      </Link>
+                    </li>
+                     <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.bitrix24.com/solutions/industry/retail.php"
+                        target="_blank"
+                      >
+                        Bitrix24 Retail
+                      </Link>
+                    </li>
+                     <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.bitrix24.com/solutions/industry/call-center-solution.php"
+                        target="_blank"
+                      >
+                        Bitrix24 Call Center
+                      </Link>
+                    </li>
+                     <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.bitrix24.com/solutions/industry/real-estate.php"
+                        target="_blank"
+                      >
+                        Bitrix24 Real Estate
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.odoo.com/"
+                        target="_blank"
+                      >
+                        Odoo
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.odoo.com/app/crm"
+                        target="_blank"
+                      >
+                        Odoo CRM
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.odoo.com/app/point-of-sale-shop"
+                        target="_blank"
+                      >
+                        Odoo Point of Sale
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.odoo.com/app/accounting"
+                        target="_blank"
+                      >
+                        Odoo Accounting
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.odoo.com/app/inventory"
+                        target="_blank"
+                      >
+                        Odoo Inventory
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.odoo.com/app/manufacturing"
+                        target="_blank"
+                      >
+                        Odoo Manufacturing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.odoo.com/app/employees"
+                        target="_blank"
+                      >
+                        Odoo HRM
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.odoo.com/app/field-service"
+                        target="_blank"
+                      >
+                        Odoo Field Service
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.odoo.com/app/helpdesk"
+                        target="_blank"
+                      >
+                        Odoo Helpdesk
+                      </Link>
+                    </li>
+                     <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://www.odoo.com/app/fleet"
+                        target="_blank"
+                      >
+                        Odoo Fleet
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="https://quickbooks.intuit.com/accounting/"
+                        target="_blank"
+                      >
+                        QuickBooks
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="/ncx-point-of-sale"
+                        target="_blank"
+                      >
+                        NCX Point of Sale
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="/ncx-billing-book"
+                        target="_blank"
+                      >
+                        NCX Billing Book
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li className={`nav-item dropdown ${classes.NavItem}`}>
+              <a
+                className="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -318,52 +463,52 @@ const Navbar = () => {
                 Services
               </a>
               <ul
-                class="dropdown-menu"
+                className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li>
-                  <Link class="dropdown-item" href="/services">
+                  <Link className="dropdown-item" href="/services">
                     Startups & MVP Development
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="/cloudsolutions">
+                  <Link className="dropdown-item" href="/cloudsolutions">
                     Cloud Solutions & Management
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="/softwaresolutions">
+                  <Link className="dropdown-item" href="/softwaresolutions">
                     Software Product Development
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="/api">
-                    API Development & Integration
+                  <Link className="dropdown-item" href="/ai">
+                    Artificial Intelligence Development
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="/white-label">
-                    White Label App Customizations
-                  </Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" href="/training">
+                  <Link className="dropdown-item" href="/training">
                     Training & IT Consultation
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="/ui-ux-design">
+                  <Link className="dropdown-item" href="/ui-ux-design">
                     UI/UX Design
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="/staffing-solutions">
+                  <Link className="dropdown-item" href="/api">
+                    API Development & Integration
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" href="/staffing-solutions">
                     Outsourcing & Team Augumentation
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="/ai">
-                    Artificial Intelligence Development
+                  <Link className="dropdown-item" href="/white-label">
+                    White Label App Customizations
                   </Link>
                 </li>
               </ul>
@@ -374,7 +519,7 @@ const Navbar = () => {
             <MyButton
               text={buttonText}
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             />

@@ -33,7 +33,7 @@ const Product9b = ({ selectedCardData, background2 }) => {
               text="Build with us"
               backgroundColor={background2}
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             />

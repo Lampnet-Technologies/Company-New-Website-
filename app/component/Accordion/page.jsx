@@ -49,16 +49,16 @@ const Accordionpage = () => {
   };
   return (
     <div
-      class={`accordion accordion-flush  ${classes.OurStoryChild}`}
+      className={`accordion accordion-flush  ${classes.OurStoryChild}`}
       id="accordionFlushExample"
     >
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingOne"
         >
           <button
-            // class={`accordion-button collapsed ${classes.accord}`}
+            // className={`accordion-button collapsed ${classes.accord}`}
             className={`accordion-button collapsed ${
               isButtonActive("flush-headingOne") ? "active" : ""
             } ${classes.accord}`}
@@ -74,7 +74,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseOne"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingOne"
           data-bs-parent="#accordionFlushExample"
         >
@@ -112,13 +112,13 @@ const Accordionpage = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingTwo"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseTwo"
@@ -130,7 +130,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseTwo"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingTwo"
           data-bs-parent="#accordionFlushExample"
         >
@@ -166,13 +166,13 @@ const Accordionpage = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingThree"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseThree"
@@ -184,7 +184,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseThree"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingThree"
           data-bs-parent="#accordionFlushExample"
         >
@@ -219,13 +219,13 @@ const Accordionpage = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingFour"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseFour"
@@ -237,7 +237,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseFour"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingFour"
           data-bs-parent="#accordionFlushExample"
         >
@@ -274,13 +274,13 @@ const Accordionpage = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingFive"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseFive"
@@ -292,7 +292,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseFive"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingFive"
           data-bs-parent="#accordionFlushExample"
         >
@@ -328,13 +328,13 @@ const Accordionpage = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingSix"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseSix"
@@ -346,7 +346,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseSix"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingSix"
           data-bs-parent="#accordionFlushExample"
         >
@@ -383,13 +383,13 @@ const Accordionpage = () => {
           </div>
         </div>
       </div>
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingSeven"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseSeven"
@@ -401,7 +401,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseSeven"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingSeven"
           data-bs-parent="#accordionFlushExample"
         >
@@ -437,13 +437,13 @@ const Accordionpage = () => {
           </div>
         </div>
       </div>
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingEight"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseEight"
@@ -455,7 +455,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseEight"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingEight"
           data-bs-parent="#accordionFlushExample"
         >
@@ -491,13 +491,13 @@ const Accordionpage = () => {
           </div>
         </div>
       </div>
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingNine"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseNine"
@@ -509,7 +509,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseNine"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingNine"
           data-bs-parent="#accordionFlushExample"
         >

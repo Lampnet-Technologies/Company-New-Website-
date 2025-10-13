@@ -50,7 +50,7 @@ const Product11 = ({
             backgroundColor={backgroundColor}
             border={border}
             type="button"
-            class="btn btn-primary"
+            className="btn btn-primary"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           />

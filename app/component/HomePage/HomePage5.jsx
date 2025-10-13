@@ -10,6 +10,7 @@ import Industry6 from "../../../public/images/Industry6.svg";
 import Industry7 from "../../../public/images/Industry7.svg";
 import Industry8 from "../../../public/images/Industry8.svg";
 import Industry9 from "../../../public/images/Industry9.svg";
+import Industry10 from "../../../public/images/Services8.svg";
 import Image from "next/image";
 import arrowOne from "../../../public/images/arrowOne.svg";
 import arrowTwo from "../../../public/images/arrowTwo.svg";
@@ -157,7 +158,13 @@ const HomePage5 = () => {
             setShowAll(next);
             setSeeAll(next ? "Show less" : "See all solutions");
             // when showing all, expand displayedItems so mobile See more/hide logic aligns
-            setDisplayedItems(next ? filteredProducts.length : (isSmallScreen ? 4 : Math.min(12, filteredProducts.length)));
+            setDisplayedItems(
+              next
+                ? filteredProducts.length
+                : isSmallScreen
+                ? 4
+                : Math.min(12, filteredProducts.length)
+            );
           }}
         />
       </div>
@@ -174,6 +181,11 @@ const categories = [
     text: "All industries",
   },
   {
+    id: 9,
+    image: Industry9,
+    text: "CRM & ERP",
+  },
+  {
     id: 2,
     image: Industry2,
     text: "Food",
@@ -181,7 +193,7 @@ const categories = [
   {
     id: 3,
     image: Industry3,
-    text: "Transportation",
+    text: "Logistics",
   },
   {
     id: 4,
@@ -191,12 +203,12 @@ const categories = [
   {
     id: 5,
     image: Industry5,
-    text: "Health & Lifestyle",
+    text: "Health",
   },
   {
     id: 6,
     image: Industry6,
-    text: "Banking & Finance",
+    text: "Finance",
   },
   {
     id: 7,
@@ -206,12 +218,22 @@ const categories = [
   {
     id: 8,
     image: Industry8,
-    text: "E-Commerce",
+    text: "Retail & E-Commerce",
   },
-    {
-    id: 9,
-    image: Industry9,
-    text: "CRM/ERP",
+  {
+    id: 10,
+    image: Industry6,
+    text: "Real Estate",
+  },
+  {
+    id: 11,
+    image: Industry10,
+    text: "Hospitality",
+  },
+  {
+    id: 12,
+    image: Industry7,
+    text: "Manufacturing",
   },
   // Add more industry filter here later
 ];
@@ -220,73 +242,73 @@ const products = [
   {
     id: 1,
     name: "CourierX Logistics App",
-    category: 2, // Belongs to "Food" category
+    category: 3, // Belongs to "Logistics" category
     link: "/courier-x",
   },
   {
     id: 2,
-    name: " FoodX Ordering App",
-    category: 2, // Belongs to "Transportation" category
+    name: " FoodX App",
+    category: 2, // Belongs to "Food" category
     link: "/fleed-x",
   },
   {
     id: 3,
     name: "UberX Ride Hailing App",
-    category: 3, // Belongs to "Food" category
+    category: 3, // Belongs to "Logistics" category
     link: "/uber-x",
   },
   {
     id: 4,
     name: "EstateX App",
-    category: 2, // Belongs to "Food" category
+    category: 10, // Belongs to "Real Estate" category
     link: "/estate-x",
   },
   {
     id: 5,
-    name: "FintechX App",
-    category: 6, // Belongs to "Food" category
+    name: "PayX App",
+    category: 6, // Belongs to "Finance" category
     link: "/fintech-x",
   },
   {
     id: 6,
     name: "HotelX App",
-    category: 8, // Belongs to "Food" category
+    category: 11, // Belongs to "Hospitality" category
     link: "/hotel-x",
   },
   {
     id: 7,
     name: "MedX App",
-    category: 5, // Belongs to "Food" category
+    category: 5, // Belongs to "Health" category
     link: "/med-x",
   },
   {
     id: 8,
-    name: "School360X App",
-    category: 4, // Belongs to "Food" category
+    name: "School 360 LMS",
+    category: 4, // Belongs to "Education" category
     link: "/school-x",
   },
   {
     id: 9,
     name: "ThriftX App",
-    category: 3, // Belongs to "Food" category
+    category: 6, // Belongs to "Finance" category
     link: "/thrift-x",
   },
   {
     id: 10,
-    name: "Co-workspaceX App",
-    category: 7, // Belongs to "Food" category
+    name: "Co-WorkspaceX App",
+    category: 7, // Belongs to "Productivity & AI" category
     link: "/co-workspace-x",
   },
   {
     id: 11,
-    name: "RestaurantX App",
+    name: "Restaurant 360",
     category: 2, // Belongs to "Food" category
-    link: "/uber-x",
+    link: "/restaurant360-x",
   },
   {
     id: 12,
     name: "OrderX App",
-    category: 3, // Belongs to "Food" category
+    category: 8, // Belongs to "Retail & E-Commerce" category
     link: "/order-x",
   },
   {
@@ -295,36 +317,120 @@ const products = [
     category: 7, // Belongs to "Productivity & AI" category
     link: "/voice-x",
   },
-  // Not proper linked to their pages for now belong to "CRM/ERP" category
+  {
+    id: 17,
+    name: "NCX Point of Sale",
+    category: 9, // Belongs to "CRM & ERP" category
+    link: "/ncx-point-of-sale",
+  },
+  {
+    id: 18,
+    name: "NCX Billing Book",
+    category: 9, // Belongs to "CRM & ERP" category
+    link: "/ncx-billing-book",
+  },
+  // Not proper linked to their pages for now belong to "CRM & ERP" category
   {
     id: 14,
-    name: "BitriX App",
-    category: 9, // Belongs to "CRM/ERP" category
-    link: "https://www.bitrix24.com/",
+    name: "Bitrix24 CRM",
+    category: 9, // Belongs to "CRM & ERP" category
+    link: "https://www.bitrix24.com/solutions/tool/crm.php",
   },
   {
     id: 15,
-    name: "QuickBooksX App",
-    category: 9, // Belongs to "CRM/ERP" category
+    name: "QuickBooks CRM",
+    category: 9, // Belongs to "CRM & ERP" category
     link: "https://quickbooks.intuit.com/accounting/",
   },
   {
     id: 16,
-    name: "OdooX App",
-    category: 9, // Belongs to "CRM/ERP" category
-    link: "https://www.odoo.com/?msockid=2fed25b46e3d6cad2815315c6f1a6d70",
+    name: "Odoo CRM",
+    category: 9, // Belongs to "CRM & ERP" category
+    link: "https://www.odoo.com/app/crm",
   },
   {
-    id: 17,
-    name: "Multi-Branch POS-X App",
-    category: 9, // Belongs to "CRM/ERP" category
-    link: "https://nanzige.com/multi-branch-pos-erp-inventory-stock-saas-business-management-software/",
+    id: 19,
+    name: "Bitrix24 Telephony",
+    category: 9, // Belongs to "CRM & ERP" category
+    link: "https://www.bitrix24.com/solutions/tool/telephony.php",
   },
   {
-    id: 18,
-    name: "NCS Billing Book-X App",
-    category: 9, // Belongs to "CRM/ERP" category
-    link: "https://nanzige.com/ncs-billing-book-complete-pos-inventory-management-system/",
+    id: 20,
+    name: "Bitrix24 Contact Center",
+    category: 9, // Belongs to "CRM & ERP" category
+    link: "https://www.bitrix24.com/solutions/tool/contact_center.php",
+  },
+  {
+    id: 21,
+    name: "Bitrix24 Project Management",
+    category: 7, // Belongs to "Productivity & AI" category
+    link: "https://www.bitrix24.com/solutions/tool/tasks_and_projects.php",
+  },
+  {
+    id: 22,
+    name: "Bitrix24 Retail",
+    category: 8, // Belongs to "Retail & E-Commerce" category
+    link: "https://www.bitrix24.com/solutions/industry/retail.php",
+  },
+  {
+    id: 23,
+    name: "Bitrix24 Call Center",
+    category: 9,
+    link: "https://www.bitrix24.com/solutions/industry/call-center-solution.php",
+  },
+  {
+    id: 24,
+    name: "Bitrix24 Real Estate",
+    category: 10, // Belongs to "Real Estate" category
+    link: "https://www.bitrix24.com/solutions/industry/real-estate.php",
+  },
+  {
+    id: 25,
+    name: "Odoo Point of Sale",
+    category: 9, // Belongs to "CRM & ERP" category
+    link: "https://www.odoo.com/app/point-of-sale-shop",
+  },
+  {
+    id: 26,
+    name: "Odoo Accounting",
+    category: 6, // Belongs to "Finance" category
+    link: "https://www.odoo.com/app/accounting",
+  },
+  {
+    id: 27,
+    name: "Odoo Inventory",
+    category: 8, // Belongs to "Retail & E-Commerce" category
+    link: "https://www.odoo.com/app/inventory",
+  },
+  {
+    id: 28,
+    name: "Odoo Manufacturing",
+    category: 12, // Belongs to "Manufacturing" category
+    link: "https://www.odoo.com/app/manufacturing",
+  },
+  {
+    id: 29,
+    name: "Odoo HRM",
+    category: 9, // Belongs to "CRM & ERP" category
+    link: "https://www.odoo.com/app/employees",
+  },
+  {
+    id: 30,
+    name: "Odoo Field Service",
+    category: 3, // Belongs to "Logistics" category
+    link: "https://www.odoo.com/app/field-service",
+  },
+  {
+    id: 31,
+    name: "Odoo Helpdesk",
+    category: 9, // Belongs to "CRM & ERP" category
+    link: "https://www.odoo.com/app/helpdesk",
+  },
+  {
+    id: 32,
+    name: "Odoo Fleet",
+    category: 3, // Belongs to "Logistics" category
+    link: "https://www.odoo.com/app/fleet",
   },
   // ... (other products)
 ];

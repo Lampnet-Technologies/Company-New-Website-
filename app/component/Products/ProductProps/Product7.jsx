@@ -32,7 +32,7 @@ const Product7 = ({
               backgroundColor={backgroundColor}
               color={color}
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             />
@@ -45,7 +45,7 @@ const Product7 = ({
               color={color2}
               background={background2}
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             />
