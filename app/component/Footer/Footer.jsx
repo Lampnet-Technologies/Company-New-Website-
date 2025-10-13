@@ -62,28 +62,43 @@ const Footer = () => {
 
           <div className={classes.footerChildren}>
             <div className={classes.footerChild}>
-              <h3>Company</h3>
-              <Link href="/">
+                <h3>Company</h3>
+              <Link href="/about">
                 <p>About Us</p>
+              </Link>
+              <Link href="/services">
                 <p>Our Services</p>
+              </Link>
+              <Link href="/blog">
                 <p>Blog</p>
+              </Link>
+              <Link href="/">
                 <p>Partnership</p>
               </Link>
             </div>
             <div className={classes.footerChild}>
               <h3>Support</h3>
-              <Link href="/">
+              <Link href="/support">
                 <p>Support</p>
               </Link>
+              <Link href="/terms">
               <p>Terms of services</p>
-              <p>Privacy Policy </p>
+              </Link>
+              <Link href="/privacy">
+              <p>Privacy Policy</p>
+              </Link>
+              <Link href="/">
               <p>Career</p>
+              </Link>
             </div>
             <div className={classes.footerChild}>
-              <Link href="/">
+              
                 <h3>Contact</h3>
                 <p>128 Itire Rd, Lawanson Surulere Lagos, Nigeria</p>
+                <Link href="/">
                 <p>+234 816 663 7303</p>
+                </Link>
+                <Link href="/">
                 <p>support@lampnets.com</p>
               </Link>
             </div>
@@ -126,7 +141,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={classes.footerCopyright}>
-        <div className= {`container ${classes.footerCopyrightFlex}`}>
+        <div className={`container ${classes.footerCopyrightFlex}`}>
           <p>Copyrights by LampNets Solutions</p>
           <p>All rights reserved.</p>
         </div>

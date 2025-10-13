@@ -229,7 +229,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/blog">
+                  <Link className="dropdown-item" href="/faq">
                     FAQ
                   </Link>
                 </li>
