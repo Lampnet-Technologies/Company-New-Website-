@@ -62,7 +62,7 @@ const Footer = () => {
 
           <div className={classes.footerChildren}>
             <div className={classes.footerChild}>
-                <h3>Company</h3>
+              <h3>Company</h3>
               <Link href="/about">
                 <p>About Us</p>
               </Link>
@@ -82,23 +82,22 @@ const Footer = () => {
                 <p>Support</p>
               </Link>
               <Link href="/terms">
-              <p>Terms of services</p>
+                <p>Terms of services</p>
               </Link>
               <Link href="/privacy">
-              <p>Privacy Policy</p>
+                <p>Privacy Policy</p>
               </Link>
               <Link href="/">
-              <p>Career</p>
+                <p>Career</p>
               </Link>
             </div>
             <div className={classes.footerChild}>
-              
-                <h3>Contact</h3>
-                <p>128 Itire Rd, Lawanson Surulere Lagos, Nigeria</p>
-                <Link href="/">
+              <h3>Contact</h3>
+              <p>128 Itire Rd, Lawanson Surulere Lagos, Nigeria</p>
+              <Link href="/">
                 <p>+234 816 663 7303</p>
-                </Link>
-                <Link href="/">
+              </Link>
+              <Link href="/">
                 <p>support@lampnets.com</p>
               </Link>
             </div>

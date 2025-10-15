@@ -5,9 +5,10 @@ import Clock from "../../../../public/images/Clock.svg";
 const Api6 = () => {
   const header = "The Benefits";
   const subHeader =
-    "Why Choose LampNets Solutions for your Software Product Development";
+    "Why Choose LampNets Solutions for Your API Development & Integration";
   const paragraph =
-    " We understand your idea is unique, and so should be your product, hence we combine our resouces to accelerate the growth of your startup from ideation to execution";
+    "Your systems deserve seamless connectivity. At LampNets Solutions, we design and implement robust API architectures that unify platforms, automate workflows, and enhance overall business efficiency. From third-party integrations to custom API development, we help your digital ecosystem work smarter together.";
+
   return (
     <div>
       <Service6Props
@@ -25,26 +26,26 @@ export default Api6;
 const data = [
   {
     id: 1,
-    body: "Our API integration services help your business integrate systems seamlessly, including third-party applications, databases, and software",
+    body: "We enable seamless communication between applications through secure, well-documented, and scalable APIs—ensuring your platforms exchange data efficiently and reliably.",
     name: "Streamlined Integration",
     image: Clock,
   },
   {
     id: 2,
-    body: "We prioritize security in our API development and integration services, ensuring that your business data is protected from unauthorized access.",
+    body: "Our APIs are built with advanced authentication, encryption, and compliance standards to safeguard your business data and protect against unauthorized access.",
     name: "Enhanced Security",
     image: Clock,
   },
   {
     id: 3,
-    body: "We optimize API performance and functionality, allowing your business to save time and resources, automate tasks, and simplify workflows",
+    body: "We design APIs for high performance and scalability—allowing your business to automate repetitive tasks, boost productivity, and deliver faster digital experiences.",
     name: "Increased Efficiency",
     image: Clock,
   },
   {
     id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
+    body: "We continuously monitor, test, and optimize your APIs to ensure they remain reliable, future-proof, and aligned with the latest industry standards.",
+    name: "Continuous Optimization",
     image: Clock,
   },
 ];

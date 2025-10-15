@@ -43,9 +43,10 @@ const data = [
     image: Clock,
   },
   {
-    id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
-    image: Clock,
-  },
+  id: 4,
+  body: "We combine technical expertise with strategic insight to help your startup or scale-up build scalable, high-performing products designed for long-term growth and sustainability.",
+  name: "Scalable & Future-Ready Solutions",
+  image: Clock,
+},
+
 ];

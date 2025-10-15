@@ -1,12 +1,14 @@
 import React from "react";
 import Service6Props from "../ServicesProps/Service6Props";
 import Clock from "../../../../public/images/Clock.svg";
+
 const White6 = () => {
   const header = "The Benefits";
   const subHeader =
-    "Why Choose LampNets Solutions for your White Label App Customization";
+    "Why Choose LampNets Solutions for Your White Label App Customization";
   const paragraph =
-    " We understand your idea is unique, and so should be your product, hence we combine our resouces to accelerate the growth of your startup from ideation to execution";
+    "At LampNets Solutions, we help businesses accelerate their digital transformation with fully customizable white-label apps. Our solutions empower you to launch high-quality, branded applications faster — without the cost or complexity of building from scratch.";
+
   return (
     <div>
       <Service6Props
@@ -24,26 +26,26 @@ export default White6;
 const data = [
   {
     id: 1,
-    body: "We help your business design and develop a custom mobile app that aligns with your brand identity, helping you to establish a stronger brand presence",
-    name: "Branding",
+    body: "We tailor every aspect of your white-label app to reflect your brand identity, ensuring a consistent and professional experience for your customers.",
+    name: "Enhanced Brand Identity",
     image: Clock,
   },
   {
     id: 2,
-    body: "Our flexible licensing options allow you to customize the app to your business needs and provides a unique competitive advantage in your industry..",
-    name: "Cost-Effective",
+    body: "Our white-label solutions significantly reduce development time and costs, allowing you to launch premium apps without the heavy upfront investment.",
+    name: "Cost-Effective Development",
     image: Clock,
   },
   {
     id: 3,
-    body: "Our team of experts can help you bring your app ideas to life quickly, reducing the time it takes for your business to launch a mobile app in the market.",
+    body: "Launch your app faster and stay ahead of competitors with our pre-built, customizable frameworks designed for speed and scalability.",
     name: "Faster Time-to-Market",
     image: Clock,
   },
   {
     id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
+    body: "We continuously update and enhance our solutions to ensure your app remains modern, secure, and compatible with the latest technologies.",
+    name: "Ongoing Innovation & Support",
     image: Clock,
   },
 ];

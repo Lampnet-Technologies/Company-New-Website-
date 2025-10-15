@@ -4,49 +4,52 @@ import Clock from "../../../../public/images/Clock.svg";
 import React from "react";
 
 const Ai3 = () => {
-  const heading = "Our AI Development & Integration Services Includes";
+  const heading = "Our AI Development & Integration Services Include";
+
   return (
     <div>
       <Service3Props data={data} props={heading} />
     </div>
-  ); 
+  );
 };
 
 export default Ai3;
+
 const data = [
   {
     id: 1,
     header: "DocVantage",
-    body: "Reinvent document operations with intelligent classification, 99.2% extraction accuracy, and compliance‑ready audit trails. Document Intelligence Platform involves Classification & routing, Automated data extraction (99.2%+), Workflow triggers, and Audit trails & compliance",
+    body: "Reimagine document workflows with intelligent classification, 99.2% data extraction accuracy, and compliance-ready audit trails. DocVantage enables automated document routing, data extraction, workflow triggers, and end-to-end compliance monitoring.",
     image: Clock,
   },
   {
     id: 2,
     header: "MedVantage",
-    body: "We use Intelligent records management with categorization, compliance monitoring, and secure integrations. Healthcare Records AI Records categorization & search, Compliance monitoring & alerts, HIPAA‑ready handling, and EHR/CRM integrations",
+    body: "Transform healthcare record management with AI-driven categorization, compliance tracking, and secure integrations. MedVantage offers intelligent record search, real-time compliance alerts, HIPAA-ready data handling, and seamless EHR/CRM integration.",
     image: Clock,
   },
   {
     id: 3,
     header: "Vechtron AI",
-    body: "We provide secure Intelligent vehicle management with categorization, compliance monitoring, and secure integrations. Our AI Powered Vehicle Assistant involves Digital Manual, Autonomous Vehicle Maintenance, Vehicle Health Monitoring, and Driver Behavior Analysis.",
+    body: "Enhance vehicle management with AI-powered monitoring and predictive insights. Vechtron AI provides a digital manual assistant, autonomous maintenance scheduling, real-time vehicle health analysis, and driver behavior tracking for smarter fleet operations.",
+    image: Clock,
   },
   {
     id: 4,
-    header: "AI Powered ChatBot",
-    body: "We provide technical support and troubleshooting services to ensure optimal functioning of your resources, with timely resolution of any issue. ",
+    header: "AI-Powered Chatbot",
+    body: "Deliver exceptional customer support with our intelligent chatbot solutions. Our AI chatbots provide instant responses, technical assistance, and issue resolution to improve user satisfaction and reduce support overhead.",
     image: Clock,
   },
   {
     id: 5,
-    header: "Need Secured Cloud Services?",
-    body: "Our Cloud & DevOps engineers will work with you to fine-tune the delivery, deployment and support of a high-quality software.",
-    button: "Discuss your idea",
+    header: "Secured Cloud Integration",
+    body: "Partner with our Cloud & DevOps engineers to build secure, scalable infrastructure for your AI applications. We ensure optimized delivery, deployment, and ongoing support for high-performing systems.",
+    button: "Discuss Your Idea",
   },
   {
     id: 6,
     header: "Automated AI Testing",
-    body: "Our engineers and QA specialists use automated testing to evaluate performance and functionality of crucial business apps.",
+    body: "Ensure the reliability of your AI applications with automated testing frameworks. Our QA specialists evaluate performance, functionality, and scalability to maintain top-tier software quality.",
     image: Clock,
   },
 ];

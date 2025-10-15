@@ -14,7 +14,7 @@ const Cloud2 = () => {
   return (
     <div>
       <Service2Props
-        header={header}  
+        header={header}
         subheader={subheader}
         paragraph={paragraph}
         paragraph2={paragraph2}

@@ -26,26 +26,26 @@ export default Cloud6;
 const data = [
   {
     id: 1,
-    body: "We provide access to cloud resources on a pay-as-you-go basis, without having to invest in your own infrastructure and cut costs by eliminating redundant data. ",
+    body: "We provide access to cloud resources on a pay-as-you-go basis, without having to invest in your own infrastructure and cut costs by eliminating redundant data.",
     name: "Reduced Cost of Ownership",
     image: Clock,
   },
   {
     id: 2,
-    body: "We offer cloud infrastructure that enables seamless deployment of new products and resource allocation to handle sudden increases in demand.",
-    name: "High Scalability",
+    body: "Scale your resources up or down as your business needs change. Our flexible cloud infrastructure ensures your systems stay efficient during high or low demand periods.",
+    name: "Scalability & Flexibility",
     image: Clock,
   },
   {
     id: 3,
-    body: "We provide reliable and efficient industry-standard software and tools that enable your business to focus on their core competencies",
-    name: "Industry-standard solutions",
+    body: "With advanced backup solutions and multi-layered security protocols, your business data stays protected from breaches, downtime, or data loss incidents.",
+    name: "Enhanced Security & Reliability",
     image: Clock,
   },
   {
     id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
+    body: "Access your applications and data from anywhere, anytime. Our optimized cloud architecture ensures speed, performance, and collaboration across global teams.",
+    name: "Improved Accessibility & Performance",
     image: Clock,
   },
 ];

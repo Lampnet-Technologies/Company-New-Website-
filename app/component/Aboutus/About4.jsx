@@ -36,13 +36,13 @@ const About4 = () => {
           </motion.div>
 
           <div className={classes.About4Child}>
-            <h6>About us</h6>
+            <h6>Our Mission</h6>
             <motion.h2
               animate={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -20 }}
             >
               {splitTextIntoWords(
-                "We are a one-stop technology solution provider for startups and businesses"
+                "We Prioritize Exceptional Customer Service and Long-lasting Partnership"
               ).map((word, index) => (
                 <motion.span
                   key={index}
@@ -55,12 +55,12 @@ const About4 = () => {
               ))}
             </motion.h2>
             <p>
-              LampNet Solutions is a remote-based agile IT Consulting & Mobile
-              Technology Development company in West Africa, who are service
-              providers of world-class solutions and mobile technologies for
-              high business growth and transformation with vast experience in
-              Mobile Application Development, Enterprise solutions, Security and
-              Cloud based technologies.
+              As a progressive and pioneering company, we prioritize our people
+              above all else. Our culture is defined by diversity, inclusion,
+              and an unwavering commitment to continuous learning and growth. We
+              offer comprehensive support services to simplify technology
+              adoption and utilization, ensuring usability, security,
+              scalability and deliver solutions that exceed expectations.
             </p>
           </div>
         </div>

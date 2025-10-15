@@ -64,6 +64,6 @@ const data = [
   {
     id: 6,
     image: Ux6,
-    header: "Aftereffects",
+    header: "AfterEffects",
   },
 ];

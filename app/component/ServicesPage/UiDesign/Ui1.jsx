@@ -3,7 +3,7 @@ import Service1Props from "../ServicesProps/Service1Props";
 import AboutImage from "../../../../public/images/AboutImage.svg";
 
 const Ui1 = () => {
-  const header = "Cloud Solutions & Management";
+  const header = "UI/UX Design";
   return (
     <div>
       <Service1Props header={header} AboutImage={AboutImage} />

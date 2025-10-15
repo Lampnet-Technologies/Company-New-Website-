@@ -8,7 +8,7 @@ import Staffing5 from "./Staffing5";
 import Staffing6 from "./Staffing6";
 import Staffing7 from "./Staffing7";
 import About9 from "../../Aboutus/About9";
-import Service4 from "../Startup/Service4";
+import Staffing4 from "./Staffing4";
 
 const Index = () => {
   return (
@@ -16,7 +16,7 @@ const Index = () => {
       <Staffing1 />
       <Staffing2 />
       <Staffing3 />
-      <Service4 />
+      <Staffing4 />
       <HomePage4 />
       <HomePage5 />
       <Staffing5 />

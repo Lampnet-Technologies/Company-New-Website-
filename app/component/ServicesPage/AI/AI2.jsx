@@ -1,26 +1,27 @@
-import React from 'react'
+import React from "react";
 import Service2Props from "../ServicesProps/Service2Props";
 
 const Ai2 = () => {
-    const header = "Artifical Intelligence Development & Integration";
+  const header = "Artificial Intelligence Development";
 
-    const subheader =
-      "We Can Manage your system integration and bring disparate systems together";
-    const paragraph =
-      "AI means Artifical Intelligence. AIs are sets of protocols that enable different software systems to connect and share data.";
-  
-    const paragraph2 =
-      "At Lampnets Solutions, we offer comprehensive AI development and integration services to help businesses streamline their operations and improve efficiency. Our team of experts has extensive experience in building custom APIs that fit your business requirements, whether you need to integrate with third-party systems, automate tasks, or enhance the customer experience.";
+  const subheader =
+    "Seamlessly Connect and Enhance Your Systems with Intelligent Integration";
+
+  const paragraph =
+    "Artificial Intelligence (AI) empowers systems to think, learn, and adapt — enabling smarter decision-making and efficient automation across your organization.";
+
+  const paragraph2 =
+    "At LampNets Solutions, we provide end-to-end AI development and integration services designed to optimize your business processes and accelerate innovation. Our team of experts builds tailored AI solutions that align with your goals — whether it’s connecting with third-party systems, automating repetitive tasks, or elevating customer experiences through intelligent insights.";
   return (
     <div>
-        <Service2Props
-        header={header}  
+      <Service2Props
+        header={header}
         subheader={subheader}
         paragraph={paragraph}
         paragraph2={paragraph2}
       />
     </div>
-  )
-}
+  );
+};
 
-export default Ai2
+export default Ai2;

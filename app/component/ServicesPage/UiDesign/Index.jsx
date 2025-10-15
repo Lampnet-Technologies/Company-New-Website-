@@ -8,7 +8,7 @@ import Ui5 from "./Ui5";
 import Ui6 from "./Ui6";
 import Ui7 from "./Ui7";
 import About9 from "../../Aboutus/About9";
-import Service4 from "../Startup/Service4";
+import Ui4 from "./Ui4";
 
 const Index = () => {
   return (
@@ -16,7 +16,7 @@ const Index = () => {
       <Ui1 />
       <Ui2 />
       <Ui3 />
-      <Service4 />
+      <Ui4 />
       <HomePage4 />
       <HomePage5 />
       <Ui5 />

@@ -19,7 +19,7 @@ const Ai5 = () => {
         Glad={Glad}
       />
     </div>
-  );   
+  );
 };
 
 export default Ai5;

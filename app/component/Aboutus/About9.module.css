@@ -53,9 +53,9 @@
 
 .About9Child h6 {
   color: var(--Primary-color, #ab0e12);
-  font-size: 40px;
+  font-size: 50px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 57.6px; /* 120% */
 }
 

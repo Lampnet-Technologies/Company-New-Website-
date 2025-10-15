@@ -8,7 +8,7 @@ import White5 from "./White5";
 import White6 from "./White6";
 import White7 from "./White7";
 import About9 from "../../Aboutus/About9";
-import Service4 from "../Startup/Service4";
+import White4 from "./white4";
 
 const Index = () => {
   return (
@@ -16,7 +16,7 @@ const Index = () => {
       <White1 />
       <White2 />
       <White3 />
-      <Service4 />
+      <White4 />
       <HomePage4 />
       <HomePage5 />
       <White5 />

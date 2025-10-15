@@ -8,7 +8,7 @@ import Training5 from "./Training5";
 import Training6 from "./Training6";
 import Training7 from "./Training7";
 import About9 from "../../Aboutus/About9";
-import Service4 from "../Startup/Service4";
+import Training4 from "./Training4";
 
 const Index = () => {
   return (
@@ -16,7 +16,7 @@ const Index = () => {
       <Training1 />
       <Training2 />
       <Training3 />
-      <Service4 />
+      <Training4 />
       <HomePage4 />
       <HomePage5 />
       <Training5 />
