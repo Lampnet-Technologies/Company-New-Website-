@@ -5,7 +5,7 @@ const FIntechX7 = () => {
   const initial1 = "Download Now";
   const initial = "Become a Reseller";
   const header = "Let’s Collaborate";
-  const subheader = "Want to see our fintech platform software in action?";
+  const subheader = "Want to See Our Fintech Platform Software In Action?";
   const background = "#453787";
   const backgroundColor = "#fff";
   const color = "#453787";

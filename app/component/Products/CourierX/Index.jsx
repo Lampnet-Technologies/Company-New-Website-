@@ -11,7 +11,7 @@ import CourieX8 from "./CourieX8";
 import CourieX10 from "./CourieX10";
 import CourieX11 from "./CourieX11";
 import CourieX12 from "./CourieX12";
-import CourieX13 from "./CourieX13";
+/* import CourieX13 from "./CourieX13"; */
 import CourieX14 from "./CourieX14";
 import CourieX15 from "./CourieX15";
 import CourieX16 from "./CourieX16";
@@ -35,7 +35,7 @@ const Index = () => {
       <CourieX10 />
       <CourieX11 />
       <CourieX12 />
-      <CourieX13 />
+      {/* <CourieX13 /> */}
       <CourieX14 />
       <CourieX15 />
       <CourieX16 />

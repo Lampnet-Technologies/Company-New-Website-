@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "./support.module.css";
+import ButtonFour from "../component/Button/ButtonFour"
 
 const Support = () => {
   return (
     <div className={styles.container}>
+      <ButtonFour />
       <div className={styles.content}>
         <h1 className={styles.title}>Support Center</h1>
 
@@ -37,12 +39,12 @@ const Support = () => {
             <p className={styles.cardText}>
               For general inquiries and non-urgent matters:
             </p>
-            <a href="mailto:support@lampnet.com" className={styles.link}>
-              support@lampnet.com
+            <a href="mailto:support@lampnets.com" className={styles.link}>
+              support@lampnets.com
             </a>
             <p className={styles.cardText}>For technical support:</p>
-            <a href="mailto:tech@lampnet.com" className={styles.link}>
-              tech@lampnet.com
+            <a href="mailto:infodesk@lampnets.com" className={styles.link}>
+              infodesk@lampnets.com
             </a>
           </div>
 
@@ -64,9 +66,9 @@ const Support = () => {
               <h3>Business Hours</h3>
             </div>
             <p className={styles.cardText}>
-              Monday - Friday: 8:00 AM - 6:00 PM WAT
+              Monday - Friday: 9:00 AM - 5:00 PM WAT
             </p>
-            <p className={styles.cardText}>Saturday: 9:00 AM - 2:00 PM WAT</p>
+            <p className={styles.cardText}>Saturday: 10:00 AM - 2:00 PM WAT</p>
             <p className={styles.cardText}>Sunday: Closed</p>
             <p className={styles.cardSubtext}>
               Emergency support available for premium clients
@@ -91,7 +93,7 @@ const Support = () => {
               <h3>Phone Support</h3>
             </div>
             <p className={styles.cardText}>West Africa Region:</p>
-            <p className={styles.phoneNumber}>+234 XXX XXX XXXX</p>
+            <p className={styles.phoneNumber}>+234 816 663 7303</p>
             <p className={styles.cardSubtext}>
               Available during business hours
             </p>

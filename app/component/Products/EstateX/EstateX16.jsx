@@ -6,7 +6,7 @@ const EstateX16 = () => {
   const header = "Start Innovating Today Experience EstateX for Yourself.";
   const subheader = "Join. Sell. Earn";
   const body =
-    "Collaborate with us and Explore our Partnership Program to earn more by selling, customizing or integrating our premium logistic solution";
+    "Collaborate with us and Explore our Partnership Program to earn more by selling, customizing or integrating our real estate premium solutions";
   const initial = "Become a Partner";
   const backgroundColor = "#AB0E12";
   const border = "0px solid #AB0E12";

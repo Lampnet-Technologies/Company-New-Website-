@@ -16,26 +16,26 @@ const data = [
   {
     id: 1,
     img: Business1,
-    head: "Classes",
+    head: "Education & E-Learning",
   },
   {
     id: 2,
     img: Business1,
-    head: "Vacation & Camping",
+    head: "Media & Entertainment",
   },
   {
     id: 3,
     img: Business1,
-    head: "Room",
+    head: "Marketing",
   },
   {
     id: 4,
     img: Business1,
-    head: "Desks",
+    head: "Broadcasting",
   },
   {
     id: 5,
     img: Business1,
-    head: "Hybrid Office",
+    head: "Business Communications",
   },
 ];

@@ -7,10 +7,10 @@ const ThriftX15 = () => {
   const header = "One-Click Integrations";
   const subheader = "Integrated with thousands of apps";
   const body =
-    "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
+    "ThriftX 360 is designed to seamlessly integrate with a wide range of third-party applications and services, allowing businesses to connect their existing tools and workflows effortlessly. Whether it's CRM systems, marketing platforms, or analytics tools, ThriftX 360 provides one-click integrations to enhance productivity and streamline operations.";
   const initial = "Schedule Demo";
-  const body1 = "100+ Major Addons";
-  const body2 = "Major Access Provider";
+  const body1 = "Cloud-Based Solution";
+  const body2 = "24/7 Customer Support";
   const body3 = "Free Open API";
   return (
     <div>

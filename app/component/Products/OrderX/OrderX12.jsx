@@ -5,7 +5,7 @@ import Product11 from "../ProductProps/Product11";
 const OrderX12 = () => {
   const header = "OrderX Ecommerce Online Webstore";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "OrderX Ecommerce is a powerful online webstore solution that enables businesses to establish a strong online presence and reach a wider audience. With a user-friendly interface, customizable design options, and seamless integration with payment gateways, OrderX Ecommerce provides everything you need to create a successful online store. From product management to order processing and customer support, our platform is designed to streamline your e-commerce operations and help you grow your business.";
   const initial = "Schedule Demo";
   const backgroundColor = "#F76C6C";
   const border = "0px solid #F76C6C";

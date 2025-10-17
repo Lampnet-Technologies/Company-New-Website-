@@ -5,7 +5,7 @@ import Mockup1 from "../../../../public/images/MobilBankingA.svg";
 const FIntechX12 = () => {
   const header = "Banking Management System";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "Our Banking Management System is a powerful platform designed to streamline and optimize all aspects of financial operations. From account management and transactions to reporting and compliance, it delivers efficiency, security, and control for banks and financial institutions of any size.";
   const initial = "Schedule Demo";
   const backgroundColor = "#453787";
   const border = "0px solid #453787";

@@ -2,7 +2,7 @@ import React from "react";
 import NCXBBWrapper from "./NCX-BBWrapper";
 import AccordionProduct from "../../AccordionProduct/page";
 
-const CoWorkspaceX9 = () => {
+const NCXBBX9 = () => {
   return (
     <div>
       <NCXBBWrapper />
@@ -11,4 +11,4 @@ const CoWorkspaceX9 = () => {
   );
 };
 
-export default CoWorkspaceX9;
+export default NCXBBX9;

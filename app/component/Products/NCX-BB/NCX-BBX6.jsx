@@ -2,7 +2,7 @@ import React from "react";
 import Product6 from "../ProductProps/Product6";
 import Business1 from "../../../../public/images/Workspaceclasses.svg";
 
-const CoWorkspaceX6 = () => {
+const NCXBBX6 = () => {
   return (
     <div>
       {" "}
@@ -11,32 +11,32 @@ const CoWorkspaceX6 = () => {
   );
 };
 
-export default CoWorkspaceX6;
+export default NCXBBX6;
 
 const data = [
   {
     id: 1,
     img: Business1,
-    head: "Classes",
+    head: "Auto/Spare Parts & Services",
   },
   {
     id: 2,
     img: Business1,
-    head: "Vacation & Camping",
+    head: "Agro & Farm Supplies",
   },
   {
     id: 3,
     img: Business1,
-    head: "Room",
+    head: "Minimarts & Supermarkets",
   },
   {
     id: 4,
     img: Business1,
-    head: "Desks",
+    head: "Furniture & Homeware",
   },
   {
     id: 5,
     img: Business1,
-    head: "Hybrid Office",
+    head: "Electronics & Mobiles",
   },
 ];

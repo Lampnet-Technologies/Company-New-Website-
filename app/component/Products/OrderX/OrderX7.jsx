@@ -5,7 +5,7 @@ const OrderX7 = () => {
   const initial1 = "Download Now";
   const initial = "Become a Reseller";
   const header = "Let’s Collaborate";
-  const subheader = "Experience The Simplest Inventory Management Software.";
+  const subheader = "Partner with Us for Mutual Growth";
   const background = "#222";
   const backgroundColor = "#fff";
   const color = "#222";

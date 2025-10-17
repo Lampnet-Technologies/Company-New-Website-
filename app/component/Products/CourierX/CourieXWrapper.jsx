@@ -50,40 +50,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Helping early-stage businesses build scalable digital foundations and gain market visibility",
+    body: "Empowering early-stage businesses to build scalable digital foundations and stand out in the market.",
     body1:
-      "Launching a new product website or MVP to attract investors and users.",
-    body2: "Setting up automated tools for marketing, sales, and analytics to support fast growth.",
+      "Designing and launching product websites or MVPs that attract users and investors.",
+    body2:
+      "Automating marketing, sales, and analytics to support rapid and sustainable growth.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
     text: "SMBs",
-    body: "Empowering small and medium businesses to streamline operations and boost efficiency through tailored tech solutions",
+    body: "Helping small and mid-sized businesses streamline operations and boost productivity through tailored technology.",
     body1:
-      "Developing an e-commerce platform with integrated inventory and payment systems.",
-    body2: "Implementing CRM and workflow automation to improve customer retention and productivity.",
+      "Developing e-commerce platforms with integrated inventory, payment, and logistics systems.",
+    body2:
+      "Implementing CRM solutions and workflow automation to improve customer engagement and efficiency.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Providing centralized digital solutions to maintain brand consistency and manage multi-location operations effectively",
+    body: "Providing centralized digital systems to ensure brand consistency and simplify multi-location management.",
     body1:
-      "Building a unified online platform that supports location-specific pages for each franchise branch.",
-    body2: "Integrating performance dashboards to monitor sales, marketing, and customer engagement across branches.",
+      "Creating unified online platforms with location-specific pages for each branch.",
+    body2:
+      "Integrating performance dashboards to track sales, marketing, and customer metrics across locations.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Delivering scalable, secure, and customized enterprise-grade systems that drive innovation and operational excellence",
+    body: "Delivering secure, scalable, and intelligent enterprise-grade solutions that drive innovation and excellence.",
     body1:
-      "Modernizing legacy systems through cloud migration and process automation.",
-    body2: "Implementing advanced analytics and AI-driven insights for strategic decision-making.",
+      "Modernizing legacy infrastructure through cloud migration and process automation.",
+    body2:
+      "Leveraging advanced analytics and AI-driven insights for data-backed decision-making.",
     image: StartupScroll,
     imagea: Scroll,
   },

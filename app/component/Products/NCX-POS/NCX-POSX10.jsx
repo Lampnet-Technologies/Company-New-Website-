@@ -1,12 +1,12 @@
 import React from "react";
 import Product10 from "../ProductProps/Product10";
 
-const CoWorkspaceX10 = () => {
-  const header = "Explore More Flexiblities";
+const NCXPOSX10 = () => {
+  const header = "Explore More Flexibilities";
   const subheader = "Building Your Business Is Our Passion";
   const body =
-    "LampNets School 360 Solutions  works for all use cases and strives to provide top-tier IT solutions to businesses of all sizes and locations in the learning industry";
-  const color = "#1628F4";
+    "From retail stores and restaurants to service providers and franchises — NCX Point of Sale helps all businesses manage sales, inventory, and payments effortlessly in one unified system.";
+  const color = "#F76C6C";
   return (
     <div>
       <Product10
@@ -19,4 +19,4 @@ const CoWorkspaceX10 = () => {
   );
 };
 
-export default CoWorkspaceX10;
+export default NCXPOSX10;

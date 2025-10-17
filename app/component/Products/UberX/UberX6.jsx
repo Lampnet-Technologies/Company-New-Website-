@@ -16,7 +16,7 @@ const data = [
   {
     id: 1,
     img: Business1,
-    head: "E-commerce",
+    head: "Ride-Hailing Services",
   },
   {
     id: 2,
@@ -26,16 +26,16 @@ const data = [
   {
     id: 3,
     img: Business1,
-    head: "Medical Services",
+    head: "School Transport",
   },
   {
     id: 4,
     img: Business1,
-    head: "Taxi-Hailing",
+    head: "Corporate Transportation",
   },
   {
     id: 5,
     img: Business1,
-    head: "Home Care Services",
+    head: "Goods & Parcel Delivery",
   },
 ];

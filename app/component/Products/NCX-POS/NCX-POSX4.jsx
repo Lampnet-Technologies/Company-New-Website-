@@ -5,39 +5,40 @@ import Circle from "../../../../public/images/Circle.svg";
 import Portfolio1 from "../../../../public/images/WorkspaceTime1.svg";
 import Portfolio2 from "../../../../public/images/WorkspaceTime2.svg";
 
-const CoWorkspaceX4 = () => {
+const NCXPOSX4 = () => {
   const title = "Automated Invoicing and Payment";
-  const tag1 = "Communities";
+  const tag1 = "Smart Billing";
   const taga =
-    "With all-time access to learning resources, learn and study at your own pace, even ahead of the class.";
-  const tag2 = "Easy booking";
+    "Automatically generate and send digital invoices for every sale, purchase, or subscription — no manual entry required.";
+  const tag2 = "Multiple Payment Options";
   const tagb =
-    "Stay connected and collaborate better with co-learners.so you’ll never need to enter data twice.";
+    "Accept cash, card, mobile money, or online payments — all integrated in one seamless checkout system.";
   const tag3 = "Real-time Authorisations";
-  const tagc = "Save time with efficient patient & study management features.";
-  const header = "About Co-WorkspaceX";
-  const subheader = "What you can do with Co-WorkspaceX";
+  const tagc =
+    "Track and approve transactions instantly across all branches, ensuring accuracy and transparency.";
+  const header = "About NCX POS";
+  const subheader = "Everything You Need to Manage Sales, Inventory & Payments";
   const body =
-    "Fintech 360 Banking Software incorporates all banking and payment functions in one single platform.";
-  const initial = "Download Now";
-  const color = "#1628F4";
-  const backgroundColor = "#1628F4";
-  const border = "0px solid #1628F4";
+    "NCX Point of Sale is a complete business management and retail solution that brings together invoicing, stock control, branch management, and sales analytics — all in one powerful platform.";
+  const initial = "Start Free Trial";
+  const color = "#F76C6C";
+  const backgroundColor = "#F76C6C";
+  const border = "0px solid #F76C6C";
+
   return (
     <div>
-      {" "}
       <Product4
         header={header}
         subheader={subheader}
         body={body}
         title={title}
         tag1={tag1}
-        data={data}
         taga={taga}
         tag2={tag2}
         tagb={tagb}
         tag3={tag3}
         tagc={tagc}
+        data={data}
         img={Realtime}
         Circle={Circle}
         initial={initial}
@@ -49,42 +50,42 @@ const CoWorkspaceX4 = () => {
   );
 };
 
-export default CoWorkspaceX4;
+export default NCXPOSX4;
 
 const data = [
   {
     id: 1,
-    title: "Real-Time Tracking and Local language Integration",
-    tag1: "Live Map",
-    taga: "Fully-integrated live map view and notifications that keeps you and your customers updated with real-time driver locations.",
-    tag2: "Streamlined Communication",
-    tagb: "Enhances  customer communication by allowing them to contact their dispatchers, drivers, and admin with just a single tap.",
-    tag3: "Privacy and Security",
-    tagc: "You may keep calls anonymous for safety and privacy without fear of security breach.",
+    title: "Automated Invoicing and Payment",
+    tag1: "Smart Billing",
+    taga: "Automatically generate and send digital invoices for every sale, purchase, or subscription — no manual entry required.",
+    tag2: "Multiple Payment Options",
+    tagb: "Accept cash, card, mobile money, or online payments — all integrated in one seamless checkout system.",
+    tag3: "Real-time Authorisations",
+    tagc: "Track and approve transactions instantly across all branches, ensuring accuracy and transparency.",
     image: Realtime,
     Circle: Circle,
   },
   {
     id: 2,
-    title: "Express & Scheduled Delivery Options",
-    tag1: "Express and Advance booking",
-    taga: "Supports express & advance booking for customers which helps your drivers manage delivery assignments.",
-    tag2: "Optimization",
-    tagb: "Optimize dynamic routing, order tracking, and delivery scheduling and accuracy",
-    tag3: "Easy Allocation ",
-    tagc: "Effectively manage deliveries and spend less time allocating tasks to your drivers",
+    title: "Inventory and Stock Management",
+    tag1: "Multi-Warehouse Support",
+    taga: "Monitor product levels across branches, manage stock transfers, and prevent shortages with automatic restock alerts.",
+    tag2: "Barcode & QR Integration",
+    tagb: "Simplify tracking and checkout using barcode and QR code scanning for faster operations.",
+    tag3: "Purchase Orders",
+    tagc: "Easily generate supplier purchase orders and manage incoming inventory directly from your dashboard.",
     image: Portfolio1,
     Circle: Circle,
   },
   {
     id: 3,
-    title: "In-app Chat & Insightful Report ",
-    tag1: "On-demand Reports",
-    taga: "Our last mile software includes on-demand reports & pivotal data presented in a graphical form to reduce cognitive load ",
-    tag2: "Optimization",
-    tagb: "Your admin will get clear updates about the business like the usage of resources, performance of delivery agents, delivery status, etc",
-    tag3: "Cloud-based Storage",
-    tagc: "This critical data is stored in a cloud-based storage and helps you to take insight-driven business decisions.",
+    title: "Branch & Sales Reporting",
+    tag1: "Centralized Dashboard",
+    taga: "View live sales, stock, and revenue data from every branch in one place.",
+    tag2: "Analytics & Insights",
+    tagb: "Gain a clear overview of your business with profit/loss reports, top-selling products, and staff performance tracking.",
+    tag3: "Multi-User Access",
+    tagc: "Assign custom roles and permissions to employees while maintaining control and transparency across your organization.",
     image: Portfolio2,
     Circle: Circle,
   },

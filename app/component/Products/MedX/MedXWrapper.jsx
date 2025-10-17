@@ -47,40 +47,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Helping early-stage businesses build scalable digital foundations and gain market visibility",
+    body: "Supporting emerging healthcare startups in building secure, scalable, and compliant digital health platforms.",
     body1:
-      "Launching a new product website or MVP to attract investors and users.",
-    body2: "Setting up automated tools for marketing, sales, and analytics to support fast growth.",
+      "Launching innovative telemedicine or clinic management MVPs to attract investors and early adopters.",
+    body2:
+      "Implementing automated appointment systems, patient data tracking, and analytics for fast growth and efficient service delivery.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
     text: "SMBs",
-    body: "Empowering small and medium businesses to streamline operations and boost efficiency through tailored tech solutions",
+    body: "Empowering small and mid-sized clinics, pharmacies, and healthcare centers to streamline operations and deliver better patient care.",
     body1:
-      "Developing an e-commerce platform with integrated inventory and payment systems.",
-    body2: "Implementing CRM and workflow automation to improve customer retention and productivity.",
+      "Developing electronic medical record (EMR) systems with billing, inventory, and prescription management capabilities.",
+    body2:
+      "Integrating CRM tools to improve patient engagement, appointment scheduling, and follow-up efficiency.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Providing centralized digital solutions to maintain brand consistency and manage multi-location operations effectively",
+    body: "Providing centralized healthcare management systems for multi-branch hospitals and diagnostic centers to ensure operational consistency and compliance.",
     body1:
-      "Building a unified online platform that supports location-specific pages for each franchise branch.",
-    body2: "Integrating performance dashboards to monitor sales, marketing, and customer engagement across branches.",
+      "Building unified dashboards to manage multiple hospital locations with real-time patient data and performance insights.",
+    body2:
+      "Standardizing workflows, reports, and treatment protocols across branches to maintain care quality and brand integrity.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Delivering scalable, secure, and customized enterprise-grade systems that drive innovation and operational excellence",
+    body: "Delivering enterprise-grade, scalable, and AI-powered hospital management systems for large healthcare networks and institutions.",
     body1:
-      "Modernizing legacy systems through cloud migration and process automation.",
-    body2: "Implementing advanced analytics and AI-driven insights for strategic decision-making.",
+      "Migrating legacy systems to the cloud with enhanced interoperability, security, and compliance with healthcare regulations.",
+    body2:
+      "Implementing advanced analytics, automation, and predictive tools to optimize hospital operations and patient outcomes.",
     image: StartupScroll,
     imagea: Scroll,
   },

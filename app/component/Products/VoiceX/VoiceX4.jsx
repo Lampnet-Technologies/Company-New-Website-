@@ -6,27 +6,27 @@ import Portfolio1 from "../../../../public/images/OderTime1.svg";
 import Portfolio2 from "../../../../public/images/OderTime2.svg";
 
 const VoiceX4 = () => {
-  const title = "Clear and complete reporting";
-  const tag1 = "Easy booking";
+  const title = "Clear and Natural Voice Output";
+  const tag1 = "Multi-language Support";
   const taga =
-    "With all-time access to learning resources, learn and study at your own pace, even ahead of the class.";
-  const tag2 = "Communities";
+    "Generate speech in multiple global and local languages with precise accents and tone control.";
+  const tag2 = "Emotion & Tone Adjustment";
   const tagb =
-    "With all-time access to learning resources, learn and study at your own pace, even ahead of the class.";
-  const tag3 = "Real-time Authorisations";
-  const tagc = "Save time with efficient patient & study management features.";
-  const header = "About OrderX";
-  const subheader = "Track anything and everything with ease";
+    "Customize emotion, pacing, and emphasis to match your brand voice or user experience.";
+  const tag3 = "High-Quality Audio Streaming";
+  const tagc =
+    "Deliver crisp and realistic voice output for real-time or pre-recorded applications.";
+  const header = "About VoiceX";
+  const subheader = "Turn Text Into Lifelike Speech Instantly";
   const body =
-    "Fintech 360 Banking Software incorporates all banking and payment functions in one single platform.";
-  const initial = "Download Now";
+    "VoiceX makes text-to-speech more human. Designed for developers, educators, media creators, and businesses—our platform turns any text into clear, expressive, and natural voice output across devices.";
+  const initial = "Get Started";
   const color = "#F76C6C";
   const backgroundColor = "#F76C6C";
   const border = "0px solid #F76C6C";
 
   return (
     <div>
-      {" "}
       <Product4
         header={header}
         subheader={subheader}
@@ -55,37 +55,37 @@ export default VoiceX4;
 const data = [
   {
     id: 1,
-    title: "Real-Time Tracking and Local language Integration",
-    tag1: "Live Map",
-    taga: "Fully-integrated live map view and notifications that keeps you and your customers updated with real-time driver locations.",
-    tag2: "Streamlined Communication",
-    tagb: "Enhances  customer communication by allowing them to contact their dispatchers, drivers, and admin with just a single tap.",
-    tag3: "Privacy and Security",
-    tagc: "You may keep calls anonymous for safety and privacy without fear of security breach.",
+    title: "Real-Time Speech Generation",
+    tag1: "Instant Voice Playback",
+    taga: "Convert written text into lifelike speech instantly for live interactions, customer support, or accessibility tools.",
+    tag2: "AI Voice Personalization",
+    tagb: "Adjust tone, pitch, and personality to create voices that reflect your brand identity or user preference.",
+    tag3: "Seamless Integration",
+    tagc: "Easily integrate VoiceX with apps, websites, or devices through robust APIs and SDKs.",
     image: Realtime,
     Circle: Circle,
   },
   {
     id: 2,
-    title: "Express & Scheduled Delivery Options",
-    tag1: "Express and Advance booking",
-    taga: "Supports express & advance booking for customers which helps your drivers manage delivery assignments.",
-    tag2: "Optimization",
-    tagb: "Optimize dynamic routing, order tracking, and delivery scheduling and accuracy",
-    tag3: "Easy Allocation ",
-    tagc: "Effectively manage deliveries and spend less time allocating tasks to your drivers",
+    title: "Advanced Speech Controls",
+    tag1: "Voice Modulation",
+    taga: "Control voice speed, mood, and clarity for podcasts, e-learning, or entertainment platforms.",
+    tag2: "Real-Time Translation",
+    tagb: "Automatically translate and vocalize text into multiple languages with localized pronunciation accuracy.",
+    tag3: "Offline Mode",
+    tagc: "Continue generating and playing audio even without an internet connection using cached voice models.",
     image: Portfolio1,
     Circle: Circle,
   },
   {
     id: 3,
-    title: "In-app Chat & Insightful Report ",
-    tag1: "On-demand Reports",
-    taga: "Our last mile software includes on-demand reports & pivotal data presented in a graphical form to reduce cognitive load ",
-    tag2: "Optimization",
-    tagb: "Your admin will get clear updates about the business like the usage of resources, performance of delivery agents, delivery status, etc",
-    tag3: "Cloud-based Storage",
-    tagc: "This critical data is stored in a cloud-based storage and helps you to take insight-driven business decisions.",
+    title: "Analytics & Insights",
+    tag1: "Usage Reports",
+    taga: "Monitor speech generation trends, performance metrics, and voice engagement data in real-time.",
+    tag2: "Voice Quality Tracking",
+    tagb: "Identify and improve output quality with AI-driven error detection and playback monitoring.",
+    tag3: "Cloud Storage",
+    tagc: "Securely store generated voice files and access them anytime with cloud-based management tools.",
     image: Portfolio2,
     Circle: Circle,
   },

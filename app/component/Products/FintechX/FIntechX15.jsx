@@ -7,11 +7,11 @@ const FIntechX15 = () => {
   const header = "One-Click Integrations";
   const subheader = "Integrated with thousands of apps";
   const body =
-    "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
+    "PayX seamlessly integrates with a wide range of third-party applications and services, allowing you to connect your existing tools and workflows effortlessly. Whether it's CRM systems, accounting software, e-commerce platforms, or marketing tools, our one-click integrations ensure that your fintech operations are streamlined and efficient.";
   const initial = "Schedule Demo";
-  const body1 = "100+ Major Addons";
-  const body2 = "Major Access Provider";
-  const body3 = "Free Open API";
+  const body1 = "24/7 Support";
+  const body2 = "Customizable Solutions";
+  const body3 = "Robust Security";
   return (
     <div>
       {" "}

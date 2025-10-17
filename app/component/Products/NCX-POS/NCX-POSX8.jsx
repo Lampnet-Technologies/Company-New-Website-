@@ -3,12 +3,12 @@ import Service3Props from "../../ServicesPage/ServicesProps/Service3Props";
 import Clock from "../../../../public/images/CoWorkerCircle.svg";
 import Code from "../../../../public/images/CoWorkerCode.svg";
 
-const CoWorkspaceX8 = () => {
-  const heading = "Fully Customizable To Meet Your Booking Needs";
+const NCXPOSX8 = () => {
+  const heading = "Ready to Transform Your Business?";
   const mail = "Win Against The Competition ";
   const paragraph1 =
-    "Fintech 360 white-label banking software comes as a collection of configurable standalone modules to handle the core functionality for financial services.";
-  const color = "#1628F4";
+    "Choose the perfect solution for your business needs. Start with a free trial or get the complete package today.";
+  const color = "#F76C6C";
 
   return (
     <div>
@@ -23,24 +23,30 @@ const CoWorkspaceX8 = () => {
   );
 };
 
-export default CoWorkspaceX8;
+export default NCXPOSX8;
 const data = [
   {
     id: 1,
-    header: "100% Customization",
-    body: "Ready-to-use and fully customizable features of our on-demand delivery software to suit your business needs to suit your business needs",
+    header: "Start with a Free Trial",
+    body: "Get started with a 14-day free trial of Multi Branch POS and explore all its features with no commitment.",
     image: Clock,
   },
   {
     id: 2,
-    header: "Source Code Ownership",
-    body: " Integrate CourierX with your existing tools with little or no coding for both native and IOS devices both native and IOS devices",
+    header: "Try Multi Branch POS",
+    body: "Experience the full capabilities of Multi Branch POS with a 30-day free trial of our complete package. One-time $55 setup fee applies.",
     image: Code,
   },
   {
     id: 3,
-    header: "Scalability and Growth",
-    body: "Effectively scale your business and revenue for the complete success and growth of your company scale your business and revenue for the ",
+    header: "Buy via Gumroad",
+    body: "Purchase Multi Branch POS directly from Gumroad and get instant access to the software and all its features.",
+    image: Clock,
+  },
+  {
+    id: 4,
+    header: "Add SaaS Module",
+    body: "Unlock the power of SaaS with our add-on module for Multi Branch POS. Manage subscriptions, billing, and customer accounts with ease. One-time $110 setup fee applies.",
     image: Clock,
   },
 ];

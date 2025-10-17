@@ -5,7 +5,7 @@ const ThriftX10 = () => {
   const header = "Explore More Flexiblities";
   const subheader = "Building Your Business Is Our Passion";
   const body =
-    "LampNets School 360 Solutions  works for all use cases and strives to provide top-tier IT solutions to businesses of all sizes and locations in the learning industry";
+    "LampNets ThriftX Solutions works for all use cases and strives to provide top-tier IT solutions to businesses of all sizes and locations in the financial industry";
   const color = "#E47E1F";
   return (
     <div>

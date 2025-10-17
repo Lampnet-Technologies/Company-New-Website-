@@ -47,41 +47,45 @@ export default RestaurantWrapper;
 const data = [
   {
     id: 1,
-    text: "Startup",
-    body: "Helping early-stage businesses build scalable digital foundations and gain market visibility",
+    text: "Startup Restaurant",
+    body: "Helping new restaurants and cloud kitchens establish a strong digital presence and streamline daily operations from day one.",
     body1:
-      "Launching a new product website or MVP to attract investors and users.",
-    body2: "Setting up automated tools for marketing, sales, and analytics to support fast growth.",
+      "Launch an online ordering system or delivery-ready app to attract your first wave of customers.",
+    body2:
+      "Use built-in marketing tools and real-time sales insights to grow quickly and efficiently.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
-    text: "SMBs",
-    body: "Empowering small and medium businesses to streamline operations and boost efficiency through tailored tech solutions",
+    text: "Small & Medium Restaurants",
+    body: "Empowering small and mid-sized restaurants to simplify management, reduce costs, and increase customer satisfaction through smart automation.",
     body1:
-      "Developing an e-commerce platform with integrated inventory and payment systems.",
-    body2: "Implementing CRM and workflow automation to improve customer retention and productivity.",
+      "Integrate POS, online ordering, and kitchen operations into one smooth, easy-to-manage system.",
+    body2:
+      "Boost efficiency with automated reservations, inventory tracking, and loyalty programs.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
-    text: "Franchise",
-    body: "Providing centralized digital solutions to maintain brand consistency and manage multi-location operations effectively",
+    text: "Franchise Chains",
+    body: "Providing multi-branch restaurants with centralized tools to maintain consistency, manage staff, and monitor performance across all locations.",
     body1:
-      "Building a unified online platform that supports location-specific pages for each franchise branch.",
-    body2: "Integrating performance dashboards to monitor sales, marketing, and customer engagement across branches.",
+      "Build a unified platform that supports menu updates, branch analytics, and local delivery tracking.",
+    body2:
+      "Ensure every outlet stays on brand while optimizing overall sales and customer engagement.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
-    text: "Enterprise",
-    body: "Delivering scalable, secure, and customized enterprise-grade systems that drive innovation and operational excellence",
+    text: "Enterprise Hospitality Groups",
+    body: "Delivering powerful, enterprise-grade restaurant management solutions to optimize large-scale operations and drive long-term innovation.",
     body1:
-      "Modernizing legacy systems through cloud migration and process automation.",
-    body2: "Implementing advanced analytics and AI-driven insights for strategic decision-making.",
+      "Integrate advanced analytics, AI insights, and automation to unify sales, supply chain, and customer experience.",
+    body2:
+      "Modernize legacy systems with cloud-based management and real-time data dashboards for strategic decisions.",
     image: StartupScroll,
     imagea: Scroll,
   },

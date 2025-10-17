@@ -2,10 +2,10 @@ import React from "react";
 import Product5 from "../ProductProps/Product5";
 
 const FIntechX5 = () => {
-  const header = "All Types of Business can Use Fintech 360";
+  const header = "All Types of Business can Use PayX Solution";
   const subheader = "Works For Any Type of Business";
   const body =
-    "Businesses of all sizes and types, from e-commerce platforms to travel and hospitality companies- use Fintech 360 to process online and offline payments quickly and securely.";
+    "Businesses of all sizes and types, from e-commerce platforms to travel and hospitality companies- use PayX to process online and offline payments quickly and securely.";
   const color = "#453787";
   return (
     <div>

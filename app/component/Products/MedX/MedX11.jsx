@@ -3,9 +3,9 @@ import Product11 from "../ProductProps/Product11";
 import Mockup1 from "../../../../public/images/Mockup1Medx.svg";
 
 const MedX11 = () => {
-  const header = "MedX Doctor Booking App";
+  const header = "Craft the Perfect Patient Experience with a Custom MedX Doctor Booking App";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "Revolutionize patient care with a bespoke MedX app built to your specific needs. Empower patients to easily schedule appointments, manage health records, and communicate directly with your practice - all within a user-friendly, branded app.";
   const initial = "Schedule Demo";
   const backgroundColor = "#3E83EA";
   const border = "0px solid #3E83EA";

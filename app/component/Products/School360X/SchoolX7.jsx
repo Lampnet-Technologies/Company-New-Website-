@@ -5,7 +5,7 @@ const SchoolX7 = () => {
   const initial1 = "Download Now";
   const initial = "Become a Reseller";
   const header = "Let’s Collaborate";
-  const subheader = "Ready to see what School 360 can do for you?";
+  const subheader = "Ready To See What School 360 Can Do For You?";
   const background = "#AB0E12";
   const backgroundColor = "#fff";
   const color = "#AB0E12";

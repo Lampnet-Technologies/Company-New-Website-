@@ -26,18 +26,19 @@ const data = [
     id: 1,
     image: Features3,
     title: "Customer App",
-    body: "On demand delivery app for customer’s orders and real time delivery tracking. Payment through multiple gateways are also available",
+    body: "A seamless app for customers to place on-demand delivery orders, track their parcels in real time, and make secure payments through multiple gateways.",
   },
   {
     id: 2,
     image: Features3,
     title: "Driver App",
-    body: " Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    body: "A user-friendly mobile app that helps drivers receive tasks, navigate optimized routes, manage deliveries efficiently, and update order statuses instantly.",
   },
   {
     id: 3,
     image: Features3,
-    title: "Delivery Management App",
-    body: "Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "Delivery Management Dashboard",
+    body: "A centralized platform for dispatchers and administrators to assign deliveries, track driver performance, monitor routes, and analyze logistics data in real time.",
   },
 ];
+

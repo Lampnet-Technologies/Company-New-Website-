@@ -2,10 +2,10 @@ import React from "react";
 import Product10 from "../ProductProps/Product10";
 
 const EstateX10 = () => {
-  const header = "Explore More Flexiblities";
-  const subheader = "Building Your Business Is Our Passion";
+  const header = "Explore More Flexibility";
+  const subheader = "Building Your Real Estate Business Is Our Passion";
   const body =
-    "LampNets School 360 Solutions  works for all use cases and strives to provide top-tier IT solutions to businesses of all sizes and locations in the learning industry";
+    "EstateX is designed to adapt to every use case, delivering top-tier property management and automation solutions for businesses of all sizes and locations within the real estate industry.";
   const color = "#AB0E12";
   return (
     <div>

@@ -6,7 +6,7 @@ const OrderX3 = () => {
   const header = "Many Items, One Inventory Solution.";
   const subheader = "What you can do with OrderX ";
   const paragraph =
-    "School 360 provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your school organization.";
+    "Manage all your products, orders, and inventory in one place. Whether you're selling online, in-store, or both, OrderX has you covered with a unified platform that simplifies your operations and boosts your efficiency.";
   const color = "#F76C6C";
 
   return (

@@ -5,7 +5,7 @@ import Mockup1 from "../../../../public/images/EstateXHouseB.svg";
 const EstateX12 = () => {
   const header = "EstateX House Listing & Shortlet Booking Website";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "The EstateX website offers an intuitive, responsive interface for showcasing listings, managing shortlets, and processing secure bookings. Simplify your real estate operations and enhance client experience from any device.";
   const initial = "Schedule Demo";
   const backgroundColor = "#AB0E12";
   const border = "0px solid #AB0E12";

@@ -2,7 +2,7 @@ import React from "react";
 import Product17 from "../ProductProps/Product17";
 
 const ThriftX17 = () => {
-  const body = "Run your Digital Bank with Fintech 360.";
+  const body = "Run your Digital Bank with ThriftX Solutions";
   const initial = "Download Now";
   const initial2 = "Become a Reseller";
   const backgroundColor = "#E47E1F";

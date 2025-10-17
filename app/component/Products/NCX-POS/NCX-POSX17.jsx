@@ -1,14 +1,14 @@
 import React from "react";
 import Product17 from "../ProductProps/Product17";
 
-const CoWorkspaceX17 = () => {
+const NCXPOSX17 = () => {
   const body =
-    "Join leading coworking spaces now and start using Co-WorkspaceX";
+    "From retail stores and restaurants to service providers and franchises — NCX Point of Sale helps all businesses manage sales, inventory, and payments effortlessly in one unified system.";
   const initial = "Download Now";
   const initial2 = "Become a Reseller";
-  const backgroundColor = "#1628F4";
+  const backgroundColor = "#F76C6C";
   const border = "1px solid #fff";
-  const background = "#1628F4";
+  const background = "#F76C6C";
   const color = "#000";
   const backgroundColor2 = "#fff";
   const border2 = "#fff";
@@ -30,4 +30,4 @@ const CoWorkspaceX17 = () => {
   );
 };
 
-export default CoWorkspaceX17;
+export default NCXPOSX17;

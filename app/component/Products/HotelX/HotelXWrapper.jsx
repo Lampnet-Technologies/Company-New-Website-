@@ -46,41 +46,45 @@ export default HotelXWrapper;
 const data = [
   {
     id: 1,
-    text: "Startup",
-    body: "Helping early-stage businesses build scalable digital foundations and gain market visibility",
+    text: "Startups",
+    body: "Helping new hospitality ventures establish a strong digital foundation and attract guests from day one.",
     body1:
-      "Launching a new product website or MVP to attract investors and users.",
-    body2: "Setting up automated tools for marketing, sales, and analytics to support fast growth.",
+      "Launch your boutique hotel or short-let business with a smart booking and management platform.",
+    body2:
+      "Automate reservations, guest communication, and payments to save time and enhance efficiency.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
     text: "SMBs",
-    body: "Empowering small and medium businesses to streamline operations and boost efficiency through tailored tech solutions",
+    body: "Empowering small and mid-sized hotels to simplify daily operations and maximize guest satisfaction.",
     body1:
-      "Developing an e-commerce platform with integrated inventory and payment systems.",
-    body2: "Implementing CRM and workflow automation to improve customer retention and productivity.",
+      "Manage bookings, check-ins, and billing from a single dashboard—no technical expertise required.",
+    body2:
+      "Use integrated analytics to track occupancy rates and optimize pricing strategies in real-time.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
-    text: "Franchise",
-    body: "Providing centralized digital solutions to maintain brand consistency and manage multi-location operations effectively",
+    text: "Franchise & Chains",
+    body: "Providing multi-property solutions that ensure brand consistency and centralized control across all locations.",
     body1:
-      "Building a unified online platform that supports location-specific pages for each franchise branch.",
-    body2: "Integrating performance dashboards to monitor sales, marketing, and customer engagement across branches.",
+      "Manage all branches from one system with real-time updates on reservations, inventory, and staff performance.",
+    body2:
+      "Access performance insights and guest feedback analytics across multiple properties to drive growth.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
-    text: "Enterprise",
-    body: "Delivering scalable, secure, and customized enterprise-grade systems that drive innovation and operational excellence",
+    text: "Enterprises",
+    body: "Delivering enterprise-grade, cloud-based hotel management systems built for scalability and innovation.",
     body1:
-      "Modernizing legacy systems through cloud migration and process automation.",
-    body2: "Implementing advanced analytics and AI-driven insights for strategic decision-making.",
+      "Integrate advanced modules for revenue management, housekeeping automation, and guest personalization.",
+    body2:
+      "Leverage AI-driven insights to improve decision-making, streamline workflows, and enhance guest experiences at scale.",
     image: StartupScroll,
     imagea: Scroll,
   },

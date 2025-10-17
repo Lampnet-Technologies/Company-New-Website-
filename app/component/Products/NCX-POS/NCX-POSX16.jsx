@@ -2,14 +2,14 @@ import React from "react";
 import Product11 from "../ProductProps/Product11";
 import Mockup1 from "../../../../public/images/Mockup5.png";
 
-const CoWorkspaceX16 = () => {
-  const header = "Start Innovating Today Experience EstateX for Yourself.";
+const NCXPOSX16 = () => {
+  const header = "Start Innovating Today. Experience NCX Point of Sale for Yourself.";
   const subheader = "Join. Sell. Earn";
   const body =
-    "Collaborate with us and Explore our Partnership Program to earn more by selling, customizing or integrating our premium logistic solution";
+    "Collaborate with us to create seamless payment solutions that drive growth and enhance customer experiences. Together, we can revolutionize the way businesses operate.";
   const initial = "Become a Partner";
-  const backgroundColor = "#1628F4";
-  const border = "0px solid #1628F4";
+  const backgroundColor = "#F76C6C";
+  const border = "0px solid #F76C6C";
   return (
     <div>
       <Product11
@@ -25,4 +25,4 @@ const CoWorkspaceX16 = () => {
   );
 };
 
-export default CoWorkspaceX16;
+export default NCXPOSX16;

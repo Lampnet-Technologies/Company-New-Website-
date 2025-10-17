@@ -4,9 +4,9 @@ import Features3 from "../../../../public/images/CoWorkCircle.svg";
 
 const CoWorkspaceX3 = () => {
   const header = "Many Spaces, One Community Solution.";
-  const subheader = "What you can do with Co-WorkspaceX";
+  const subheader = "What You Can Do with Co-WorkspaceX";
   const paragraph =
-    "School 360 provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your school organization.";
+    "Co-WorkspaceX offers an all-in-one management platform designed to simplify workspace operations, optimize resource usage, and foster collaboration across your co-working community.";
 
   const color = "#1628F4";
 
@@ -30,19 +30,19 @@ const data = [
   {
     id: 1,
     image: Features3,
-    title: "Customer App",
-    body: "On demand delivery app for customer’s orders and real time delivery tracking. Payment through multiple gateways are also available",
+    title: "Member App",
+    body: "A seamless app for workspace members to book desks, meeting rooms, and events effortlessly. Stay connected with the community and manage memberships in one place.",
   },
   {
     id: 2,
     image: Features3,
-    title: "Space App",
-    body: " Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "Space Manager App",
+    body: "A smart dashboard for space owners and managers to monitor bookings, track usage, and optimize workspace allocation with real-time insights and reports.",
   },
   {
     id: 3,
     image: Features3,
-    title: "Admin Management App",
-    body: "Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "Admin Control Panel",
+    body: "An all-in-one administrative hub to manage users, payments, analytics, and communications. Simplify daily operations and make data-driven decisions with ease.",
   },
 ];

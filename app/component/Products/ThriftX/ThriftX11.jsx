@@ -5,7 +5,7 @@ import Mockup1 from "../../../../public/images/DigitalThriftA.svg";
 const ThriftX11 = () => {
   const header = "Digital Thrift Collection App ";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "ThriftX Digital Collection App is a mobile application designed to streamline and enhance the thrift collection process for financial institutions, cooperatives, and savings groups. It offers a user-friendly interface for members to make contributions, track their savings, and manage their accounts conveniently from their smartphones.";
   const initial = "Schedule Demo";
   const backgroundColor = "#E47E1F";
   const border = "0px solid #E47E1F";

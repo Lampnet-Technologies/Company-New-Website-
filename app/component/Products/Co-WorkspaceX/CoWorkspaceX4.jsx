@@ -12,13 +12,15 @@ const CoWorkspaceX4 = () => {
     "With all-time access to learning resources, learn and study at your own pace, even ahead of the class.";
   const tag2 = "Easy booking";
   const tagb =
-    "Stay connected and collaborate better with co-learners.so you’ll never need to enter data twice.";
+    "Stay connected and collaborate better with co-learners so you’ll never need to enter data twice.";
   const tag3 = "Real-time Authorisations";
   const tagc = "Save time with efficient patient & study management features.";
+
   const header = "About Co-WorkspaceX";
-  const subheader = "What you can do with Co-WorkspaceX";
+  const subheader = "What You Can Do with Co-WorkspaceX";
   const body =
-    "Fintech 360 Banking Software incorporates all banking and payment functions in one single platform.";
+    "Co-WorkspaceX is a smart coworking and space management platform designed to simplify operations for shared offices, business hubs, and flexible work environments. From booking desks and meeting rooms to managing memberships, payments, and analytics, Co-WorkspaceX brings your entire workspace ecosystem under one powerful platform.";
+
   const initial = "Download Now";
   const color = "#1628F4";
   const backgroundColor = "#1628F4";
@@ -54,37 +56,37 @@ export default CoWorkspaceX4;
 const data = [
   {
     id: 1,
-    title: "Real-Time Tracking and Local language Integration",
-    tag1: "Live Map",
-    taga: "Fully-integrated live map view and notifications that keeps you and your customers updated with real-time driver locations.",
-    tag2: "Streamlined Communication",
-    tagb: "Enhances  customer communication by allowing them to contact their dispatchers, drivers, and admin with just a single tap.",
-    tag3: "Privacy and Security",
-    tagc: "You may keep calls anonymous for safety and privacy without fear of security breach.",
+   title: "Automated Invoicing and Payment",
+   tag1: "Communities",
+   taga: "With all-time access to learning resources, learn and study at your own pace, even ahead of the class.",
+   tag2: "Easy booking",
+   tagb: "Stay connected and collaborate better with co-learners so you’ll never need to enter data twice.",
+   tag3: "Real-time Authorisations",
+   tagc: "Save time with efficient patient & study management features.",
     image: Realtime,
     Circle: Circle,
   },
   {
     id: 2,
-    title: "Express & Scheduled Delivery Options",
-    tag1: "Express and Advance booking",
-    taga: "Supports express & advance booking for customers which helps your drivers manage delivery assignments.",
-    tag2: "Optimization",
-    tagb: "Optimize dynamic routing, order tracking, and delivery scheduling and accuracy",
-    tag3: "Easy Allocation ",
-    tagc: "Effectively manage deliveries and spend less time allocating tasks to your drivers",
+    title: "Member & Visitor Management",
+    tag1: "Communicate With a Fundraiser",
+    taga: "Seamless two-factor authentication to comply with SCA under PSD2 directive.",
+    tag2: "Manage Wallets",
+    tagb: "Role-based and different level access rights for multi-users.",
+    tag3: "Encryption ",
+    tagc: "Encrypted connection between all components of the solution.",
     image: Portfolio1,
     Circle: Circle,
   },
   {
     id: 3,
-    title: "In-app Chat & Insightful Report ",
-    tag1: "On-demand Reports",
-    taga: "Our last mile software includes on-demand reports & pivotal data presented in a graphical form to reduce cognitive load ",
-    tag2: "Optimization",
-    tagb: "Your admin will get clear updates about the business like the usage of resources, performance of delivery agents, delivery status, etc",
-    tag3: "Cloud-based Storage",
-    tagc: "This critical data is stored in a cloud-based storage and helps you to take insight-driven business decisions.",
+    title: "Access Control & Analytics",
+    tag1: "Revenue Tracking",
+    taga: "Keep track of tuition fees, outstanding payments and installments.",
+    tag2: "Payment Collection",
+    tagb: "Receive payments from popular payment systems, such as Venmo, Google Pay, PayPal, Stripe, Apple Pay and Braintree.",
+    tag3: "Track Payroll",
+    tagc: "Track your payroll, per school period Track your payroll, per school period.",
     image: Portfolio2,
     Circle: Circle,
   },

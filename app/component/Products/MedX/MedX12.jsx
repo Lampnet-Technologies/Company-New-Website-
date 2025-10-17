@@ -5,7 +5,7 @@ import Mockup1 from "../../../../public/images/MedxPharm.svg";
 const MedX12 = () => {
   const header = "PharmX Medicine Delivery App";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "PharmX is an end-to-end medicine ordering and delivery solution designed for pharmacies, hospitals, and healthcare providers. It enables customers to order prescriptions online, track deliveries in real-time, and make secure payments — all within one seamless platform. PharmX helps you modernize your pharmacy operations, improve accessibility, and deliver healthcare with speed and convenience.";
   const initial = "Schedule Demo";
   const backgroundColor = "#3E83EA";
   const border = "0px solid #3E83EA";

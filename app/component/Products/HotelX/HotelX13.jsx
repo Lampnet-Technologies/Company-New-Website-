@@ -3,9 +3,9 @@ import Product11 from "../ProductProps/Product11";
 import Mockup1 from "../../../../public/images/HotelBuildingB.svg";
 
 const HotelX13 = () => {
-  const header = "CourierX Courier & Logistics App";
+  const header = "HotelX Transportation & Logistics Management App";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "HotelX is a comprehensive transportation and logistics management system designed to help hotels and other accommodation providers operate efficiently. Manage bookings, guest information, billing, and reporting — all from one intuitive platform. With our user-friendly interface and powerful features, you can streamline your operations, enhance guest experiences, and boost your revenue. Whether you're a small boutique hotel or a large chain, HotelX has everything you need to succeed in the competitive hospitality industry.";
   const initial = "Schedule Demo";
   const backgroundColor = "#34A853";
   const border = "0px solid #34A853";

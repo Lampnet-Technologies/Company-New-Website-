@@ -6,15 +6,16 @@ import Portfolio1 from "../../../../public/images/FintechTime1.svg";
 import Portfolio2 from "../../../../public/images/FintechTime2.svg";
 
 const FIntechX4 = () => {
-  const title = "Onboard Your Customers In Seconds With a Single API Request.";
-  const tag1 = "Automated ID verification";
+  const title = "Onboard Your Customers In Seconds With a Single API Request";
+  const tag1 = "Automated ID Verification";
   const taga =
     "With all-time access to learning resources, learn and study at your own pace, even ahead of the class.";
   const tag2 = "Branded Physical and Virtual Cards";
   const tagb =
     "Stay connected and collaborate better with co-learners.so you’ll never need to enter data twice.";
   const tag3 = "Real-time Authorisations";
-  const tagc = "Save time with efficient patient & study management features.";
+  const tagc = "You may keep calls anonymous for safety and privacy without fear of security breach.";
+
   const header = "About Fintech 360";
   const subheader = "You Can Manage Any Accounts With Fintech 360";
   const body =
@@ -23,6 +24,7 @@ const FIntechX4 = () => {
   const color = "#453787";
   const backgroundColor = "#453787";
   const border = "0px solid #453787";
+
   return (
     <div>
       <Product4
@@ -52,37 +54,37 @@ export default FIntechX4;
 const data = [
   {
     id: 1,
-    title: "Real-Time Tracking and Local language Integration",
-    tag1: "Live Map",
-    taga: "Fully-integrated live map view and notifications that keeps you and your customers updated with real-time driver locations.",
-    tag2: "Streamlined Communication",
-    tagb: "Enhances  customer communication by allowing them to contact their dispatchers, drivers, and admin with just a single tap.",
-    tag3: "Privacy and Security",
+    title: "Onboard Your Customers In Seconds With a Single API Request",
+    tag1: "Automated ID Verification",
+    taga: "With all-time access to learning resources, learn and study at your own pace, even ahead of the class.",
+    tag2: "Branded Physical and Virtual Cards",
+    tagb: "Stay connected and collaborate better with co-learners.so you’ll never need to enter data twice.",
+    tag3: "Real-time Authorisations",
     tagc: "You may keep calls anonymous for safety and privacy without fear of security breach.",
     image: Realtime,
     Circle: Circle,
   },
   {
     id: 2,
-    title: "Express & Scheduled Delivery Options",
-    tag1: "Express and Advance booking",
-    taga: "Supports express & advance booking for customers which helps your drivers manage delivery assignments.",
-    tag2: "Optimization",
-    tagb: "Optimize dynamic routing, order tracking, and delivery scheduling and accuracy",
-    tag3: "Easy Allocation ",
-    tagc: "Effectively manage deliveries and spend less time allocating tasks to your drivers",
+    title: "Comply With Security and Privacy Standards",
+    tag1: "Regulatory Compliance",
+    taga: "Our platform is designed to help you meet industry regulations such as PCI-DSS, GDPR, and PSD2, ensuring your business stays compliant.",
+    tag2: "Data Encryption",
+    tagb: "We use advanced encryption protocols to protect sensitive data both in transit and at rest, safeguarding your customers' information.",
+    tag3: "Access Controls",
+    tagc: "Implement role-based access controls to restrict system access to authorized personnel only, enhancing security.",
     image: Portfolio1,
     Circle: Circle,
   },
   {
     id: 3,
-    title: "In-app Chat & Insightful Report ",
-    tag1: "On-demand Reports",
-    taga: "Our last mile software includes on-demand reports & pivotal data presented in a graphical form to reduce cognitive load ",
-    tag2: "Optimization",
-    tagb: "Your admin will get clear updates about the business like the usage of resources, performance of delivery agents, delivery status, etc",
-    tag3: "Cloud-based Storage",
-    tagc: "This critical data is stored in a cloud-based storage and helps you to take insight-driven business decisions.",
+    title: "Leverage Data and Analytics to Drive Growth",
+    tag1: "Data Visualization",
+    taga: "Interactive dashboards provide real-time insights into key performance metrics, helping you make informed decisions.",
+    tag2: "Operational Insights",
+    tagb: "Monitor transaction patterns, customer behavior, and system performance to optimize operations and enhance user experience.",
+    tag3: "Advanced Reporting",
+    tagc: "Generate customizable reports to analyze trends, track KPIs, and support strategic planning.",
     image: Portfolio2,
     Circle: Circle,
   },

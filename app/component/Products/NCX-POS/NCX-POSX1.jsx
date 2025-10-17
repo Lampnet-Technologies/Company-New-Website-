@@ -3,13 +3,13 @@ import Product1 from "../ProductProps/Product1";
 import Producthero from "../../../../public/images/CoWorkSpaceHero.svg";
 import Form from "../../Form/page";
 
-const CoWorkspaceX1 = () => {
+const NCXPOSX1 = () => {
   const initial = "Consult Our Expert";
   const initial2 = "Become a Reseller";
-  const header = "Co-WorkspaceX";
-  const subheader = "The most intuitive coworking management solution";
+  const header = "NCX Point of Sale";
+  const subheader = "Multi Branch POS – ERP, Inventory, Stock & SaaS Business Management Software";
   const paragraph =
-    "Co-workspaceX is reimagining coworking software. Say hello to the all-in-one platform for flex space management.";
+    "Best ERP, Stock Management, Point of Sale & Invoicing Application. Everything you need to run every branch. Simple to use. Powerful to manage.";
   const backgroundColor = "#1628F4";
   const border = "1px solid #1628F4";
   const colorbutton = "#1628F4";
@@ -33,4 +33,4 @@ const CoWorkspaceX1 = () => {
   );
 };
 
-export default CoWorkspaceX1;
+export default NCXPOSX1;

@@ -6,11 +6,11 @@ import Product2 from "../ProductProps/Product2";
 
 const CourieX2 = () => {
   const header = "The Features";
-  const subHeader =
-    "The Most Versatile Logistics & Delivery Management Platform";
+  const subHeader = "The Most Versatile Logistics & Delivery Management Platform";
   const paragraph =
-    "We understand your idea is unique, and so should be your product, hence we combine our resouces to accelerate the growth of your startup from ideation to execution";
+    "CourieX is designed to streamline logistics operations, empower delivery teams, and enhance visibility across every stage of your supply chain. Our robust features ensure faster, smarter, and more efficient delivery management for businesses of all sizes.";
   const color = "#54BD95";
+
   return (
     <div>
       <Product2
@@ -29,26 +29,32 @@ export default CourieX2;
 const data = [
   {
     id: 1,
-    body: "Our API integration services help your business integrate systems seamlessly, including third-party applications, databases, and software",
-    name: "Streamlined Integration",
+    name: "Real-Time Tracking",
+    body: "Monitor every shipment with GPS-enabled tracking and live updates. Gain full visibility into delivery routes, driver status, and customer notifications.",
     image: Features1,
   },
   {
     id: 2,
-    body: "We prioritize security in our API development and integration services, ensuring that your business data is protected from unauthorized access.",
-    name: "Enhanced Security",
+    name: "Smart Route Optimization",
+    body: "Automatically generate the most efficient delivery routes using AI-powered algorithms that reduce fuel costs and delivery time.",
     image: Features2,
   },
   {
     id: 3,
-    body: "We optimize API performance and functionality, allowing your business to save time and resources, automate tasks, and simplify workflows",
-    name: "Increased Efficiency",
+    name: "Multi-Vendor & Fleet Management",
+    body: "Easily manage multiple vendors, drivers, and fleets in one dashboard. Assign tasks, track performance, and streamline communication effortlessly.",
     image: Features3,
   },
   {
     id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
+    name: "Automated Dispatch & Notifications",
+    body: "Simplify logistics operations with automated dispatching, order assignment, and instant alerts for customers and drivers.",
     image: Features1,
+  },
+  {
+    id: 5,
+    name: "Analytics & Performance Dashboard",
+    body: "Access powerful analytics that track key delivery metrics, customer satisfaction, and team productivity to make data-driven decisions.",
+    image: Features2,
   },
 ];

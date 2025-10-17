@@ -6,7 +6,7 @@ const HotelX3 = () => {
   const header = "Many Customers, One Simple Solution.";
   const subheader = "HotelX Management Software Offers";
   const paragraph =
-    "School 360 provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your school organization.";
+    "HotelX is a comprehensive hospitality management system designed to help hotels and other accommodation providers operate efficiently. Manage bookings, guest information, billing, and reporting — all from one intuitive platform.";
   const color = "#34A853";
 
   return (
@@ -29,19 +29,19 @@ const data = [
   {
     id: 1,
     image: Features3,
-    title: "Customer App",
-    body: "On demand delivery app for customer’s orders and real time delivery tracking. Payment through multiple gateways are also available",
+    title: "Guest App",
+    body: "Allow guests to make bookings, view room availability, request services, and manage their stay seamlessly from a user-friendly mobile app.",
   },
   {
     id: 2,
     image: Features3,
-    title: "Dispatch App",
-    body: " Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "Staff & Operations App",
+    body: "Equip your hotel staff with tools to manage room assignments, housekeeping, maintenance, and service requests efficiently in real-time.",
   },
   {
     id: 3,
     image: Features3,
-    title: "Admin Management App",
-    body: "Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "Admin Dashboard",
+    body: "Centralize hotel management with a comprehensive dashboard to monitor bookings, revenue, guest feedback, and operational performance.",
   },
 ];

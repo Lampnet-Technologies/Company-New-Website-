@@ -47,40 +47,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Helping early-stage businesses build scalable digital foundations and gain market visibility",
+    body: "Empowering new ride-hailing startups to launch fast with scalable, ready-to-customize technology.",
     body1:
-      "Launching a new product website or MVP to attract investors and users.",
-    body2: "Setting up automated tools for marketing, sales, and analytics to support fast growth.",
+      "Build your MVP or full-scale ride-sharing app with RiderX’s pre-built modules for riders and drivers.",
+    body2:
+      "Use real-time tracking, analytics, and digital marketing tools to attract users and investors quickly.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
-    text: "SMBs",
-    body: "Empowering small and medium businesses to streamline operations and boost efficiency through tailored tech solutions",
+    text: "Small & Medium Businesses",
+    body: "Helping local and mid-size transport or logistics companies digitize operations and grow efficiently.",
     body1:
-      "Developing an e-commerce platform with integrated inventory and payment systems.",
-    body2: "Implementing CRM and workflow automation to improve customer retention and productivity.",
+      "Set up booking, driver management, and payment processing under one platform with minimal setup time.",
+    body2:
+      "Automate scheduling, trip tracking, and reporting to reduce costs and improve customer experience.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Providing centralized digital solutions to maintain brand consistency and manage multi-location operations effectively",
+    body: "Supporting mobility and taxi franchises to unify multi-city operations under one connected platform.",
     body1:
-      "Building a unified online platform that supports location-specific pages for each franchise branch.",
-    body2: "Integrating performance dashboards to monitor sales, marketing, and customer engagement across branches.",
+      "Offer location-specific booking apps while maintaining consistent brand identity across regions.",
+    body2:
+      "Monitor trip data, performance, and revenue across branches with a centralized admin dashboard.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Delivering scalable, secure, and customized enterprise-grade systems that drive innovation and operational excellence",
+    body: "Delivering enterprise-grade ride-hailing and fleet management solutions built for performance and scale.",
     body1:
-      "Modernizing legacy systems through cloud migration and process automation.",
-    body2: "Implementing advanced analytics and AI-driven insights for strategic decision-making.",
+      "Integrate RiderX with your existing ERP, CRM, and payment systems for seamless enterprise workflows.",
+    body2:
+      "Leverage AI-driven analytics and custom APIs to manage thousands of rides, drivers, and customers efficiently.",
     image: StartupScroll,
     imagea: Scroll,
   },

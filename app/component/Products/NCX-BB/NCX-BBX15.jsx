@@ -3,15 +3,15 @@ import Product15 from "../ProductProps/Product15";
 import Group2 from "../../../../public/images/Group2.svg";
 import Tick from "../../../../public/images/Tick.svg";
 
-const CoWorkspaceX15 = () => {
+const NCXBBX15 = () => {
   const header = "One-Click Integrations";
-  const subheader = "Integrated with thousands of apps";
+  const subheader = "NCX Billing Book can be easily integrated with your favorite tools";
   const body =
-    "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
+    "Seamlessly connect NCX-BB with your existing software and tools to streamline your workflow and enhance productivity.";
   const initial = "Schedule Demo";
-  const body1 = "100+ Major Addons";
-  const body2 = "Major Access Provider";
-  const body3 = "Free Open API";
+  const body1 = "Complete POS & Inventory System";
+  const body2 = "Multi-Currency Billing";
+  const body3 = "Customer & Supplier CRM";
   return (
     <div>
       {" "}
@@ -30,4 +30,4 @@ const CoWorkspaceX15 = () => {
   );
 };
 
-export default CoWorkspaceX15;
+export default NCXBBX15;

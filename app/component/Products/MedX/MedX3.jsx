@@ -29,19 +29,26 @@ const data = [
   {
     id: 1,
     image: Features3,
-    title: "Customer App",
-    body: "On demand delivery app for customer’s orders and real time delivery tracking. Payment through multiple gateways are also available",
+    title: "Patient App",
+    body: "A user-friendly mobile app for patients to book appointments, access prescriptions, receive reminders, and securely communicate with their healthcare providers.",
   },
   {
     id: 2,
     image: Features3,
-    title: "Driver App",
-    body: " Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "Doctor App",
+    body: "A comprehensive dashboard for doctors to manage appointments, patient records, prescriptions, and virtual consultations — all in one place.",
   },
   {
     id: 3,
     image: Features3,
-    title: "Delivery Management App",
-    body: "Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "Admin Management Portal",
+    body: "An intelligent control center that allows clinics to manage staff, schedules, billing, analytics, and compliance efficiently from a single secure interface.",
   },
+  {
+  id: 4,
+  image: Features3,
+  title: "Nurse & Staff App",
+  body: "A dedicated app that streamlines care coordination, patient monitoring, and shift management for nurses and medical staff.",
+},
 ];
+

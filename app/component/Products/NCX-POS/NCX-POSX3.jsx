@@ -2,13 +2,13 @@ import React from "react";
 import Product3 from "../ProductProps/Product3";
 import Features3 from "../../../../public/images/CoWorkCircle.svg";
 
-const CoWorkspaceX3 = () => {
+const NCXPOSX3 = () => {
   const header = "Many Spaces, One Community Solution.";
-  const subheader = "What you can do with Co-WorkspaceX";
+  const subheader = "What you can do with NCX Point of Sale Software?";
   const paragraph =
-    "School 360 provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your school organization.";
+    "NCX Point of Sale Software provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your organization.";
 
-  const color = "#1628F4";
+  const color = "#F76C6C";
 
   return (
     <div>
@@ -24,25 +24,25 @@ const CoWorkspaceX3 = () => {
   );
 };
 
-export default CoWorkspaceX3;
+export default NCXPOSX3;
 
 const data = [
   {
     id: 1,
     image: Features3,
-    title: "Customer App",
-    body: "On demand delivery app for customer’s orders and real time delivery tracking. Payment through multiple gateways are also available",
+    title: "Point of Sale",
+    body: "Fast checkout, multi-payment, barcodes, receipts, and customer display. Works online on any device. Offline works on the installed device (no syncing).",
   },
   {
     id: 2,
     image: Features3,
-    title: "Space App",
-    body: " Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "Reporting & Analytics",
+    body: "Detailed analysis of sales performance reports, Inventory valuation, Customer analytics, Profit & loss statements, Real-time dashboards",
   },
   {
     id: 3,
     image: Features3,
-    title: "Admin Management App",
-    body: "Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "ERP System",
+    body: "Complete business management solution with modules for accounting, inventory, sales, purchasing, CRM, HR, and more.",
   },
 ];

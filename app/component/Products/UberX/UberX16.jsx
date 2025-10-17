@@ -6,7 +6,7 @@ const UberX16 = () => {
   const header = "Integrated with thousands of apps";
   const subheader = "Join. Sell. Earn";
   const body =
-    "Collaborate with us and Explore our Partnership Program to earn more by selling, customizing or integrating our premium logistic solution";
+    "Collaborate with us and Explore our Partnership Program to earn more by selling, customizing or integrating our premium logistic solutions into your business. Become a partner today and unlock new opportunities for growth and success.";
   const initial = "Become a Partner";
   const backgroundColor = "#0F479C";
   const border = "0px solid #0F479C";

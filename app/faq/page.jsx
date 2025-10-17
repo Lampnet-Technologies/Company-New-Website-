@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import styles from './faq.module.css';
+import ButtonFour from "../component/Button/ButtonFour"
 
 const FAQ = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -86,6 +87,7 @@ const FAQ = () => {
 
   return (
     <div className={styles.container}>
+      <ButtonFour />
       <div className={styles.content}>
         <h1 className={styles.title}>Frequently Asked Questions</h1>
         <p className={styles.subtitle}>
@@ -140,7 +142,7 @@ const FAQ = () => {
           <p className={styles.ctaText}>
             Can&apos;t find the answer you&apos;re looking for? Our support team is ready to help.
           </p>
-          <a href="mailto:support@lampnet.com" className={styles.ctaButton}>
+          <a href="mailto:support@lampnets.com" className={styles.ctaButton}>
             Contact Support
           </a>
         </div>

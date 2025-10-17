@@ -27,6 +27,10 @@ const Product9a = ({
   return (
     <div className={classes.Product9aScrollContainer}>
       <div className={classes.Product9aMain}>
+        <h6>Solution For All Businesses</h6>
+          <h5>
+            What is Your Company Type?
+          </h5>
         {data.map((d) => (
           <div
             // style={borderStyle}

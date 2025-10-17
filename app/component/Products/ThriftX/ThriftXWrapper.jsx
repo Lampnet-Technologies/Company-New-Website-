@@ -46,40 +46,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Helping early-stage businesses build scalable digital foundations and gain market visibility",
+    body: "Helping early-stage businesses implement secure, scalable financial systems to launch and grow efficiently.",
     body1:
-      "Launching a new product website or MVP to attract investors and users.",
-    body2: "Setting up automated tools for marketing, sales, and analytics to support fast growth.",
+      "Set up digital wallets, payment gateways, and online banking features to attract investors and customers.",
+    body2:
+      "Deploy automated financial tools for accounting, invoicing, and analytics to support rapid growth.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
     text: "SMBs",
-    body: "Empowering small and medium businesses to streamline operations and boost efficiency through tailored tech solutions",
+    body: "Empowering small and medium businesses with fintech solutions that streamline payments, operations, and customer management.",
     body1:
-      "Developing an e-commerce platform with integrated inventory and payment systems.",
-    body2: "Implementing CRM and workflow automation to improve customer retention and productivity.",
+      "Integrate e-commerce platforms with payment processing and accounting systems for seamless transactions.",
+    body2:
+      "Implement digital invoicing, automated reporting, and CRM tools to enhance productivity and customer experience.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Providing centralized digital solutions to maintain brand consistency and manage multi-location operations effectively",
+    body: "Providing centralized financial management tools to maintain consistency and oversight across multiple locations.",
     body1:
-      "Building a unified online platform that supports location-specific pages for each franchise branch.",
-    body2: "Integrating performance dashboards to monitor sales, marketing, and customer engagement across branches.",
+      "Deploy unified payment processing and reporting systems for each branch while maintaining brand standards.",
+    body2:
+      "Monitor revenue, transactions, and performance across all locations with real-time dashboards and analytics.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Delivering scalable, secure, and customized enterprise-grade systems that drive innovation and operational excellence",
+    body: "Delivering enterprise-grade fintech platforms that scale securely, optimize operations, and drive strategic growth.",
     body1:
-      "Modernizing legacy systems through cloud migration and process automation.",
-    body2: "Implementing advanced analytics and AI-driven insights for strategic decision-making.",
+      "Modernize legacy financial systems with cloud-based banking, automated workflows, and integrated reporting.",
+    body2:
+      "Leverage advanced analytics, AI-driven insights, and compliance management to inform business strategy and innovation.",
     image: StartupScroll,
     imagea: Scroll,
   },

@@ -3,9 +3,9 @@ import Product11 from "../ProductProps/Product11";
 import Mockup1 from "../../../../public/images/MockupX.svg";
 
 const FeedX11 = () => {
-  const header = "Food Menu Ordering & Delivery App";
+  const header = "Crave More Customers? Launch Your Food App In Minutes!";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+  "Get started quickly with our ready-to-use food ordering and delivery app. Our ready-made food ordering app gets you online fast. Customers can browse menus, order, and track deliveries – all within your branded app. Increase sales and delight customers without the hassle of custom development.";
   const initial = "Schedule Demo";
   const backgroundColor = "#F77E63";
   const border = "0px solid #F77E63";

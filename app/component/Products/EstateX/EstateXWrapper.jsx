@@ -48,40 +48,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Helping early-stage businesses build scalable digital foundations and gain market visibility",
+    body: "Empowering new property ventures and real estate startups to build scalable digital foundations for rapid growth.",
     body1:
-      "Launching a new product website or MVP to attract investors and users.",
-    body2: "Setting up automated tools for marketing, sales, and analytics to support fast growth.",
+      "Launch your property listing or rental platform with tools designed to attract investors and early clients.",
+    body2:
+      "Automate marketing, lead management, and analytics to scale faster and operate efficiently from day one.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
     text: "SMBs",
-    body: "Empowering small and medium businesses to streamline operations and boost efficiency through tailored tech solutions",
+    body: "Helping small and medium-sized real estate businesses streamline operations and boost productivity with flexible digital solutions.",
     body1:
-      "Developing an e-commerce platform with integrated inventory and payment systems.",
-    body2: "Implementing CRM and workflow automation to improve customer retention and productivity.",
+      "Develop a property management system with integrated rent tracking, maintenance requests, and payment processing.",
+    body2:
+      "Implement CRM and workflow automation to enhance tenant engagement and team collaboration.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Providing centralized digital solutions to maintain brand consistency and manage multi-location operations effectively",
+    body: "Providing centralized control and unified tools to manage multi-location real estate or agency franchises effortlessly.",
     body1:
-      "Building a unified online platform that supports location-specific pages for each franchise branch.",
-    body2: "Integrating performance dashboards to monitor sales, marketing, and customer engagement across branches.",
+      "Create a single platform to oversee listings, agents, and branches while maintaining brand consistency.",
+    body2:
+      "Gain actionable insights with real-time dashboards for sales performance, occupancy rates, and marketing campaigns.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Delivering scalable, secure, and customized enterprise-grade systems that drive innovation and operational excellence",
+    body: "Delivering enterprise-grade, scalable, and secure real estate solutions that power innovation and operational excellence.",
     body1:
-      "Modernizing legacy systems through cloud migration and process automation.",
-    body2: "Implementing advanced analytics and AI-driven insights for strategic decision-making.",
+      "Modernize existing systems with cloud-based infrastructure and seamless integration across business units.",
+    body2:
+      "Leverage AI-driven analytics and automated workflows to make smarter, data-backed portfolio decisions.",
     image: StartupScroll,
     imagea: Scroll,
   },

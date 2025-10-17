@@ -20,26 +20,26 @@ const data = [
   {
     id: 1,
     img: Business1,
-    head: "Logistics",
+    head: "Logistics Companies",
   },
   {
     id: 2,
     img: Business2,
-    head: "Freight Forwarder",
+    head: "Freight Forwarding Firms",
   },
   {
     id: 3,
     img: Business3,
-    head: "Manufacturing",
+    head: "Manufacturing Industries",
   },
   {
     id: 4,
     img: Business4,
-    head: "Quick Service Restaurants",
+    head: "Quick Service Restaurants (QSR)",
   },
   {
     id: 5,
     img: Business5,
-    head: "Courier & Parcel",
+    head: "Courier & Parcel Services",
   },
 ];

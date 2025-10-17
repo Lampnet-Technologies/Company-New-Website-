@@ -3,17 +3,17 @@ import Product1 from "../ProductProps/Product1";
 import Producthero from "../../../../public/images/CoWorkSpaceHero.svg";
 import Form from "../../Form/page";
 
-const CoWorkspaceX1 = () => {
+const NCXBBX1 = () => {
   const initial = "Consult Our Expert";
   const initial2 = "Become a Reseller";
-  const header = "Co-WorkspaceX";
-  const subheader = "The most intuitive coworking management solution";
+  const header = "NCX Billing Book";
+  const subheader = "NCS Billing Book – POS & Inventory (One‑time $35)";
   const paragraph =
-    "Co-workspaceX is reimagining coworking software. Say hello to the all-in-one platform for flex space management.";
-  const backgroundColor = "#1628F4";
-  const border = "1px solid #1628F4";
-  const colorbutton = "#1628F4";
-  const color = "#1628F4";
+    "Lightning-fast checkout, real-time stock, accounting & multi-warehouse. Now with Multi-Currency Billing and Promotional SMS to engage customers instantly. Works online on any device. Offline works on the installed device (no syncing).";
+  const backgroundColor = "#d50ac8";
+  const border = "1px solid #d50ac8";
+  const colorbutton = "#d50ac8";
+  const color = "#d50ac8";
   return (
     <div>
       <Product1
@@ -33,4 +33,4 @@ const CoWorkspaceX1 = () => {
   );
 };
 
-export default CoWorkspaceX1;
+export default NCXBBX1;

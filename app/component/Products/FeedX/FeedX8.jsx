@@ -7,7 +7,7 @@ const FeedX8 = () => {
   const heading = "White-Label Software for Your Needs";
   const mail = "Win Against The Competition ";
   const paragraph1 =
-    "Expand Your On-demand Delivery Business with the Influence of our ready-to-use 100% Customizable Software Solution for profitable results in your Company ";
+    "Expand Your On-demand Delivery Business with the Influence of our ready-to-use 100% Customizable Software Solution for profitable results in your Company";
 
   // color = "#000";
   return (

@@ -2,7 +2,7 @@ import React from "react";
 import Product17 from "../ProductProps/Product17";
 
 const VoiceX18 = () => {
-  const body = "Your Trusted Source For Accurate AI Software";
+  const body = "Experience the Power of AI-Driven Voice Technology. Transform text into natural, human-like speech with VoiceX. Download the VoiceX app now and explore reseller opportunities to expand your business horizons!";
   const initial = "Download Now";
   const initial2 = "Become a Reseller";
   const backgroundColor = "#F76C6C";

@@ -2,7 +2,7 @@ import React from "react";
 import Product17 from "../ProductProps/Product17";
 
 const Restaurant17 = () => {
-  const body = "Become Stronger, Faster, and Smarter with R360";
+  const body = "Become Stronger, Faster, and Smarter with Restaurant 360 Solutions";
   const initial = "Download Now";
   const initial2 = "Become a Reseller";
   const backgroundColor = "#AB0E12";

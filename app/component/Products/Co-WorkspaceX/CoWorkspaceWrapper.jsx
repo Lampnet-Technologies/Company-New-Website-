@@ -48,40 +48,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Helping early-stage businesses build scalable digital foundations and gain market visibility",
+    body: "Supporting early-stage teams with flexible workspace solutions that grow with their ambitions.",
     body1:
-      "Launching a new product website or MVP to attract investors and users.",
-    body2: "Setting up automated tools for marketing, sales, and analytics to support fast growth.",
+      "Providing affordable shared offices and private suites designed to inspire innovation and collaboration.",
+    body2:
+      "Offering networking tools and booking systems to help startups connect, scale, and focus on what matters most — building their vision.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
     text: "SMBs",
-    body: "Empowering small and medium businesses to streamline operations and boost efficiency through tailored tech solutions",
+    body: "Empowering small and medium businesses to operate seamlessly with smart workspace management and digital tools.",
     body1:
-      "Developing an e-commerce platform with integrated inventory and payment systems.",
-    body2: "Implementing CRM and workflow automation to improve customer retention and productivity.",
+      "Simplifying workspace scheduling, meeting room bookings, and team coordination through an integrated platform.",
+    body2:
+      "Improving efficiency with analytics, billing automation, and team access control — all in one solution.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Providing centralized digital solutions to maintain brand consistency and manage multi-location operations effectively",
+    body: "Helping co-working and office franchises manage multiple locations while maintaining brand consistency and service quality.",
     body1:
-      "Building a unified online platform that supports location-specific pages for each franchise branch.",
-    body2: "Integrating performance dashboards to monitor sales, marketing, and customer engagement across branches.",
+      "Centralizing operations and tenant data for all branches within one secure system.",
+    body2:
+      "Tracking occupancy, revenue, and member engagement across locations with real-time dashboards and insights.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Delivering scalable, secure, and customized enterprise-grade systems that drive innovation and operational excellence",
+    body: "Delivering enterprise-grade workspace and facility management solutions that optimize operations and elevate employee experiences.",
     body1:
-      "Modernizing legacy systems through cloud migration and process automation.",
-    body2: "Implementing advanced analytics and AI-driven insights for strategic decision-making.",
+      "Customizing large-scale office networks with smart access, energy efficiency, and booking systems.",
+    body2:
+      "Leveraging data analytics to enhance space utilization, reduce overhead, and improve productivity across departments.",
     image: StartupScroll,
     imagea: Scroll,
   },

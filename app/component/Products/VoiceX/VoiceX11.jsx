@@ -5,7 +5,7 @@ import Mockup1 from "../../../../public/images/OrderXMarketPlace.svg";
 const VoiceX11 = () => {
   const header = "VoiceX Text-to-Speech App";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "Experience the Power of AI-Driven Voice Technology. Transform text into natural, human-like speech with VoiceX. Perfect for content creators, businesses, and developers looking to enhance accessibility and engagement. Try it now and hear the difference!";
   const initial = "Schedule Demo";
   const backgroundColor = "#F76C6C";
   const border = "0px solid #F76C6C";

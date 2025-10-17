@@ -3,7 +3,7 @@ import Product11 from "../ProductProps/Product11";
 import Mockup1 from "../../../../public/images/Mockup5.png";
 
 const CourieX16 = () => {
-  const header = "Integrated with thousands of apps";
+  const header = "Empower your Clients and business with CourierX";
   const subheader = "Join. Sell. Earn";
   const body =
     "Collaborate with us and Explore our Partnership Program to earn more by selling, customizing or integrating our premium logistic solution";

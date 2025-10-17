@@ -5,10 +5,10 @@ import Features3 from "../../../../public/images/OrderXC.svg";
 import Product2 from "../ProductProps/Product2";
 
 const VoiceX2 = () => {
-  const header = "Word-Class Features";
-  const subHeader = "Core  Functionality – Everything You Need";
+  const header = "World-Class Features";
+  const subHeader = "Core Functionality – Everything You Need";
   const paragraph =
-    "Approved by many regulators, flexible and customizable, API-based, cloud-hosted or on-premise-installed, available in SaaS or perpetual license model, opportunity to purchase source codes.";
+    "VoiceX is packed with features designed to make your text-to-speech experience seamless and efficient. From a wide range of natural-sounding voices to advanced customization options, VoiceX has everything you need to bring your content to life.";
   const color = "#F76C6C";
 
   return (

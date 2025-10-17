@@ -5,7 +5,7 @@ import Mockup1 from "../../../../public/images/UberXTaxiB.svg";
 const UberX13 = () => {
   const header = "Car Rental App";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "RiderX Car Rental App is a comprehensive solution that enables entrepreneurs to launch their own car rental business. With features like real-time tracking, multiple payment options, and user-friendly interfaces for both renters and owners, RiderX provides a seamless experience for all users.";
   const initial = "Schedule Demo";
   const backgroundColor = "#0F479C";
   const border = "0px solid #0F479C";

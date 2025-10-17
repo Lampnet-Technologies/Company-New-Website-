@@ -6,19 +6,20 @@ import Portfolio1 from "../../../../public/images/OderTime1.svg";
 import Portfolio2 from "../../../../public/images/OderTime2.svg";
 
 const OrderX4 = () => {
-  const title = "Clear and complete reporting";
-  const tag1 = "Easy booking";
+  const title = "Clear and Complete Reporting";
+  const tag1 = "Order Insights";
   const taga =
-    "With all-time access to learning resources, learn and study at your own pace, even ahead of the class.";
-  const tag2 = "Communities";
+    "Access real-time order analytics, from sales trends to delivery performance, enabling smarter decisions with every transaction.";
+  const tag2 = "Seamless Tracking";
   const tagb =
-    "With all-time access to learning resources, learn and study at your own pace, even ahead of the class.";
-  const tag3 = "Real-time Authorisations";
-  const tagc = "Save time with efficient patient & study management features.";
+    "Monitor every stage of your order—from placement to delivery—through an intuitive dashboard with live updates.";
+  const tag3 = "Instant Authorizations";
+  const tagc =
+    "Authorize, verify, and approve transactions in real time to minimize errors and improve workflow efficiency.";
   const header = "About OrderX";
-  const subheader = "Track anything and everything with ease";
+  const subheader = "Track Anything and Everything with Ease";
   const body =
-    "Fintech 360 Banking Software incorporates all banking and payment functions in one single platform.";
+    "OrderX is a powerful order and delivery management platform designed to centralize operations, automate logistics, and deliver data-driven insights in one place.";
   const initial = "Download Now";
   const color = "#F76C6C";
   const backgroundColor = "#F76C6C";
@@ -26,7 +27,6 @@ const OrderX4 = () => {
 
   return (
     <div>
-      {" "}
       <Product4
         header={header}
         subheader={subheader}
@@ -55,37 +55,37 @@ export default OrderX4;
 const data = [
   {
     id: 1,
-    title: "Real-Time Tracking and Local language Integration",
-    tag1: "Live Map",
-    taga: "Fully-integrated live map view and notifications that keeps you and your customers updated with real-time driver locations.",
-    tag2: "Streamlined Communication",
-    tagb: "Enhances  customer communication by allowing them to contact their dispatchers, drivers, and admin with just a single tap.",
-    tag3: "Privacy and Security",
-    tagc: "You may keep calls anonymous for safety and privacy without fear of security breach.",
+    title: "Clear and Complete Reporting",
+    tag1: "Order Insights",
+    taga: "Access real-time order analytics, from sales trends to delivery performance, enabling smarter decisions with every transaction.",
+    tag2: "Seamless Tracking",
+    tagb: "Monitor every stage of your order—from placement to delivery—through an intuitive dashboard with live updates.",
+    tag3: "Instant Authorizations",
+    tagc: "Authorize, verify, and approve transactions in real time to minimize errors and improve workflow efficiency.",
     image: Realtime,
     Circle: Circle,
   },
   {
     id: 2,
-    title: "Express & Scheduled Delivery Options",
-    tag1: "Express and Advance booking",
-    taga: "Supports express & advance booking for customers which helps your drivers manage delivery assignments.",
-    tag2: "Optimization",
-    tagb: "Optimize dynamic routing, order tracking, and delivery scheduling and accuracy",
-    tag3: "Easy Allocation ",
-    tagc: "Effectively manage deliveries and spend less time allocating tasks to your drivers",
+    title: "Flexible Delivery and Scheduling Options",
+    tag1: "Instant & Scheduled Orders",
+    taga: "Allow customers to place instant orders or schedule future deliveries with automated reminders and updates.",
+    tag2: "Optimized Routing",
+    tagb: "Dynamic routing engine ensures faster deliveries, reduced fuel costs, and improved operational efficiency.",
+    tag3: "Smart Allocation",
+    tagc: "Automatically assign orders to the nearest and most available drivers for better turnaround time.",
     image: Portfolio1,
     Circle: Circle,
   },
   {
     id: 3,
-    title: "In-app Chat & Insightful Report ",
-    tag1: "On-demand Reports",
-    taga: "Our last mile software includes on-demand reports & pivotal data presented in a graphical form to reduce cognitive load ",
-    tag2: "Optimization",
-    tagb: "Your admin will get clear updates about the business like the usage of resources, performance of delivery agents, delivery status, etc",
-    tag3: "Cloud-based Storage",
-    tagc: "This critical data is stored in a cloud-based storage and helps you to take insight-driven business decisions.",
+    title: "In-App Communication & Insightful Reports",
+    tag1: "Custom Reports",
+    taga: "Generate detailed performance and delivery reports to understand trends, costs, and customer satisfaction levels.",
+    tag2: "Operational Insights",
+    tagb: "Gain real-time visibility into key metrics like order flow, delivery speed, and peak performance hours.",
+    tag3: "Cloud-Based Storage",
+    tagc: "Securely store all transaction and performance data in the cloud for easy access and long-term analytics.",
     image: Portfolio2,
     Circle: Circle,
   },

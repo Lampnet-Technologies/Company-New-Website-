@@ -5,7 +5,7 @@ import Product11 from "../ProductProps/Product11";
 const OrderX14 = () => {
   const header = "OrderX Grocery Ordering & Delivery App";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "OrderX Grocery Ordering & Delivery App is a convenient and efficient solution for customers to order and receive grocery deliveries directly to their doorstep. With a user-friendly interface, secure payment options, and real-time tracking, our app ensures a seamless experience from order placement to delivery. Whether you're a residential customer or a business, OrderX Grocery Ordering & Delivery App is designed to meet your grocery needs with ease and reliability.";
   const initial = "Schedule Demo";
   const backgroundColor = "#F76C6C";
   const border = "0px solid #F76C6C";

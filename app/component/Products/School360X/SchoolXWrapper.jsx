@@ -49,40 +49,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Helping early-stage businesses build scalable digital foundations and gain market visibility",
+    body: "Supporting emerging EdTech startups and new schools to build strong digital foundations for growth.",
     body1:
-      "Launching a new product website or MVP to attract investors and users.",
-    body2: "Setting up automated tools for marketing, sales, and analytics to support fast growth.",
+      "Launch your online learning platform or school management MVP to attract students, investors, and partners.",
+    body2:
+      "Automate administrative processes like admissions, attendance, and reporting from day one to ensure smooth scaling.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
     text: "SMBs",
-    body: "Empowering small and medium businesses to streamline operations and boost efficiency through tailored tech solutions",
+    body: "Empowering small and medium-sized institutions to digitize operations and enhance learning efficiency.",
     body1:
-      "Developing an e-commerce platform with integrated inventory and payment systems.",
-    body2: "Implementing CRM and workflow automation to improve customer retention and productivity.",
+      "Integrate School 360 to manage students, staff, and classrooms from a single dashboard.",
+    body2:
+      "Use built-in communication and analytics tools to improve engagement, transparency, and school performance.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Providing centralized digital solutions to maintain brand consistency and manage multi-location operations effectively",
+    body: "Helping education networks and multi-campus institutions manage operations under one centralized system.",
     body1:
-      "Building a unified online platform that supports location-specific pages for each franchise branch.",
-    body2: "Integrating performance dashboards to monitor sales, marketing, and customer engagement across branches.",
+      "Build a unified school platform that supports individual campuses while maintaining consistent branding and reporting.",
+    body2:
+      "Monitor academic and financial performance across branches through centralized analytics and cloud-based management.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Delivering scalable, secure, and customized enterprise-grade systems that drive innovation and operational excellence",
+    body: "Delivering scalable, secure, and customizable enterprise-grade solutions for large universities and education systems.",
     body1:
-      "Modernizing legacy systems through cloud migration and process automation.",
-    body2: "Implementing advanced analytics and AI-driven insights for strategic decision-making.",
+      "Modernize legacy academic management systems with AI-driven automation and cloud migration.",
+    body2:
+      "Enable data-driven decision-making through advanced analytics and deep system integrations for every department.",
     image: StartupScroll,
     imagea: Scroll,
   },

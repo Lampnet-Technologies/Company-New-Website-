@@ -10,7 +10,6 @@ import About7 from "./About7";
 import About8 from "./About8";
 import Marousel from "../Carousel/Marousel";
 import About9 from "./About9";
-import ButtonFour from "../Button/ButtonFour"
 
 const Index = () => {
   return (
@@ -25,7 +24,6 @@ const Index = () => {
       <About7 />
       <About8 />
       <Marousel/>
-      <ButtonFour />
       <About9/>
     </div>
   );

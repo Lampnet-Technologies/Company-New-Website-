@@ -46,41 +46,45 @@ export default VoiceXWrapper;
 const data = [
   {
     id: 1,
-    text: "Startup",
-    body: "Helping early-stage businesses build scalable digital foundations and gain market visibility",
+    text: "Startups",
+    body: "Helping new ventures stand out with affordable, AI-powered voice experiences that accelerate growth and visibility.",
     body1:
-      "Launching a new product website or MVP to attract investors and users.",
-    body2: "Setting up automated tools for marketing, sales, and analytics to support fast growth.",
+      "Integrate lifelike voice narration into your app, website, or MVP to improve user engagement and accessibility.",
+    body2:
+      "Use VoiceX APIs to add multilingual support, automate voice responses, and enhance brand presence from day one.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
     text: "SMBs",
-    body: "Empowering small and medium businesses to streamline operations and boost efficiency through tailored tech solutions",
+    body: "Empowering small and medium businesses with intelligent voice tools to streamline communication and improve customer interaction.",
     body1:
-      "Developing an e-commerce platform with integrated inventory and payment systems.",
-    body2: "Implementing CRM and workflow automation to improve customer retention and productivity.",
+      "Add dynamic voice assistants or auto-responders to handle FAQs, bookings, or feedback efficiently.",
+    body2:
+      "Generate training materials, marketing voice-overs, and automated announcements in minutes with VoiceX.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Providing centralized digital solutions to maintain brand consistency and manage multi-location operations effectively",
+    body: "Unifying multi-location brands with consistent voice identity and AI-driven communication systems.",
     body1:
-      "Building a unified online platform that supports location-specific pages for each franchise branch.",
-    body2: "Integrating performance dashboards to monitor sales, marketing, and customer engagement across branches.",
+      "Create localized voice messages and customer greetings that reflect your brand tone in different regions.",
+    body2:
+      "Monitor voice engagement analytics across branches to ensure consistency and customer satisfaction.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
-    text: "Enterprise",
-    body: "Delivering scalable, secure, and customized enterprise-grade systems that drive innovation and operational excellence",
+    text: "Enterprises",
+    body: "Delivering enterprise-grade, secure, and scalable voice solutions that enhance global communication and accessibility.",
     body1:
-      "Modernizing legacy systems through cloud migration and process automation.",
-    body2: "Implementing advanced analytics and AI-driven insights for strategic decision-making.",
+      "Deploy custom voice AI models for internal training, customer service, and multilingual support.",
+    body2:
+      "Integrate VoiceX across departments to automate calls, provide real-time narration, and improve workflow efficiency.",
     image: StartupScroll,
     imagea: Scroll,
   },

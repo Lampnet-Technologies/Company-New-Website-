@@ -3,9 +3,9 @@ import Product5 from "../ProductProps/Product5";
 
 const VoiceX5 = () => {
   const header = "All Businesses can Use VoiceX";
-  const subheader = "Welcome to the new way of running flex spaces.";
+  const subheader = "Perfect for Any Industry";
   const body =
-    "No matter what type of business you run, OrderX allows you to get your business online in minutes.";
+    "No matter what type of business you run, VoiceX allows you to get your business online in minutes.";
   const color = "#F76C6C";
   return (
     <div>

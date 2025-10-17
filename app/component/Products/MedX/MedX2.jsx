@@ -31,26 +31,32 @@ export default MedX2;
 const data = [
   {
     id: 1,
-    body: "Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ",
-    name: "Patient Check-In",
+    body: "Enable fast and secure digital patient check-ins, minimizing wait times and ensuring accurate record keeping from the moment patients arrive.",
+    name: "Smart Patient Check-In",
     image: Features1,
   },
   {
     id: 2,
-    body: " Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ",
-    name: "Location Accuracy",
+    body: "Use advanced room-level tracking to locate patients, staff, and equipment instantly — enhancing safety, workflow, and overall hospital efficiency.",
+    name: "Real-Time Location Tracking",
     image: Features2,
   },
   {
     id: 3,
-    body: "We optimize API performance and functionality, allowing your business to save time and resources, automate tasks, and simplify workflows",
-    name: "Custom Workflows",
+    body: "Automate scheduling, billing, and administrative processes with flexible workflows designed to match your clinic’s unique operational needs.",
+    name: "Customizable Workflows",
     image: Features3,
   },
   {
     id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
+    body: "Keep patient information secure with role-based access, encryption, and HIPAA-compliant data management — ensuring full privacy and compliance.",
+    name: "Advanced Security & Compliance",
     image: Features1,
   },
+  {
+  id: 5,
+  body: "Gain insights into patient flow, staff performance, and facility utilization through visual dashboards and detailed analytics.",
+  name: "Analytics & Performance Insights",
+  image: Features2,
+},
 ];

@@ -4,10 +4,10 @@ import Clock from "../../../../public/images/OrderXCircle.svg";
 import Code from "../../../../public/images/OrderXCode.svg";
 
 const VoiceX8 = () => {
-  const heading = "Fully Customizable To Meet Your Online Store Needs";
+  const heading = "Why Choose VoiceX?";
   const mail = "Win Against The Competition ";
   const paragraph1 =
-    "Fintech 360 white-label banking software comes as a collection of configurable standalone modules to handle the core functionality for financial services.";
+    "Our text-to-speech platform is designed to be fully customizable, allowing you to tailor the experience to meet your specific needs. Whether you're looking to create a unique voice for your brand or need specific features to enhance your workflow, VoiceX has you covered.";
   const color = "#F76C6C";
   return (
     <div>
@@ -28,19 +28,19 @@ const data = [
   {
     id: 1,
     header: "100% Customization",
-    body: "Ready-to-use and fully customizable features of our on-demand delivery software to suit your business needs to suit your business needs",
+    body: "Our text-to-speech platform is designed to be fully customizable, allowing you to tailor the experience to meet your specific needs. Whether you're looking to create a unique voice for your brand or need specific features to enhance your workflow, VoiceX has you covered.",
     image: Clock,
   },
   {
     id: 2,
     header: "Source Code Ownership",
-    body: " Integrate CourierX with your existing tools with little or no coding for both native and IOS devices both native and IOS devices",
+    body: "With VoiceX, you own the source code, giving you complete control over your text-to-speech solution and the ability to customize it as needed.",
     image: Code,
   },
   {
     id: 3,
     header: "Scalability and Growth",
-    body: "Effectively scale your business and revenue for the complete success and growth of your company scale your business and revenue for the ",
+    body: "VoiceX is built to scale with your business, ensuring that as your needs grow, our platform can adapt to meet them without compromising performance or quality.",
     image: Clock,
   },
 ];

@@ -3,15 +3,14 @@ import Product3 from "../ProductProps/Product3";
 import Features3 from "../../../../public/images/RestaurantC.svg";
 
 const Restaurant3 = () => {
-  const header = "Many Customers, One Simple Solution.";
-  const subheader = "Restaurant 360 Software Offers";
+  const header = "Many Customers, One Seamless Experience.";
+  const subheader = "What Restaurant 360 Software Offers";
   const paragraph =
-    "School 360 provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your school organization.";
+    "Restaurant 360 is an all-in-one restaurant management solution designed to simplify daily operations, enhance customer satisfaction, and improve efficiency across your entire business — from ordering to delivery.";
   const color = "#AB0E12";
 
   return (
     <div>
-      {" "}
       <Product3
         data={data}
         header={header}
@@ -30,18 +29,18 @@ const data = [
     id: 1,
     image: Features3,
     title: "Customer App",
-    body: "On demand delivery app for customer’s orders and real time delivery tracking. Payment through multiple gateways are also available",
+    body: "An intuitive app for customers to browse menus, place dine-in or delivery orders, make secure payments, and track their orders in real time.",
   },
   {
     id: 2,
     image: Features3,
-    title: "Dispatch App",
-    body: " Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "Kitchen & Dispatch App",
+    body: "A powerful tool for chefs and delivery staff to manage incoming orders, optimize food preparation, and ensure fast, accurate deliveries every time.",
   },
   {
     id: 3,
     image: Features3,
-    title: "Admin Management App",
-    body: "Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "Admin Management Dashboard",
+    body: "Gain full control of your restaurant operations — manage menus, pricing, inventory, staff performance, and customer insights from one centralized dashboard.",
   },
 ];

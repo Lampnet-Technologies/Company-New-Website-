@@ -2,13 +2,13 @@ import React from "react";
 import Product3 from "../ProductProps/Product3";
 import Features3 from "../../../../public/images/CoWorkCircle.svg";
 
-const CoWorkspaceX3 = () => {
+const NCXBBX3 = () => {
   const header = "Many Spaces, One Community Solution.";
-  const subheader = "What you can do with Co-WorkspaceX";
+  const subheader = "What's Included in NCX-BB?";
   const paragraph =
-    "School 360 provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your school organization.";
+    "NCX-BB provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your organization.";
 
-  const color = "#1628F4";
+  const color = "#d50ac8";
 
   return (
     <div>
@@ -24,25 +24,31 @@ const CoWorkspaceX3 = () => {
   );
 };
 
-export default CoWorkspaceX3;
+export default NCXBBX3;
 
 const data = [
   {
     id: 1,
     image: Features3,
-    title: "Customer App",
-    body: "On demand delivery app for customer’s orders and real time delivery tracking. Payment through multiple gateways are also available",
+    title: "Dashboard App",
+    body: "Real-time KPIs & quick actions. Get a complete overview of your business performance with our intuitive dashboard, designed to provide quick access to essential metrics and insights.",
   },
   {
     id: 2,
     image: Features3,
-    title: "Space App",
-    body: " Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "Sales App",
+    body: "Invoices, returns, payments. Quick checkout with barcode scanning and returns. Works offline too. Perfect for retail businesses.",
   },
   {
     id: 3,
     image: Features3,
-    title: "Admin Management App",
-    body: "Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "POS App",
+    body: "Fast checkout & receipts. Quick checkout with barcode scanning and returns. Works offline too. Perfect for retail businesses.",
+  },
+  {
+    id: 4,
+    image: Features3,
+    title: "CRM App",
+    body: "Balances, credit, history. Manage your customers and suppliers with ease. Keep track of balances, credit limits, and transaction history all in one place.",
   },
 ];

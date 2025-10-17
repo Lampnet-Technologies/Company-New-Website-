@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "./privacy.module.css";
+import ButtonFour from "../component/Button/ButtonFour"
 
 const Privacy = () => {
   return (
     <div className={styles.container}>
+      <ButtonFour />
       <div className={styles.content}>
         <h1 className={styles.title}>Privacy Policy</h1>
         <p className={styles.lastUpdated}>Last Updated: October 2025</p>
@@ -181,8 +183,8 @@ const Privacy = () => {
           </ul>
           <p className={styles.text}>
             To exercise these rights, contact us at{" "}
-            <a href="mailto:privacy@lampnet.com" className={styles.link}>
-              privacy@lampnet.com
+            <a href="mailto:privacy@lampnets.com" className={styles.link}>
+              privacy@lampnets.com
             </a>
           </p>
         </section>
@@ -241,8 +243,8 @@ const Privacy = () => {
           <div className={styles.contactBox}>
             <p>
               Email:{" "}
-              <a href="mailto:privacy@lampnet.com" className={styles.link}>
-                privacy@lampnet.com
+              <a href="mailto:privacy@lampnets.com" className={styles.link}>
+                privacy@lampnets.com
               </a>
             </p>
             <p>Subject: Data Protection Inquiry</p>

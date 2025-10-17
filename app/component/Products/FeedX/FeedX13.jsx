@@ -7,11 +7,11 @@ const FeedX13 = () => {
   const header = "One-Click Integrations";
   const subheader = "Integrated with thousands of apps";
   const body =
-    "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
+    "Don't get bogged down by data silos. Our food ordering app and marketplace solution integrates effortlessly with thousands of apps you already use:";
   const initial = "Schedule Demo";
-  const body1 = "100+ Major Addons";
-  const body2 = "Major Access Provider";
-  const body3 = "Free Open API";
+  const body1 = "Delivery Management";
+  const body2 = "Payment Processing";
+  const body3 = "Marketing and Loyalty";
   return (
     <div>
       <Product15

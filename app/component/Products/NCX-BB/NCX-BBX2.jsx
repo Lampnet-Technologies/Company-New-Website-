@@ -4,12 +4,12 @@ import Features2 from "../../../../public/images/CoWorkspaceB.svg";
 import Features3 from "../../../../public/images/CoWorkspaceC.svg";
 import Product2 from "../ProductProps/Product2";
 
-const CoWorkspaceX2 = () => {
-  const header = "Word-Class Features";
-  const subHeader = "Core Banking Functionality –Everything You Need";
+const NCXBBX2 = () => {
+  const header = "Core Features & Capabilities";
+  const subHeader = "Why Choose NCX Billing Book?";
   const paragraph =
-    "Approved by many regulators, flexible and customizable, API-based, cloud-hosted or on-premise-installed, available in SaaS or perpetual license model, opportunity to purchase source codes.";
-  const color = "#1628F4";
+    "All-in-one POS, Inventory, Accounting & CRM. Empower your business with NCX Billing Book, the ultimate solution for seamless point-of-sale and inventory management. Designed to streamline operations, enhance customer experiences, and drive growth, NCX Billing Book is your trusted partner in business success.";
+  const color = "#d50ac8";
   return (
     <div>
       {" "}
@@ -24,31 +24,37 @@ const CoWorkspaceX2 = () => {
   );
 };
 
-export default CoWorkspaceX2;
+export default NCXBBX2;
 
 const data = [
   {
     id: 1,
-    body: "Our API integration services help your business integrate systems seamlessly, including third-party applications, databases, and software",
-    name: "Analytics",
+    body: "Quick checkout with barcode scanning and returns. Works offline too.",
+    name: "Fast POS",
     image: Features1,
   },
   {
     id: 2,
-    body: "We prioritize security in our API development and integration services, ensuring that your business data is protected from unauthorized access.",
-    name: "Automated Workflows",
+    body: "Quote, bill and report in multiple currencies with proper conversions. Perfect for global businesses.",
+    name: "Multi-Currency Billing",
     image: Features2,
   },
   {
     id: 3,
-    body: "We optimize API performance and functionality, allowing your business to save time and resources, automate tasks, and simplify workflows",
-    name: "Scalability",
+    body: "Send targeted offers, payment reminders and announcements instantly. Just a click away.",
+    name: "Promotional SMS & Email",
     image: Features3,
   },
   {
     id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
+    body: "Per-location stock, user roles and permissions. The works for multi-store businesses.",
+    name: "Multi-Warehouse",
     image: Features1,
+  },
+   {
+    id: 5,
+    body: "Variants, stock alerts, transfers and CSV tools. Manage your inventory like a pro.",
+    name: "Inventory Control",
+    image: Features2,
   },
 ];

@@ -6,9 +6,9 @@ const VoiceX1 = () => {
   const initial = "Consult Our Expert";
   const initial2 = "Become a Reseller";
   const header = "VoiceX";
-  const subheader = "A Text-to-Speech Artifical Intelligence";
+  const subheader = "A Text-to-Speech Artifical Intelligence Platform";
   const paragraph =
-    "Co-workspaceX is reimagining coworking software. Say hello to the all-in-one platform for flex space management.";
+    "VoiceX is an advanced text-to-speech platform that leverages cutting-edge AI technology to convert written text into natural, human-like speech. With a wide range of customizable voices and languages, VoiceX is perfect for businesses looking to enhance their customer interactions, create engaging content, or improve accessibility.";
   const backgroundColor = "#885050";
   const border = "1px solid #885050";
   const colorbutton = "#885050";

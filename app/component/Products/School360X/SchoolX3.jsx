@@ -4,9 +4,10 @@ import Features3 from "../../../../public/images/Features3.svg";
 
 const SchoolX3 = () => {
   const header = "One Platform, All Features";
-  const subheader = "Schools like yours love School 360. It is designed for ";
+  const subheader =
+    "Schools like yours love School 360 — designed for every stakeholder in education";
   const paragraph =
-    "School 360 provides a comprehensive management system that helps you efficiently streamline operations and reduce resources and costs within your school organization.";
+    "School 360 brings together teachers, students, parents, and administrators in one intelligent platform. It simplifies daily operations, enhances communication, and improves learning outcomes for the entire school community.";
   const color = "#AB0E12";
 
   return (
@@ -29,18 +30,18 @@ const data = [
     id: 1,
     image: Features3,
     title: "Students",
-    body: "On demand delivery app for customer’s orders and real time delivery tracking. Payment through multiple gateways are also available",
+    body: "Access assignments, track grades, and stay informed with real-time updates — all from one easy-to-use student portal.",
   },
   {
     id: 2,
     image: Features3,
     title: "Parents",
-    body: " Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    body: "Stay connected with your child’s progress, attendance, and school activities through transparent reports and instant notifications.",
   },
   {
     id: 3,
     image: Features3,
-    title: "School Administrator",
-    body: "Advanced analytics to analyze data and reports to improve and optimize the performance of fleets and drivers. Ensure on-time deliveries with easy navigation",
+    title: "School Administrators",
+    body: "Manage academic schedules, staff, finances, and reports efficiently with an integrated dashboard that gives you full control and visibility.",
   },
 ];

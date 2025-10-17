@@ -3,9 +3,9 @@ import Product11 from "../ProductProps/Product11";
 import Mockup1 from "../../../../public/images/MockupX.svg";
 
 const FeedX12 = () => {
-  const header = "Food Menu Ordering & Delivery Website";
+  const header = "Become A Marketplace Mogul - Instantly";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "Empower restaurants & stores to sell on your branded app with our multivendor marketplace solution. Customers can browse a vast selection, order seamlessly, and track deliveries in real-time. Launch your marketplace, expand your reach, and drive revenue - all with our ready-to-use app.";
   const initial = "Schedule Demo";
   const backgroundColor = "#F77E63";
   const border = "0px solid #F77E63";

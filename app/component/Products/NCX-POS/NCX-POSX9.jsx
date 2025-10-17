@@ -2,7 +2,7 @@ import React from "react";
 import NCXPOSWrapper from "./NCX-POSWrapper";
 import AccordionProduct from "../../AccordionProduct/page";
 
-const CoWorkspaceX9 = () => {
+const NCXPOSX9 = () => {
   return (
     <div>
       <NCXPOSWrapper />
@@ -11,4 +11,4 @@ const CoWorkspaceX9 = () => {
   );
 };
 
-export default CoWorkspaceX9;
+export default NCXPOSX9;

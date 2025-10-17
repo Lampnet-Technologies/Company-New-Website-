@@ -9,20 +9,22 @@ const ThriftX4 = () => {
   const title = "Data to Power Unparalleled Flexibility";
   const tag1 = "Manage Transactions";
   const taga =
-    "With all-time access to learning resources, learn and study at your own pace, even ahead of the class.";
-  const tag2 = "Set Up Fees & Commissions,";
+    "Streamline and automate transaction management, from initiation to settlement, ensuring accuracy and efficiency.";
+  const tag2 = "Set Up Fees & Commissions";
   const tagb =
-    "Stay connected and collaborate better with co-learners.so you’ll never need to enter data twice.";
+    "Enhances  customer communication by allowing them to contact their dispatchers, drivers, and admin with just a single tap.";
   const tag3 = "Real-time Authorisations";
-  const tagc = "Save time with efficient patient & study management features.";
+  const tagc = "Real-time transaction authorizations and verifications.";
+
   const header = "About ThriftX 360";
   const subheader = "You Can Manage Your Assests With ThriftX";
   const body =
-    "Fintech 360 Banking Software incorporates all banking and payment functions in one single platform.";
+    "ThriftX helps you efficiently manage all of your processes. Enjoy professional investment management for any financial institution, in minutes!";
   const initial = "Download Now";
   const color = "#E47E1F";
   const backgroundColor = "#E47E1F";
   const border = "0px solid #E47E1F";
+
   return (
     <div>
       {" "}
@@ -54,37 +56,37 @@ export default ThriftX4;
 const data = [
   {
     id: 1,
-    title: "Real-Time Tracking and Local language Integration",
-    tag1: "Live Map",
-    taga: "Fully-integrated live map view and notifications that keeps you and your customers updated with real-time driver locations.",
-    tag2: "Streamlined Communication",
-    tagb: "Enhances  customer communication by allowing them to contact their dispatchers, drivers, and admin with just a single tap.",
-    tag3: "Privacy and Security",
-    tagc: "You may keep calls anonymous for safety and privacy without fear of security breach.",
+    title: "Data to Power Unparalleled Flexibility",
+    tag1: "Manage Transactions",
+    taga: "Streamline and automate all financial transactions, from initiation to settlement, ensuring speed, accuracy, and compliance.",
+    tag2: "Set Up Fees & Commissions",
+    tagb: "Easily configure fees, commissions, and interest rates to match your business model, keeping operations flexible and transparent.",
+    tag3: "Real-time Authorizations",
+    tagc: "Authorize and verify transactions in real-time to enhance security and operational efficiency.",
     image: Realtime,
     Circle: Circle,
   },
   {
     id: 2,
-    title: "Express & Scheduled Delivery Options",
-    tag1: "Express and Advance booking",
-    taga: "Supports express & advance booking for customers which helps your drivers manage delivery assignments.",
-    tag2: "Optimization",
-    tagb: "Optimize dynamic routing, order tracking, and delivery scheduling and accuracy",
-    tag3: "Easy Allocation ",
-    tagc: "Effectively manage deliveries and spend less time allocating tasks to your drivers",
+    title: "Comprehensive Investment Tools",
+    tag1: "Portfolio Management",
+    taga: "Monitor and manage diverse investment portfolios with real-time insights, analytics, and performance tracking.",
+    tag2: "Risk & Compliance",
+    tagb: "Ensure regulatory compliance and minimize risks through advanced monitoring and automated alerts.",
+    tag3: "Custom Reporting",
+    tagc: "Generate insightful, on-demand reports for informed decision-making and strategic planning.",
     image: Portfolio1,
     Circle: Circle,
   },
   {
     id: 3,
-    title: "In-app Chat & Insightful Report ",
-    tag1: "On-demand Reports",
-    taga: "Our last mile software includes on-demand reports & pivotal data presented in a graphical form to reduce cognitive load ",
-    tag2: "Optimization",
-    tagb: "Your admin will get clear updates about the business like the usage of resources, performance of delivery agents, delivery status, etc",
+    title: "Secure Communication & Data Insights",
+    tag1: "Client Messaging",
+    taga: "Communicate securely with clients and stakeholders through integrated messaging within the platform.",
+    tag2: "Analytics Dashboard",
+    tagb: "Gain actionable insights with clear dashboards showing transactions, investment performance, and account activity.",
     tag3: "Cloud-based Storage",
-    tagc: "This critical data is stored in a cloud-based storage and helps you to take insight-driven business decisions.",
+    tagc: "All critical financial data is securely stored in the cloud, enabling insight-driven decisions anytime, anywhere.",
     image: Portfolio2,
     Circle: Circle,
   },

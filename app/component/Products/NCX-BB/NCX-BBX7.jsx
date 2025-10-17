@@ -1,18 +1,18 @@
 import React from "react";
 import Product7 from "../ProductProps/Product7";
 
-const CoWorkspaceX7 = () => {
+const NCXBBX7 = () => {
   const initial1 = "Download Now";
   const initial = "Become a Reseller";
-  const header = "Let’s Collaborate";
-  const subheader = "Yes, it's really that simple and powerful.";
+  const header = "Experience the Future with NCX-BB";
+  const subheader = "Your Ultimate Billing Book Solution for Seamless Business Management";
 
-  const background = "#1628F4";
+  const background = "#d50ac8";
   const backgroundColor = "#fff";
-  const color = "#453787";
+  const color = "#9b0491";
   const border = " 1px solid #fff";
   const color2 = "#fff";
-  const background2 = "#1628F4";
+  const background2 = "#d50ac8";
 
   return (
     <div>
@@ -32,4 +32,4 @@ const CoWorkspaceX7 = () => {
   );
 };
 
-export default CoWorkspaceX7;
+export default NCXBBX7;

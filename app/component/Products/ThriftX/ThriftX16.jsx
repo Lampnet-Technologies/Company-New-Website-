@@ -3,10 +3,10 @@ import Product11 from "../ProductProps/Product11";
 import Mockup1 from "../../../../public/images/Mockup5.png";
 
 const ThriftX16 = () => {
-  const header = "Start Innovating Today Experience EstateX for Yourself.";
+  const header = "Start Innovating Today Experience ThriftX Solutions for Yourself.";
   const subheader = "Join. Sell. Earn";
   const body =
-    "Collaborate with us and Explore our Partnership Program to earn more by selling, customizing or integrating our premium logistic solution";
+    "Collaborate with us and Explore our Partnership Program to earn more by selling, customizing or integrating our thrift solution";
   const initial = "Become a Partner";
   const backgroundColor = "#E47E1F";
   const border = "0px solid #E47E1F";

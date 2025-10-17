@@ -48,40 +48,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Helping early-stage businesses build scalable digital foundations and gain market visibility",
+    body: "Empowering new food delivery startups to enter the market quickly with a ready-to-launch, customizable solution.",
     body1:
-      "Launching a new product website or MVP to attract investors and users.",
-    body2: "Setting up automated tools for marketing, sales, and analytics to support fast growth.",
+      "Launch your own branded food delivery app (for customers, restaurants, and riders) without building from scratch.",
+    body2:
+      "Use built-in marketing, tracking, and analytics tools to attract users and scale operations from day one.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
     text: "SMBs",
-    body: "Empowering small and medium businesses to streamline operations and boost efficiency through tailored tech solutions",
+    body: "Helping small and medium food businesses streamline delivery operations and improve customer engagement.",
     body1:
-      "Developing an e-commerce platform with integrated inventory and payment systems.",
-    body2: "Implementing CRM and workflow automation to improve customer retention and productivity.",
+      "Offer online ordering, real-time delivery tracking, and integrated payment systems to grow your reach.",
+    body2:
+      "Automate restaurant management, driver assignments, and customer communications with smart workflows.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Providing centralized digital solutions to maintain brand consistency and manage multi-location operations effectively",
+    body: "Providing franchise owners with centralized control while maintaining local branch autonomy and performance tracking.",
     body1:
-      "Building a unified online platform that supports location-specific pages for each franchise branch.",
-    body2: "Integrating performance dashboards to monitor sales, marketing, and customer engagement across branches.",
+      "Manage multiple franchise locations through a single dashboard with real-time visibility into sales and orders.",
+    body2:
+      "Ensure consistent branding and quality service across all outlets with built-in analytics and reporting tools.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Delivering scalable, secure, and customized enterprise-grade systems that drive innovation and operational excellence",
+    body: "Delivering scalable, data-driven solutions for large-scale food delivery enterprises to optimize performance and growth.",
     body1:
-      "Modernizing legacy systems through cloud migration and process automation.",
-    body2: "Implementing advanced analytics and AI-driven insights for strategic decision-making.",
+      "Integrate your FoodX platform with existing enterprise systems for seamless operations and enhanced efficiency.",
+    body2:
+      "Leverage AI-powered insights, predictive analytics, and automation to drive strategic decision-making and innovation.",
     image: StartupScroll,
     imagea: Scroll,
   },

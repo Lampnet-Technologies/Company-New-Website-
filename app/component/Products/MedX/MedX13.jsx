@@ -2,9 +2,9 @@ import React from "react";
 import Product11 from "../ProductProps/Product11";
 import Mockup1 from "../../../../public/images/MedxHospital.svg";
 const MedX13 = () => {
-  const header = "CourierX Courier & Logistics Hailing App";
+  const header = "MedX Hospital Management Solution";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "MedX is an all-in-one hospital management platform designed to streamline clinical, administrative, and operational workflows. From patient registration and appointment scheduling to billing, reporting, and analytics — MedX empowers healthcare providers to deliver efficient, high-quality care while maintaining complete control over their operations.";
   const initial = "Schedule Demo";
   const backgroundColor = "#3E83EA";
   const border = "0px solid #3E83EA";

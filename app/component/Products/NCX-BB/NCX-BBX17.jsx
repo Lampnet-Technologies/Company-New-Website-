@@ -1,14 +1,14 @@
 import React from "react";
 import Product17 from "../ProductProps/Product17";
 
-const CoWorkspaceX17 = () => {
+const NCXBBX17 = () => {
   const body =
-    "Join leading coworking spaces now and start using Co-WorkspaceX";
+    "Experience the Future of Connectivity with NCX-BB: Your Ultimate Broadband Solution for Seamless, High-Speed Internet Access Anytime, Anywhere.";
   const initial = "Download Now";
   const initial2 = "Become a Reseller";
-  const backgroundColor = "#1628F4";
+  const backgroundColor = "#d50ac8";
   const border = "1px solid #fff";
-  const background = "#1628F4";
+  const background = "#d50ac8";
   const color = "#000";
   const backgroundColor2 = "#fff";
   const border2 = "#fff";
@@ -30,4 +30,4 @@ const CoWorkspaceX17 = () => {
   );
 };
 
-export default CoWorkspaceX17;
+export default NCXBBX17;

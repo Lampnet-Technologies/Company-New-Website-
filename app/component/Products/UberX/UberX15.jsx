@@ -7,11 +7,11 @@ const UberX15 = () => {
   const header = "One-Click Integrations";
   const subheader = "Integrated with thousands of apps";
   const body =
-    "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
+    "RiderX offers seamless one-click integrations with a wide range of third-party applications and services. This allows you to enhance the functionality of your ride-hailing business by easily connecting with tools for payment processing, customer relationship management, marketing, and more.";
   const initial = "Schedule Demo";
-  const body1 = "100+ Major Addons";
-  const body2 = "Major Access Provider";
-  const body3 = "Free Open API";
+  const body1 = "Customizable Features";
+  const body2 = "Scalable Infrastructure";
+  const body3 = "Robust Security";
   return (
     <div>
       {" "}

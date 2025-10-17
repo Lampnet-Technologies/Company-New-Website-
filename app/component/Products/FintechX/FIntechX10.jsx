@@ -2,10 +2,10 @@ import React from "react";
 import Product10 from "../ProductProps/Product10";
 
 const FIntechX10 = () => {
-  const header = "Explore More Flexiblities";
-  const subheader = "Building Your Business Is Our Passion";
+  const header = "Explore More Flexibility";
+  const subheader = "Empowering Your Financial Growth is Our Passion";
   const body =
-    "LampNets School 360 Solutions  works for all use cases and strives to provide top-tier IT solutions to businesses of all sizes and locations in the learning industry";
+    "PayX is built to adapt to your business model — from digital banking and payment processing to lending, wallets, and compliance. We deliver secure, scalable, and customizable fintech solutions designed to help your brand thrive in any market.";
   const color = "#453787";
   return (
     <div>

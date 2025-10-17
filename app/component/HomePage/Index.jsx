@@ -13,7 +13,6 @@ import HomeWrapper from "./HomeWrapper";
 import Marousel from "../Carousel/Marousel";
 import Accordionpage from "../Accordion/page";
 import HomeBlog from "./HomeBlog/page";
-import ButtonFour from "../Button/ButtonFour"
 
 const Index = () => {
   return (
@@ -32,7 +31,6 @@ const Index = () => {
       <Marousel />
       <HomePage9 />
       <HomeBlog />
-      <ButtonFour />
     </div>
   );
 };

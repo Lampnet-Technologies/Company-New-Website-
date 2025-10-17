@@ -5,13 +5,14 @@ import Tick from "../../../../public/images/Tick.svg";
 
 const EstateX15 = () => {
   const header = "One-Click Integrations";
-  const subheader = "Integrated with thousands of apps";
+  const subheader = "Seamlessly Connected With Leading Platforms";
   const body =
-    "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
+    "EstateX operates on a unified database and integrates effortlessly with popular real estate, accounting, and communication tools — ensuring your workflow remains smooth, automated, and efficient across all channels.";
   const initial = "Schedule Demo";
-  const body1 = "100+ Major Addons";
-  const body2 = "Major Access Provider";
+  const body1 = "100+ Major Add-ons";
+  const body2 = "Trusted Access Providers";
   const body3 = "Free Open API";
+
   return (
     <div>
       <Product15

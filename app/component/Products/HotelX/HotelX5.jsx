@@ -2,10 +2,10 @@ import React from "react";
 import Product5 from "../ProductProps/Product5";
 
 const HotelX5 = () => {
-  const header = "All Restaurants Can Use Restaurant 360";
-  const subheader = "Own A Multi-Delivery Business With Ease";
+  const header = "Get Your Hotel Online in Minutes";
+  const subheader = "Works For Any Type of Hotel";
   const body =
-    "No matter what type of business you run, Restaurant 360 allows you to get your business online in minutes.";
+    "No matter what type of hotel you run, HotelX allows you to get your hotel online in minutes.";
   const color = "#34A853";
   return (
     <div>

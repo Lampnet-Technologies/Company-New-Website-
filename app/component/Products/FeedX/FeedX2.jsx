@@ -3,6 +3,7 @@ import Product2 from "../ProductProps/Product2";
 import Features1 from "../../../../public/images/Features4.svg";
 import Features2 from "../../../../public/images/Features5.svg";
 import Features3 from "../../../../public/images/Features6.svg";
+import Features4 from "../../../../public/images/Features8.png";
 
 const FeedX2 = () => {
   const header = "Word-Class Features";
@@ -50,7 +51,13 @@ const data = [
   {
     id: 4,
     body: "Our system can also work in the areas having low data penetration. Hence, there isn’t much dependency on high internet speed or data consumption.",
-    name: "Chris Alex",
+    name: "Proof of Delivery",
+    image: Features4,
+  },
+  {
+    id: 5,
+    body: "Identify and remove bottlenecks faster with our last mile delivery software. You can envision and compare all the planned routes to ensure quick delivery.",
+    name: "Real-Time Map",
     image: Features1,
   },
 ];

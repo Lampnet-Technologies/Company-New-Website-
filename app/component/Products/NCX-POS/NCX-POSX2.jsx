@@ -4,12 +4,12 @@ import Features2 from "../../../../public/images/CoWorkspaceB.svg";
 import Features3 from "../../../../public/images/CoWorkspaceC.svg";
 import Product2 from "../ProductProps/Product2";
 
-const CoWorkspaceX2 = () => {
-  const header = "Word-Class Features";
-  const subHeader = "Core Banking Functionality –Everything You Need";
+const NCXPOSX2 = () => {
+  const header = "Core Features & Capabilities";
+  const subHeader = "Why Choose NCX Point of Sale?";
   const paragraph =
-    "Approved by many regulators, flexible and customizable, API-based, cloud-hosted or on-premise-installed, available in SaaS or perpetual license model, opportunity to purchase source codes.";
-  const color = "#1628F4";
+    "Multi Branch POS comes packed with powerful features to streamline your business operations.";
+  const color = "#F76C6C";
   return (
     <div>
       {" "}
@@ -24,31 +24,31 @@ const CoWorkspaceX2 = () => {
   );
 };
 
-export default CoWorkspaceX2;
+export default NCXPOSX2;
 
 const data = [
   {
     id: 1,
-    body: "Our API integration services help your business integrate systems seamlessly, including third-party applications, databases, and software",
-    name: "Analytics",
+    body: "Robust inventory management system to track stock levels, manage suppliers, and streamline ordering processes.",
+    name: "Inventory Management",
     image: Features1,
   },
   {
     id: 2,
-    body: "We prioritize security in our API development and integration services, ensuring that your business data is protected from unauthorized access.",
-    name: "Automated Workflows",
+    body: "Manage multiple store locations from a single platform, ensuring consistent operations and reporting across all branches.",
+    name: "Multi-Branch Operations",
     image: Features2,
   },
   {
     id: 3,
-    body: "We optimize API performance and functionality, allowing your business to save time and resources, automate tasks, and simplify workflows",
-    name: "Scalability",
+    body: "Comprehensive user and role management features to control access and permissions for staff members.",
+    name: "User & Role Management",
     image: Features3,
   },
   {
     id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
+    body: "Extensive integrations with third-party applications and services to enhance functionality and streamline workflows.",
+    name: "Integrations & Extensions",
     image: Features1,
   },
 ];

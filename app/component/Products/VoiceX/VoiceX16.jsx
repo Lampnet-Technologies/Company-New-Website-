@@ -5,13 +5,13 @@ import Tick from "../../../../public/images/Tick.svg";
 
 const VoiceX16 = () => {
   const header = "One-Click Integrations";
-  const subheader = "Integrated with thousands of apps";
+  const subheader = "Integrated with Major Platforms";
   const body =
-    "Voice-X adapt to any character or setting, delivering natural speech in 32 languages that’s quick to implement and ready to scale and integrates seamlessly with a number of third-party solutions";
+    "VoiceX seamlessly integrates with over 100 major platforms, providing you with the flexibility and tools needed to enhance your business operations. Our free open API allows for easy customization and connectivity, ensuring that you can tailor the solution to fit your unique needs.";
   const initial = "Schedule Demo";
-  const body1 = "100+ Major Addons";
-  const body2 = "Major Access Provider";
-  const body3 = "Free Open API";
+  const body1 = "Free Major Platform Integration";
+  const body2 = "Unlimited Integrations";
+  const body3 = "Open API for Customization";
   return (
     <div>
       <Product15

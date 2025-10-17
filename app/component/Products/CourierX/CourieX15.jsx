@@ -7,11 +7,11 @@ const CourieX15 = () => {
   const header = "One-Click Integrations";
   const subheader = "Integrated with thousands of apps";
   const body =
-    "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
+    "The future of logistics is connected. Our open API allows you to connect with custom-built applications or niche industry tools. Tailor your solution to your specific needs and create a best-in-class logistics ecosystem.";
   const initial = "Schedule Demo";
-  const body1 = "100+ Major Addons";
-  const body2 = "Major Access Provider";
-  const body3 = "Free Open API";
+  const body1 = "Connect Seamlessly";
+  const body2 = "Build Your Dream Ecosystem";
+  const body3 = "Unmatched Flexibility";
   return (
     <div>
       <Product15

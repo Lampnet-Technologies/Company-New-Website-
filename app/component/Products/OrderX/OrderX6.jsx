@@ -16,26 +16,26 @@ const data = [
   {
     id: 1,
     img: Business1,
-    head: "Classes",
+    head: "Logistics Companies",
   },
   {
     id: 2,
     img: Business1,
-    head: "Vacation & Camping",
+    head: "E-commerce Stores",
   },
   {
     id: 3,
     img: Business1,
-    head: "Room",
+    head: "Food Delivery Services",
   },
   {
     id: 4,
     img: Business1,
-    head: "Desks",
+    head: "Grocery & Retail Outlets",
   },
   {
     id: 5,
     img: Business1,
-    head: "Hybrid Office",
+    head: "Courier & Dispatch Agencies",
   },
 ];

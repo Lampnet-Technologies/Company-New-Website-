@@ -1,12 +1,12 @@
 import React from "react";
 import Product10 from "../ProductProps/Product10";
 
-const CoWorkspaceX10 = () => {
-  const header = "Explore More Flexiblities";
+const NCXBBX10 = () => {
+  const header = "Explore More with NCX-BB";
   const subheader = "Building Your Business Is Our Passion";
   const body =
-    "LampNets School 360 Solutions  works for all use cases and strives to provide top-tier IT solutions to businesses of all sizes and locations in the learning industry";
-  const color = "#1628F4";
+    "LampNets NCX Billing Book is designed to empower businesses of all sizes with the tools they need to succeed. From invoicing and inventory management to customer relationship management, our software has everything you need to streamline your operations and grow your business.";
+  const color = "#d50ac8";
   return (
     <div>
       <Product10
@@ -19,4 +19,4 @@ const CoWorkspaceX10 = () => {
   );
 };
 
-export default CoWorkspaceX10;
+export default NCXBBX10;

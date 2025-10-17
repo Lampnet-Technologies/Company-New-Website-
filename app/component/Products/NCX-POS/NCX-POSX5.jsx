@@ -1,14 +1,15 @@
 import React from "react";
 import Product5 from "../ProductProps/Product5";
-const CoWorkspaceX5 = () => {
-  const header = "All Spaces can Use Co-WorkspaceX";
-  const subheader = "Welcome to the new way of running flex spaces.";
+
+const NCXPOSX5 = () => {
+  const header = "Perfect for Every Business Type";
+  const subheader = "Smart, Simple, and Scalable for Every Industry";
   const body =
-    "Businesses of all sizes and types, from e-commerce platforms to travel and hospitality companies- use Fintech 360 to process online and offline payments quickly and securely.";
-  const color = "#1628F4";
+    "From retail stores and restaurants to service providers and franchises — NCX Point of Sale helps all businesses manage sales, inventory, and payments effortlessly in one unified system.";
+  const color = "#F76C6C";
+
   return (
     <div>
-      {" "}
       <Product5
         header={header}
         subheader={subheader}
@@ -19,4 +20,5 @@ const CoWorkspaceX5 = () => {
   );
 };
 
-export default CoWorkspaceX5;
+export default NCXPOSX5;
+

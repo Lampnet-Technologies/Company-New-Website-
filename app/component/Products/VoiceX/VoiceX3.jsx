@@ -3,7 +3,7 @@ import Product3 from "../ProductProps/Product3";
 import Features3 from "../../../../public/images/OrderXC.svg";
 
 const VoiceX3 = () => {
-  const header = "Many Items, One Inventory Solution.";
+  const header = "Many Items, One AI Solution.";
   const subheader = "What you can do with VoiceX ";
   const paragraph =
     "Voice-X provides a vast collection of high-quality voices tailored for creators. Whether you’re producing audiobooks, videos, or interactive content, find the perfect voice to bring your vision to life.";

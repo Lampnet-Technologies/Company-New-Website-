@@ -1,11 +1,12 @@
 import React from "react";
 import Product5 from "../ProductProps/Product5";
-const CoWorkspaceX5 = () => {
-  const header = "All Spaces can Use Co-WorkspaceX";
-  const subheader = "Welcome to the new way of running flex spaces.";
+
+const NCXBBX5 = () => {
+  const header = "All Spaces can Use NCX Billing Book Software";
+  const subheader = "Flexible enough to handle businesses across retail, services, and more.";
   const body =
-    "Businesses of all sizes and types, from e-commerce platforms to travel and hospitality companies- use Fintech 360 to process online and offline payments quickly and securely.";
-  const color = "#1628F4";
+    "NCX Billing Book is designed to adapt to the unique needs of various industries. Startups, SMEs, and large enterprises can all benefit from its versatile features and user-friendly interface.";
+  const color = "#d50ac8";
   return (
     <div>
       {" "}
@@ -19,4 +20,4 @@ const CoWorkspaceX5 = () => {
   );
 };
 
-export default CoWorkspaceX5;
+export default NCXBBX5;

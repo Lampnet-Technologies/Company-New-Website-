@@ -4,11 +4,12 @@ import Clock from "../../../../public/images/MedxClock.svg";
 import Code from "../../../../public/images/MedxCode.svg";
 
 const MedX8 = () => {
-  const heading = "White-Label Software for Your Needs";
-  const mail = "Win Against The Competition ";
+  const heading = "White-Label Healthcare Platform for Your Brand";
+  const mail = "Outpace the Competition with MedX";
   const paragraph1 =
-    "Expand Your On-demand Delivery Business with the Influence of our ready-to-use 100% Customizable Software Solution for profitable results in your Company ";
+    "Empower your healthcare organization with our ready-to-deploy, fully customizable MedX software solution. Deliver secure, patient-centric care under your own brand while improving efficiency and scalability.";
   const color = "#3E83EA";
+
   return (
     <div>
       <Service3Props
@@ -23,23 +24,24 @@ const MedX8 = () => {
 };
 
 export default MedX8;
+
 const data = [
   {
     id: 1,
-    header: "100% Customization",
-    body: "Ready-to-use and fully customizable features of our on-demand delivery software to suit your business needs to suit your business needs",
+    header: "100% Customizable",
+    body: "Tailor every aspect of the MedX platform — from interface design to feature modules — to match your organization’s branding and workflow requirements.",
     image: Clock,
   },
   {
     id: 2,
-    header: "Source Code Ownership ",
-    body: " Integrate CourierX with your existing tools with little or no coding for both native and IOS devices both native and IOS devices",
+    header: "Full Source Code Ownership",
+    body: "Gain complete control over your platform’s source code, ensuring long-term independence, flexibility, and the ability to enhance functionality as your business evolves.",
     image: Code,
   },
   {
     id: 3,
-    header: "Scalability and Growth",
-    body: "Effectively scale your business and revenue for the complete success and growth of your company scale your business and revenue for the ",
+    header: "Built for Scalability",
+    body: "Whether you manage a single clinic or a multi-branch hospital network, MedX grows with you — supporting unlimited users, patients, and integrations effortlessly.",
     image: Clock,
   },
 ];

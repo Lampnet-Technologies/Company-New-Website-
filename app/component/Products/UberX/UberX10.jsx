@@ -1,10 +1,10 @@
 import React from "react";
 import Product10 from "../ProductProps/Product10";
 const UberX10 = () => {
-  const header = "Explore More Flexiblities";
-  const subheader = "Building Your Business Is Our Passion";
+  const header = "Explore More Flexibilities";
+  const subheader = "Flexible Solutions to Build Your Ride-Hailing Business";
   const body =
-    "LampNets School 360 Solutions  works for all use cases and strives to provide top-tier IT solutions to businesses of all sizes and locations in the learning industry";
+    "RiderX offers a range of flexible solutions to help you build and grow your ride-hailing business. From customizable features to scalable infrastructure, we provide the tools you need to succeed in the competitive ride-hailing market.";
   const color = "#0F479C";
   return (
     <div>

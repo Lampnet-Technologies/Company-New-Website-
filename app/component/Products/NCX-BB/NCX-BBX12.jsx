@@ -2,18 +2,18 @@ import React from "react";
 import Product11 from "../ProductProps/Product11";
 import Mockup1 from "../../../../public/images/CoWorkEvent.svg";
 
-const CoWorkspaceX12 = () => {
-  const header = "Estate & Office Space Booking App";
+const NCXBBX12 = () => {
+  const header = "NCX Customer Relationship Management Web App";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "LampNets NCX Billing Book CRM app is designed to help you manage your customer relationships more effectively. With its powerful features and user-friendly interface, you can easily track interactions, manage leads, and automate your sales processes.";
   const initial = "Schedule Demo";
-  const backgroundColor = "#1628F4";
-  const border = "0px solid #1628F4";
+  const backgroundColor = "#d50ac8";
+  const border = "0px solid #d50ac8";
   return (
     <div>
       {" "}
       <Product11
-        header={header} 
+        header={header}
         body={body}
         initial={initial}
         image={Mockup1}
@@ -24,4 +24,4 @@ const CoWorkspaceX12 = () => {
   );
 };
 
-export default CoWorkspaceX12;
+export default NCXBBX12;

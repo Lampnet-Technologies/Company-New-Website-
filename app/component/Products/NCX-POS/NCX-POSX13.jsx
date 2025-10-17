@@ -1,7 +1,7 @@
 import React from "react";
 
-const CoWorkspaceX13 = () => {
+const NCXPOSX13 = () => {
   return <div></div>;
 };
 
-export default CoWorkspaceX13;
+export default NCXPOSX13;

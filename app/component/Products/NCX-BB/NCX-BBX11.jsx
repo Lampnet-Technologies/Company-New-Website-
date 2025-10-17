@@ -2,13 +2,13 @@ import React from "react";
 import Product11 from "../ProductProps/Product11";
 import Mockup1 from "../../../../public/images/CoWorkEvent.svg";
 
-const CoWorkspaceX11 = () => {
-  const header = "Event & Office Space Booking App";
+const NCXBBX11 = () => {
+  const header = "NCX Point of Sales Web App";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "LampNets NCX Billing Book POS app is designed to streamline your sales process and enhance customer experience. With its user-friendly interface and powerful features, you can easily manage transactions, track inventory, and generate reports all in one place.";
   const initial = "Schedule Demo";
-  const backgroundColor = "#1628F4";
-  const border = "0px solid #1628F4";
+  const backgroundColor = "#d50ac8";
+  const border = "0px solid #d50ac8";
   return (
     <div>
       {" "}
@@ -24,4 +24,4 @@ const CoWorkspaceX11 = () => {
   );
 };
 
-export default CoWorkspaceX11;
+export default NCXBBX11;

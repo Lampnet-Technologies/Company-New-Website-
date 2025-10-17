@@ -5,7 +5,7 @@ const ThriftX7 = () => {
   const initial1 = "Download Now";
   const initial = "Become a Reseller";
   const header = "Let’s Collaborate";
-  const subheader = "Want to see our Investment platform software in action?";
+  const subheader = "Want To See Our Investment Platform Software In Action?";
   const background = "#222";
   const backgroundColor = "#fff";
   const color = "#222";

@@ -5,13 +5,13 @@ import Tick from "../../../../public/images/Tick.svg";
 
 const HotelX15 = () => {
   const header = "One-Click Integrations";
-  const subheader = "Just Plug In Your Favorite Tools";
+  const subheader = "Powerful, Secure, and Scalable Hotel Management Software";
   const body =
-    "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
+    "HotelX uses one single database and an integrated hotel management system to serve your entire property and integrates seamlessly with a number of third-party solutions";
   const initial = "Schedule Demo";
-  const body1 = "100+ Major Addons";
-  const body2 = "Major Access Provider";
-  const body3 = "Free Open API";
+  const body1 = "Multi-Property Management";
+  const body2 = "Multi-Platform Support";
+  const body3 = "Customizable Features";
   return (
     <div>
       <Product15

@@ -8,7 +8,7 @@ const OrderX1 = () => {
   const header = "OrderX";
   const subheader = "An online shopping App for your E-commerce";
   const paragraph =
-    "Co-workspaceX is reimagining coworking software. Say hello to the all-in-one platform for flex space management.";
+    "OrderX is a comprehensive e-commerce solution that empowers businesses to create and manage their online stores with ease. With a user-friendly interface, robust features, and seamless integration options, OrderX enables entrepreneurs to showcase their products, process payments securely, and provide an exceptional shopping experience for their customers.";
   const backgroundColor = "#F76C6C";
   const border = "1px solid #F76C6C";
   const colorbutton = "#F76C6C";

@@ -3,12 +3,12 @@ import Service3Props from "../../ServicesPage/ServicesProps/Service3Props";
 import Clock from "../../../../public/images/CoWorkerCircle.svg";
 import Code from "../../../../public/images/CoWorkerCode.svg";
 
-const CoWorkspaceX8 = () => {
-  const heading = "Fully Customizable To Meet Your Booking Needs";
+const NCXBBX8 = () => {
+  const heading = "Fully Integrated Modules";
   const mail = "Win Against The Competition ";
   const paragraph1 =
-    "Fintech 360 white-label banking software comes as a collection of configurable standalone modules to handle the core functionality for financial services.";
-  const color = "#1628F4";
+    "Our NCX Billing Book software is designed to streamline your business operations with fully integrated modules that work seamlessly together. From inventory management to invoicing and reporting, our software has everything you need to run your business efficiently and effectively.";
+  const color = "#d50ac8";
 
   return (
     <div>
@@ -23,24 +23,24 @@ const CoWorkspaceX8 = () => {
   );
 };
 
-export default CoWorkspaceX8;
+export default NCXBBX8;
 const data = [
   {
     id: 1,
-    header: "100% Customization",
-    body: "Ready-to-use and fully customizable features of our on-demand delivery software to suit your business needs to suit your business needs",
+    header: "Adaptable Features",
+    body: "NCX Billing Book is designed to adapt to the unique needs of various industries. Startups, SMEs, and large enterprises can all benefit from its versatile features and user-friendly interface.",
     image: Clock,
   },
   {
     id: 2,
-    header: "Source Code Ownership",
-    body: " Integrate CourierX with your existing tools with little or no coding for both native and IOS devices both native and IOS devices",
+    header: "Easy Integration",
+    body: "Integrate NCX Billing Book with your existing tools with little or no coding for both native and iOS devices.",
     image: Code,
   },
   {
     id: 3,
     header: "Scalability and Growth",
-    body: "Effectively scale your business and revenue for the complete success and growth of your company scale your business and revenue for the ",
+    body: "As your business grows, NCX Billing Book scales with you. Add new users, locations, and features as needed to support your expanding operations.",
     image: Clock,
   },
 ];

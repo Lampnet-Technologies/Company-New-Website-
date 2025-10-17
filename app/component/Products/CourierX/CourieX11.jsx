@@ -3,9 +3,9 @@ import Product11 from "../ProductProps/Product11";
 import Mockup1 from "../../../../public/images/Mockup1.svg";
 
 const CourieX11 = () => {
-  const header = "CourierX Courier & Logistics App";
+  const header = "Launch your Ready-to-Use Delivery & Logistics Mobile App";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "Streamline your delivery needs with CourierX - the ultimate courier and logistics app. From same-day deliveries to international shipments, we've got you covered. Our user-friendly platform allows you to track your packages in real-time and communicate with your courier effortlessly. Experience the convenience of CourierX for all your delivery requirements. Get your customized app today!";
   const initial = "Schedule Demo";
   const backgroundColor = "#54BD95";
   const border = "0px solid #54BD95";

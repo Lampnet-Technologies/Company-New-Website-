@@ -3,9 +3,9 @@ import Product11 from "../ProductProps/Product11";
 import Mockup1 from "../../../../public/images/UberXTaxi.svg";
 
 const UberX11 = () => {
-  const header = "UberX Ride-sharing & Taxi Hailing App";
+  const header = "RiderX Ride-sharing & Taxi Hailing App";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "RiderX app is a comprehensive ride-sharing solution that enables entrepreneurs to launch their own taxi-hailing business. With features like real-time tracking, multiple payment options, and user-friendly interfaces for both drivers and passengers, RiderX provides a seamless experience for all users.";
   const initial = "Schedule Demo";
   const backgroundColor = "#0F479C";
   const border = "0px solid #0F479C";

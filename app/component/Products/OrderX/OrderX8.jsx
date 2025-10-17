@@ -5,10 +5,12 @@ import Code from "../../../../public/images/OrderXCode.svg";
 
 const OrderX8 = () => {
   const heading = "Fully Customizable To Meet Your Online Store Needs";
-  const mail = "Win Against The Competition ";
+  const mail =
+    "Get the flexibility and control you need to create a unique shopping experience.";
   const paragraph1 =
-    "Fintech 360 white-label banking software comes as a collection of configurable standalone modules to handle the core functionality for financial services.";
+    "Our platform is designed to be fully customizable, allowing you to tailor every aspect of your online store to meet your unique business needs and branding. From layout and design to functionality and features, we provide the flexibility you need to create a shopping experience that stands out.";
   const color = "#F76C6C";
+
   return (
     <div>
       {" "}
@@ -24,23 +26,24 @@ const OrderX8 = () => {
 };
 
 export default OrderX8;
+
 const data = [
   {
     id: 1,
-    header: "100% Customization",
-    body: "Ready-to-use and fully customizable features of our on-demand delivery software to suit your business needs to suit your business needs",
+    header: "Complete Customization",
+    body: "Easily tailor every aspect of your OrderX platform—from design to functionality—to perfectly match your business model and workflow.",
     image: Clock,
   },
   {
     id: 2,
-    header: "Source Code Ownership",
-    body: " Integrate CourierX with your existing tools with little or no coding for both native and IOS devices both native and IOS devices",
+    header: "Full Source Code Ownership",
+    body: "Gain complete control over your platform with full source code ownership, allowing seamless integration, deeper customization, and long-term scalability.",
     image: Code,
   },
   {
     id: 3,
-    header: "Scalability and Growth",
-    body: "Effectively scale your business and revenue for the complete success and growth of your company scale your business and revenue for the ",
+    header: "Built to Scale",
+    body: "Whether you're a startup or an enterprise, OrderX grows with you—supporting increased orders, users, and operations without compromising performance.",
     image: Clock,
   },
 ];

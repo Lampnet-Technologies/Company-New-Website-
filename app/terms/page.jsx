@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "./terms.module.css";
+import ButtonFour from "../component/Button/ButtonFour"
 
 const Terms = () => {
   return (
     <div className={styles.container}>
+      <ButtonFour />
       <div className={styles.content}>
         <h1 className={styles.title}>Terms of Service</h1>
         <p className={styles.lastUpdated}>Last Updated: October 2025</p>
@@ -162,8 +164,8 @@ const Terms = () => {
           <h2 className={styles.sectionTitle}>12. Contact Information</h2>
           <p className={styles.text}>
             For questions about these Terms, please contact us at{" "}
-            <a href="mailto:legal@lampnet.com" className={styles.link}>
-              legal@lampnet.com
+            <a href="mailto:legal@lampnets.com" className={styles.link}>
+              legal@lampnets.com
             </a>
           </p>
         </section>

@@ -7,11 +7,11 @@ const OrderX16 = () => {
   const header = "One-Click Integrations";
   const subheader = "Integrated with thousands of apps";
   const body =
-    "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
+    "Seamlessly connect with your favorite tools and platforms to enhance your e-commerce experience. Our one-click integrations make it easy to streamline your operations and boost productivity.";
   const initial = "Schedule Demo";
-  const body1 = "100+ Major Addons";
+  const body1 = "Multi-Channel Selling";
   const body2 = "Major Access Provider";
-  const body3 = "Free Open API";
+  const body3 = "24/7 Customer Support";
   return (
     <div>
       <Product15

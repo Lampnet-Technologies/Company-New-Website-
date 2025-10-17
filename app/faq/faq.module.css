@@ -116,7 +116,7 @@
 
 .ctaSection {
   margin-top: 4rem;
-  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  background: linear-gradient(135deg, #e41111 0%, #890218 100%);
   border-radius: 12px;
   padding: 3rem;
   text-align: center;
@@ -140,7 +140,7 @@
 .ctaButton {
   display: inline-block;
   background-color: #ffffff;
-  color: #0d6efd;
+  color: #030913;
   padding: 0.875rem 2rem;
   border-radius: 8px;
   text-decoration: none;
