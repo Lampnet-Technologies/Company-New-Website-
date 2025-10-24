@@ -5,7 +5,7 @@ const VoiceX10 = () => {
   const header = "Explore More Flexibilities";
   const subheader = "Building Your Business Is Our Passion";
   const body =
-    "LampNets Voice-X Solution works for all use cases and strives to provide top-tier IT solutions to businesses of all sizes and industries.";
+    "LampNets VoiceX AI Solution works for all use cases and strives to provide top-tier IT solutions to businesses of all sizes and industries.";
   const color = "#F76C6C";
   return (
     <div>

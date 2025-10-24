@@ -7,7 +7,7 @@ const VoiceX16 = () => {
   const header = "One-Click Integrations";
   const subheader = "Integrated with Major Platforms";
   const body =
-    "VoiceX seamlessly integrates with over 100 major platforms, providing you with the flexibility and tools needed to enhance your business operations. Our free open API allows for easy customization and connectivity, ensuring that you can tailor the solution to fit your unique needs.";
+    "VoiceX AI seamlessly integrates with over 100 major platforms, providing you with the flexibility and tools needed to enhance your business operations. Our free open API allows for easy customization and connectivity, ensuring that you can tailor the solution to fit your unique needs.";
   const initial = "Schedule Demo";
   const body1 = "Free Major Platform Integration";
   const body2 = "Unlimited Integrations";

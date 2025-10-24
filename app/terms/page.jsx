@@ -164,8 +164,8 @@ const Terms = () => {
           <h2 className={styles.sectionTitle}>12. Contact Information</h2>
           <p className={styles.text}>
             For questions about these Terms, please contact us at{" "}
-            <a href="mailto:legal@lampnets.com" className={styles.link}>
-              legal@lampnets.com
+            <a href="mailto:infodesk@lampnets.com" className={styles.link}>
+              infodesk@lampnets.com
             </a>
           </p>
         </section>

@@ -6,8 +6,8 @@ import Form from "../../Form/page";
 const NCXBBX1 = () => {
   const initial = "Consult Our Expert";
   const initial2 = "Become a Reseller";
-  const header = "NCX Billing Book";
-  const subheader = "NCS Billing Book – POS & Inventory (One‑time $35)";
+  const header = "NCX POS & Inventry";
+  const subheader = "Keep ";
   const paragraph =
     "Lightning-fast checkout, real-time stock, accounting & multi-warehouse. Now with Multi-Currency Billing and Promotional SMS to engage customers instantly. Works online on any device. Offline works on the installed device (no syncing).";
   const backgroundColor = "#d50ac8";

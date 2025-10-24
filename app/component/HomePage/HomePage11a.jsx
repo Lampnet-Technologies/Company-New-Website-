@@ -53,9 +53,9 @@ const HomePage11a = ({ selectedCardData }) => {
             </div>
           </div>
           <div className={classes.sideBarButton}>
-            <Link href="/about">
+           {/*  <Link href="/about">
               <ButtonTwo text={initial} />
-            </Link>
+            </Link> */}
           </div>
         </div>
       )}

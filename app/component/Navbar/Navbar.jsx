@@ -99,7 +99,7 @@ const Navbar = () => {
                         className={`dropdown-item ${classes.dropdownitem}`}
                         href="/courier-x"
                       >
-                        Courier-X
+                        CourierX Logistics
                       </Link>
                     </li>
                     <li>
@@ -107,7 +107,7 @@ const Navbar = () => {
                         className={`dropdown-item ${classes.dropdownitem}`}
                         href="/fleed-x"
                       >
-                        Food-X
+                        FoodX Store
                       </Link>
                     </li>
                     <li>
@@ -115,7 +115,7 @@ const Navbar = () => {
                         className={`dropdown-item ${classes.dropdownitem}`}
                         href="/med-x"
                       >
-                        Med-X
+                        MedX HRM
                       </Link>
                     </li>
 
@@ -124,7 +124,7 @@ const Navbar = () => {
                         className={`dropdown-item ${classes.dropdownitem}`}
                         href="/co-workspace-x"
                       >
-                        Workspace-X
+                        WorkspaceX CRM
                       </Link>
                     </li>
                     <li>
@@ -140,7 +140,7 @@ const Navbar = () => {
                         className={`dropdown-item ${classes.dropdownitem}`}
                         href="/hotel-x"
                       >
-                        Hotel-X
+                        HotelX PMS
                       </Link>
                     </li>
                     <li>
@@ -148,7 +148,7 @@ const Navbar = () => {
                         className={`dropdown-item ${classes.dropdownitem}`}
                         href="/voice-x"
                       >
-                        Voice-X
+                        VoiceX AI
                       </Link>
                     </li>
                   </ul>
@@ -158,7 +158,7 @@ const Navbar = () => {
                         className={`dropdown-item ${classes.dropdownitem}`}
                         href="/estate-x"
                       >
-                        Estate-X
+                        EstateX CRM
                       </Link>
                     </li>
                     <li>
@@ -166,7 +166,15 @@ const Navbar = () => {
                         className={`dropdown-item ${classes.dropdownitem}`}
                         href="/school-x"
                       >
-                        School360
+                        School360 LMS
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${classes.dropdownitem}`}
+                        href="/school-x"
+                      >
+                        School360 SMS
                       </Link>
                     </li>
                     <li>
@@ -174,7 +182,7 @@ const Navbar = () => {
                         className={`dropdown-item ${classes.dropdownitem}`}
                         href="/fintech-x"
                       >
-                        Pay-X
+                        PayX Fintech
                       </Link>
                     </li>
                     <li>
@@ -182,7 +190,7 @@ const Navbar = () => {
                         className={`dropdown-item ${classes.dropdownitem}`}
                         href="/thrift-x"
                       >
-                        Thrift-X
+                        ThriftX Microfinance
                       </Link>
                     </li>
                     <li>
@@ -190,7 +198,7 @@ const Navbar = () => {
                         className={`dropdown-item ${classes.dropdownitem}`}
                         href="/order-x"
                       >
-                        Order-X
+                        OrderX E-Commerce
                       </Link>
                     </li>
                     <li>
@@ -198,7 +206,7 @@ const Navbar = () => {
                         className={`dropdown-item ${classes.dropdownitem}`}
                         href="/uber-x"
                       >
-                        Uber-X
+                        RiderX Drive
                       </Link>
                     </li>
 
@@ -381,7 +389,7 @@ const Navbar = () => {
                         Odoo Manufacturing
                       </Link>
                     </li>
-                    <li>
+                 {/*    <li>
                       <Link
                         className={`dropdown-item ${classes.dropdownitem}`}
                         href="https://www.odoo.com/app/employees"
@@ -389,7 +397,7 @@ const Navbar = () => {
                       >
                         Odoo HRM
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link
                         className={`dropdown-item ${classes.dropdownitem}`}

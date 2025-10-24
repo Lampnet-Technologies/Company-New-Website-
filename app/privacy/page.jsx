@@ -183,8 +183,8 @@ const Privacy = () => {
           </ul>
           <p className={styles.text}>
             To exercise these rights, contact us at{" "}
-            <a href="mailto:privacy@lampnets.com" className={styles.link}>
-              privacy@lampnets.com
+            <a href="mailto:infodesk@lampnets.com" className={styles.link}>
+              infodesk@lampnets.com
             </a>
           </p>
         </section>
@@ -243,8 +243,8 @@ const Privacy = () => {
           <div className={styles.contactBox}>
             <p>
               Email:{" "}
-              <a href="mailto:privacy@lampnets.com" className={styles.link}>
-                privacy@lampnets.com
+              <a href="mailto:infodesk@lampnets.com" className={styles.link}>
+                infodesk@lampnets.com
               </a>
             </p>
             <p>Subject: Data Protection Inquiry</p>

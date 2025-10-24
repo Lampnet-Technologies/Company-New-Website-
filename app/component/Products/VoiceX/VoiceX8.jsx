@@ -4,10 +4,10 @@ import Clock from "../../../../public/images/OrderXCircle.svg";
 import Code from "../../../../public/images/OrderXCode.svg";
 
 const VoiceX8 = () => {
-  const heading = "Why Choose VoiceX?";
+  const heading = "Why Choose VoiceX AI?";
   const mail = "Win Against The Competition ";
   const paragraph1 =
-    "Our text-to-speech platform is designed to be fully customizable, allowing you to tailor the experience to meet your specific needs. Whether you're looking to create a unique voice for your brand or need specific features to enhance your workflow, VoiceX has you covered.";
+    "Our artificial intelligence text-to-speech platform is designed to be fully customizable, allowing you to tailor the experience to meet your specific needs. Whether you're looking to create a unique voice for your brand or need specific features to enhance your workflow, VoiceX has you covered.";
   const color = "#F76C6C";
   return (
     <div>

@@ -71,8 +71,22 @@ const HomeWrapper = () => {
 export default HomeWrapper;
 
 const data = [
-  {
+    {
     id: 1,
+    text: "Artificial Intelligence Development",
+    body: "We automate workflows, build custom AI apps, deploy conversational assistants, and enable AI agents to complete multi‑step tasks. We help organizations automate workflows, deploy conversational assistants, and ship custom AI applications that turn complex multi‑step tasks into measurable outcomes. We focus on measurable business results across industries — accuracy, cycle time, and operational efficiency.",
+    image: Services3,
+    imagea: Servicesa18,
+    texta: "Agentic Task",
+    imageb: Servicesa23,
+    textb: "Document Intelligence",
+    imagec: Servicesa31,
+    textc: "Chatbot",
+    imaged: Servicesa13,
+    textd: "Process Automation",
+  },
+  {
+    id: 9,
     text: "Cloud Solution & Manangement",
     body: "We provide agile cloud services that help businesses drive innovation and growth. Our managed IT strategies and processes help manage their cloud infrastructure, and ensure data security and regulatory compliance.  With our stable and cost-effective  IT infrastructure, we enable businesses focus on core operations while we handle technical details with scalable solutions.",
     image: Services1,
@@ -182,19 +196,5 @@ const data = [
     textc: "Project-Based Outsourcing",
     imaged: Servicesa32,
     textd: "Remote Staffing",
-  },
-  {
-    id: 9,
-    text: "Artificial Intelligence Development",
-    body: "We automate workflows, build custom AI apps, deploy conversational assistants, and enable AI agents to complete multi‑step tasks. We help organizations automate workflows, deploy conversational assistants, and ship custom AI applications that turn complex multi‑step tasks into measurable outcomes. We focus on measurable business results across industries — accuracy, cycle time, and operational efficiency.",
-    image: Services3,
-    imagea: Servicesa18,
-    texta: "Agentic Task",
-    imageb: Servicesa23,
-    textb: "Document Intelligence",
-    imagec: Servicesa31,
-    textc: "Chatbot",
-    imaged: Servicesa13,
-    textd: "Process Automation",
   },
 ];

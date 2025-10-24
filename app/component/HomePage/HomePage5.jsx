@@ -24,10 +24,16 @@ const HomePage5 = () => {
   const [seeAll, setSeeAll] = useState("See all solutions");
   const [showAll, setShowAll] = useState(false);
 
+  // Support products having multiple categories (categories array).
+  // Backwards-compatible: if a product still uses `category` keep matching it.
   const filteredProducts =
     selectedCategory === 1
       ? products
-      : products.filter((product) => product.category === selectedCategory);
+      : products.filter((product) =>
+          product.categories
+            ? product.categories.includes(selectedCategory)
+            : product.category === selectedCategory
+        );
 
   const handleCategoryClick = (categoryId) => {
     setSelectedCategory(categoryId);
@@ -239,198 +245,224 @@ const categories = [
 ];
 
 const products = [
+  // 🚚 Logistics
   {
     id: 1,
-    name: "CourierX Logistics App",
-    category: 3, // Belongs to "Logistics" category
+    name: "CourierX - Customizable Logistics/Transportation App",
+    categories: [3],
     link: "/courier-x",
   },
   {
-    id: 2,
-    name: " FoodX App",
-    category: 2, // Belongs to "Food" category
-    link: "/fleed-x",
-  },
-  {
     id: 3,
-    name: "UberX Ride Hailing App",
-    category: 3, // Belongs to "Logistics" category
+    name: "UberX - Customizable Ride Hailing App",
+    categories: [3],
     link: "/uber-x",
   },
   {
-    id: 4,
-    name: "EstateX App",
-    category: 10, // Belongs to "Real Estate" category
-    link: "/estate-x",
+    id: 30,
+    name: "Odoo Field Service - Comprehensive Field Service Management Solution",
+    categories: [3, 9],
+    link: "https://www.odoo.com/app/field-service",
   },
   {
-    id: 5,
-    name: "PayX App",
-    category: 6, // Belongs to "Finance" category
-    link: "/fintech-x",
+    id: 32,
+    name: "Odoo Fleet - Comprehensive Fleet Management Solution",
+    categories: [3, 9],
+    link: "https://www.odoo.com/app/fleet",
   },
+
+  // 🍔 Food
   {
-    id: 6,
-    name: "HotelX App",
-    category: 11, // Belongs to "Hospitality" category
-    link: "/hotel-x",
-  },
-  {
-    id: 7,
-    name: "MedX App",
-    category: 5, // Belongs to "Health" category
-    link: "/med-x",
-  },
-  {
-    id: 8,
-    name: "School 360 LMS",
-    category: 4, // Belongs to "Education" category
-    link: "/school-x",
-  },
-  {
-    id: 9,
-    name: "ThriftX App",
-    category: 6, // Belongs to "Finance" category
-    link: "/thrift-x",
-  },
-  {
-    id: 10,
-    name: "Co-WorkspaceX App",
-    category: 7, // Belongs to "Productivity & AI" category
-    link: "/co-workspace-x",
+    id: 2,
+    name: "FoodX - Customizable Food Delivery App",
+    categories: [2],
+    link: "/fleed-x",
   },
   {
     id: 11,
-    name: "Restaurant 360",
-    category: 2, // Belongs to "Food" category
+    name: "Restaurant360 - Customizable Restaurant Management Solution",
+    categories: [2, 9],
     link: "/restaurant360-x",
   },
+
+  // 🏫 Education
   {
-    id: 12,
-    name: "OrderX App",
-    category: 8, // Belongs to "Retail & E-Commerce" category
-    link: "/order-x",
+    id: 8,
+    name: "School360 LMS - Customizable E-Learning Solution",
+    categories: [4],
+    link: "/school-x",
   },
   {
-    id: 13,
-    name: "VoiceX App",
-    category: 7, // Belongs to "Productivity & AI" category
-    link: "/voice-x",
+    id: 33,
+    name: "School360 SMS - Customizable School Management Solution",
+    categories: [4, 9],
+    link: "/school-x",
   },
+
+  // 🏥 Health
   {
-    id: 17,
-    name: "NCX Point of Sale",
-    category: 9, // Belongs to "CRM & ERP" category
-    link: "/ncx-point-of-sale",
+    id: 7,
+    name: "MedX - Customizable Health/Hospital Management App",
+    categories: [5],
+    link: "/med-x",
   },
-  {
-    id: 18,
-    name: "NCX Billing Book",
-    category: 9, // Belongs to "CRM & ERP" category
-    link: "/ncx-billing-book",
-  },
-  // Not proper linked to their pages for now belong to "CRM & ERP" category
   {
     id: 14,
-    name: "Bitrix24 CRM",
-    category: 9, // Belongs to "CRM & ERP" category
+    name: "Bitrix24 CRM - Comprehensive CRM & ERP Solution",
+    categories: [9, 5],
     link: "https://www.bitrix24.com/solutions/tool/crm.php",
   },
   {
+    id: 16,
+    name: "Odoo CRM - Comprehensive CRM & ERP Solution",
+    categories: [9, 5],
+    link: "https://www.odoo.com/app/crm",
+  },
+
+  // 💳 Finance
+  {
+    id: 5,
+    name: "PayX - Customizable Digital Banking App",
+    categories: [6],
+    link: "/fintech-x",
+  },
+  {
+    id: 9,
+    name: "ThriftX - Customizable Microfinance & Cooperative Solution",
+    categories: [6],
+    link: "/thrift-x",
+  },
+  {
     id: 15,
-    name: "QuickBooks CRM",
-    category: 9, // Belongs to "CRM & ERP" category
+    name: "QuickBooks - Comprehensive Accounting Solution",
+    categories: [6, 9],
     link: "https://quickbooks.intuit.com/accounting/",
   },
   {
-    id: 16,
-    name: "Odoo CRM",
-    category: 9, // Belongs to "CRM & ERP" category
-    link: "https://www.odoo.com/app/crm",
+    id: 26,
+    name: "Odoo Accounting - Comprehensive Accounting Solution",
+    categories: [6, 9],
+    link: "https://www.odoo.com/app/accounting",
   },
   {
+    id: 17,
+    name: "NCX Point of Sale - Customizable Point of Sale Solution",
+    categories: [6, 9, 8],
+    link: "/ncx-point-of-sale",
+  },
+
+  // ⚙️ Productivity & AI
+  {
+    id: 10,
+    name: "WorkspaceX - Customizable Co-Working Space Management Solution",
+    categories: [7],
+    link: "/co-workspace-x",
+  },
+  {
+    id: 13,
+    name: "VoiceX - Customizable Text-to-Speech AI Solution",
+    categories: [7],
+    link: "/voice-x",
+  },
+  {
+    id: 21,
+    name: "Bitrix24 Project Management - Comprehensive Project Management Solution",
+    categories: [7, 9],
+    link: "https://www.bitrix24.com/solutions/tool/tasks_and_projects.php",
+  },
+  {
+    id: 31,
+    name: "Odoo Helpdesk - Comprehensive Helpdesk Solution",
+    categories: [7, 9],
+    link: "https://www.odoo.com/app/helpdesk",
+  },
+
+  // 🛒 Retail & E-Commerce
+  {
+    id: 12,
+    name: "OrderX - Customizable E-Commerce App",
+    categories: [8],
+    link: "/order-x",
+  },
+  {
+    id: 22,
+    name: "Bitrix24 Retail - Comprehensive Retail Management Solution",
+    categories: [8, 9],
+    link: "https://www.bitrix24.com/solutions/industry/retail.php",
+  },
+  {
+    id: 27,
+    name: "Odoo Inventory - Comprehensive Inventory Management Solution",
+    categories: [8, 9],
+    link: "https://www.odoo.com/app/inventory",
+  },
+  {
+    id: 25,
+    name: "Odoo Point of Sale - Comprehensive Point of Sale Solution",
+    categories: [8, 9, 6],
+    link: "https://www.odoo.com/app/point-of-sale-shop",
+  },
+  {
+    id: 18,
+    name: "NCX POS & Inventory - Customizable Inventory & POS Solution",
+    categories: [8, 9, 6],
+    link: "/ncx-billing-book",
+  },
+
+  // 🏠 Real Estate
+  {
+    id: 4,
+    name: "EstateX - Customizable Property Management Solution",
+    categories: [10],
+    link: "/estate-x",
+  },
+  {
+    id: 24,
+    name: "Bitrix24 Real Estate - Comprehensive Real Estate Solution",
+    categories: [10, 9],
+    link: "https://www.bitrix24.com/solutions/industry/real-estate.php",
+  },
+
+  // 🏨 Hospitality
+  {
+    id: 6,
+    name: "HotelX - Customizable Property Management System App",
+    categories: [11],
+    link: "/hotel-x",
+  },
+
+  // 🏭 Manufacturing
+  {
+    id: 28,
+    name: "Odoo Manufacturing - Comprehensive Manufacturing Solution",
+    categories: [12, 9],
+    link: "https://www.odoo.com/app/manufacturing",
+  },
+
+  // 🧩 CRM & ERP Core Tools
+  {
     id: 19,
-    name: "Bitrix24 Telephony",
-    category: 9, // Belongs to "CRM & ERP" category
+    name: "Bitrix24 Telephony - Comprehensive Telephony Solution",
+    categories: [9],
     link: "https://www.bitrix24.com/solutions/tool/telephony.php",
   },
   {
     id: 20,
-    name: "Bitrix24 Contact Center",
-    category: 9, // Belongs to "CRM & ERP" category
+    name: "Bitrix24 Contact Center - Comprehensive Contact Center Solution",
+    categories: [9],
     link: "https://www.bitrix24.com/solutions/tool/contact_center.php",
   },
   {
-    id: 21,
-    name: "Bitrix24 Project Management",
-    category: 7, // Belongs to "Productivity & AI" category
-    link: "https://www.bitrix24.com/solutions/tool/tasks_and_projects.php",
-  },
-  {
-    id: 22,
-    name: "Bitrix24 Retail",
-    category: 8, // Belongs to "Retail & E-Commerce" category
-    link: "https://www.bitrix24.com/solutions/industry/retail.php",
-  },
-  {
     id: 23,
-    name: "Bitrix24 Call Center",
-    category: 9,
+    name: "Bitrix24 Call Center - Comprehensive Call Center Solution",
+    categories: [9],
     link: "https://www.bitrix24.com/solutions/industry/call-center-solution.php",
   },
-  {
-    id: 24,
-    name: "Bitrix24 Real Estate",
-    category: 10, // Belongs to "Real Estate" category
-    link: "https://www.bitrix24.com/solutions/industry/real-estate.php",
-  },
-  {
-    id: 25,
-    name: "Odoo Point of Sale",
-    category: 9, // Belongs to "CRM & ERP" category
-    link: "https://www.odoo.com/app/point-of-sale-shop",
-  },
-  {
-    id: 26,
-    name: "Odoo Accounting",
-    category: 6, // Belongs to "Finance" category
-    link: "https://www.odoo.com/app/accounting",
-  },
-  {
-    id: 27,
-    name: "Odoo Inventory",
-    category: 8, // Belongs to "Retail & E-Commerce" category
-    link: "https://www.odoo.com/app/inventory",
-  },
-  {
-    id: 28,
-    name: "Odoo Manufacturing",
-    category: 12, // Belongs to "Manufacturing" category
-    link: "https://www.odoo.com/app/manufacturing",
-  },
-  {
+/*   {
     id: 29,
-    name: "Odoo HRM",
-    category: 9, // Belongs to "CRM & ERP" category
+    name: "Odoo HRM - Comprehensive HR Management Solution",
+    categories: [9, 7],
     link: "https://www.odoo.com/app/employees",
-  },
-  {
-    id: 30,
-    name: "Odoo Field Service",
-    category: 3, // Belongs to "Logistics" category
-    link: "https://www.odoo.com/app/field-service",
-  },
-  {
-    id: 31,
-    name: "Odoo Helpdesk",
-    category: 9, // Belongs to "CRM & ERP" category
-    link: "https://www.odoo.com/app/helpdesk",
-  },
-  {
-    id: 32,
-    name: "Odoo Fleet",
-    category: 3, // Belongs to "Logistics" category
-    link: "https://www.odoo.com/app/fleet",
-  },
-  // ... (other products)
+  }, */
+  // Can add more products here
 ];
