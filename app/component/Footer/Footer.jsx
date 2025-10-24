@@ -72,7 +72,7 @@ const Footer = () => {
               <Link href="/blog">
                 <p>Blog</p>
               </Link>
-              <Link href="/">
+              <Link href="/about">
                 <p>Partnership</p>
               </Link>
             </div>
@@ -87,53 +87,81 @@ const Footer = () => {
               <Link href="/privacy">
                 <p>Privacy Policy</p>
               </Link>
-              <Link href="/">
+              <Link href="/about">
                 <p>Career</p>
               </Link>
             </div>
             <div className={classes.footerChild}>
               <h3>Contact</h3>
-              <p>128 Itire Rd, Lawanson Surulere Lagos, Nigeria</p>
-              <Link href="/">
-                <p>+234 816 663 7303</p>
-              </Link>
-              <Link href="/">
-                <p>support@lampnets.com</p>
-              </Link>
+
+              <p>
+                Ikeja, Lagos, Nigeria | Victoria Island, Lagos, Nigeria |
+                Nairobi, Kenya | Johanesburg, South Africa | Sheffield, United
+                Kingdom | London, United Kingdom | California, United States |
+                Delaware, United States
+              </p>
+
+              <p>
+                <a href="tel:+447429519773" className={classes.footerLink}>
+                  +44 7429 519773
+                </a>{" "}
+                |
+                <a href="tel:+2349016472503" className={classes.footerLink}>
+                  {" "}
+                  +234 901 647 2503
+                </a>
+              </p>
+
+              <p>
+                <a
+                  href="mailto:infodesk@lampnets.com"
+                  className={classes.footerLink}
+                >
+                  infodesk@lampnets.com
+                </a>{" "}
+                |
+                <a
+                  href="mailto:info@lampnets.com"
+                  className={classes.footerLink}
+                >
+                  {" "}
+                  info@lampnets.com
+                </a>
+              </p>
             </div>
           </div>
 
           <div className={classes.footerIconsMobile}>
             <a
-              href="#"
+              href="https://www.instagram.com/lampnet_solutions/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
             >
               <div className={classes.footericons2}>
-                <Image src={Social1} width={40} height={78} alt="" />
+                <Image src={Social1} width={40} height={78} alt="instagram" />
               </div>
             </a>
 
             <a
-              href="#"
+              href="https://x.com/LampnetS/status/1310498899191369730"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
             >
               <div className={classes.footericons2}>
-                <Image src={Social2} width={40} height={78} alt="" />
+                <Image src={Social2} width={40} height={78} alt="twitter" />
               </div>
             </a>
 
             <a
-              href="#"
+              href="https://ng.linkedin.com/company/lampnet-solutions"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
             >
               <div className={classes.footericons2}>
-                <Image src={Social3} width={40} height={78} alt="" />
+                <Image src={Social3} width={40} height={78} alt="linkedin" />
               </div>
             </a>
           </div>
