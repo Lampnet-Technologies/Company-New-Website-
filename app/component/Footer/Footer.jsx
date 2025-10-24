@@ -25,36 +25,36 @@ const Footer = () => {
 
             <div className={classes.footerIcons}>
               <a
-                href="#"
+                href="https://www.instagram.com/lampnet_solutions/?hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 <div className={classes.footericons2}>
-                  <Image src={Social1} width={40} height={78} alt="" />
+                  <Image src={Social1} width={40} height={78} alt="Instagram" />
                 </div>
               </a>
 
               <a
-                href="#"
+                href="https://x.com/LampnetS/status/1310498899191369730"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 <div className={classes.footericons2}>
-                  <Image src={Social2} alt="" width={40} height={78} />
+                  <Image src={Social2} alt="Twitter" width={40} height={78} />
                 </div>
               </a>
 
               <a
-                href="#"
+                href="https://ng.linkedin.com/company/lampnet-solutions"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 <div className={classes.footericons2}>
                   {" "}
-                  <Image src={Social3} alt="" width={40} height={78} />
+                  <Image src={Social3} alt="LinkedIn" width={40} height={78} />
                 </div>
               </a>
             </div>
