@@ -12,8 +12,25 @@ import Marousel from "../../component/Carousel/Marousel";
 // Helper for images
 const builder = imageUrlBuilder(client);
 function urlFor(source) {
-  return builder.image(source).url();
+  return builder.image(source);
 }
+
+const components = {
+  types: {
+    image: ({ value }) => (
+      <div className={styles.componentsImage}>
+        <Image
+          src={urlFor(value).width(800).url()}
+          alt={value.alt || "Post image"}
+          width={800}
+          height={500}
+          className={styles.postImage}
+        />
+        {value.alt && <p className={styles.altText}>{value.alt}</p>}
+      </div>
+    ),
+  },
+};
 
 export default function Post({ params }) {
   const slug = params.post;
@@ -95,7 +112,9 @@ export default function Post({ params }) {
       <article className={styles.article}>
         <h1 className={styles.title}>{post.title}</h1>
 
-        {post.description && <p className={styles.excerpt}>{post.description}</p>}
+        {post.description && (
+          <p className={styles.excerpt}>{post.description}</p>
+        )}
 
         {/* Meta Info */}
         <div className={styles.meta}>
@@ -118,8 +137,8 @@ export default function Post({ params }) {
           <div className={styles.authorCard}>
             {post.authorImage && (
               <Image
-                src={urlFor(post.authorImage)}
-                alt={post.name}
+                src={urlFor(post.authorImage).width(100).height(100).url()}
+                alt={post.name || "Author image"}
                 className={styles.authorImage}
                 width={48}
                 height={48}
@@ -149,7 +168,7 @@ export default function Post({ params }) {
         {/* Content */}
         {post.body && (
           <div className={styles.content}>
-            <PortableText value={post.body} />
+            <PortableText value={post.body} components={components} />
           </div>
         )}
 
