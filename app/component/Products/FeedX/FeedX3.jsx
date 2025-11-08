@@ -2,6 +2,7 @@ import React from "react";
 import Product3 from "../ProductProps/Product3";
 import Features3 from "../../../../public/images/Features6.svg";
 import Features4 from "../../../../public/images/Features7.svg";
+import Features2 from "../../../../public/images/Features8.png";
 
 const FeedX3 = () => {
   const header = "Win Against The Competition ";
@@ -28,7 +29,7 @@ export default FeedX3;
 const data = [
   {
     id: 1,
-    image: Features3,
+    image: Features2,
     title: "100% Customization",
     body: "Ready-to-use and fully customizable features of our on-demand delivery software to suit your business needs to suit your business needs",
   },

@@ -3,7 +3,7 @@ import Product17 from "../ProductProps/Product17";
 
 const EstateX17 = () => {
   const body =
-    "Put Your Portfolio On Autopilot With Our Property Management Tool";
+    "Put Your Portfolio On Autopilot With Our Real Estate & Property Management Tool";
   const initial = "Download Now";
   const initial2 = "Become a Reseller";
   const backgroundColor = "#AB0E12";

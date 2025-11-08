@@ -46,40 +46,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Focused on Growing Business",
+    body: "Helping early-stage businesses implement secure, scalable financial systems to launch and grow efficiently.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Set up digital wallets, payment gateways, and online banking features to attract investors and customers.",
+    body2:
+      "Deploy automated financial tools for accounting, invoicing, and analytics to support rapid growth.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
-    text: "SMB’s",
-    body: "Focused on Growing Business",
+    text: "SMBs",
+    body: "Empowering small and medium businesses with fintech solutions that streamline payments, operations, and customer management.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Integrate e-commerce platforms with payment processing and accounting systems for seamless transactions.",
+    body2:
+      "Implement digital invoicing, automated reporting, and CRM tools to enhance productivity and customer experience.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Focused on Growing Business",
+    body: "Providing centralized financial management tools to maintain consistency and oversight across multiple locations.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Deploy unified payment processing and reporting systems for each branch while maintaining brand standards.",
+    body2:
+      "Monitor revenue, transactions, and performance across all locations with real-time dashboards and analytics.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Focused on Growing Business",
+    body: "Delivering enterprise-grade fintech platforms that scale securely, optimize operations, and drive strategic growth.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Modernize legacy financial systems with cloud-based banking, automated workflows, and integrated reporting.",
+    body2:
+      "Leverage advanced analytics, AI-driven insights, and compliance management to inform business strategy and innovation.",
     image: StartupScroll,
     imagea: Scroll,
   },

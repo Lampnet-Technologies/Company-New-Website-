@@ -7,22 +7,24 @@ import Portfolio2 from "../../../../public/images/HotelTime2.svg";
 
 const HotelX4 = () => {
   const title = "Customer Application";
-  const tag1 = "Real-time Tracking";
+  const tag1 = "Real-time Booking";
   const taga =
-    "With all-time access to learning resources, learn and study at your own pace, even ahead of the class.";
-  const tag2 = "Easy booking";
+    "Guests can view room availability, make reservations, and track their booking status in real time.";
+  const tag2 = "Easy Check-In & Check-Out";
   const tagb =
-    "Stay connected and collaborate better with co-learners.so you’ll never need to enter data twice.";
-  const tag3 = "Multiple Payment Option";
-  const tagc = "Save time with efficient patient & study management features.";
+    "Streamline guest arrivals and departures with a seamless digital check-in and check-out process.";
+  const tag3 = "Multiple Payment Options";
+  const tagc =
+    "Offer guests flexible payment methods, including card, mobile wallets, and online banking, for convenience.";
   const header = "About HotelX";
   const subheader = "The Complete Hotel Tech Solution";
   const body =
-    "Improve your hotel and resort guest experience and maximise your profits with a smart cloud-based property management software from any device.";
+    "Enhance your hotel or resort operations and elevate guest experience with a smart, cloud-based property management system accessible from any device.";
   const initial = "Download Now";
   const color = "#34A853";
   const backgroundColor = "#34A853";
   const border = "0px solid #34A853";
+
   return (
     <div>
       <Product4
@@ -53,37 +55,37 @@ export default HotelX4;
 const data = [
   {
     id: 1,
-    title: "Real-Time Tracking and Local language Integration",
-    tag1: "Live Map",
-    taga: "Fully-integrated live map view and notifications that keeps you and your customers updated with real-time driver locations.",
-    tag2: "Streamlined Communication",
-    tagb: "Enhances  customer communication by allowing them to contact their dispatchers, drivers, and admin with just a single tap.",
-    tag3: "Privacy and Security",
-    tagc: "You may keep calls anonymous for safety and privacy without fear of security breach.",
+    title: "Customer Application",
+    tag1: "Real-time Booking",
+    taga: "Guests can view room availability, make reservations, and track their booking status in real time.",
+    tag2: "Easy Check-In & Check-Out",
+    tagb: "Streamline guest arrivals and departures with a seamless digital check-in and check-out process.",
+    tag3: "Multiple Payment Options",
+    tagc: "Offer guests flexible payment methods, including card, mobile wallets, and online banking, for convenience.",
     image: Realtime,
     Circle: Circle,
   },
   {
     id: 2,
-    title: "Express & Scheduled Delivery Options",
-    tag1: "Express and Advance booking",
-    taga: "Supports express & advance booking for customers which helps your drivers manage delivery assignments.",
-    tag2: "Optimization",
-    tagb: "Optimize dynamic routing, order tracking, and delivery scheduling and accuracy",
-    tag3: "Easy Allocation ",
-    tagc: "Effectively manage deliveries and spend less time allocating tasks to your drivers",
+    title: "Room & Service Management",
+    tag1: "Room Availability",
+    taga: "Keep all room information updated in real-time so guests can book or modify reservations effortlessly.",
+    tag2: "Service Requests",
+    tagb: "Allow guests to request room services, housekeeping, or amenities directly through the app.",
+    tag3: "Automated Notifications",
+    tagc: "Notify guests instantly about confirmations, special offers, or any updates regarding their stay.",
     image: Portfolio1,
     Circle: Circle,
   },
   {
     id: 3,
-    title: "In-app Chat & Insightful Report ",
-    tag1: "On-demand Reports",
-    taga: "Our last mile software includes on-demand reports & pivotal data presented in a graphical form to reduce cognitive load ",
-    tag2: "Optimization",
-    tagb: "Your admin will get clear updates about the business like the usage of resources, performance of delivery agents, delivery status, etc",
-    tag3: "Cloud-based Storage",
-    tagc: "This critical data is stored in a cloud-based storage and helps you to take insight-driven business decisions.",
+    title: "Insight & Analytics",
+    tag1: "Guest Behavior Insights",
+    taga: "Analyze guest preferences and behavior to offer personalized experiences and promotions.",
+    tag2: "Revenue Tracking",
+    tagb: "Monitor booking trends and revenue in real time to optimize pricing and occupancy.",
+    tag3: "Cloud-Based Data",
+    tagc: "Securely store all guest and booking data in the cloud for easy access and insight-driven decisions.",
     image: Portfolio2,
     Circle: Circle,
   },

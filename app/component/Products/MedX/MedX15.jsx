@@ -7,11 +7,11 @@ const MedX15 = () => {
   const header = "One-Click Integrations";
   const subheader = "Integrated with thousands of apps";
   const body =
-    "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
-  const initial = "Schedule Demo";
-  const body1 = "100+ Major Addons";
-  const body2 = "Major Access Provider";
-  const body3 = "Free Open API";
+    "MedX offers a unified hospital management platform built on a single, secure database. It streamlines operations across departments and integrates effortlessly with third-party healthcare systems and tools.";
+  const initial = "Schedule a Demo";
+  const body1 = "100+ Advanced Modules";
+  const body2 = "Trusted by Leading Healthcare Providers";
+  const body3 = "Open & Secure API Integration";
   return (
     <div>
       <Product15

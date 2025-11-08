@@ -20,7 +20,7 @@ const HomePage9 = () => {
         <MyButton
           text={initial}
           type="button"
-          class="btn btn-primary"
+          className="btn btn-primary"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
         />

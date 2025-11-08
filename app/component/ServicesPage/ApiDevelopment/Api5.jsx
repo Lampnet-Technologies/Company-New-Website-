@@ -19,7 +19,7 @@ const Api5 = () => {
         Glad={Glad}
       />
     </div>
-  );   
+  );
 };
 
 export default Api5;

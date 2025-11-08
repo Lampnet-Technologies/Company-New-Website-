@@ -5,14 +5,14 @@ import Features3 from "../../../../public/images/CoWorkspaceC.svg";
 import Product2 from "../ProductProps/Product2";
 
 const CoWorkspaceX2 = () => {
-  const header = "Word-Class Features";
-  const subHeader = "Core Banking Functionality –Everything You Need";
+  const header = "World-Class Features";
+  const subHeader = "All the Tools You Need to Manage Your Workspace Efficiently";
   const paragraph =
-    "Approved by many regulators, flexible and customizable, API-based, cloud-hosted or on-premise-installed, available in SaaS or perpetual license model, opportunity to purchase source codes.";
+    "Co-WorkspaceX combines flexibility, automation, and intelligent insights to help coworking spaces, offices, and shared environments operate seamlessly. From bookings and billing to analytics and member engagement — everything is unified in one intuitive platform.";
   const color = "#1628F4";
+
   return (
     <div>
-      {" "}
       <Product2
         header={header}
         subHeader={subHeader}
@@ -29,26 +29,26 @@ export default CoWorkspaceX2;
 const data = [
   {
     id: 1,
-    body: "Our API integration services help your business integrate systems seamlessly, including third-party applications, databases, and software",
-    name: "Analytics",
+    body: "Gain real-time insights into space usage, bookings, and revenue trends with powerful analytics dashboards.",
+    name: "Smart Analytics",
     image: Features1,
   },
   {
     id: 2,
-    body: "We prioritize security in our API development and integration services, ensuring that your business data is protected from unauthorized access.",
+    body: "Automate bookings, payments, and membership renewals to save time and eliminate manual errors.",
     name: "Automated Workflows",
     image: Features2,
   },
   {
     id: 3,
-    body: "We optimize API performance and functionality, allowing your business to save time and resources, automate tasks, and simplify workflows",
+    body: "Easily scale your workspace management across multiple locations while maintaining full control and flexibility.",
     name: "Scalability",
     image: Features3,
   },
   {
     id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
+    body: "Connect seamlessly with CRMs, payment gateways, and communication tools through secure API integrations.",
+    name: "Third-Party Integrations",
     image: Features1,
   },
 ];

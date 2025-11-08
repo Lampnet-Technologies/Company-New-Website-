@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import classes from "./HomePage3.module.css";
-import Homepage3image from "../../../public/images/Homepage3.svg";
+import Homepage3image from "../../../public/images/NewHomepae3.png";
 import Image from "next/image";
 import ButtonTwo from "../Button/ButtonTwo";
 import { motion, useAnimation } from "framer-motion";
@@ -49,9 +49,8 @@ const HomePage3 = () => {
             businesses
           </motion.h2>
           <motion.p initial={{ opacity: 0, y: -20 }} animate={itemControls}>
-            LampNet Solutions is a remote-based agile IT Consulting & Mobile
-            Technology Development company in West Africa, who are service
-            providers of world-class solutions and mobile technologies for high
+            LampNet Solutions is an IT Consulting & Software company, who are service
+            providers of world-class solutions, ai automation and mobile technologies for high
             business growth and transformation with vast experience in Mobile
             Application Development, Enterprise solutions, Security and Cloud
             based technologies.
@@ -70,11 +69,11 @@ const HomePage3 = () => {
           <h6>About us</h6>
           <h2>
             We are a one-stop technology solution provider for startups and
-            businesses{" "}
+            enterprises{" "}
           </h2>
           <p>
             LampNet Solutions is a remote-based agile IT Consulting & Mobile
-            Technology Development company in West Africa, who are service
+            Technology Development company, who are service
             providers of world-class solutions and mobile technologies for high
             business growth and transformation with vast experience in Mobile
             Application Development, Enterprise solutions, Security and Cloud

@@ -3,9 +3,9 @@ import Product5 from "../ProductProps/Product5";
 
 const OrderX5 = () => {
   const header = "All Businesses can Use OrderX";
-  const subheader = "Welcome to the new way of running flex spaces.";
+  const subheader = "Flexible Solutions for Every Industry";
   const body =
-    "No matter what type of business you run, OrderX allows you to get your business online in minutes.";
+    "OrderX is designed to adapt to the unique needs of various industries, including retail, manufacturing, logistics, and more.";
   const color = "#F76C6C";
   return (
     <div>

@@ -5,10 +5,10 @@ import Producthero from "../../../../public/images/UberXHero.svg";
 const UberX1 = () => {
   const initial = "Consult Our Expert";
   const initial2 = "Become a Reseller";
-  const header = "UberX";
+  const header = "RiderX";
   const subheader = "Uber Clone - Best Ride-hailing App Software";
   const paragraph =
-    "Power up your transport business with UberX Ride-hailing dispatch software. UberX can help effectively manage your business and makes every operation streamlined.";
+    "Power up your transport business with RiderX Ride-hailing dispatch software. RiderX can help effectively manage your business and makes every operation streamlined.";
   const backgroundColor = "#0F479C";
   const border = "1px solid #0F479C";
   const colorbutton = "#0F479C";

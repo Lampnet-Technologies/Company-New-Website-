@@ -1,0 +1,150 @@
+.container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 3rem 1rem;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.intro {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.intro p {
+  color: #6c757d;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: #0d6efd;
+  margin-right: 0.75rem;
+}
+
+.cardHeader h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #212529;
+  margin: 0;
+}
+
+.cardText {
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.cardSubtext {
+  color: #adb5bd;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.link {
+  color: #0d6efd;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.phoneNumber {
+  color: #0d6efd;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.prioritySection {
+  background-color: #e7f3ff;
+  border: 1px solid #b8daff;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.priorityTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 1rem;
+}
+
+.priorityList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.priorityList li {
+  color: #495057;
+  line-height: 1.8;
+  padding: 0.5rem 0;
+}
+
+.priorityList li strong {
+  color: #212529;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .container {
+    padding: 2rem 1rem;
+  }
+}

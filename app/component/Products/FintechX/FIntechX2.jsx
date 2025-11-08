@@ -29,26 +29,26 @@ export default FIntechX2;
 const data = [
   {
     id: 1,
-    body: "Our API integration services help your business integrate systems seamlessly, including third-party applications, databases, and software",
     name: "BSA/AML Compliance",
+    body: "Ensure full regulatory compliance with built-in BSA/AML tools designed to detect suspicious activities, manage risk, and meet financial industry standards effortlessly.",
     image: Features1,
   },
   {
     id: 2,
-    body: "We prioritize security in our API development and integration services, ensuring that your business data is protected from unauthorized access.",
     name: "Fraud Management",
+    body: "Protect your platform and users with intelligent fraud detection powered by AI. Identify anomalies in real time and secure transactions across all payment channels.",
     image: Features2,
   },
   {
     id: 3,
-    body: "We optimize API performance and functionality, allowing your business to save time and resources, automate tasks, and simplify workflows",
     name: "Flexibility",
+    body: "PayX adapts to your business model — whether banking-as-a-service, remittance, lending, or payments — offering modular, API-first infrastructure for fast scaling.",
     image: Features3,
   },
   {
     id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
+    name: "Continuous Innovation",
+    body: "PayX evolves with the fintech landscape, delivering regular updates, enhanced security, and the latest technology to keep your platform future-ready.",
     image: Features1,
   },
 ];

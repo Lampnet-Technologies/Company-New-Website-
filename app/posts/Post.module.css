@@ -1,0 +1,417 @@
+/* ===========================
+   Base Page & Layout
+=========================== */
+.pageContainer {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f8fafc, #f1f5f9);
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", system-ui, sans-serif;
+  color: #0f172a;
+  transition:
+    background 0.4s ease,
+    color 0.3s ease;
+  margin-top: 5.5rem;
+}
+
+.pageContainer.dark {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b);
+  color: #e2e8f0;
+}
+
+/* ===========================
+   Loading States
+=========================== */
+.loadingContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #f9fafb, #f1f5f9);
+}
+
+.loadingContent {
+  text-align: center;
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+.spinner {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 4px solid #3b82f6;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+  margin: 0 auto;
+}
+
+.loadingText {
+  margin-top: 1rem;
+  color: #475569;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+/* ===========================
+   Not Found State
+=========================== */
+.notFoundTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.notFoundText {
+  color: #64748b;
+  font-size: 1.1rem;
+}
+
+/* ===========================
+   Navigation Bar
+=========================== */
+.nav {
+  position: fixed;
+  top: 4.5rem;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  padding: 1rem 2rem;
+  -webkit-backdrop-filter: blur(14px); /* Added for Safari */
+  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid rgba(229, 231, 235, 0.6);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.nav:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.navContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #374151;
+  font-weight: 500;
+  transition:
+    color 0.3s ease,
+    transform 0.2s;
+}
+
+.navButton:hover {
+  color: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+/* ===========================
+   Article Section
+=========================== */
+.article {
+  max-width: 76rem;
+  margin: 0 auto;
+  padding: 5rem 1.5rem 3rem;
+  animation: fadeInUp 0.7s ease-in-out;
+}
+
+/* ===========================
+   Title & Excerpt
+=========================== */
+.title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 1.25rem;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.excerpt {
+  font-size: 1.25rem;
+  color: #475569;
+  margin-bottom: 2.25rem;
+  line-height: 1.75;
+  max-width: 90%;
+}
+
+/* ===========================
+   Meta Information
+=========================== */
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+/* ===========================
+   Author Card
+=========================== */
+.authorCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 1rem;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  -webkit-backdrop-filter: blur(14px); /* Added for Safari */
+  backdrop-filter: blur(10px);
+}
+
+.authorCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.authorImage {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.authorName {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.authorBio {
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+/* ===========================
+   Featured Image
+=========================== */
+.featuredImage {
+  margin: 2rem 0;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.featuredImage img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition:
+    transform 0.5s ease,
+    filter 0.4s ease;
+}
+
+.featuredImage img:hover {
+  transform: scale(1.03);
+  filter: brightness(1.05);
+}
+
+/* ===========================
+   Main Content
+=========================== */
+.content {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #334155;
+}
+
+.content :global(h2) {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 3rem 0 1.5rem;
+}
+
+.content :global(h3) {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 2rem 0 1rem;
+}
+
+.content :global(p) {
+  color: #334155;
+  margin-bottom: 1.5rem;
+}
+
+.content :global(a) {
+  color: #2563eb;
+  text-decoration: none;
+  border-bottom: 1px dashed transparent;
+  transition:
+    color 0.2s,
+    border-bottom-color 0.3s;
+}
+
+.content :global(a:hover) {
+  color: #1d4ed8;
+  border-bottom-color: #1d4ed8;
+}
+
+.content :global(blockquote) {
+  border-left: 4px solid #2563eb;
+  background: #eff6ff;
+  color: #475569;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.content :global(pre) {
+  background: #0f172a;
+  color: #f1f5f9;
+  padding: 1.25rem 1.5rem;
+  border-radius: 0.75rem;
+  overflow-x: auto;
+  margin: 2rem 0;
+  font-size: 0.95rem;
+}
+
+/* ===========================
+   Footer
+=========================== */
+.footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.subscribeButton,
+.saveButton {
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.subscribeButton {
+  background: #2563eb;
+  color: white;
+  border: none;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+}
+
+.subscribeButton:hover {
+  background: #1e40af;
+  transform: translateY(-2px);
+}
+
+.saveButton {
+  background: white;
+  color: #334155;
+  border: 1px solid #e2e8f0;
+}
+
+.saveButton:hover {
+  background: #f8fafc;
+  transform: translateY(-2px);
+}
+
+/* ========================
+Post Body Image Styling
+ ========================== */
+.componentsImage {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.postImage {
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.altText {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Optional hover effect */
+.postImage:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Adjust mobile spacing */
+@media (max-width: 768px) {
+  .componentsImage {
+    margin: 1.5rem 0;
+  }
+}
+
+
+/* ===========================
+   Responsive Design
+=========================== */
+@media (max-width: 1024px) {
+  .title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.9rem;
+  }
+  .article {
+    padding: 3rem 1rem;
+  }
+  .authorCard {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* ===========================
+   Animations
+=========================== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

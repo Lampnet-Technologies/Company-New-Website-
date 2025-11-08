@@ -3,9 +3,9 @@ import Product11 from "../ProductProps/Product11";
 import Mockup1 from "../../../../public/images/Mockup2.svg";
 
 const CourieX12 = () => {
-  const header = "CourierX Courier & Logistics App";
+  const header = "Build your Supply Chain or Logistics Website";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "Focus on efficiency? We build logistics websites that showcase your services, simplify quote requests, and track shipments in real-time. Attract new clients and empower your operations with a website built to move.";
   const initial = "Schedule Demo";
   const backgroundColor = "#54BD95";
   const border = "0px solid #54BD95";

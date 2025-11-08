@@ -2,18 +2,19 @@
 
 import React from "react";
 import { useQuery } from "@tanstack/react-query";
-import { getBlog } from "@/sanity/sanity.query";
+import { getBlog } from "../../../../sanity/sanity.query"; // queries file
+import client from "../../../../sanity/sanity.client"; // client + image helper
+import imageUrlBuilder from "@sanity/image-url"; // image build from sanity
 import Image from "next/image";
-import urlBuilder from "@sanity/image-url";
-import client from "@/sanity/sanity.client";
 import classes from "./HomeBlog.module.css";
 import ArrowRight from "../../../../public/images/arrow-right.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Link from "next/link";
-import Loading from "@/app/loading";
+import Loading from "../../../loading";
 
-const urlFor = (source) => urlBuilder(client).image(source);
+const builder = imageUrlBuilder(client);
+const urlFor = (source) => builder.image(source);
 const HomeBlog = () => {
   const { data, isLoading, isError, error } = useQuery({
     queryKey: ["blogs"],

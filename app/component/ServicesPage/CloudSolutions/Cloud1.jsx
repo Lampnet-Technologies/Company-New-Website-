@@ -12,4 +12,3 @@ const Cloud1 = () => {
 }
 
 export default Cloud1
- 

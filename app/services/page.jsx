@@ -1,10 +1,12 @@
 import React from "react";
 import Index from "../component/ServicesPage/Startup/Index";
+import ButtonFour from "../component/Button/ButtonFour"
 
 const page = () => {
   return (
     <div>
       <Index />
+      <ButtonFour />
     </div>
   );
 };

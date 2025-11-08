@@ -49,16 +49,16 @@ const Accordionpage = () => {
   };
   return (
     <div
-      class={`accordion accordion-flush  ${classes.OurStoryChild}`}
+      className={`accordion accordion-flush  ${classes.OurStoryChild}`}
       id="accordionFlushExample"
     >
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingOne"
         >
           <button
-            // class={`accordion-button collapsed ${classes.accord}`}
+            // className={`accordion-button collapsed ${classes.accord}`}
             className={`accordion-button collapsed ${
               isButtonActive("flush-headingOne") ? "active" : ""
             } ${classes.accord}`}
@@ -74,7 +74,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseOne"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingOne"
           data-bs-parent="#accordionFlushExample"
         >
@@ -112,13 +112,13 @@ const Accordionpage = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingTwo"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseTwo"
@@ -130,7 +130,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseTwo"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingTwo"
           data-bs-parent="#accordionFlushExample"
         >
@@ -166,13 +166,13 @@ const Accordionpage = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingThree"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseThree"
@@ -184,7 +184,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseThree"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingThree"
           data-bs-parent="#accordionFlushExample"
         >
@@ -219,13 +219,13 @@ const Accordionpage = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingFour"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseFour"
@@ -237,7 +237,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseFour"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingFour"
           data-bs-parent="#accordionFlushExample"
         >
@@ -274,13 +274,13 @@ const Accordionpage = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingFive"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseFive"
@@ -292,7 +292,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseFive"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingFive"
           data-bs-parent="#accordionFlushExample"
         >
@@ -328,13 +328,13 @@ const Accordionpage = () => {
         </div>
       </div>
 
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingSix"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseSix"
@@ -346,7 +346,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseSix"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingSix"
           data-bs-parent="#accordionFlushExample"
         >
@@ -383,13 +383,13 @@ const Accordionpage = () => {
           </div>
         </div>
       </div>
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingSeven"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseSeven"
@@ -401,7 +401,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseSeven"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingSeven"
           data-bs-parent="#accordionFlushExample"
         >
@@ -437,13 +437,13 @@ const Accordionpage = () => {
           </div>
         </div>
       </div>
-      <div class="accordion-item">
+      <div className="accordion-item">
         <h2
-          class={`accordion-header ${classes.OurStoryHeader}`}
+          className={`accordion-header ${classes.OurStoryHeader}`}
           id="flush-headingEight"
         >
           <button
-            class={`accordion-button collapsed ${classes.accord}`}
+            className={`accordion-button collapsed ${classes.accord}`}
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseEight"
@@ -455,7 +455,7 @@ const Accordionpage = () => {
         </h2>
         <div
           id="flush-collapseEight"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           aria-labelledby="flush-headingEight"
           data-bs-parent="#accordionFlushExample"
         >
@@ -486,6 +486,55 @@ const Accordionpage = () => {
               <div className={classes.AccordionChild}>
                 <Image src={Servicesa32} alt="Alt" quality={100} width={30} />
                 <p> Remote Staffing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="accordion-item">
+        <h2
+          className={`accordion-header ${classes.OurStoryHeader}`}
+          id="flush-headingNine"
+        >
+          <button
+            className={`accordion-button collapsed ${classes.accord}`}
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseNine"
+            aria-expanded="false"
+            aria-controls="flush-collapseNine"
+          >
+            Artificial Intelligence Development
+          </button>
+        </h2>
+        <div
+          id="flush-collapseNine"
+          className="accordion-collapse collapse"
+          aria-labelledby="flush-headingNine"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div className={`accordion-body ${classes.body}`}>
+            <h6> Artificial Intelligence Development</h6>
+            <p>
+              {" "}
+              We automate workflows, build custom AI apps, deploy conversational assistants, and enable AI agents to complete multi‑step tasks. We help organizations automate workflows, deploy conversational assistants, and ship custom AI applications that turn complex multi‑step tasks into measurable outcomes. We focus on measurable business results across industries — accuracy, cycle time, and operational efficiency.
+            </p>
+            <div className={classes.AccordionChildMain}>
+              <div className={classes.AccordionChild}>
+                <Image src={Servicesa18} alt="Alt" quality={100} width={30} />
+                <p> Agentic Task</p>
+              </div>
+              <div className={classes.AccordionChild}>
+                <Image src={Servicesa23} alt="Alt" quality={100} width={30} />
+                <p>Document Intelligence</p>
+              </div>
+              <div className={classes.AccordionChild}>
+                <Image src={Servicesa31} alt="Alt" quality={100} width={30} />
+                <p> Chatbot</p>
+              </div>
+              <div className={classes.AccordionChild}>
+                <Image src={Servicesa13} alt="Alt" quality={100} width={30} />
+                <p> Process Automation</p>
               </div>
             </div>
           </div>

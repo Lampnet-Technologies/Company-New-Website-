@@ -6,9 +6,9 @@ import Product2 from "../ProductProps/Product2";
 
 const HotelX2 = () => {
   const header = "Word-Class Features";
-  const subHeader = "Core Functionality –Everything You Need";
+  const subHeader = "Core Functionality – Everything You Need";
   const paragraph =
-    "Approved by Tailored For Success. Most Advanced Features to help you run your restaurant business smoothly and efficiently.";
+    "HotelX is a comprehensive hospitality management system designed to help hotels and other accommodation providers operate efficiently. Manage bookings, guest information, billing, and reporting — all from one intuitive platform.";
   const color = "#34A853";
 
   return (
@@ -29,26 +29,26 @@ export default HotelX2;
 const data = [
   {
     id: 1,
-    body: "Our API integration services help your business integrate systems seamlessly, including third-party applications, databases, and software",
-    name: "Order Management",
+    name: "Booking Management",
+    body: "Easily manage room reservations, check-ins, and check-outs with a streamlined booking system that keeps operations efficient and accurate.",
     image: Features1,
   },
   {
     id: 2,
-    body: "We prioritize security in our API development and integration services, ensuring that your business data is protected from unauthorized access.",
-    name: "Promotional Codes",
+    name: "Promotions & Discounts",
+    body: "Create and manage promotional offers, discount codes, and special packages to attract guests and boost occupancy rates.",
     image: Features2,
   },
   {
     id: 3,
-    body: "We optimize API performance and functionality, allowing your business to save time and resources, automate tasks, and simplify workflows",
-    name: "Multi Language",
+    name: "Multi-Language Support",
+    body: "Provide a seamless experience for international guests with multilingual support across your platform and guest communications.",
     image: Features3,
   },
   {
     id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
+    name: "Advanced Reporting",
+    body: "Gain insights into bookings, revenue, guest preferences, and operational performance with real-time analytics and detailed reports.",
     image: Features1,
   },
 ];

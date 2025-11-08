@@ -112,19 +112,19 @@ const Product4 = ({
                 <div className={classes.Product4SubBro}>
                   <h6 style={pStyle}>
                     <Image src={d.Circle} alt="" width={10} quality={100} />{" "}
-                    {tag1}{" "}
+                    {d.tag1 ?? tag1}{" "}
                   </h6>
-                  <p> {d.taga} </p>
+                  <p> {d.taga ?? taga} </p>
                   <h6 style={pStyle}>
                     <Image src={d.Circle} alt="" width={10} quality={100} />{" "}
-                    {tag2}{" "}
+                    {d.tag2 ?? tag2}{" "}
                   </h6>
-                  <p> {d.tagb} </p>
+                  <p> {d.tagb ?? tagb} </p>
                   <h6 style={pStyle}>
                     <Image src={d.Circle} alt="" width={10} quality={100} />{" "}
-                    {tag3}{" "}
+                    {d.tag3 ?? tag3}{" "}
                   </h6>
-                  <p> {d.tagc} </p>
+                  <p> {d.tagc ?? tagc} </p>
                 </div>
 
                 <div className={classes.Product4ButtonMain}>

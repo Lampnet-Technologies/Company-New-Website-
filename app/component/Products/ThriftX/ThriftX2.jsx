@@ -3,16 +3,16 @@ import Features1 from "../../../../public/images/ThriftXA.svg";
 import Features2 from "../../../../public/images/ThriftXB.svg";
 import Features3 from "../../../../public/images/ThriftXC.svg";
 import Product2 from "../ProductProps/Product2";
+
 const ThriftX2 = () => {
-  const header = "Word-Class Features";
-  const subHeader = "Core Banking Functionality –Everything You Need";
+  const header = "World-Class Features";
+  const subHeader = "Core Banking Functionality – Everything You Need";
   const paragraph =
-    "Approved by many regulators, flexible and customizable, API-based, cloud-hosted or on-premise-installed, available in SaaS or perpetual license model, opportunity to purchase source codes.";
+    "ThriftX is fully approved by leading regulators and built for flexibility and customization. API-based, cloud-hosted or on-premise, and available in SaaS or perpetual license models, with the option to acquire source code for full control.";
   const color = "#E47E1F";
 
   return (
     <div>
-      {" "}
       <Product2
         header={header}
         subHeader={subHeader}
@@ -29,26 +29,26 @@ export default ThriftX2;
 const data = [
   {
     id: 1,
-    body: "Our API integration services help your business integrate systems seamlessly, including third-party applications, databases, and software",
+    body: "Seamlessly integrate your systems, including third-party applications, databases, and software, through our robust API services.",
     name: "Analytics",
     image: Features1,
   },
   {
     id: 2,
-    body: "We prioritize security in our API development and integration services, ensuring that your business data is protected from unauthorized access.",
+    body: "Security is our priority. We ensure your business data is protected from unauthorized access through secure API development and integration.",
     name: "Automated Workflows",
     image: Features2,
   },
   {
     id: 3,
-    body: "We optimize API performance and functionality, allowing your business to save time and resources, automate tasks, and simplify workflows",
+    body: "Optimize performance and functionality with scalable APIs that save time, automate tasks, and streamline your workflows.",
     name: "Scalability",
     image: Features3,
   },
   {
     id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
+    body: "We are committed to continuous innovation, delivering cutting-edge solutions to keep your business ahead in the digital banking space.",
+    name: "Innovation",
     image: Features1,
   },
 ];

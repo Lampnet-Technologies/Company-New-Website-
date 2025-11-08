@@ -1,173 +1,92 @@
 .AccordionServiceOurStoryChild {
-  display: none !important ;
+  display: none !important;
 }
 
-@media screen and (max-width: 576px) {
+/* Show accordion for mobile & tablet */
+@media screen and (max-width: 922px) {
   .AccordionServiceOurStoryChild {
-    display: unset !important ;
+    display: unset !important;
   }
 }
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  .AccordionServiceOurStoryChild {
-    display: unset !important ;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 922px) {
-  .AccordionServiceOurStoryChild {
-    display: unset !important ;
-  }
+
+/* Header Button */
+.AccordionServiceOurStoryHeader button {
+  color: var(--Black, #222);
+  font-weight: 600;
+  transition: all 0.2s ease;
 }
 
 @media screen and (max-width: 576px) {
   .AccordionServiceOurStoryHeader button {
-    color: var(--Black, #222);
     font-size: 14px;
-    font-weight: 600;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .AccordionServiceOurStoryHeader button {
-    color: var(--Black, #222);
     font-size: 16px;
-    font-weight: 600;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 922px) {
   .AccordionServiceOurStoryHeader button {
-    color: var(--Black, #222);
     font-size: 18px;
-    font-weight: 600;
   }
 }
 
-@media screen and (max-width: 576px) {
-  .AccordionServicebody h6 {
-    color: var(--Black, #222);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 48px; /* 150% */
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  .AccordionServicebody h6 {
-    color: var(--Black, #222);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 48px; /* 150% */
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 922px) {
-  .AccordionServicebody h6 {
-    color: var(--Black, #222);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 48px; /* 150% */
-  }
+/* Accordion Body */
+.AccordionServicebody h6 {
+  color: var(--Black, #222);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 48px;
 }
 
-@media screen and (max-width: 576px) {
-  .AccordionServicebody p {
-    color: var(--Black, #222);
-    font-size: 13px;
-    line-height: 30px; /* 150% */
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  .AccordionServicebody p {
-    color: var(--Black, #222);
-    font-size: 13px;
-    line-height: 30px; /* 150% */
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 922px) {
-  .AccordionServicebody p {
-    color: var(--Black, #222);
-    font-size: 14px;
-    line-height: 30px; /* 150% */
-  }
+.AccordionServicebody p {
+  color: var(--Black, #222);
+  font-size: 14px;
+  line-height: 28px;
 }
 
-@media screen and (max-width: 576px) {
-  .AccordionServiceAccordionChildMain {
-    display: flex !important;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 2rem;
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  .AccordionServiceAccordionChildMain {
-    display: flex !important;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 2rem;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 922px) {
-  .AccordionServiceAccordionChildMain {
-    display: flex !important;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 2rem;
-  }
+/* Product List Links */
+.productList {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
 }
 
-@media screen and (max-width: 576px) {
-  .AccordionServiceAccordionChild p {
-    color: var(--Black, #222);
-    font-size: 13px;
-    line-height: 25.6px; /* 160% */
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  .AccordionServiceAccordionChild p {
-    color: var(--Black, #222);
-    font-size: 13px;
-    line-height: 25.6px; /* 160% */
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 922px) {
-  .AccordionServiceAccordionChild p {
-    color: var(--Black, #222);
-    font-size: 14px;
-    line-height: 25.6px; /* 160% */
-  }
+.productList li {
+  margin-bottom: 0.5rem;
 }
 
+.ServiceLink {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.ServiceLink:hover {
+  color: #0070f3; /* Soft blue hover */
+  border-bottom: 1px solid #0070f3;
+}
+
+/* CTAs */
+.ServiceCTAs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+/* Accordion states */
 .AccordionServiceaccord:focus {
-  background-color: #fff !important;
   background: #fff !important;
-  outline: #fff !important;
-}
-/* .accordion-button:after {
-        background-color: #fff;
-        background: #fff;
-        outline: #fff !important;
-      } */
-
-.AccordionServiceaccordion {
-  --bs-accordion-btn-focus-box-shadow: none !important;
-  color: #fff !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .AccordionServiceaccord:not(.collapsed) {
-  background-color: #fff !important;
   background: #fff !important;
   box-shadow: none !important;
   color: #272727 !important;
-}
-
-@media screen and (max-width: 576px) {
-  .AccordionServiceOurStoryHeader button .active {
-    background-color: red;
-    background: red !important;
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 768px) {
-}
-@media screen and (min-width: 769px) and (max-width: 922px) {
-}
-@media screen and (min-width: 923px) and (max-width: 1200px) {
-}
-@media screen and (min-width: 1201px) and (max-width: 1400px) {
 }

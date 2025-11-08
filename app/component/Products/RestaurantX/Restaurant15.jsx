@@ -5,13 +5,14 @@ import Tick from "../../../../public/images/Tick.svg";
 
 const Restaurant15 = () => {
   const header = "One-Click Integrations";
-  const subheader = "Just Plug In Your Favorite Tools";
+  const subheader = "Connect Your Favorite Restaurant Tools Seamlessly";
   const body =
-    "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
+    "Restaurant 360 integrates effortlessly with major POS systems, delivery platforms, accounting tools, and loyalty programs — giving you a unified, efficient workflow across all your restaurant operations.";
   const initial = "Schedule Demo";
-  const body1 = "100+ Major Addons";
-  const body2 = "Major Access Provider";
+  const body1 = "100+ Supported Add-ons";
+  const body2 = "POS & Delivery Integrations";
   const body3 = "Free Open API";
+
   return (
     <div>
       {" "}

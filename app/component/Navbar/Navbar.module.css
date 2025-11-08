@@ -4,6 +4,13 @@
     rgba(2, 14, 23, 0.81) 45%,
     rgba(11, 37, 57, 0.09) 92.83%
   );
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  z-index: 1030 !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .NavbarMain {
@@ -18,62 +25,71 @@
 
 .NavItem {
   margin-left: 1.5rem;
+  position: relative !important;
 }
+
 .NavItem a {
   color: var(--white, #fff);
-
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 25.6px; /* 160% */
+  line-height: 25.6px;
 }
-.NavItem a:hover {
-  color: var(--white, #fff) !important;
-}
-.NavItem a:focus {
-  color: var(--white, #fff) !important;
-}
+
+.NavItem a:hover,
+.NavItem a:focus,
 .NavItem a:active {
   color: var(--white, #fff) !important;
 }
 
 .NavItem ul li a {
   color: var(--white, #000);
-
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 25.6px; /* 160% */
+  line-height: 25.6px;
 }
 
 .dropdown {
   margin-left: 1.5rem;
+  position: relative !important;
 }
+
 .dropdown a {
   color: var(--white, #fff);
-
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 25.6px; /* 160% */
+  line-height: 25.6px;
 }
-.dropdown a:hover {
-  color: var(--white, #fff) !important;
-}
-.dropdown a:focus {
-  color: var(--white, #fff) !important;
-}
+
+.dropdown a:hover,
+.dropdown a:focus,
 .dropdown a:active {
   color: var(--white, #fff) !important;
 }
+
 .dropdown ul li a {
   color: var(--white, #000);
-
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 25.6px; /* 160% */
+  line-height: 25.6px;
 }
+
+/* Fix for Products dropdown (2 columns) */
+.dropdownmenu {
+  position: absolute !important;
+  left: auto !important;
+  right: auto !important;
+  width: auto !important;
+  max-width: 600px !important;
+  min-width: 500px !important;
+  padding: 1rem !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+}
+
 .dropdownmenu div {
   display: grid;
   grid-template-columns: repeat(2, 1fr) !important;
@@ -81,20 +97,36 @@
   margin-top: 0.5rem;
   text-align: left;
   padding: 0;
+  width: 100%;
 }
 
-@media screen and (max-width: 576px) {
-  .dropdownmenu ul {
-    grid-template-columns: repeat(1, 1fr) !important;
-  }
+/* Fix for Solutions dropdown (3 columns) */
+.dropdownmenu2 {
+  position: absolute !important;
+  left: auto !important;
+  right: 0 !important;
+  width: auto !important;
+  max-width: 650px !important;
+  min-width: 500px !important;
+  padding: 1rem !important;
+  margin: 0 !important;
+  overflow: hidden !important;
 }
-@media screen and (min-width: 577px) and (max-width: 768px) {
+
+.dropdownmenu2 div {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 1fr)) !important;
+  gap: 8px;
+  margin-top: 0.5rem;
+  text-align: left;
+  padding: 0;
+  width: 100%;
 }
-@media screen and (min-width: 769px) and (max-width: 922px) {
-}
-@media screen and (min-width: 923px) and (max-width: 1200px) {
-}
-@media screen and (min-width: 1201px) and (max-width: 1400px) {
+
+.dropdownmenu ul,
+.dropdownmenu2 ul {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .dropdownmenu ul li {
@@ -102,21 +134,103 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  padding-right: 3rem;
 }
 
-.NavItem ul li a:hover {
-  /*  */
-  background: linear-gradient(
-    97deg,
-    rgba(2, 14, 23, 0.81) 45%,
-    rgba(11, 37, 57, 0.09) 92.83%
-  ) !important;
+.dropdownmenu2 ul li {
+  list-style-type: none !important;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
-.dropdownmenu ul li a:hover {
+
+.dropdownitem {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  padding: 0.4rem 0.8rem !important;
+  font-size: 15px !important;
+}
+
+.NavItem ul li a:hover,
+.dropdownmenu ul li a:hover,
+.dropdownmenu2 ul li a:hover {
   background: linear-gradient(
     97deg,
     rgba(2, 14, 23, 0.81) 45%,
     rgba(11, 37, 57, 0.09) 92.83%
   ) !important;
+  color: #fff !important;
+}
+
+/* Mobile responsive styles */
+@media screen and (max-width: 991px) {
+  .dropdownmenu,
+  .dropdownmenu2 {
+    position: relative !important;
+    left: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    min-width: auto !important;
+    max-width: 100% !important;
+    padding: 0.5rem !important;
+  }
+
+  .dropdownmenu div {
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 8px;
+  }
+
+  .dropdownmenu2 div {
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 8px;
+  }
+
+  .dropdownitem {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .NavItem,
+  .dropdown {
+    margin-left: 0 !important;
+  }
+}
+
+/* Tablet adjustments */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .dropdownmenu {
+    min-width: 400px !important;
+    max-width: 500px !important;
+  }
+
+  .dropdownmenu2 {
+    min-width: 450px !important;
+    max-width: 550px !important;
+  }
+  
+  .dropdownitem {
+    font-size: 14px !important;
+    padding: 0.3rem 0.6rem !important;
+  }
+}
+
+/* Prevent horizontal scroll */
+@media screen and (min-width: 992px) {
+  /* Ensure dropdowns stay within viewport */
+  .dropdownmenu {
+    max-width: min(600px, calc(100vw - 40px)) !important;
+  }
+  
+  .dropdownmenu2 {
+    max-width: min(650px, calc(100vw - 100px)) !important;
+  }
+}
+
+/* Large screens */
+@media screen and (min-width: 1400px) {
+  .dropdownmenu2 {
+    max-width: 700px !important;
+    min-width: 600px !important;
+  }
 }

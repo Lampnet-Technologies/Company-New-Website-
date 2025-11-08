@@ -5,42 +5,43 @@ import Code from "../../../../public/images/HotelCode.svg";
 
 const HotelX8 = () => {
   const heading = "Fully Customizable To Meet Your Business Needs";
-  const mail = "Win Against The Competition ";
+  const mail = "Stay Ahead of the Competition";
   const paragraph1 =
-    "Restaurant 360 white-label banking software comes as a collection of configurable standalone modules to handle the core functionality for financial services.";
+    "HotelX white-label property management software comes as a collection of configurable standalone modules, giving hotels full control over bookings, guest management, and operations.";
   const color = "#34A853";
+
   return (
     <div>
-      {" "}
       <Service3Props
         data={data}
         props={heading}
         mail={mail}
         paragraph1={paragraph1}
         textColor={color}
-      />{" "}
+      />
     </div>
   );
 };
 
 export default HotelX8;
+
 const data = [
   {
     id: 1,
     header: "100% Customization",
-    body: "Ready-to-use and fully customizable features of our on-demand delivery software to suit your business needs to suit your business needs",
+    body: "Fully configurable features allow you to tailor the platform to your hotel’s unique operations and guest experience requirements.",
     image: Clock,
   },
   {
     id: 2,
     header: "Source Code Ownership",
-    body: " Integrate CourierX with your existing tools with little or no coding for both native and IOS devices both native and IOS devices",
+    body: "Gain complete control over your platform with source code access, enabling seamless integration and future enhancements specific to your property.",
     image: Code,
   },
   {
     id: 3,
     header: "Scalability and Growth",
-    body: "Effectively scale your business and revenue for the complete success and growth of your company scale your business and revenue for the ",
+    body: "Easily scale your hotel operations as your business grows, ensuring sustainable growth and enhanced guest satisfaction.",
     image: Clock,
   },
 ];

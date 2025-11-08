@@ -5,7 +5,7 @@ import Mockup1 from "../../../../public/images/OrderXMarketPlace.svg";
 const OrderX11 = () => {
   const header = "OrderX Marketplace-ecommerce App";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "OrderX Marketplace is a comprehensive e-commerce solution that empowers businesses to create and manage their online stores with ease. With a user-friendly interface, robust features, and seamless integration options, OrderX enables entrepreneurs to showcase their products, process payments securely, and provide an exceptional shopping experience for their customers.";
   const initial = "Schedule Demo";
   const backgroundColor = "#F76C6C";
   const border = "0px solid #F76C6C";

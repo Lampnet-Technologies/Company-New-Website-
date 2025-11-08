@@ -47,40 +47,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Focused on Growing Business",
+    body: "Empowering new ride-hailing startups to launch fast with scalable, ready-to-customize technology.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Build your MVP or full-scale ride-sharing app with RiderX’s pre-built modules for riders and drivers.",
+    body2:
+      "Use real-time tracking, analytics, and digital marketing tools to attract users and investors quickly.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
-    text: "SMB’s",
-    body: "Focused on Growing Business",
+    text: "Small & Medium Businesses",
+    body: "Helping local and mid-size transport or logistics companies digitize operations and grow efficiently.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Set up booking, driver management, and payment processing under one platform with minimal setup time.",
+    body2:
+      "Automate scheduling, trip tracking, and reporting to reduce costs and improve customer experience.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Focused on Growing Business",
+    body: "Supporting mobility and taxi franchises to unify multi-city operations under one connected platform.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Offer location-specific booking apps while maintaining consistent brand identity across regions.",
+    body2:
+      "Monitor trip data, performance, and revenue across branches with a centralized admin dashboard.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Focused on Growing Business",
+    body: "Delivering enterprise-grade ride-hailing and fleet management solutions built for performance and scale.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Integrate RiderX with your existing ERP, CRM, and payment systems for seamless enterprise workflows.",
+    body2:
+      "Leverage AI-driven analytics and custom APIs to manage thousands of rides, drivers, and customers efficiently.",
     image: StartupScroll,
     imagea: Scroll,
   },

@@ -48,40 +48,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Focused on Growing Business",
+    body: "Empowering new property ventures and real estate startups to build scalable digital foundations for rapid growth.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Launch your property listing or rental platform with tools designed to attract investors and early clients.",
+    body2:
+      "Automate marketing, lead management, and analytics to scale faster and operate efficiently from day one.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
-    text: "SMB’s",
-    body: "Focused on Growing Business",
+    text: "SMBs",
+    body: "Helping small and medium-sized real estate businesses streamline operations and boost productivity with flexible digital solutions.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Develop a property management system with integrated rent tracking, maintenance requests, and payment processing.",
+    body2:
+      "Implement CRM and workflow automation to enhance tenant engagement and team collaboration.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Focused on Growing Business",
+    body: "Providing centralized control and unified tools to manage multi-location real estate or agency franchises effortlessly.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Create a single platform to oversee listings, agents, and branches while maintaining brand consistency.",
+    body2:
+      "Gain actionable insights with real-time dashboards for sales performance, occupancy rates, and marketing campaigns.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Focused on Growing Business",
+    body: "Delivering enterprise-grade, scalable, and secure real estate solutions that power innovation and operational excellence.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Modernize existing systems with cloud-based infrastructure and seamless integration across business units.",
+    body2:
+      "Leverage AI-driven analytics and automated workflows to make smarter, data-backed portfolio decisions.",
     image: StartupScroll,
     imagea: Scroll,
   },

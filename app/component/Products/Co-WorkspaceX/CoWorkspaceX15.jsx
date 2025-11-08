@@ -7,11 +7,12 @@ const CoWorkspaceX15 = () => {
   const header = "One-Click Integrations";
   const subheader = "Integrated with thousands of apps";
   const body =
-    "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
+    "Co-WorkspaceX uses a unified platform and an integrated workspace management system to manage all your coworking operations — from bookings and memberships to billing and access control — while integrating seamlessly with third-party tools.";
   const initial = "Schedule Demo";
-  const body1 = "100+ Major Addons";
-  const body2 = "Major Access Provider";
-  const body3 = "Free Open API";
+  const body1 = "100+ Powerful Add-ons";
+  const body2 = "Seamless Access Control";
+  const body3 = "Open API Integration";
+
   return (
     <div>
       {" "}

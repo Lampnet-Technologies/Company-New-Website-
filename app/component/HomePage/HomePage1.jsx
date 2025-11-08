@@ -10,18 +10,18 @@ const HomePage1 = () => {
   return (
     <div className={`${classes.Homepage1Main} `}>
       <div className={`container ${classes.Homepage1Parent} `}>
-        <h1>No. 1 Pre-built Solution Development Company In West Africa</h1>
+        <h1>
+          Your End-to-End Strategic Partner for Global Digital Transformation
+        </h1>
 
         <p>
-          LampNet Solutions is the leading provider of comprehensive ICT
-          services like SAAS, PAAS, IAAS services for all African businesses in
-          West Africa.
+          Delivering strategic IT consulting for ambitious startups and enterprises worldwide
         </p>
         {/* <div className={classes.HomePage1Bt}> */}
         <Button
           text={learn}
           type="button"
-          class="btn btn-primary"
+          className="btn btn-primary"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
         />

@@ -4,10 +4,10 @@ import Features3 from "../../../../public/images/EstateX3a.svg";
 import Features4 from "../../../../public/images/EstateX3b.svg";
 
 const EstateX3 = () => {
-  const header = "Win Against The Competition ";
-  const subheader = "White-Label Software for Your Needs";
+  const header = "Win Against the Competition";
+  const subheader = "White-Label Real Estate Software Built for You";
   const paragraph =
-    "Expand Your On-demand Delivery Business with the Influence of our ready-to-use 100% Customizable Software Solution for profitable results in your Company ";
+    "Accelerate your real estate business with EstateX — a fully customizable, white-label property management solution designed to fit your brand, operations, and growth goals seamlessly.";
   const color = "#AB0E12";
 
   return (
@@ -30,18 +30,18 @@ const data = [
     id: 1,
     image: Features3,
     title: "100% Customization",
-    body: "Ready-to-use and fully customizable features of our on-demand delivery software to suit your business needs to suit your business needs",
+    body: "Tailor EstateX to match your exact business model — from branding and tenant portals to lease automation and payment flows.",
   },
   {
     id: 2,
     image: Features4,
     title: "Source Code Ownership",
-    body: " Integrate CourierX with your existing tools with little or no coding for both native and IOS devices both native and IOS devices",
+    body: "Gain full control and flexibility with complete access to the source code, allowing you to extend, integrate, or scale features without limitations.",
   },
   {
     id: 3,
     image: Features3,
     title: "Scalability and Growth",
-    body: "Effectively scale your business and revenue for the complete success and growth of your company scale your business and revenue for the",
+    body: "Expand effortlessly as your property portfolio grows, with scalable infrastructure that supports single landlords, agencies, and enterprise-level operations.",
   },
 ];

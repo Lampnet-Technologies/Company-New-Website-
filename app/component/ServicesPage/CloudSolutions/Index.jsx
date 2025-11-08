@@ -8,7 +8,7 @@ import Cloud6 from "./Cloud6";
 import Cloud7 from "./Cloud7";
 import About9 from "../../Aboutus/About9";
 import Cloud1 from "./Cloud1";
-import Service4 from "../Startup/Service4";
+import Cloud4 from "./Cloud4";
 
 const Index = () => {
   return (
@@ -16,7 +16,7 @@ const Index = () => {
       <Cloud1 />
       <Cloud2 />
       <Cloud3 />
-      <Service4 />
+      <Cloud4 />
       <HomePage4 />
       <HomePage5 />
       <Cloud5 />

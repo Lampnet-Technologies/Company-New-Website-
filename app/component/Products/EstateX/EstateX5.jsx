@@ -2,10 +2,10 @@ import React from "react";
 import Product5 from "../ProductProps/Product5";
 
 const EstateX5 = () => {
-  const header = "All businesses can use EstateX";
-  const subheader = "The right fit for any asset class";
+  const header = "EstateX Works for Every Business";
+  const subheader = "Tailored Solutions for Every Asset Class";
   const body =
-    "Different asset classes require different solutions. EstateX is built to support the unique workflows need for each kind of property you manage.";
+    "Each asset class has its own challenges and workflows. EstateX is designed to adapt seamlessly, empowering you to manage every type of property with precision and ease.";
   const color = "#AB0E12";
   return (
     <div>

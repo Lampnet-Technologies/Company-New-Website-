@@ -7,9 +7,9 @@ const CoWorkspaceX1 = () => {
   const initial = "Consult Our Expert";
   const initial2 = "Become a Reseller";
   const header = "Co-WorkspaceX";
-  const subheader = "The most intuitive coworking management solution";
+  const subheader = "The most comprehensive co-working space management solution";
   const paragraph =
-    "Co-workspaceX is reimagining coworking software. Say hello to the all-in-one platform for flex space management.";
+    "Co-workspaceX is reimagining coworking space management software. Say hello to the all-in-one platform for flexible space management. From booking to billing, our intuitive solution streamlines operations, enhances member experiences, and boosts revenue. Empower your coworking space with Co-workspaceX and unlock its full potential today.";
   const backgroundColor = "#1628F4";
   const border = "1px solid #1628F4";
   const colorbutton = "#1628F4";

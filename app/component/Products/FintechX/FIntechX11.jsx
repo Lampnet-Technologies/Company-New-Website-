@@ -5,7 +5,7 @@ import Mockup1 from "../../../../public/images/MobilBanking.svg";
 const FIntechX11 = () => {
   const header = "Mobile Banking App";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "PayX is a comprehensive fintech solution that brings all your financial needs into one powerful app. From secure mobile banking and instant payments to expense tracking and investment management, PayX simplifies every aspect of your financial life. Designed for convenience, speed, and safety, it empowers individuals and businesses to manage money smarter, faster, and more efficiently.";
   const initial = "Schedule Demo";
   const backgroundColor = "#453787";
   const border = "0px solid #453787";

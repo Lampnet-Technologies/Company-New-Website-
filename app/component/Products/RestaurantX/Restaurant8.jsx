@@ -4,43 +4,44 @@ import Clock from "../../../../public/images/RestaurantClock.svg";
 import Code from "../../../../public/images/RestaurantCode.svg";
 
 const Restaurant8 = () => {
-  const heading = "Fully Customizable To Meet Your Business Needs";
-  const mail = "Win Against The Competition ";
+  const heading = "Fully Customizable to Meet Your Business Needs";
+  const mail = "Stay Ahead of the Competition";
   const paragraph1 =
-    "Restaurant 360 white-label banking software comes as a collection of configurable standalone modules to handle the core functionality for financial services.";
+    "Restaurant 360 provides a modular, white-label solution designed to adapt to your restaurant’s specific needs — from order processing and kitchen management to delivery logistics and customer engagement. Enjoy total flexibility to scale and grow effortlessly.";
   const color = "#AB0E12";
+
   return (
     <div>
-      {" "}
       <Service3Props
         data={data}
         props={heading}
         mail={mail}
         paragraph1={paragraph1}
         textColor={color}
-      />{" "}
+      />
     </div>
   );
 };
 
 export default Restaurant8;
+
 const data = [
   {
     id: 1,
     header: "100% Customization",
-    body: "Ready-to-use and fully customizable features of our on-demand delivery software to suit your business needs to suit your business needs",
+    body: "Tailor every aspect of your Restaurant 360 system — from the menu layout to delivery management — ensuring a perfect fit for your business model.",
     image: Clock,
   },
   {
     id: 2,
-    header: "Source Code Ownership ",
-    body: " Integrate CourierX with your existing tools with little or no coding for both native and IOS devices both native and IOS devices",
+    header: "Source Code Ownership",
+    body: "Gain full control with complete source code ownership. Easily integrate Restaurant 360 with your preferred tools and third-party systems.",
     image: Code,
   },
   {
     id: 3,
     header: "Scalability and Growth",
-    body: "Effectively scale your business and revenue for the complete success and growth of your company scale your business and revenue for the ",
+    body: "Seamlessly expand your operations as your restaurant grows. Restaurant 360 scales effortlessly to support multiple branches, menus, and delivery zones.",
     image: Clock,
   },
 ];

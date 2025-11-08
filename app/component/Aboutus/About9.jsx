@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 import classes from "./About9.module.css";
 import Button from "../Button/Button";
 import ModalPage from "../Modal/page";
@@ -72,8 +73,15 @@ const About9 = () => {
             about your upcoming product launch.
           </p>
           <h3>Our Contact Info</h3>
-          <p>+234 816 663 7303</p>
-          <p>support@lampnets.com</p>
+          <Link href="tel:+2349016472503" className={classes.AboutLink}>
+          <p>+234 901 647 2503</p>
+          </Link>
+          <Link href="tel:+447429519773" className={classes.AboutLink}>
+          <p>+44 7429 519773</p>
+          </Link>
+          <Link href="mailto:infodesk@lampnets.com" className={classes.AboutLink}>
+          <p>Infodesk@lampnets.com</p>
+          </Link>
         </div>
 
         <div className={classes.About9Bro}>

@@ -48,40 +48,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Focused on Growing Business",
+    body: "Supporting early-stage teams with flexible workspace solutions that grow with their ambitions.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Providing affordable shared offices and private suites designed to inspire innovation and collaboration.",
+    body2:
+      "Offering networking tools and booking systems to help startups connect, scale, and focus on what matters most — building their vision.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
-    text: "SMB’s",
-    body: "Focused on Growing Business",
+    text: "SMBs",
+    body: "Empowering small and medium businesses to operate seamlessly with smart workspace management and digital tools.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Simplifying workspace scheduling, meeting room bookings, and team coordination through an integrated platform.",
+    body2:
+      "Improving efficiency with analytics, billing automation, and team access control — all in one solution.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Focused on Growing Business",
+    body: "Helping co-working and office franchises manage multiple locations while maintaining brand consistency and service quality.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Centralizing operations and tenant data for all branches within one secure system.",
+    body2:
+      "Tracking occupancy, revenue, and member engagement across locations with real-time dashboards and insights.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Focused on Growing Business",
+    body: "Delivering enterprise-grade workspace and facility management solutions that optimize operations and elevate employee experiences.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Customizing large-scale office networks with smart access, energy efficiency, and booking systems.",
+    body2:
+      "Leveraging data analytics to enhance space utilization, reduce overhead, and improve productivity across departments.",
     image: StartupScroll,
     imagea: Scroll,
   },

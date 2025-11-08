@@ -2,7 +2,7 @@ import React from "react";
 import Product17 from "../ProductProps/Product17";
 
 const SchoolX17 = () => {
-  const body = "School 360 powers ambitious schools from every background";
+  const body = "School 360 Powers Ambitious Schools From Every Background";
   const initial = "Download Now";
   const initial2 = "Become a Reseller";
   const backgroundColor = "#AB0E12";

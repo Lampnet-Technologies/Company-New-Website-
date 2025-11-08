@@ -6,209 +6,169 @@ import Image from "next/image";
 import StartupScroll from "../../../public/images/StartupScroll.svg";
 import Scroll from "../../../public/images/Scroll.svg";
 import MyButton from "../Button/Button";
+import Link from "next/link";
+
+const services = [
+  {
+    id: "one",
+    title: "Product Discovery & Strategy",
+    subtitle: "Research, validation & roadmap",
+    description:
+      "User research, product-market fit, feature prioritization and a validated roadmap so your product solves real customer problems.",
+    links: [{ href: "/services", text: "Learn about our approach" }],
+  },
+  {
+    id: "two",
+    title: "MVP Development & Testing",
+    subtitle: "Build fast, iterate faster",
+    description:
+      "Rapid MVP development, continuous testing and user feedback loops to validate assumptions and prepare for market launch.",
+    links: [
+      { href: "/softwaresolutions", text: "See our engineering services" },
+    ],
+  },
+  {
+    id: "three",
+    title: "Product Launch & GTM",
+    subtitle: "Go-to-market planning & execution",
+    description:
+      "Launch planning, positioning, analytics and growth experiments to ensure your first users convert into engaged customers.",
+    links: [{ href: "/services", text: "Go to launch services" }],
+  },
+  {
+    id: "four",
+    title: "Scale & Growth Engineering",
+    subtitle: "Performance, reliability & scale",
+    description:
+      "Architecture improvements, cloud migration, performance tuning and platform scaling to support growth securely and reliably.",
+    links: [{ href: "/cloudsolutions", text: "Cloud & infra solutions" }],
+  },
+  {
+    id: "five",
+    title: "AI, Data & Automation",
+    subtitle: "Intelligence that adds value",
+    description:
+      "AI/ML integration, automation and data pipelines to turn product usage into actionable intelligence and efficiencies.",
+    links: [{ href: "/ai", text: "Explore AI services" }],
+  },
+  {
+    id: "six",
+    title: "UX / UI & Design Systems",
+    subtitle: "Design that converts",
+    description:
+      "User-centred design, prototyping and design systems that deliver delightful, accessible and consistent experiences.",
+    links: [{ href: "/ui-ux-design", text: "View design services" }],
+  },
+  {
+    id: "seven",
+    title: "APIs & Integrations",
+    subtitle: "Connect systems reliably",
+    description:
+      "API design, integrations with 3rd-party platforms (CRM, payment, telephony) and custom connectors to streamline operations.",
+    links: [{ href: "/api", text: "Integration services" }],
+  },
+  {
+    id: "eight",
+    title: "Training, Support & Managed Services",
+    subtitle: "Hand-holding & continuous improvement",
+    description:
+      "Onboarding, technical support, maintenance and managed services to keep your product healthy and your team confident.",
+    links: [
+      { href: "/training", text: "Training & support" },
+      { href: "/support", text: "Contact support" },
+    ],
+  },
+  {
+    id: "nine",
+    title: "Staffing & White‑Label Solutions",
+    subtitle: "Extend your team or brand",
+    description:
+      "Outsourced teams, staff augmentation and white-label product customizations to accelerate delivery without hiring overhead.",
+    links: [
+      { href: "/staffing-solutions", text: "Staffing" },
+      { href: "/white-label", text: "White-label" },
+    ],
+  },
+];
 
 const AccordionService = () => {
   const [activeButton, setActiveButton] = useState(null);
 
   const handleButtonClick = (buttonId) => {
-    setActiveButton(buttonId);
+    setActiveButton((prev) => (prev === buttonId ? null : buttonId));
   };
 
-  const isButtonActive = (buttonId) => {
-    return activeButton === buttonId;
-  };
+  const isButtonActive = (buttonId) => activeButton === buttonId;
+
   return (
     <div
-      class={`accordion accordion-flush  ${classes.AccordionServiceOurStoryChild}`}
+      className={`accordion accordion-flush ${classes.AccordionServiceOurStoryChild}`}
       id="accordionFlushExample"
     >
-      <div class="accordion-item">
-        <h2
-          class={`accordion-header ${classes.AccordionServiceOurStoryHeader}`}
-          id="flush-headingOne"
-        >
-          <button
-            // class={`accordion-button collapsed ${classes.accord}`}
-            className={`accordion-button collapsed ${
-              isButtonActive("flush-headingOne") ? "active" : ""
-            } ${classes.AccordionServiceaccord}`}
-            type="button"
-            onClick={() => handleButtonClick("flush-headingOne")}
-            data-bs-toggle="collapse"
-            data-bs-target="#flush-collapseOne"
-            aria-expanded="false"
-            aria-controls="flush-collapseOne"
+      {services.map((s, idx) => (
+        <div className="accordion-item" key={s.id}>
+          <h2
+            className={`accordion-header ${classes.AccordionServiceOurStoryHeader}`}
+            id={`flush-heading-${s.id}`}
           >
-            Product Discovery
-          </button>
-        </h2>
-        <div
-          id="flush-collapseOne"
-          class="accordion-collapse collapse"
-          aria-labelledby="flush-headingOne"
-          data-bs-parent="#accordionFlushExample"
-        >
-          <div className={`accordion-body ${classes.AccordionServicebody}`}>
-            <p>
-              {" "}
-              During the product discovery phase, we work closely with your
-              business to understand your target market, identify key user needs
-              and pain points, and develop a strategy for creating a product
-              that meets those needs.
-            </p>
-            <p>
-              We work closely with your team to ensure that your product launch
-              is aligned with your business goals and that you have the
-              resources and support needed to succeed.
-            </p>
-          </div>
-        </div>
-      </div>
+            <button
+              className={`accordion-button collapsed ${
+                isButtonActive(s.id) ? "active" : ""
+              } ${classes.AccordionServiceaccord}`}
+              type="button"
+              onClick={() => handleButtonClick(s.id)}
+              data-bs-toggle="collapse"
+              data-bs-target={`#flush-collapse-${s.id}`}
+              aria-expanded={isButtonActive(s.id) ? "true" : "false"}
+              aria-controls={`flush-collapse-${s.id}`}
+            >
+              <div className={classes.HeaderLeft}>
+                <Image src={StartupScroll} alt="" quality={100} width={36} />
+              </div>
+              <div className={classes.HeaderText}>
+                <div className={classes.HeaderTitle}>{s.title}</div>
+                <div className={classes.HeaderSubtitle}>{s.subtitle}</div>
+              </div>
+            </button>
+          </h2>
 
-      <div class="accordion-item">
-        <h2
-          class={`accordion-header ${classes.AccordionServiceOurStoryHeader}`}
-          id="flush-headingTwo"
-        >
-          <button
-            class={`accordion-button collapsed ${classes.AccordionServiceaccord}`}
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#flush-collapseTwo"
-            aria-expanded="false"
-            aria-controls="flush-collapseTwo"
+          <div
+            id={`flush-collapse-${s.id}`}
+            className="accordion-collapse collapse"
+            aria-labelledby={`flush-heading-${s.id}`}
+            data-bs-parent="#accordionFlushExample"
           >
-            MVP Development & Testing
-          </button>
-        </h2>
-        <div
-          id="flush-collapseTwo"
-          class="accordion-collapse collapse"
-          aria-labelledby="flush-headingTwo"
-          data-bs-parent="#accordionFlushExample"
-        >
-          <div className={`accordion-body ${classes.AccordionServicebody}`}>
-            <p>
-              Once we have a clear understanding of your product vision, we move
-              onto the MVP development and testing phase. We work closely with
-              your business to develop a minimum viable product (MVP) that
-              includes the core features and functionalities needed to test your
-              product in the market.
-            </p>
-          </div>
-        </div>
-      </div>
+            <div className={`accordion-body ${classes.AccordionServicebody}`}>
+              <div className={classes.BodyTop}>
+                <Image src={Scroll} alt="" quality={100} width={56} />
+                <div>
+                  <h6>{s.title}</h6>
+                  <p>{s.description}</p>
+                </div>
+              </div>
 
-      <div class="accordion-item">
-        <h2
-          class={`accordion-header ${classes.AccordionServiceOurStoryHeader}`}
-          id="flush-headingThree"
-        >
-          <button
-            class={`accordion-button collapsed ${classes.AccordionServiceaccord}`}
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#flush-collapseThree"
-            aria-expanded="false"
-            aria-controls="flush-collapseThree"
-          >
-            Product Launch
-          </button>
-        </h2>
-        <div
-          id="flush-collapseThree"
-          class="accordion-collapse collapse"
-          aria-labelledby="flush-headingThree"
-          data-bs-parent="#accordionFlushExample"
-        >
-          <div className={`accordion-body ${classes.AccordionServicebody}`}>
-            <p>
-              With a validated MVP in hand, we move onto the product launch
-              phase. We help your business plan and execute a successful launch
-              that includes go-to-market strategy, branding, and messaging.
-            </p>
-            <p>
-              We work closely with your team to ensure that your product launch
-              is aligned with your business goals and that you have the
-              resources and support needed to succeed{" "}
-            </p>
-          </div>
-        </div>
-      </div>
+              <ul className={classes.productList}>
+                {s.links.map((l, i) => (
+                  <li key={i}>
+                    <Link href={l.href} className={classes.ServiceLink}>
+                      {l.text}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
 
-      <div class="accordion-item">
-        <h2
-          class={`accordion-header ${classes.AccordionServiceOurStoryHeader}`}
-          id="flush-headingFour"
-        >
-          <button
-            class={`accordion-button collapsed ${classes.AccordionServiceaccord}`}
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#flush-collapseFour"
-            aria-expanded="false"
-            aria-controls="flush-collapseFour"
-          >
-            Product Scale-up
-          </button>
-        </h2>
-        <div
-          id="flush-collapseFour"
-          class="accordion-collapse collapse"
-          aria-labelledby="flush-headingFour"
-          data-bs-parent="#accordionFlushExample"
-        >
-          <div className={`accordion-body ${classes.AccordionServicebody}`}>
-            <p>
-              {" "}
-              Once your product is launched, we work with your business to scale
-              it up. We help you identify growth opportunities, optimize your
-              marketing efforts, and improve user engagement.
-            </p>
-            <p>
-              We work closely with your team to ensure that your product launch
-              is aligned with your business goals and that you have the
-              resources and support needed to succeed.
-            </p>
+              <div className={classes.ServiceCTAs}>
+                <Link href="/contact">
+                  <MyButton text="Get in touch" />
+                </Link>
+                <Link href="/contact" className="ms-2">
+                  <MyButton text="Request a consultation" />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="accordion-item">
-        <h2
-          class={`accordion-header ${classes.AccordionServiceOurStoryHeader}`}
-          id="flush-headingFive"
-        >
-          <button
-            class={`accordion-button collapsed ${classes.AccordionServiceaccord}`}
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#flush-collapseFive"
-            aria-expanded="false"
-            aria-controls="flush-collapseFive"
-          >
-            Technical Support
-          </button>
-        </h2>
-        <div
-          id="flush-collapseFive"
-          class="accordion-collapse collapse"
-          aria-labelledby="flush-headingFive"
-          data-bs-parent="#accordionFlushExample"
-        >
-          <div className={`accordion-body ${classes.AccordionServicebody}`}>
-            <p>
-              {" "}
-              Finally, we offer ongoing technical support to ensure that your
-              product runs smoothly and that any technical issues are addressed
-              quickly. We provide regular maintenance and updates to ensure that
-              your product stays up-to-date with the latest technologies and
-              that it continues to meet the evolving needs of your business and
-              your customers.
-            </p>
-          </div>
-        </div>
-      </div>
+      ))}
     </div>
   );
 };

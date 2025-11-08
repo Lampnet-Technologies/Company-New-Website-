@@ -4,11 +4,11 @@ import Producthero from "../../../../public/images/FintechHero.svg";
 const FIntechX1 = () => {
   const initial = "Request a Quote";
   const initial2 = "Become a Reseller";
-  const header = "Fintech 360";
+  const header = "PayX";
   const subheader =
-    "A White-label Mobile Banking App For all type of Fintech Solution ";
+    "A White-label Mobile Banking App For All Type Of Fintech Solution Providers";
   const paragraph =
-    "Best White-label digital banking platform branded and customized for your business.";
+    "PayX is a comprehensive digital banking platform designed to meet the evolving needs of modern businesses. With PayX, businesses can streamline their financial operations, enhance customer experiences, and drive growth through innovative banking solutions.";
   const backgroundColor = "#453787";
   const border = "1px solid #453787";
   const colorbutton = "#453787";

@@ -5,7 +5,7 @@ import Mockup1 from "../../../../public/images/CoWorkEvent.svg";
 const CoWorkspaceX12 = () => {
   const header = "Estate & Office Space Booking App";
   const body =
-    "LampNet Course Creation and E-learning App is an enterprise learning management system engineered to support the most demanding and complex learning ecosystems. Simplify e-Learning  with LampNet learning solution.";
+    "Co-WorkspaceX Estate & Office Space Booking App offers an all-in-one platform for managing property listings, workspace reservations, and client interactions. Streamline bookings, automate payments, and enhance the experience for tenants and business owners alike.";
   const initial = "Schedule Demo";
   const backgroundColor = "#1628F4";
   const border = "0px solid #1628F4";
@@ -13,7 +13,7 @@ const CoWorkspaceX12 = () => {
     <div>
       {" "}
       <Product11
-        header={header} 
+        header={header}
         body={body}
         initial={initial}
         image={Mockup1}

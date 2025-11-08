@@ -7,7 +7,7 @@ const UberX8 = () => {
   const heading = "Fully Customizable To Meet Your Business Needs";
   const mail = "Win Against The Competition ";
   const paragraph1 =
-    "Fintech 360 white-label banking software comes as a collection of configurable standalone modules to handle the core functionality for financial services.";
+    "Our Uber clone app, RiderX, offers a range of customizable features that allow you to tailor the app to your specific business requirements. From branding and user interface design to payment options and ride preferences, you have the flexibility to create a unique experience for your users.";
   const color = "#0F479C";
 
   return (
@@ -35,13 +35,13 @@ const data = [
   {
     id: 2,
     header: "Source Code Ownership",
-    body: " Integrate CourierX with your existing tools with little or no coding for both native and IOS devices both native and IOS devices",
+    body: " Integrate RiderX with your existing tools with little or no coding for both native and IOS devices both native and IOS devices",
     image: Code,
   },
   {
     id: 3,
     header: "Scalability and Growth",
-    body: "Effectively scale your business and revenue for the complete success and growth of your company scale your business and revenue for the ",
+    body: "Easily scale your ride-hailing business as it grows, adding new features and functionalities to meet evolving customer demands.",
     image: Clock,
   },
 ];

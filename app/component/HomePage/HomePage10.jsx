@@ -9,9 +9,8 @@ const HomePage10 = () => {
         <h2>LampNets Solutions Provides Flexible IT Services</h2>
         <p>
           {" "}
-          Our African Technology company strives to provide top-tier IT
-          solutions to businesses of all sizes and locations within the
-          continent, utilizing African talent
+          We provide top-tier IT
+          solutions to startups and enterprises globally, utilizing African talent
         </p>
       </div>
     </div>

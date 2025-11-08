@@ -9,7 +9,7 @@ const Api3 = () => {
     <div>
       <Service3Props data={data} props={heading} />
     </div>
-  ); 
+  );
 };
 
 export default Api3;
@@ -30,6 +30,7 @@ const data = [
     id: 3,
     header: "Cloud API Integration",
     body: "We provide secure API development, analysis, operation, and scalability, with on-premises, cloud, or hybrid on-premises/SaaS API management.",
+    image: Clock,
   },
   {
     id: 4,

@@ -6,8 +6,8 @@ import Portfolio1 from "../../../../public/images/EstateTime1.svg";
 import Portfolio2 from "../../../../public/images/EstateTime2.svg";
 
 const EstateX4 = () => {
-  const title = "Automate rent collection";
-  const tag1 = "Bookkeeping For Any Portfolio";
+  const title = "Automate Rent Collection";
+  const tag1 = "Book-keeping For Any Portfolio";
   const taga =
     "Keep your bookkeeping complete and accurate. Track every payment, manage accounts payable and reconcile bank accounts automatically.";
   const tag2 = "Vendor Management";
@@ -15,6 +15,7 @@ const EstateX4 = () => {
     "Vendor bills and expenses can be tracked and paid within EstateX, so you’ll never need to enter data twice.";
   const tag3 = "Increased Productivity";
   const tagc = "Save time with efficient patient & study management features.";
+
   const header = "About MedX";
   const subheader = "You Can Manage Any Door With EstateX";
   const body =
@@ -23,6 +24,7 @@ const EstateX4 = () => {
   const color = "#AB0E12";
   const backgroundColor = "#222";
   const border = "0px solid #222";
+
   return (
     <div>
       <Product4
@@ -53,37 +55,37 @@ export default EstateX4;
 const data = [
   {
     id: 1,
-    title: "Real-Time Tracking and Local language Integration",
-    tag1: "Live Map",
-    taga: "Fully-integrated live map view and notifications that keeps you and your customers updated with real-time driver locations.",
-    tag2: "Streamlined Communication",
-    tagb: "Enhances  customer communication by allowing them to contact their dispatchers, drivers, and admin with just a single tap.",
-    tag3: "Privacy and Security",
-    tagc: "You may keep calls anonymous for safety and privacy without fear of security breach.",
+    title: "Automate Rent Collection",
+    tag1: "Book-keeping For Any Portfolio",
+    taga: "Keep your bookkeeping complete and accurate. Track every payment, manage accounts payable and reconcile bank accounts automatically.",
+    tag2: "Vendor Management",
+    tagb: "Vendor bills and expenses can be tracked and paid within EstateX, so you’ll never need to enter data twice.",
+    tag3: "Increased Productivity",
+    tagc: "Save time with efficient tenant and lease management features.",
     image: Realtime,
     Circle: Circle,
   },
   {
     id: 2,
-    title: "Express & Scheduled Delivery Options",
-    tag1: "Express and Advance booking",
-    taga: "Supports express & advance booking for customers which helps your drivers manage delivery assignments.",
-    tag2: "Optimization",
-    tagb: "Optimize dynamic routing, order tracking, and delivery scheduling and accuracy",
-    tag3: "Easy Allocation ",
-    tagc: "Effectively manage deliveries and spend less time allocating tasks to your drivers",
+    title: "Smart Property Listings & Scheduling",
+    tag1: "Automated Property Posting",
+    taga: "Easily publish and update property listings across multiple platforms with one click — saving hours of manual work.",
+    tag2: "Smart Scheduling",
+    tagb: "Enable clients to schedule property viewings online and sync availability automatically with your team’s calendar.",
+    tag3: "Lead Management",
+    tagc: "Capture and track leads efficiently to improve conversions and reduce response times.",
     image: Portfolio1,
     Circle: Circle,
   },
   {
     id: 3,
-    title: "In-app Chat & Insightful Report ",
-    tag1: "On-demand Reports",
-    taga: "Our last mile software includes on-demand reports & pivotal data presented in a graphical form to reduce cognitive load ",
-    tag2: "Optimization",
-    tagb: "Your admin will get clear updates about the business like the usage of resources, performance of delivery agents, delivery status, etc",
-    tag3: "Cloud-based Storage",
-    tagc: "This critical data is stored in a cloud-based storage and helps you to take insight-driven business decisions.",
+    title: "Tenant Communication & Reporting",
+    tag1: "In-App Messaging",
+    taga: "Allow tenants and property managers to communicate directly through the app, reducing missed updates and delays.",
+    tag2: "Performance Insights",
+    tagb: "Access real-time analytics on occupancy rates, rent payments, and maintenance requests for data-driven decisions.",
+    tag3: "Cloud-Based Reports",
+    tagc: "All records and reports are securely stored in the cloud for easy access and long-term tracking.",
     image: Portfolio2,
     Circle: Circle,
   },

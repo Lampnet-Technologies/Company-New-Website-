@@ -48,40 +48,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Focused on Growing Business",
+    body: "Empowering new food delivery startups to enter the market quickly with a ready-to-launch, customizable solution.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Launch your own branded food delivery app (for customers, restaurants, and riders) without building from scratch.",
+    body2:
+      "Use built-in marketing, tracking, and analytics tools to attract users and scale operations from day one.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
-    text: "SMB’s",
-    body: "Focused on Growing Business",
+    text: "SMBs",
+    body: "Helping small and medium food businesses streamline delivery operations and improve customer engagement.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Offer online ordering, real-time delivery tracking, and integrated payment systems to grow your reach.",
+    body2:
+      "Automate restaurant management, driver assignments, and customer communications with smart workflows.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Focused on Growing Business",
+    body: "Providing franchise owners with centralized control while maintaining local branch autonomy and performance tracking.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Manage multiple franchise locations through a single dashboard with real-time visibility into sales and orders.",
+    body2:
+      "Ensure consistent branding and quality service across all outlets with built-in analytics and reporting tools.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Focused on Growing Business",
+    body: "Delivering scalable, data-driven solutions for large-scale food delivery enterprises to optimize performance and growth.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Integrate your FoodX platform with existing enterprise systems for seamless operations and enhanced efficiency.",
+    body2:
+      "Leverage AI-powered insights, predictive analytics, and automation to drive strategic decision-making and innovation.",
     image: StartupScroll,
     imagea: Scroll,
   },

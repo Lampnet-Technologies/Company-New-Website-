@@ -24,20 +24,20 @@ export default CourieX8;
 const data = [
   {
     id: 1,
-    header: "Custom API Development",
-    body: "We develop custom APIs that securely extend application functionality, using clean code, top development tools, and achieving high performance.",
+    header: "100% Customization",
+    body: "Ready-to-use and fully customizable features of our on-demand delivery software to suit your business needs to suit your business needs.",
     image: Clock,
   },
   {
     id: 2,
-    header: "Third Party API Integration ",
-    body: "We use Microsoft platforms like Azure for web functionality, system integration, REST API creation, documentation, and seamless integration with existing apps..",
+    header: "Source Code Ownership",
+    body: "Integrate CourierX with your existing tools with little or no coding for both native and IOS devices both native and IOS devices.",
     image: Code,
   },
   {
     id: 3,
-    header: "Cloud API Integration",
-    body: "We provide secure API development, analysis, operation, and scalability, with on-premises, cloud, or hybrid on-premises/SaaS API management.",
+    header: "Scalability and Growth",
+    body: "Effectively scale your business and revenue for the complete success and growth of your company scale your business and revenue for the.",
     image: Clock,
   },
 ];

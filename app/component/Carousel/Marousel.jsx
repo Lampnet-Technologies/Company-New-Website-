@@ -3,7 +3,6 @@ import React from "react";
 import classes from "./Marousel.module.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import testimonial1 from "../../../public/images/testimonial1.svg";
 import Image from "next/image";
 import { data } from "./Data";
 
@@ -63,7 +62,6 @@ const Marousel = () => {
           <div key={index} className={`container ${classes.MarouselChild}`}>
             <p> {d.body} </p>
             <div className={classes.MarouselBro}>
-              <Image src={d.image} alt={d.title} quality={100} width={40} />
               <div>
                 <h6>{d.name} </h6>
                 <span>{d.title} </span>

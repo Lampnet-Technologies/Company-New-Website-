@@ -5,11 +5,12 @@ import Features2 from "../../../../public/images/EstateX2b.svg";
 import Features3 from "../../../../public/images/EstateX2c.svg";
 
 const EstateX2 = () => {
-  const header = "Word-Class Features";
-  const subHeader = "Put Your Portfolio On Autopilot With Our EstateX";
+  const header = "World-Class Features";
+  const subHeader = "Put Your Portfolio on Autopilot with EstateX";
   const paragraph =
-    "MedX is built to handle everything that clinics both large and small need to run smoothly. Forget spreadsheets, integrations, paper notes and scanning - do it all from one easy to use tool.";
+    "EstateX is an intelligent property management platform designed to simplify real estate operations. From tenant management and rent collection to maintenance tracking and financial reporting, it automates every aspect of your property portfolio.";
   const color = "#AB0E12";
+
   return (
     <div>
       <Product2
@@ -29,26 +30,26 @@ export default EstateX2;
 const data = [
   {
     id: 1,
-    body: "Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ",
     name: "Automated Posting",
+    body: "Easily list and update property vacancies across multiple platforms automatically, ensuring maximum visibility with minimal effort.",
     image: Features1,
   },
   {
     id: 2,
-    body: "We prioritize security in our API development and integration services, ensuring that your business data is protected from unauthorized access.",
     name: "Rent Roll Format",
+    body: "Generate organized rent roll reports that track tenant payments, lease terms, and upcoming renewals — all in real time.",
     image: Features2,
   },
   {
     id: 3,
-    body: "We optimize API performance and functionality, allowing your business to save time and resources, automate tasks, and simplify workflows",
     name: "Expense Tracking",
+    body: "Monitor and categorize property expenses effortlessly to maintain accurate financial records and optimize cash flow management.",
     image: Features3,
   },
   {
     id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
+    name: "Smart Insights",
+    body: "Gain actionable analytics and performance metrics to make informed investment decisions and improve overall portfolio returns.",
     image: Features1,
   },
 ];

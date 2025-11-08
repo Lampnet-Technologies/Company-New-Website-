@@ -5,8 +5,8 @@ const FeedX7 = () => {
   const initial1 = "Download Now";
   const initial = "Become a Reseller";
   const header = "Let’s Collaborate";
-  const subheader =
-    "Protect your patients with room-level locating, wander management, and access control with MedX";
+ const subheader =
+  "Serve faster, deliver smarter, and grow your food delivery business effortlessly with FoodX";
 
   const background = "#222";
   const backgroundColor = "#fff";

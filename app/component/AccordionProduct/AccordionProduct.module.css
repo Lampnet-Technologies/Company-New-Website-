@@ -1,149 +1,69 @@
+/* Default Hidden Section */
 .OurStoryChild {
-  display: none !important ;
+  display: none !important;
 }
 
-@media screen and (max-width: 576px) {
+/* Show the section on screens below 922px */
+@media screen and (max-width: 922px) {
   .OurStoryChild {
-    display: unset !important ;
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  .OurStoryChild {
-    display: unset !important ;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 922px) {
-  .OurStoryChild {
-    display: unset !important ;
+    display: unset !important;
   }
 }
 
+/* Header button styling */
+.OurStoryHeader button {
+  color: var(--Black, #222);
+  font-weight: 600;
+}
+
+/* Responsive header font sizes */
 @media screen and (max-width: 576px) {
   .OurStoryHeader button {
-    color: var(--Black, #222);
     font-size: 14px;
-    font-weight: 600;
   }
 }
+
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .OurStoryHeader button {
-    color: var(--Black, #222);
     font-size: 16px;
-    font-weight: 600;
   }
 }
+
 @media screen and (min-width: 769px) and (max-width: 922px) {
   .OurStoryHeader button {
-    color: var(--Black, #222);
     font-size: 18px;
-    font-weight: 600;
   }
 }
 
-@media screen and (max-width: 576px) {
+/* Body Text */
+.body h6 {
+  color: var(--Black, #222);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.body p {
+  color: var(--Black, #222);
+  line-height: 1.6;
+}
+
+/* Responsive font sizes for body text */
+@media screen and (max-width: 922px) {
   .body h6 {
-    color: var(--Black, #222);
     font-size: 16px;
-    font-weight: 600;
-    line-height: 48px; /* 150% */
   }
-}
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  .body h6 {
-    color: var(--Black, #222);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 48px; /* 150% */
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 922px) {
-  .body h6 {
-    color: var(--Black, #222);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 48px; /* 150% */
-  }
-}
 
-@media screen and (max-width: 576px) {
   .body p {
-    color: var(--Black, #222);
     font-size: 13px;
-    line-height: 30px; /* 150% */
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  .body p {
-    color: var(--Black, #222);
-    font-size: 13px;
-    line-height: 30px; /* 150% */
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 922px) {
-  .body p {
-    color: var(--Black, #222);
-    font-size: 14px;
-    line-height: 30px; /* 150% */
   }
 }
 
-@media screen and (max-width: 576px) {
-  .AccordionChildMain {
-    display: flex !important;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 2rem;
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  .AccordionChildMain {
-    display: flex !important;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 2rem;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 922px) {
-  .AccordionChildMain {
-    display: flex !important;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 2rem;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .AccordionChild p {
-    color: var(--Black, #222);
-    font-size: 13px;
-    line-height: 25.6px; /* 160% */
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  .AccordionChild p {
-    color: var(--Black, #222);
-    font-size: 13px;
-    line-height: 25.6px; /* 160% */
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 922px) {
-  .AccordionChild p {
-    color: var(--Black, #222);
-    font-size: 14px;
-    line-height: 25.6px; /* 160% */
-  }
-}
-
+/* Accordion appearance fixes */
 .accord:focus {
   background-color: #fff !important;
   background: #fff !important;
-  outline: #fff !important;
+  outline: none !important;
 }
-/* .accordion-button:after {
-      background-color: #fff;
-      background: #fff;
-      outline: #fff !important;
-    } */
 
 .accordion {
   --bs-accordion-btn-focus-box-shadow: none !important;
@@ -157,17 +77,99 @@
   color: #272727 !important;
 }
 
+/*  Active state for small screens */
 @media screen and (max-width: 576px) {
-  .OurStoryHeader button .active {
-    background-color: red;
-    background: red !important;
+  .OurStoryHeader button.active {
+    background-color: red !important;
+    color: #fff !important;
   }
 }
+
+/*  Product List Styling */
+.productList {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.productList li {
+  margin: 1rem 0;
+  transition: transform 0.2s ease, color 0.3s ease;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.productList li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #f76c6c;
+  border-radius: 50%;
+}
+
+.productList li:hover {
+  transform: translateX(8px);
+}
+
+/*  Improved Link Styling */
+.productList a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+  padding: 0.3rem 0;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.productList a:hover {
+  color: #f76c6c;
+  transform: translateX(5px);
+}
+
+/* Body spacing */
+.body {
+  padding: 2rem;
+}
+
+.body h6 {
+  margin: 1.5rem 0 1rem;
+}
+
+.body p {
+  margin-bottom: 1.5rem;
+}
+
+/*  Mobile tweaks */
+@media screen and (max-width: 576px) {
+  .body {
+    padding: 1.5rem 1rem;
+  }
+
+  .productList li {
+    margin: 0.75rem 0;
+  }
+
+  .productList a {
+    font-size: 0.95rem;
+  }
+
+  .body h6 {
+    font-size: 1.1rem;
+  }
+}
+
+/*  Tablet tweaks */
 @media screen and (min-width: 577px) and (max-width: 768px) {
-}
-@media screen and (min-width: 769px) and (max-width: 922px) {
-}
-@media screen and (min-width: 923px) and (max-width: 1200px) {
-}
-@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .body {
+    padding: 1.75rem;
+  }
+
+  .productList a {
+    font-size: 0.98rem;
+  }
 }

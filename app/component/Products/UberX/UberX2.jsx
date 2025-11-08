@@ -6,12 +6,12 @@ import Product2 from "../ProductProps/Product2";
 
 const UberX2 = () => {
   const header = "Word-Class Features";
-  const subHeader = "Core  Functionality –Everything You Need";
+  const subHeader = "Core Functionality – Everything You Need";
   const paragraph =
-    "Approved by many regulators, flexible and customizable, API-based, cloud-hosted or on-premise-installed, available in SaaS or perpetual license model, opportunity to purchase source codes.";
+    "At RiderX, we understand that every business is unique. That's why we offer customizable features that can be tailored to meet your specific needs. Whether you're looking to add new functionality or modify existing features, our team of experts is here to help you create a solution that works for you.";
   const color = "#0F479C";
 
-  return (  
+  return (
     <div>
       <Product2
         header={header}
@@ -29,26 +29,26 @@ export default UberX2;
 const data = [
   {
     id: 1,
-    body: "Our API integration services help your business integrate systems seamlessly, including third-party applications, databases, and software",
-    name: "Reviews & Rating",
+    name: "Ratings & Reviews",
+    body: "Allow users to rate rides and drivers, leave feedback, and build trust through transparent reviews that enhance customer experience.",
     image: Features1,
   },
   {
     id: 2,
-    body: "We prioritize security in our API development and integration services, ensuring that your business data is protected from unauthorized access.",
-    name: "Ride-sharing",
+    name: "Ride Sharing & Pooling",
+    body: "Enable multiple passengers heading in the same direction to share rides, reduce costs, and optimize driver efficiency in real time.",
     image: Features2,
   },
   {
     id: 3,
-    body: "We optimize API performance and functionality, allowing your business to save time and resources, automate tasks, and simplify workflows",
-    name: "Split-Fee Payment",
+    name: "Split Fare Payments",
+    body: "Offer users the convenience to split payments among passengers seamlessly and securely within the app, improving user satisfaction.",
     image: Features3,
   },
   {
     id: 4,
-    body: "We are committed to continuous improvement to ensure that we provide cutting-edge solutions provide cutting-edge solutions.",
-    name: "Chris Alex",
+    name: "Driver & Fleet Management",
+    body: "Easily monitor driver performance, manage availability, and track vehicle activity to ensure smooth, reliable operations.",
     image: Features1,
   },
 ];

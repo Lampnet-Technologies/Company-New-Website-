@@ -13,7 +13,18 @@ const HomePage7 = () => {
     <div className={`container ${classes.HomePage7Main}`}>
       <div className={classes.HomePage7Parent}>
         <div className={classes.HomePage7ImageA}>
-          <Image src={HomePage7Image} alt="" quality={100} width={500} />
+          <Image
+            src={HomePage7Image}
+            alt="Partnership illustration"
+            quality={100}
+            width={500}
+            height={400}
+            priority
+            style={{
+              width: "100%",
+              height: "auto",
+            }}
+          />
         </div>
 
         <div className={classes.HomePage7Child}>
@@ -31,7 +42,7 @@ const HomePage7 = () => {
           <Button
             text={learn}
             type="button"
-            class="btn btn-primary"
+            className="btn btn-primary"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           />
@@ -43,24 +54,24 @@ const HomePage7 = () => {
       </div>
 
       <div
-        class="modal fade"
+        className="modal fade"
         id="exampleModal"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog  modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              {/* <h5 class="modal-title">Book An Appointment With Us</h5> */}
+        <div className="modal-dialog  modal-dialog-centered">
+          <div className="modal-content">
+            <div className="modal-header">
+              {/* <h5 className="modal-title">Book An Appointment With Us</h5> */}
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               <Form />
             </div>
           </div>

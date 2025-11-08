@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 import Service2Props from "../ServicesProps/Service2Props";
 
-
 const Staffing2 = () => {
-    const header = "IT Staff Outsourcing & Team Augmentation";
+  const header = "IT Staff Outsourcing & Team Augmentation";
 
   const subheader =
     "We Help You Achieve Your Business Goals with Top-notch Staffing Solutions";
@@ -14,14 +13,14 @@ const Staffing2 = () => {
     "At Lampnet Solutions, we offer staff outsourcing and team augmentation services to provide specialized expertise and additional resources for businesses without the need for permanent hires. We provide flexible staffing solutions tailored to your needs, whether it's short-term or long-term projects. With ongoing support and seamless integration, let us help you achieve your business goals with top-notch staffing solutions.";
   return (
     <div>
-       <Service2Props
-        header={header}  
+      <Service2Props
+        header={header}
         subheader={subheader}
         paragraph={paragraph}
         paragraph2={paragraph2}
       />
     </div>
-  )
-}
+  );
+};
 
-export default Staffing2
+export default Staffing2;

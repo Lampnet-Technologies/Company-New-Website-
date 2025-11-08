@@ -17,26 +17,26 @@ const data = [
   {
     id: 1,
     img: Business1,
-    head: "Restaurants",
+    head: "Hotels",
   },
   {
     id: 2,
     img: Business1,
-    head: "Cake Shop",
+    head: "Resorts",
   },
   {
     id: 3,
     img: Business1,
-    head: "Catering",
+    head: "Boutique Lodges",
   },
   {
     id: 4,
     img: Business1,
-    head: "Supermarket",
+    head: "Serviced Apartments",
   },
   {
     id: 5,
     img: Business1,
-    head: "Pizza Store",
+    head: "Vacation Rentals",
   },
 ];

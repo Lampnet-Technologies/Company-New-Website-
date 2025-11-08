@@ -50,40 +50,44 @@ const data = [
   {
     id: 1,
     text: "Startup",
-    body: "Focused on Growing Business",
+    body: "Empowering early-stage businesses to build scalable digital foundations and stand out in the market.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Designing and launching product websites or MVPs that attract users and investors.",
+    body2:
+      "Automating marketing, sales, and analytics to support rapid and sustainable growth.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
-    text: "SMB’s",
-    body: "Focused on Growing Business",
+    text: "SMBs",
+    body: "Helping small and mid-sized businesses streamline operations and boost productivity through tailored technology.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Developing e-commerce platforms with integrated inventory, payment, and logistics systems.",
+    body2:
+      "Implementing CRM solutions and workflow automation to improve customer engagement and efficiency.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
     text: "Franchise",
-    body: "Focused on Growing Business",
+    body: "Providing centralized digital systems to ensure brand consistency and simplify multi-location management.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Creating unified online platforms with location-specific pages for each branch.",
+    body2:
+      "Integrating performance dashboards to track sales, marketing, and customer metrics across locations.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
     text: "Enterprise",
-    body: "Focused on Growing Business",
+    body: "Delivering secure, scalable, and intelligent enterprise-grade solutions that drive innovation and excellence.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Modernizing legacy infrastructure through cloud migration and process automation.",
+    body2:
+      "Leveraging advanced analytics and AI-driven insights for data-backed decision-making.",
     image: StartupScroll,
     imagea: Scroll,
   },

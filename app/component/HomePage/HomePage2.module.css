@@ -1,7 +1,7 @@
 .HomePage2Parent {
   margin-top: 5rem;
   display: flex;
-  overflow: hidden;
+  overflow: hidden !important;
   justify-content: space-between !important;
 }
 .HomePage2Image {
@@ -42,5 +42,28 @@
   }
   100% {
     transform: translateX(-700%); /* Adjust based on the number of images */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .HomePage2Parent {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 0 8px;
+  }
+
+  .HomePage2Image {
+    width: 70px !important;
+    height: 30px !important;
+    margin-right: 13px;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-850px); /* Adjusted for smaller screens */
+}
   }
 }

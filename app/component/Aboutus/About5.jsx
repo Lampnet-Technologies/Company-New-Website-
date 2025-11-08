@@ -30,13 +30,13 @@ const About5 = () => {
             <Image src={About5image} alt="" quality={100} width={500} />
           </div>
           <div className={classes.About5Child}>
-            <h6>About us</h6>
+            <h6>Our Vision</h6>
             <motion.h2
               animate={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -20 }}
             >
               {splitTextIntoWords(
-                "We are a one-stop technology solution provider for startups and businesses"
+                "We believe in Empowering African Businesses with World-Class Technology Solutions"
               ).map((word, index) => (
                 <motion.span
                   key={index}
@@ -53,12 +53,12 @@ const About5 = () => {
               businesses{" "}
             </h2> */}
             <p>
-              LampNet Solutions is a remote-based agile IT Consulting & Mobile
-              Technology Development company in West Africa, who are service
-              providers of world-class solutions and mobile technologies for
-              high business growth and transformation with vast experience in
-              Mobile Application Development, Enterprise solutions, Security and
-              Cloud based technologies.{" "}
+              At Lampnet Solutions, our vision is to become the leading digital
+              transformation partner for businesses globally. We are committed
+              to empowering organizations across the world with cutting-edge
+              technology solutions that drive growth and success. Our goal is to
+              be democratize access to digital business transformation through
+              technology advancement and affordability.{" "}
             </p>
           </div>
 

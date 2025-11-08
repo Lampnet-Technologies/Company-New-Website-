@@ -5,7 +5,7 @@ const EstateX7 = () => {
   const initial1 = "Download Now";
   const initial = "Become a Reseller";
   const header = "Let’s Collaborate";
-  const subheader = "Choose EstateX today so you can scale your tomorrow.";
+  const subheader = "Choose EstateX Today So You Can Scale Your Tomorrow.";
   const background = "#AB0E12";
   const backgroundColor = "#fff";
   const color = "#AB0E12";

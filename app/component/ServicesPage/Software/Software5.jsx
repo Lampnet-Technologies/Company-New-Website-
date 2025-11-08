@@ -1,9 +1,9 @@
-import React from 'react'
-import Service5Props from '../ServicesProps/Service5Props'
+import React from "react";
+import Service5Props from "../ServicesProps/Service5Props";
 import Glad from "../../../../public/images/Glad.svg";
 
 const Software5 = () => {
-    const initial = "Consult Our Expert";
+  const initial = "Consult Our Expert";
   const header = "Work With Us";
   const subHeader =
     "Need Seamless Access to Global Talent for your Project Needs?";
@@ -11,16 +11,15 @@ const Software5 = () => {
     "Our teams are behind the technical success of an array of world-renowned Fintech, eCommerce, Investment, and other brands";
   return (
     <div>
-         <Service5Props 
-            header={header}
-            subHeader={subHeader}
-            paragraph={paragraph}
-            initial={initial}
-            Glad={Glad}
-        />
-      
+      <Service5Props
+        header={header}
+        subHeader={subHeader}
+        paragraph={paragraph}
+        initial={initial}
+        Glad={Glad}
+      />
     </div>
-  )
-}
+  );
+};
 
-export default Software5
+export default Software5;

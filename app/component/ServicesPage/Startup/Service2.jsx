@@ -6,7 +6,7 @@ const Service2 = () => {
   const [header, setHeader] = useState("Startup Scaleup & MVP Development");
 
   const [subheader, setSubHeader] = useState(
-    " We Have a Proven Track Record of Enabling Startups to Grow with Our"
+    " We Have a Proven Track Record of Enabling Startups to Grow with Our Market-Ready MVPs"
   );
   const [paragraph, setParagraph] = useState(
     "According to a study by Failory, over 70% of startups tend to fail within the first five years, around 42% fail due to misinformation on market demand while only 1% of startups become unicorn firms like    Uber, Airbnb, Slack, Stripe, and Docker."

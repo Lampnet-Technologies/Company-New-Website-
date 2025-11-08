@@ -5,7 +5,7 @@ const CoWorkspaceX7 = () => {
   const initial1 = "Download Now";
   const initial = "Become a Reseller";
   const header = "Let’s Collaborate";
-  const subheader = "Yes, it's really that simple and powerful.";
+  const subheader = "Yes, it's really that Simple and Powerful.";
 
   const background = "#1628F4";
   const backgroundColor = "#fff";

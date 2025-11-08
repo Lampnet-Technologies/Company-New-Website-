@@ -9,23 +9,24 @@ const UberX4 = () => {
   const title = "Customer Application";
   const tag1 = "Real-time Tracking";
   const taga =
-    "With all-time access to learning resources, learn and study at your own pace, even ahead of the class.";
-  const tag2 = "Easy booking";
+    "Track your ride in real-time with integrated GPS updates, allowing customers to see driver locations and estimated arrival times effortlessly.";
+  const tag2 = "Easy Booking";
   const tagb =
-    "Stay connected and collaborate better with co-learners.so you’ll never need to enter data twice.";
-  const tag3 = "Multiple Payment Option";
-  const tagc = "Save time with efficient patient & study management features.";
-  const header = "About UberX";
-  const subheader = "Steller Features For You, Cab drivers and Users";
+    "Book rides instantly with a simple, user-friendly interface. Save favorite destinations and schedule rides ahead of time for convenience.";
+  const tag3 = "Multiple Payment Options";
+  const tagc =
+    "Choose from various secure payment methods including cards, wallets, and cash for a flexible checkout experience.";
+  const header = "About RiderX";
+  const subheader = "Powerful Features For Riders, Drivers, and Admins";
   const body =
-    "Our on-demand Uber Clone App – For Ride-hailing Offers Unique Features Against Your Competitors";
+    "The RiderX on-demand ride-hailing platform offers modern, intuitive apps built to ensure smooth and efficient operations for both drivers and customers.";
   const initial = "Download Now";
   const color = "#0F479C";
   const backgroundColor = "#0F479C";
   const border = "0px solid #0F479C";
+
   return (
     <div>
-      {" "}
       <Product4
         header={header}
         subheader={subheader}
@@ -54,37 +55,37 @@ export default UberX4;
 const data = [
   {
     id: 1,
-    title: "Real-Time Tracking and Local language Integration",
-    tag1: "Live Map",
-    taga: "Fully-integrated live map view and notifications that keeps you and your customers updated with real-time driver locations.",
-    tag2: "Streamlined Communication",
-    tagb: "Enhances  customer communication by allowing them to contact their dispatchers, drivers, and admin with just a single tap.",
-    tag3: "Privacy and Security",
-    tagc: "You may keep calls anonymous for safety and privacy without fear of security breach.",
+    title: "Customer Application",
+    tag1: "Real-time Tracking",
+    taga: "Track your driver’s location in real-time with precise GPS updates and instant notifications for pickup and arrival times.",
+    tag2: "Easy Booking",
+    tagb: "Effortlessly book rides through an intuitive interface with options for instant, scheduled, or recurring bookings.",
+    tag3: "Multiple Payment Options",
+    tagc: "Pay securely using multiple methods including credit cards, mobile wallets, or cash — offering total payment flexibility.",
     image: Realtime,
     Circle: Circle,
   },
   {
     id: 2,
-    title: "Express & Scheduled Delivery Options",
-    tag1: "Express and Advance booking",
-    taga: "Supports express & advance booking for customers which helps your drivers manage delivery assignments.",
-    tag2: "Optimization",
-    tagb: "Optimize dynamic routing, order tracking, and delivery scheduling and accuracy",
-    tag3: "Easy Allocation ",
-    tagc: "Effectively manage deliveries and spend less time allocating tasks to your drivers",
+    title: "Driver Application",
+    tag1: "Smart Navigation",
+    taga: "Get optimized routes with real-time traffic updates and navigation assistance to ensure faster trip completions.",
+    tag2: "Earnings Dashboard",
+    tagb: "Drivers can easily track daily rides, payments, and earnings through an intuitive dashboard.",
+    tag3: "Availability Control",
+    tagc: "Drivers can switch availability on or off and manage their trip requests effortlessly.",
     image: Portfolio1,
     Circle: Circle,
   },
   {
     id: 3,
-    title: "In-app Chat & Insightful Report ",
-    tag1: "On-demand Reports",
-    taga: "Our last mile software includes on-demand reports & pivotal data presented in a graphical form to reduce cognitive load ",
-    tag2: "Optimization",
-    tagb: "Your admin will get clear updates about the business like the usage of resources, performance of delivery agents, delivery status, etc",
-    tag3: "Cloud-based Storage",
-    tagc: "This critical data is stored in a cloud-based storage and helps you to take insight-driven business decisions.",
+    title: "Admin Management Dashboard",
+    tag1: "Real-time Analytics",
+    taga: "Monitor live trips, revenue, and platform performance with real-time metrics and analytics tools.",
+    tag2: "User & Fleet Management",
+    tagb: "Manage customers, drivers, and vehicles all in one centralized system.",
+    tag3: "Automated Reports",
+    tagc: "Generate instant reports for insights on operations, efficiency, and growth trends.",
     image: Portfolio2,
     Circle: Circle,
   },

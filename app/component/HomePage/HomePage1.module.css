@@ -1,5 +1,5 @@
 .Homepage1Main {
-  background-image: url(../../../public/images/HeroHomePage.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../public/images/HeroHomePage1.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover !important;
@@ -74,7 +74,7 @@
 }
 
 .Homepage1Parent h1 {
-  width: 50%;
+  width: 70%;
   color: #fff !important;
   font-size: 50px;
   font-style: normal;

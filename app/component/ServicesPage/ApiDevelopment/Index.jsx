@@ -8,7 +8,7 @@ import Api5 from "./Api5";
 import Api6 from "./Api6";
 import Api7 from "./Api7";
 import About9 from "../../Aboutus/About9";
-import Service4 from "../Startup/Service4";
+import Api4 from "./Api4";
 
 const Index = () => {
   return (
@@ -16,7 +16,7 @@ const Index = () => {
       <Api1 />
       <Api2 />
       <Api3 />
-      <Service4 />
+      <Api4 />
       <HomePage4 />
       <HomePage5 />
       <Api5 />

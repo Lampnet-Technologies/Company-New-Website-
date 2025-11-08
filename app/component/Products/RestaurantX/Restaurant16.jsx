@@ -1,12 +1,12 @@
 import React from "react";
 import Product11 from "../ProductProps/Product11";
-import Mockup1 from "../../../../public/images/Mockup5.svg";
+import Mockup1 from "../../../../public/images/Mockup5.png";
 
 const Restaurant16 = () => {
-  const header = "Start Innovating Today Experience OrderX for Yourself.";
-  const subheader = "Join. Sell. Earn";
+  const header = "Start Serving Smarter. Experience Restaurant 360 Today.";
+  const subheader = "Join. Manage. Grow.";
   const body =
-    "School 360 uses one single database and an integrated school management system to serve your entire campus and integrates seamlessly with a number of third-party solutions";
+    "Restaurant 360 brings all your operations—orders, kitchen, delivery, staff, and payments—into one powerful, easy-to-use system. Streamline service, boost efficiency, and deliver exceptional customer experiences.";
   const initial = "Become a Partner";
   const backgroundColor = "#AB0E12";
   const border = "0px solid #AB0E12";

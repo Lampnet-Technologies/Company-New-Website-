@@ -35,22 +35,28 @@
 }
 @media screen and (max-width: 576px) {
   .HomePage7ImageA {
-    display: unset !important;
+    display: block !important;
+    width: 100%;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .HomePage7ImageA {
-    display: unset !important;
+    display: block !important;
+    width: 100%;
   }
 }
 @media screen and (max-width: 576px) {
   .HomePage7ImageA img {
     height: 40vh !important;
+    width: 100%;
+    object-fit: contain;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .HomePage7ImageA img {
     height: 40vh !important;
+    width: 100%;
+    object-fit: contain;
   }
 }
 .HomePage7Child {

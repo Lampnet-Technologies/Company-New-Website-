@@ -2,10 +2,10 @@ import React from "react";
 import Product10 from "../ProductProps/Product10";
 
 const Restaurant10 = () => {
-  const header = "Explore More Flexiblities";
-  const subheader = "Building Your Business Is Our Passion";
+  const header = "Explore More Flexibilities";
+  const subheader = "Your Restaurant, Our Technology — Built for Growth";
   const body =
-    "LampNets School 360 Solutions  works for all use cases and strives to provide top-tier IT solutions to businesses of all sizes and locations in the learning industry";
+    "LampNet’s Restaurant 360 Solution is designed to adapt to every business model, empowering restaurants of all sizes and types with innovative, reliable, and scalable digital tools to drive success in the food industry.";
   const color = "#AB0E12";
   return (
     <div>

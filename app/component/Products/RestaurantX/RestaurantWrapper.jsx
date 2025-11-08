@@ -47,41 +47,45 @@ export default RestaurantWrapper;
 const data = [
   {
     id: 1,
-    text: "Startup",
-    body: "Focused on Growing Business",
+    text: "Startup Restaurant",
+    body: "Helping new restaurants and cloud kitchens establish a strong digital presence and streamline daily operations from day one.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Launch an online ordering system or delivery-ready app to attract your first wave of customers.",
+    body2:
+      "Use built-in marketing tools and real-time sales insights to grow quickly and efficiently.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 2,
-    text: "SMB’s",
-    body: "Focused on Growing Business",
+    text: "Small & Medium Restaurants",
+    body: "Empowering small and mid-sized restaurants to simplify management, reduce costs, and increase customer satisfaction through smart automation.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Integrate POS, online ordering, and kitchen operations into one smooth, easy-to-manage system.",
+    body2:
+      "Boost efficiency with automated reservations, inventory tracking, and loyalty programs.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 3,
-    text: "Franchise",
-    body: "Focused on Growing Business",
+    text: "Franchise Chains",
+    body: "Providing multi-branch restaurants with centralized tools to maintain consistency, manage staff, and monitor performance across all locations.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Build a unified platform that supports menu updates, branch analytics, and local delivery tracking.",
+    body2:
+      "Ensure every outlet stays on brand while optimizing overall sales and customer engagement.",
     image: StartupScroll,
     imagea: Scroll,
   },
   {
     id: 4,
-    text: "Enterprise",
-    body: "Focused on Growing Business",
+    text: "Enterprise Hospitality Groups",
+    body: "Delivering powerful, enterprise-grade restaurant management solutions to optimize large-scale operations and drive long-term innovation.",
     body1:
-      "I am serious and committed to the budget, looking to work in this online business for at least one year.",
-    body2: "My company is already running & receiving real orders.",
+      "Integrate advanced analytics, AI insights, and automation to unify sales, supply chain, and customer experience.",
+    body2:
+      "Modernize legacy systems with cloud-based management and real-time data dashboards for strategic decisions.",
     image: StartupScroll,
     imagea: Scroll,
   },
