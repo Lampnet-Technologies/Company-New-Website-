@@ -8,7 +8,7 @@ import White5 from "./White5";
 import White6 from "./White6";
 import White7 from "./White7";
 import About9 from "../../Aboutus/About9";
-import White4 from "./white4";
+import White4 from "./White4";
 
 const Index = () => {
   return (
