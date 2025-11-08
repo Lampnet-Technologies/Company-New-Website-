@@ -1,5 +1,4 @@
 // app/posts/[post]/page.js
-
 import { groq } from 'next-sanity';
 import client from '@/sanity/sanity.client';
 // ... other imports for the component itself
@@ -12,7 +11,7 @@ export async function generateStaticParams() {
     // We only need the current slug field
     const query = groq`*[_type == "post" && defined(slug.current)][].slug.current`;
     const slugs = await client.fetch(query);
-
+    
     // Map the slugs into the required { post: string } format
     // Note: The key name 'post' must match the folder name '[post]'
     return slugs.map((slug) => ({
@@ -40,7 +39,7 @@ async function getPostData(slug) {
 // 3. The Page Component (Server Component by default)
 export default async function SingleBlogPostPage({ params }) {
   const postData = await getPostData(params.post);
-
+  
   if (!postData) {
     // Render a 404-like experience or just return null for a static 404 page
     return <div>Post not found.</div>;
